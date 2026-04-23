@@ -1,0 +1,10 @@
+.claude/
+.venv-docs/
+__pycache__/
+*.pyc
+
+docs_site/docs/
+docs_site/site/
+
+RS_CD.zip
+ZIP合并.zip

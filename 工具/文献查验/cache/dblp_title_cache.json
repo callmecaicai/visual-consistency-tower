@@ -1,0 +1,3223 @@
+{
+  "Understanding the Difficulty of Training Deep Feedforward Neural Networks|||2010|||": {
+    "matched": true,
+    "score": 1.15,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "90/8576",
+            "text": "Xavier Glorot"
+          },
+          {
+            "@pid": "56/953",
+            "text": "Yoshua Bengio"
+          }
+        ]
+      },
+      "title": "Understanding the difficulty of training deep feedforward neural networks.",
+      "venue": "AISTATS",
+      "pages": "249-256",
+      "year": "2010",
+      "type": "Conference and Workshop Papers",
+      "access": "open",
+      "key": "journals/jmlr/GlorotB10",
+      "ee": "http://proceedings.mlr.press/v9/glorot10a.html",
+      "url": "https://dblp.org/rec/journals/jmlr/GlorotB10"
+    }
+  },
+  "Rectified Linear Units Improve Restricted Boltzmann Machines|||2010|||": {
+    "matched": true,
+    "score": 1.15,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "20/5283",
+            "text": "Vinod Nair"
+          },
+          {
+            "@pid": "10/3248",
+            "text": "Geoffrey E. Hinton"
+          }
+        ]
+      },
+      "title": "Rectified Linear Units Improve Restricted Boltzmann Machines.",
+      "venue": "ICML",
+      "pages": "807-814",
+      "year": "2010",
+      "type": "Conference and Workshop Papers",
+      "access": "open",
+      "key": "conf/icml/NairH10",
+      "ee": "https://icml.cc/Conferences/2010/papers/432.pdf",
+      "url": "https://dblp.org/rec/conf/icml/NairH10"
+    }
+  },
+  "Delving Deep into Rectifiers|||2015|||": {
+    "matched": false,
+    "score": 0.6262,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "34/7659",
+            "text": "Kaiming He"
+          },
+          {
+            "@pid": "95/3760-5",
+            "text": "Xiangyu Zhang 0005"
+          },
+          {
+            "@pid": "147/5182",
+            "text": "Shaoqing Ren"
+          },
+          {
+            "@pid": "68/4942-1",
+            "text": "Jian Sun 0001"
+          }
+        ]
+      },
+      "title": "Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification.",
+      "venue": "ICCV",
+      "pages": "1026-1034",
+      "year": "2015",
+      "type": "Conference and Workshop Papers",
+      "access": "closed",
+      "key": "conf/iccv/HeZRS15",
+      "doi": "10.1109/ICCV.2015.123",
+      "ee": "https://doi.org/10.1109/ICCV.2015.123",
+      "url": "https://dblp.org/rec/conf/iccv/HeZRS15"
+    }
+  },
+  "A Simple Way to Prevent Neural Networks from Overfitting|||2014|||": {
+    "matched": true,
+    "score": 1.082,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "00/11304",
+            "text": "Nitish Srivastava"
+          },
+          {
+            "@pid": "10/3248",
+            "text": "Geoffrey E. Hinton"
+          },
+          {
+            "@pid": "64/9381",
+            "text": "Alex Krizhevsky"
+          },
+          {
+            "@pid": "60/5276",
+            "text": "Ilya Sutskever"
+          },
+          {
+            "@pid": "62/5884",
+            "text": "Ruslan Salakhutdinov"
+          }
+        ]
+      },
+      "title": "Dropout: a simple way to prevent neural networks from overfitting.",
+      "venue": "J. Mach. Learn. Res.",
+      "volume": "15",
+      "number": "1",
+      "pages": "1929-1958",
+      "year": "2014",
+      "type": "Journal Articles",
+      "access": "closed",
+      "key": "journals/jmlr/SrivastavaHKSS14",
+      "doi": "10.5555/2627435.2670313",
+      "ee": "https://dl.acm.org/doi/10.5555/2627435.2670313",
+      "url": "https://dblp.org/rec/journals/jmlr/SrivastavaHKSS14"
+    }
+  },
+  "Going Deeper with Convolutions|||2015|||": {
+    "matched": true,
+    "score": 1.15,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "78/1537",
+            "text": "Christian Szegedy"
+          },
+          {
+            "@pid": "49/3283-15",
+            "text": "Wei Liu 0015"
+          },
+          {
+            "@pid": "19/2618",
+            "text": "Yangqing Jia"
+          },
+          {
+            "@pid": "28/6457",
+            "text": "Pierre Sermanet"
+          },
+          {
+            "@pid": "178/2861",
+            "text": "Scott E. Reed"
+          },
+          {
+            "@pid": "a/DragomirAnguelov",
+            "text": "Dragomir Anguelov"
+          },
+          {
+            "@pid": "97/2914",
+            "text": "Dumitru Erhan"
+          },
+          {
+            "@pid": "69/7157",
+            "text": "Vincent Vanhoucke"
+          },
+          {
+            "@pid": "81/4193",
+            "text": "Andrew Rabinovich"
+          }
+        ]
+      },
+      "title": "Going deeper with convolutions.",
+      "venue": "CVPR",
+      "pages": "1-9",
+      "year": "2015",
+      "type": "Conference and Workshop Papers",
+      "access": "closed",
+      "key": "conf/cvpr/SzegedyLJSRAEVR15",
+      "doi": "10.1109/CVPR.2015.7298594",
+      "ee": "https://doi.org/10.1109/CVPR.2015.7298594",
+      "url": "https://dblp.org/rec/conf/cvpr/SzegedyLJSRAEVR15"
+    }
+  },
+  "Accelerating Deep Network Training by Reducing Internal Covariate Shift|||2015|||": {
+    "matched": true,
+    "score": 1.025,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "93/2096",
+            "text": "Sergey Ioffe"
+          },
+          {
+            "@pid": "78/1537",
+            "text": "Christian Szegedy"
+          }
+        ]
+      },
+      "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift.",
+      "venue": "ICML",
+      "pages": "448-456",
+      "year": "2015",
+      "type": "Conference and Workshop Papers",
+      "access": "open",
+      "key": "conf/icml/IoffeS15",
+      "ee": "http://proceedings.mlr.press/v37/ioffe15.html",
+      "url": "https://dblp.org/rec/conf/icml/IoffeS15"
+    }
+  },
+  "Rethinking the Inception Architecture for Computer Vision|||2016|||": {
+    "matched": true,
+    "score": 1.15,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "78/1537",
+            "text": "Christian Szegedy"
+          },
+          {
+            "@pid": "69/7157",
+            "text": "Vincent Vanhoucke"
+          },
+          {
+            "@pid": "93/2096",
+            "text": "Sergey Ioffe"
+          },
+          {
+            "@pid": "37/4945",
+            "text": "Jonathon Shlens"
+          },
+          {
+            "@pid": "173/5141",
+            "text": "Zbigniew Wojna"
+          }
+        ]
+      },
+      "title": "Rethinking the Inception Architecture for Computer Vision.",
+      "venue": "CVPR",
+      "pages": "2818-2826",
+      "year": "2016",
+      "type": "Conference and Workshop Papers",
+      "access": "closed",
+      "key": "conf/cvpr/SzegedyVISW16",
+      "doi": "10.1109/CVPR.2016.308",
+      "ee": "https://doi.org/10.1109/CVPR.2016.308",
+      "url": "https://dblp.org/rec/conf/cvpr/SzegedyVISW16"
+    }
+  },
+  "Inception-v4, Inception-ResNet...|||2017|||": {
+    "matched": false,
+    "score": 0.6974,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "78/1537",
+            "text": "Christian Szegedy"
+          },
+          {
+            "@pid": "93/2096",
+            "text": "Sergey Ioffe"
+          },
+          {
+            "@pid": "69/7157",
+            "text": "Vincent Vanhoucke"
+          },
+          {
+            "@pid": "160/8158",
+            "text": "Alexander A. Alemi"
+          }
+        ]
+      },
+      "title": "Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning.",
+      "venue": "AAAI",
+      "pages": "4278-4284",
+      "year": "2017",
+      "type": "Conference and Workshop Papers",
+      "access": "open",
+      "key": "conf/aaai/SzegedyIVA17",
+      "doi": "10.1609/AAAI.V31I1.11231",
+      "ee": "https://doi.org/10.1609/aaai.v31i1.11231",
+      "url": "https://dblp.org/rec/conf/aaai/SzegedyIVA17"
+    }
+  },
+  "Gradient-Based Learning Applied to Document Recognition|||1998|||": {
+    "matched": true,
+    "score": 1.15,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "l/YannLeCun",
+            "text": "Yann LeCun"
+          },
+          {
+            "@pid": "30/1046",
+            "text": "Léon Bottou"
+          },
+          {
+            "@pid": "56/953",
+            "text": "Yoshua Bengio"
+          },
+          {
+            "@pid": "h/PatrickHaffner",
+            "text": "Patrick Haffner"
+          }
+        ]
+      },
+      "title": "Gradient-based learning applied to document recognition.",
+      "venue": "Proc. IEEE",
+      "volume": "86",
+      "number": "11",
+      "pages": "2278-2324",
+      "year": "1998",
+      "type": "Journal Articles",
+      "access": "closed",
+      "key": "journals/pieee/LeCunBBH98",
+      "doi": "10.1109/5.726791",
+      "ee": "https://doi.org/10.1109/5.726791",
+      "url": "https://dblp.org/rec/journals/pieee/LeCunBBH98"
+    }
+  },
+  "A Fast Learning Algorithm for Deep Belief Nets|||2006|||": {
+    "matched": true,
+    "score": 1.15,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "10/3248",
+            "text": "Geoffrey E. Hinton"
+          },
+          {
+            "@pid": "05/5467",
+            "text": "Simon Osindero"
+          },
+          {
+            "@pid": "88/2483",
+            "text": "Yee Whye Teh"
+          }
+        ]
+      },
+      "title": "A Fast Learning Algorithm for Deep Belief Nets.",
+      "venue": "Neural Comput.",
+      "volume": "18",
+      "number": "7",
+      "pages": "1527-1554",
+      "year": "2006",
+      "type": "Journal Articles",
+      "access": "closed",
+      "key": "journals/neco/HintonOT06",
+      "doi": "10.1162/NECO.2006.18.7.1527",
+      "ee": "https://doi.org/10.1162/neco.2006.18.7.1527",
+      "url": "https://dblp.org/rec/journals/neco/HintonOT06"
+    }
+  },
+  "A Large-Scale Hierarchical Image Database|||2009|||": {
+    "matched": true,
+    "score": 1.05,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "07/6526-1",
+            "text": "Jia Deng 0001"
+          },
+          {
+            "@pid": "92/748-3",
+            "text": "Wei Dong 0003"
+          },
+          {
+            "@pid": "79/128",
+            "text": "Richard Socher"
+          },
+          {
+            "@pid": "31/2187",
+            "text": "Li-Jia Li 0001"
+          },
+          {
+            "@pid": "l/KaiLi1",
+            "text": "Kai Li 0001"
+          },
+          {
+            "@pid": "79/2528",
+            "text": "Li Fei-Fei 0001"
+          }
+        ]
+      },
+      "title": "ImageNet: A large-scale hierarchical image database.",
+      "venue": "CVPR",
+      "pages": "248-255",
+      "year": "2009",
+      "type": "Conference and Workshop Papers",
+      "access": "closed",
+      "key": "conf/cvpr/DengDSLL009",
+      "doi": "10.1109/CVPR.2009.5206848",
+      "ee": "https://doi.org/10.1109/CVPR.2009.5206848",
+      "url": "https://dblp.org/rec/conf/cvpr/DengDSLL009"
+    }
+  },
+  "ImageNet Classification with Deep Convolutional Neural Networks|||2012|||": {
+    "matched": true,
+    "score": 1.15,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "64/9381",
+            "text": "Alex Krizhevsky"
+          },
+          {
+            "@pid": "60/5276",
+            "text": "Ilya Sutskever"
+          },
+          {
+            "@pid": "10/3248",
+            "text": "Geoffrey E. Hinton"
+          }
+        ]
+      },
+      "title": "ImageNet Classification with Deep Convolutional Neural Networks.",
+      "venue": "NIPS",
+      "pages": "1106-1114",
+      "year": "2012",
+      "type": "Conference and Workshop Papers",
+      "access": "open",
+      "key": "conf/nips/KrizhevskySH12",
+      "ee": "https://proceedings.neurips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html",
+      "url": "https://dblp.org/rec/conf/nips/KrizhevskySH12"
+    }
+  },
+  "Visualizing and Understanding Convolutional Networks|||2014|||": {
+    "matched": true,
+    "score": 1.15,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "09/8653",
+            "text": "Matthew D. Zeiler"
+          },
+          {
+            "@pid": "77/3763",
+            "text": "Rob Fergus"
+          }
+        ]
+      },
+      "title": "Visualizing and Understanding Convolutional Networks.",
+      "venue": "ECCV",
+      "pages": "818-833",
+      "year": "2014",
+      "type": "Conference and Workshop Papers",
+      "access": "open",
+      "key": "conf/eccv/ZeilerF14",
+      "doi": "10.1007/978-3-319-10590-1_53",
+      "ee": "https://doi.org/10.1007/978-3-319-10590-1_53",
+      "url": "https://dblp.org/rec/conf/eccv/ZeilerF14"
+    }
+  },
+  "Network In Network|||2013|||": {
+    "matched": false,
+    "score": 0.2783,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "414/2772",
+            "text": "Alejandro Plaza"
+          },
+          {
+            "@pid": "414/2864",
+            "text": "Guillermo Beck"
+          },
+          {
+            "@pid": "414/3089",
+            "text": "Julio Iturra-Sanhueza"
+          },
+          {
+            "@pid": "241/8994-2",
+            "text": "Gabriel Otero 0002"
+          },
+          {
+            "@pid": "414/2861",
+            "text": "Benjamín Muñoz"
+          }
+        ]
+      },
+      "title": "Networked inequality: The role of changes in network heterogeneity and network size in attitudes towards inequality.",
+      "venue": "Soc. Networks",
+      "volume": "84",
+      "pages": "27-45",
+      "year": "2026",
+      "type": "Journal Articles",
+      "access": "closed",
+      "key": "journals/socnet/PlazaBIOM26",
+      "doi": "10.1016/J.SOCNET.2025.07.008",
+      "ee": "https://doi.org/10.1016/j.socnet.2025.07.008",
+      "url": "https://dblp.org/rec/journals/socnet/PlazaBIOM26"
+    }
+  },
+  "Very Deep Convolutional Networks for Large-Scale Image Recognition|||2014|||": {
+    "matched": false,
+    "score": -1.0,
+    "result": {}
+  },
+  "On the Importance of Initialization and Momentum in Deep Learning|||2013|||": {
+    "matched": false,
+    "score": -1.0,
+    "result": {}
+  },
+  "Adam: A Method for Stochastic Optimization|||2015|||": {
+    "matched": false,
+    "score": -1.0,
+    "result": {}
+  },
+  "Deep Residual Learning for Image Recognition|||2016|||": {
+    "matched": false,
+    "score": -1.0,
+    "result": {}
+  },
+  "Identity Mappings in Deep Residual Networks|||2016|||": {
+    "matched": true,
+    "score": 1.15,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "34/7659",
+            "text": "Kaiming He"
+          },
+          {
+            "@pid": "95/3760-5",
+            "text": "Xiangyu Zhang 0005"
+          },
+          {
+            "@pid": "147/5182",
+            "text": "Shaoqing Ren"
+          },
+          {
+            "@pid": "68/4942-1",
+            "text": "Jian Sun 0001"
+          }
+        ]
+      },
+      "title": "Identity Mappings in Deep Residual Networks.",
+      "venue": "ECCV",
+      "pages": "630-645",
+      "year": "2016",
+      "type": "Conference and Workshop Papers",
+      "access": "closed",
+      "key": "conf/eccv/HeZRS16",
+      "doi": "10.1007/978-3-319-46493-0_38",
+      "ee": "https://doi.org/10.1007/978-3-319-46493-0_38",
+      "url": "https://dblp.org/rec/conf/eccv/HeZRS16"
+    }
+  },
+  "Densely Connected Convolutional Networks|||2017|||": {
+    "matched": false,
+    "score": -1.0,
+    "result": {}
+  },
+  "On the Relationship between Self-Attention and Convolutional Layers|||2020|||ICLR": {
+    "matched": true,
+    "score": 1.3,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "227/3062",
+            "text": "Jean-Baptiste Cordonnier"
+          },
+          {
+            "@pid": "19/10012",
+            "text": "Andreas Loukas"
+          },
+          {
+            "@pid": "17/4402",
+            "text": "Martin Jaggi"
+          }
+        ]
+      },
+      "title": "On the Relationship between Self-Attention and Convolutional Layers.",
+      "venue": "ICLR",
+      "year": "2020",
+      "type": "Conference and Workshop Papers",
+      "access": "open",
+      "key": "conf/iclr/CordonnierLJ20",
+      "ee": "https://openreview.net/forum?id=HJlnC1rKPB",
+      "url": "https://dblp.org/rec/conf/iclr/CordonnierLJ20"
+    }
+  },
+  "Fully Convolutional Networks for Semantic Segmentation|||2015|||CVPR": {
+    "matched": true,
+    "score": 0.9159,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "282/5235",
+            "text": "Fengxiao Li"
+          },
+          {
+            "@pid": "254/5951",
+            "text": "Zourong Long"
+          },
+          {
+            "@pid": "84/6016-2",
+            "text": "Peng He 0002"
+          },
+          {
+            "@pid": "37/4283-2",
+            "text": "Peng Feng 0002"
+          },
+          {
+            "@pid": "64/2899",
+            "text": "Xiaodong Guo"
+          },
+          {
+            "@pid": "254/5952",
+            "text": "Xuezhi Ren"
+          },
+          {
+            "@pid": "75/59",
+            "text": "Biao Wei"
+          },
+          {
+            "@pid": "121/1050",
+            "text": "Mingfu Zhao"
+          },
+          {
+            "@pid": "77/5837-6",
+            "text": "Bin Tang 0006"
+          }
+        ]
+      },
+      "title": "Fully Convolutional Pyramidal Networks for Semantic Segmentation.",
+      "venue": "IEEE Access",
+      "volume": "8",
+      "pages": "229132-229140",
+      "year": "2020",
+      "type": "Journal Articles",
+      "access": "open",
+      "key": "journals/access/LiLHFGRWZT20",
+      "doi": "10.1109/ACCESS.2020.3045280",
+      "ee": "https://doi.org/10.1109/ACCESS.2020.3045280",
+      "url": "https://dblp.org/rec/journals/access/LiLHFGRWZT20"
+    }
+  },
+  "Learning Deconvolution Network for Semantic Segmentation|||2015|||ICCV": {
+    "matched": true,
+    "score": 1.3,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "123/2942",
+            "text": "Hyeonwoo Noh"
+          },
+          {
+            "@pid": "142/3014",
+            "text": "Seunghoon Hong"
+          },
+          {
+            "@pid": "73/4880",
+            "text": "Bohyung Han"
+          }
+        ]
+      },
+      "title": "Learning Deconvolution Network for Semantic Segmentation.",
+      "venue": "ICCV",
+      "pages": "1520-1528",
+      "year": "2015",
+      "type": "Conference and Workshop Papers",
+      "access": "closed",
+      "key": "conf/iccv/NohHH15",
+      "doi": "10.1109/ICCV.2015.178",
+      "ee": "https://doi.org/10.1109/ICCV.2015.178",
+      "url": "https://dblp.org/rec/conf/iccv/NohHH15"
+    }
+  },
+  "A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation|||2017|||TPAMI": {
+    "matched": false,
+    "score": -1.0,
+    "result": {}
+  },
+  "U-Net: Convolutional Networks for Biomedical Image Segmentation|||2015|||MICCAI": {
+    "matched": true,
+    "score": 1.3,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "88/5775",
+            "text": "Olaf Ronneberger"
+          },
+          {
+            "@pid": "12/4394",
+            "text": "Philipp Fischer"
+          },
+          {
+            "@pid": "97/4586",
+            "text": "Thomas Brox"
+          }
+        ]
+      },
+      "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation.",
+      "venue": "MICCAI",
+      "pages": "234-241",
+      "year": "2015",
+      "type": "Conference and Workshop Papers",
+      "access": "closed",
+      "key": "conf/miccai/RonnebergerFB15",
+      "doi": "10.1007/978-3-319-24574-4_28",
+      "ee": "https://doi.org/10.1007/978-3-319-24574-4_28",
+      "url": "https://dblp.org/rec/conf/miccai/RonnebergerFB15"
+    }
+  },
+  "A Nested U-Net Architecture for Medical Image Segmentation|||2018|||": {
+    "matched": true,
+    "score": 1.1115,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "07/3019",
+            "text": "Zongwei Zhou"
+          },
+          {
+            "@pid": "165/9403",
+            "text": "Md Mahfuzur Rahman Siddiquee"
+          },
+          {
+            "@pid": "58/1008",
+            "text": "Nima Tajbakhsh"
+          },
+          {
+            "@pid": "22/5131",
+            "text": "Jianming Liang"
+          }
+        ]
+      },
+      "title": "UNet++: A Nested U-Net Architecture for Medical Image Segmentation.",
+      "venue": "DLMIA/ML-CDS@MICCAI",
+      "pages": "3-11",
+      "year": "2018",
+      "type": "Conference and Workshop Papers",
+      "access": "closed",
+      "key": "conf/miccai/ZhouSTL18",
+      "doi": "10.1007/978-3-030-00889-5_1",
+      "ee": "https://doi.org/10.1007/978-3-030-00889-5_1",
+      "url": "https://dblp.org/rec/conf/miccai/ZhouSTL18"
+    }
+  },
+  "Feature Pyramid Networks for Object Detection|||2017|||CVPR": {
+    "matched": false,
+    "score": -1.0,
+    "result": {}
+  },
+  "Focal Loss for Dense Object Detection|||2017|||ICCV": {
+    "matched": false,
+    "score": -1.0,
+    "result": {}
+  },
+  "Mask R-CNN|||2017|||ICCV": {
+    "matched": false,
+    "score": 0.3902,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "218/7465",
+            "text": "Sumin Qi"
+          },
+          {
+            "@pid": "234/4293",
+            "text": "Shihao Jiang"
+          },
+          {
+            "@pid": "65/9436",
+            "text": "Zhen-Wei Zhang"
+          }
+        ]
+      },
+      "title": "MA Mask R-CNN: MPR and AFPN Based Mask R-CNN.",
+      "venue": "ICPCSEE",
+      "pages": "233-245",
+      "year": "2021",
+      "type": "Conference and Workshop Papers",
+      "access": "closed",
+      "key": "conf/icycsee/QiJZ21",
+      "doi": "10.1007/978-981-16-5940-9_18",
+      "ee": "https://doi.org/10.1007/978-981-16-5940-9_18",
+      "url": "https://dblp.org/rec/conf/icycsee/QiJZ21"
+    }
+  },
+  "Panoptic Feature Pyramid Networks|||2019|||CVPR": {
+    "matched": true,
+    "score": 1.3,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "172/1389",
+            "text": "Alexander Kirillov"
+          },
+          {
+            "@pid": "89/7658",
+            "text": "Ross B. Girshick"
+          },
+          {
+            "@pid": "34/7659",
+            "text": "Kaiming He"
+          },
+          {
+            "@pid": "62/750",
+            "text": "Piotr Dollár"
+          }
+        ]
+      },
+      "title": "Panoptic Feature Pyramid Networks.",
+      "venue": "CVPR",
+      "pages": "6399-6408",
+      "year": "2019",
+      "type": "Conference and Workshop Papers",
+      "access": "open",
+      "key": "conf/cvpr/KirillovGHD19",
+      "doi": "10.1109/CVPR.2019.00656",
+      "ee": "http://openaccess.thecvf.com/content_CVPR_2019/html/Kirillov_Panoptic_Feature_Pyramid_Networks_CVPR_2019_paper.html",
+      "url": "https://dblp.org/rec/conf/cvpr/KirillovGHD19"
+    }
+  },
+  "Semantic Image Segmentation with Deep CNNs, Atrous Convolution, and Fully Connected CRFs|||2014|||TPAMI": {
+    "matched": false,
+    "score": -1.0,
+    "result": {}
+  },
+  "Rethinking Atrous Convolution for Semantic Image Segmentation|||2017|||": {
+    "matched": true,
+    "score": 1.15,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "138/2443",
+            "text": "Liang-Chieh Chen"
+          },
+          {
+            "@pid": "79/632",
+            "text": "George Papandreou"
+          },
+          {
+            "@pid": "52/5594",
+            "text": "Florian Schroff"
+          },
+          {
+            "@pid": "75/948",
+            "text": "Hartwig Adam"
+          }
+        ]
+      },
+      "title": "Rethinking Atrous Convolution for Semantic Image Segmentation.",
+      "venue": "CoRR",
+      "volume": "abs/1706.05587",
+      "year": "2017",
+      "type": "Informal and Other Publications",
+      "access": "open",
+      "key": "journals/corr/ChenPSA17",
+      "ee": "http://arxiv.org/abs/1706.05587",
+      "url": "https://dblp.org/rec/journals/corr/ChenPSA17"
+    }
+  },
+  "Encoder-Decoder with Atrous Separable Convolution|||2018|||ECCV": {
+    "matched": true,
+    "score": 1.0586,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "138/2443",
+            "text": "Liang-Chieh Chen"
+          },
+          {
+            "@pid": "18/10777",
+            "text": "Yukun Zhu"
+          },
+          {
+            "@pid": "79/632",
+            "text": "George Papandreou"
+          },
+          {
+            "@pid": "52/5594",
+            "text": "Florian Schroff"
+          },
+          {
+            "@pid": "75/948",
+            "text": "Hartwig Adam"
+          }
+        ]
+      },
+      "title": "Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation.",
+      "venue": "ECCV",
+      "pages": "833-851",
+      "year": "2018",
+      "type": "Conference and Workshop Papers",
+      "access": "closed",
+      "key": "conf/eccv/ChenZPSA18",
+      "doi": "10.1007/978-3-030-01234-2_49",
+      "ee": "https://doi.org/10.1007/978-3-030-01234-2_49",
+      "url": "https://dblp.org/rec/conf/eccv/ChenZPSA18"
+    }
+  },
+  "Pyramid Scene Parsing Network|||2017|||CVPR": {
+    "matched": false,
+    "score": -1.0,
+    "result": {}
+  },
+  "Deep High-Resolution Representation Learning for Visual Recognition|||2019|||CVPR / TPAMI": {
+    "matched": true,
+    "score": 1.15,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "49/3441",
+            "text": "Jingdong Wang 0001"
+          },
+          {
+            "@pid": "69/476-9",
+            "text": "Ke Sun 0009"
+          },
+          {
+            "@pid": "230/4157",
+            "text": "Tianheng Cheng"
+          },
+          {
+            "@pid": "224/0327",
+            "text": "Borui Jiang"
+          },
+          {
+            "@pid": "218/7471",
+            "text": "Chaorui Deng"
+          },
+          {
+            "@pid": "50/2082-19",
+            "text": "Yang Zhao 0019"
+          },
+          {
+            "@pid": "98/1737-2",
+            "text": "Dong Liu 0002"
+          },
+          {
+            "@pid": "55/1817",
+            "text": "Yadong Mu"
+          },
+          {
+            "@pid": "49/2007",
+            "text": "Mingkui Tan"
+          },
+          {
+            "@pid": "95/3056",
+            "text": "Xinggang Wang"
+          },
+          {
+            "@pid": "42/4110-1",
+            "text": "Wenyu Liu 0001"
+          },
+          {
+            "@pid": "43/5134-4",
+            "text": "Bin Xiao 0004"
+          }
+        ]
+      },
+      "title": "Deep High-Resolution Representation Learning for Visual Recognition.",
+      "venue": "CoRR",
+      "volume": "abs/1908.07919",
+      "year": "2019",
+      "type": "Informal and Other Publications",
+      "access": "open",
+      "key": "journals/corr/abs-1908-07919",
+      "ee": "http://arxiv.org/abs/1908.07919",
+      "url": "https://dblp.org/rec/journals/corr/abs-1908-07919"
+    }
+  },
+  "Simple and Efficient Design for Semantic Segmentation with Transformers|||2021|||NEURIPS": {
+    "matched": true,
+    "score": 1.2333,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "218/5441",
+            "text": "Enze Xie"
+          },
+          {
+            "@pid": "122/3593",
+            "text": "Wenhai Wang"
+          },
+          {
+            "@pid": "67/5386",
+            "text": "Zhiding Yu"
+          },
+          {
+            "@pid": "25/1529",
+            "text": "Anima Anandkumar"
+          },
+          {
+            "@pid": "59/6703",
+            "text": "José M. Álvarez 0004"
+          },
+          {
+            "@pid": "54/4989-2",
+            "text": "Ping Luo 0002"
+          }
+        ]
+      },
+      "title": "SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers.",
+      "venue": "NeurIPS",
+      "pages": "12077-12090",
+      "year": "2021",
+      "type": "Conference and Workshop Papers",
+      "access": "open",
+      "key": "conf/nips/XieWYAAL21",
+      "ee": "https://proceedings.neurips.cc/paper/2021/hash/64f1f27bf1b4ec22924fd0acb550c235-Abstract.html",
+      "url": "https://dblp.org/rec/conf/nips/XieWYAAL21"
+    }
+  },
+  "Fully Convolutional One-Stage Object Detection|||2019|||ICCV": {
+    "matched": true,
+    "score": 1.2535,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "09/864",
+            "text": "Zhi Tian"
+          },
+          {
+            "@pid": "56/1673",
+            "text": "Chunhua Shen"
+          },
+          {
+            "@pid": "175/3324-41",
+            "text": "Hao Chen 0041"
+          },
+          {
+            "@pid": "02/1554-1",
+            "text": "Tong He 0001"
+          }
+        ]
+      },
+      "title": "FCOS: Fully Convolutional One-Stage Object Detection.",
+      "venue": "ICCV",
+      "pages": "9626-9635",
+      "year": "2019",
+      "type": "Conference and Workshop Papers",
+      "access": "closed",
+      "key": "conf/iccv/TianSCH19",
+      "doi": "10.1109/ICCV.2019.00972",
+      "ee": "https://doi.org/10.1109/ICCV.2019.00972",
+      "url": "https://dblp.org/rec/conf/iccv/TianSCH19"
+    }
+  },
+  "End-to-End Object Detection with Transformers|||2020|||ECCV": {
+    "matched": true,
+    "score": 1.3,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "182/2286",
+            "text": "Nicolas Carion"
+          },
+          {
+            "@pid": "155/9885",
+            "text": "Francisco Massa"
+          },
+          {
+            "@pid": "65/8774",
+            "text": "Gabriel Synnaeve"
+          },
+          {
+            "@pid": "79/3983",
+            "text": "Nicolas Usunier"
+          },
+          {
+            "@pid": "172/1389",
+            "text": "Alexander Kirillov"
+          },
+          {
+            "@pid": "161/9997",
+            "text": "Sergey Zagoruyko"
+          }
+        ]
+      },
+      "title": "End-to-End Object Detection with Transformers.",
+      "venue": "ECCV",
+      "pages": "213-229",
+      "year": "2020",
+      "type": "Conference and Workshop Papers",
+      "access": "closed",
+      "key": "conf/eccv/CarionMSUKZ20",
+      "doi": "10.1007/978-3-030-58452-8_13",
+      "ee": "https://doi.org/10.1007/978-3-030-58452-8_13",
+      "url": "https://dblp.org/rec/conf/eccv/CarionMSUKZ20"
+    }
+  },
+  "DETRs with Collaborative Hybrid Assignments Training|||2023|||ICCV": {
+    "matched": true,
+    "score": 1.3,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "266/4989",
+            "text": "Zhuofan Zong"
+          },
+          {
+            "@pid": "207/4745",
+            "text": "Guanglu Song"
+          },
+          {
+            "@pid": "97/2274-15",
+            "text": "Yu Liu 0015"
+          }
+        ]
+      },
+      "title": "DETRs with Collaborative Hybrid Assignments Training.",
+      "venue": "ICCV",
+      "pages": "6725-6735",
+      "year": "2023",
+      "type": "Conference and Workshop Papers",
+      "access": "closed",
+      "key": "conf/iccv/ZongS023",
+      "doi": "10.1109/ICCV51070.2023.00621",
+      "ee": "https://doi.org/10.1109/ICCV51070.2023.00621",
+      "url": "https://dblp.org/rec/conf/iccv/ZongS023"
+    }
+  },
+  "Per-Pixel Classification is Not All You Need for Semantic Segmentation|||2021|||NEURIPS": {
+    "matched": true,
+    "score": 1.3,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "73/8079",
+            "text": "Bowen Cheng"
+          },
+          {
+            "@pid": "79/9775",
+            "text": "Alexander G. Schwing"
+          },
+          {
+            "@pid": "172/1389",
+            "text": "Alexander Kirillov"
+          }
+        ]
+      },
+      "title": "Per-Pixel Classification is Not All You Need for Semantic Segmentation.",
+      "venue": "NeurIPS",
+      "pages": "17864-17875",
+      "year": "2021",
+      "type": "Conference and Workshop Papers",
+      "access": "open",
+      "key": "conf/nips/ChengSK21",
+      "ee": "https://proceedings.neurips.cc/paper/2021/hash/950a4152c2b4aa3ad78bdd6b366cc179-Abstract.html",
+      "url": "https://dblp.org/rec/conf/nips/ChengSK21"
+    }
+  },
+  "Masked-attention Mask Transformer for Universal Image Segmentation|||2022|||CVPR": {
+    "matched": true,
+    "score": 1.3,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "73/8079",
+            "text": "Bowen Cheng"
+          },
+          {
+            "@pid": "12/10954",
+            "text": "Ishan Misra"
+          },
+          {
+            "@pid": "79/9775",
+            "text": "Alexander G. Schwing"
+          },
+          {
+            "@pid": "172/1389",
+            "text": "Alexander Kirillov"
+          },
+          {
+            "@pid": "161/2631",
+            "text": "Rohit Girdhar"
+          }
+        ]
+      },
+      "title": "Masked-attention Mask Transformer for Universal Image Segmentation.",
+      "venue": "CVPR",
+      "pages": "1280-1289",
+      "year": "2022",
+      "type": "Conference and Workshop Papers",
+      "access": "closed",
+      "key": "conf/cvpr/ChengMSKG22",
+      "doi": "10.1109/CVPR52688.2022.00135",
+      "ee": "https://doi.org/10.1109/CVPR52688.2022.00135",
+      "url": "https://dblp.org/rec/conf/cvpr/ChengMSKG22"
+    }
+  },
+  "One Transformer to Rule Universal Image Segmentation|||2023|||CVPR": {
+    "matched": true,
+    "score": 1.2109,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "92/2515",
+            "text": "Jitesh Jain"
+          },
+          {
+            "@pid": "137/8316-3",
+            "text": "Jiachen Li 0003"
+          },
+          {
+            "@pid": "333/1327",
+            "text": "MangTik Chiu"
+          },
+          {
+            "@pid": "250/9292-1",
+            "text": "Ali Hassani 0001"
+          },
+          {
+            "@pid": "15/5638",
+            "text": "Nikita Orlov"
+          },
+          {
+            "@pid": "176/5516",
+            "text": "Humphrey Shi"
+          }
+        ]
+      },
+      "title": "OneFormer: One Transformer to Rule Universal Image Segmentation.",
+      "venue": "CVPR",
+      "pages": "2989-2998",
+      "year": "2023",
+      "type": "Conference and Workshop Papers",
+      "access": "closed",
+      "key": "conf/cvpr/Jain0C0OS23",
+      "doi": "10.1109/CVPR52729.2023.00292",
+      "ee": "https://doi.org/10.1109/CVPR52729.2023.00292",
+      "url": "https://dblp.org/rec/conf/cvpr/Jain0C0OS23"
+    }
+  },
+  "Your ViT is Secretly an Image Segmentation Model|||2024|||ECCV": {
+    "matched": true,
+    "score": 1.0,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "326/8106",
+            "text": "Tommie Kerssies"
+          },
+          {
+            "@pid": "321/3631",
+            "text": "Niccolò Cavagnero"
+          },
+          {
+            "@pid": "151/9332",
+            "text": "Alexander Hermans"
+          },
+          {
+            "@pid": "157/9107",
+            "text": "Narges Norouzi"
+          },
+          {
+            "@pid": "203/4597",
+            "text": "Giuseppe Averta"
+          },
+          {
+            "@pid": "41/1228",
+            "text": "Bastian Leibe"
+          },
+          {
+            "@pid": "45/2051",
+            "text": "Gijs Dubbelman"
+          },
+          {
+            "@pid": "227/2962",
+            "text": "Daan de Geus"
+          }
+        ]
+      },
+      "title": "Your ViT is Secretly an Image Segmentation Model.",
+      "venue": "CVPR",
+      "pages": "25303-25313",
+      "year": "2025",
+      "type": "Conference and Workshop Papers",
+      "access": "open",
+      "key": "conf/cvpr/KerssiesCHNALDG25",
+      "doi": "10.1109/CVPR52734.2025.02356",
+      "ee": "https://openaccess.thecvf.com/content/CVPR2025/html/Kerssies_Your_ViT_is_Secretly_an_Image_Segmentation_Model_CVPR_2025_paper.html",
+      "url": "https://dblp.org/rec/conf/cvpr/KerssiesCHNALDG25"
+    }
+  },
+  "Segment Anything|||2023|||ICCV": {
+    "matched": false,
+    "score": 0.3527,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "299/5401",
+            "text": "Lang Lang"
+          },
+          {
+            "@pid": "87/36",
+            "text": "Xiaoqin Chen"
+          }
+        ]
+      },
+      "title": "Enhancing Agricultural Disease Segmentation with Adapter-Based Fine-Tuning of the Segment Anything Model: Adapter Fine-Tuning in Agri-Disease Segmentation.",
+      "venue": "ICAICE",
+      "pages": "1171-1176",
+      "year": "2023",
+      "type": "Conference and Workshop Papers",
+      "access": "closed",
+      "key": "conf/icaice/LangC23",
+      "doi": "10.1145/3652628.3652820",
+      "ee": "https://doi.org/10.1145/3652628.3652820",
+      "url": "https://dblp.org/rec/conf/icaice/LangC23"
+    }
+  },
+  "Segment Anything in Images and Videos|||2024|||": {
+    "matched": true,
+    "score": 1.0912,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "248/7650",
+            "text": "Nikhila Ravi"
+          },
+          {
+            "@pid": "246/5141",
+            "text": "Valentin Gabeur"
+          },
+          {
+            "@pid": "155/9881",
+            "text": "Yuan-Ting Hu"
+          },
+          {
+            "@pid": "155/1943",
+            "text": "Ronghang Hu"
+          },
+          {
+            "@pid": "231/7672",
+            "text": "Chaitanya Ryali"
+          },
+          {
+            "@pid": "384/7631",
+            "text": "Tengyu Ma 0005"
+          },
+          {
+            "@pid": "229/4157",
+            "text": "Haitham Khedr"
+          },
+          {
+            "@pid": "82/5418",
+            "text": "Roman Rädle"
+          },
+          {
+            "@pid": "53/461",
+            "text": "Chloé Rolland"
+          },
+          {
+            "@pid": "243/6934",
+            "text": "Laura Gustafson"
+          },
+          {
+            "@pid": "286/1442",
+            "text": "Eric Mintun"
+          },
+          {
+            "@pid": "166/1669",
+            "text": "Junting Pan"
+          },
+          {
+            "@pid": "153/7834",
+            "text": "Kalyan Vasudev Alwala"
+          },
+          {
+            "@pid": "182/2286",
+            "text": "Nicolas Carion"
+          },
+          {
+            "@pid": "151/3304",
+            "text": "Chao-Yuan Wu"
+          },
+          {
+            "@pid": "89/7658",
+            "text": "Ross B. Girshick"
+          },
+          {
+            "@pid": "62/750",
+            "text": "Piotr Dollár"
+          },
+          {
+            "@pid": "127/1937",
+            "text": "Christoph Feichtenhofer"
+          }
+        ]
+      },
+      "title": "SAM 2: Segment Anything in Images and Videos.",
+      "venue": "CoRR",
+      "volume": "abs/2408.00714",
+      "year": "2024",
+      "type": "Informal and Other Publications",
+      "access": "open",
+      "key": "journals/corr/abs-2408-00714",
+      "doi": "10.48550/ARXIV.2408.00714",
+      "ee": "https://doi.org/10.48550/arXiv.2408.00714",
+      "url": "https://dblp.org/rec/journals/corr/abs-2408-00714"
+    }
+  },
+  "A Unified Vision Model for Open-World Object Detection and Understanding|||2024|||": {
+    "matched": true,
+    "score": 1.1112,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "276/1647",
+            "text": "Tianhe Ren"
+          },
+          {
+            "@pid": "205/4031",
+            "text": "Yihao Chen"
+          },
+          {
+            "@pid": "86/1927",
+            "text": "Qing Jiang"
+          },
+          {
+            "@pid": "207/1887",
+            "text": "Zhaoyang Zeng"
+          },
+          {
+            "@pid": "377/6226",
+            "text": "Yuda Xiong"
+          },
+          {
+            "@pid": "06/5340",
+            "text": "Wenlong Liu"
+          },
+          {
+            "@pid": "242/2942",
+            "text": "Zhengyu Ma"
+          },
+          {
+            "@pid": "30/5987",
+            "text": "Junyi Shen"
+          },
+          {
+            "@pid": "76/2452",
+            "text": "Yuan Gao"
+          },
+          {
+            "@pid": "54/10608",
+            "text": "Xiaoke Jiang"
+          },
+          {
+            "@pid": "59/7651",
+            "text": "Xingyu Chen"
+          },
+          {
+            "@pid": "393/1102",
+            "text": "Zhuheng Song"
+          },
+          {
+            "@pid": "01/1504",
+            "text": "Yuhong Zhang"
+          },
+          {
+            "@pid": "221/6664",
+            "text": "Hongjie Huang"
+          },
+          {
+            "@pid": "56/1065",
+            "text": "Han Gao"
+          },
+          {
+            "@pid": "116/9460-4",
+            "text": "Shilong Liu 0004"
+          },
+          {
+            "@pid": "55/2270-97",
+            "text": "Hao Zhang 0097"
+          },
+          {
+            "@pid": "92/2954-40",
+            "text": "Feng Li 0040"
+          },
+          {
+            "@pid": "361/7041",
+            "text": "Kent Yu"
+          },
+          {
+            "@pid": "z/LeiZhang",
+            "text": "Lei Zhang 0001"
+          }
+        ]
+      },
+      "title": "DINO-X: A Unified Vision Model for Open-World Object Detection and Understanding.",
+      "venue": "CoRR",
+      "volume": "abs/2411.14347",
+      "year": "2024",
+      "type": "Informal and Other Publications",
+      "access": "open",
+      "key": "journals/corr/abs-2411-14347",
+      "doi": "10.48550/ARXIV.2411.14347",
+      "ee": "https://doi.org/10.48550/arXiv.2411.14347",
+      "url": "https://dblp.org/rec/journals/corr/abs-2411-14347"
+    }
+  },
+  "Towards Generic Object Detection via Text-Visual Prompt Synergy|||2024|||ECCV": {
+    "matched": true,
+    "score": 1.2565,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "86/1927",
+            "text": "Qing Jiang"
+          },
+          {
+            "@pid": "92/2954-40",
+            "text": "Feng Li 0040"
+          },
+          {
+            "@pid": "207/1887",
+            "text": "Zhaoyang Zeng"
+          },
+          {
+            "@pid": "276/1647",
+            "text": "Tianhe Ren"
+          },
+          {
+            "@pid": "116/9460-4",
+            "text": "Shilong Liu 0004"
+          },
+          {
+            "@pid": "z/LeiZhang",
+            "text": "Lei Zhang 0001"
+          }
+        ]
+      },
+      "title": "T-Rex2: Towards Generic Object Detection via Text-Visual Prompt Synergy.",
+      "venue": "ECCV",
+      "pages": "38-57",
+      "year": "2024",
+      "type": "Conference and Workshop Papers",
+      "access": "closed",
+      "key": "conf/eccv/JiangLZRLZ24",
+      "doi": "10.1007/978-3-031-73414-4_3",
+      "ee": "https://doi.org/10.1007/978-3-031-73414-4_3",
+      "url": "https://dblp.org/rec/conf/eccv/JiangLZRLZ24"
+    }
+  },
+  "Real-Time Open-Vocabulary Object Detection|||2024|||CVPR": {
+    "matched": true,
+    "score": 1.1916,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "230/4157",
+            "text": "Tianheng Cheng"
+          },
+          {
+            "@pid": "49/1217-2",
+            "text": "Lin Song 0002"
+          },
+          {
+            "@pid": "228/6649",
+            "text": "Yixiao Ge"
+          },
+          {
+            "@pid": "42/4110-1",
+            "text": "Wenyu Liu 0001"
+          },
+          {
+            "@pid": "95/3056",
+            "text": "Xinggang Wang"
+          },
+          {
+            "@pid": "68/5910",
+            "text": "Ying Shan"
+          }
+        ]
+      },
+      "title": "YOLO-World: Real-Time Open-Vocabulary Object Detection.",
+      "venue": "CVPR",
+      "pages": "16901-16911",
+      "year": "2024",
+      "type": "Conference and Workshop Papers",
+      "access": "closed",
+      "key": "conf/cvpr/ChengSG0WS24",
+      "doi": "10.1109/CVPR52733.2024.01599",
+      "ee": "https://doi.org/10.1109/CVPR52733.2024.01599",
+      "url": "https://dblp.org/rec/conf/cvpr/ChengSG0WS24"
+    }
+  },
+  "Advancing a Unified Representation for a Variety of Vision Tasks|||2024|||CVPR": {
+    "matched": true,
+    "score": 1.2244,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "43/5134-4",
+            "text": "Bin Xiao 0004"
+          },
+          {
+            "@pid": "09/6392",
+            "text": "Haiping Wu"
+          },
+          {
+            "@pid": "55/5787",
+            "text": "Weijian Xu"
+          },
+          {
+            "@pid": "176/5470",
+            "text": "Xiyang Dai"
+          },
+          {
+            "@pid": "215/3534",
+            "text": "Houdong Hu"
+          },
+          {
+            "@pid": "44/292",
+            "text": "Yumao Lu"
+          },
+          {
+            "@pid": "232/1866-1",
+            "text": "Michael Zeng 0001"
+          },
+          {
+            "@pid": "61/3937-1",
+            "text": "Ce Liu 0001"
+          },
+          {
+            "@pid": "66/6740",
+            "text": "Lu Yuan"
+          }
+        ]
+      },
+      "title": "Florence-2: Advancing a Unified Representation for a Variety of Vision Tasks.",
+      "venue": "CVPR",
+      "pages": "4818-4829",
+      "year": "2024",
+      "type": "Conference and Workshop Papers",
+      "access": "closed",
+      "key": "conf/cvpr/0004WXDHL00Y24",
+      "doi": "10.1109/CVPR52733.2024.00461",
+      "ee": "https://doi.org/10.1109/CVPR52733.2024.00461",
+      "url": "https://dblp.org/rec/conf/cvpr/0004WXDHL00Y24"
+    }
+  },
+  "Aligning and Prompting Everything All at Once for Universal Visual Perception|||2024|||CVPR": {
+    "matched": true,
+    "score": 1.3,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "146/1800",
+            "text": "Yunhang Shen"
+          },
+          {
+            "@pid": "221/6738",
+            "text": "Chaoyou Fu"
+          },
+          {
+            "@pid": "150/2780",
+            "text": "Peixian Chen"
+          },
+          {
+            "@pid": "172/9514",
+            "text": "Mengdan Zhang"
+          },
+          {
+            "@pid": "75/6627-15",
+            "text": "Ke Li 0015"
+          },
+          {
+            "@pid": "90/2719-1",
+            "text": "Xing Sun 0001"
+          },
+          {
+            "@pid": "173/1746",
+            "text": "Yunsheng Wu"
+          },
+          {
+            "@pid": "183/0917",
+            "text": "Shaohui Lin"
+          },
+          {
+            "@pid": "86/5681",
+            "text": "Rongrong Ji"
+          }
+        ]
+      },
+      "title": "Aligning and Prompting Everything All at Once for Universal Visual Perception.",
+      "venue": "CVPR",
+      "pages": "13193-13203",
+      "year": "2024",
+      "type": "Conference and Workshop Papers",
+      "access": "closed",
+      "key": "conf/cvpr/ShenFCZ0SWLJ24",
+      "doi": "10.1109/CVPR52733.2024.01253",
+      "ee": "https://doi.org/10.1109/CVPR52733.2024.01253",
+      "url": "https://dblp.org/rec/conf/cvpr/ShenFCZ0SWLJ24"
+    }
+  },
+  "Learning Transferable Visual Models From Natural Language Supervision|||2021|||ICML": {
+    "matched": true,
+    "score": 1.3,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "172/1154",
+            "text": "Alec Radford"
+          },
+          {
+            "@pid": "49/3726",
+            "text": "Jong Wook Kim"
+          },
+          {
+            "@pid": "277/5499",
+            "text": "Chris Hallacy"
+          },
+          {
+            "@pid": "58/10355",
+            "text": "Aditya Ramesh"
+          },
+          {
+            "@pid": "57/6187",
+            "text": "Gabriel Goh"
+          },
+          {
+            "@pid": "242/4262",
+            "text": "Sandhini Agarwal"
+          },
+          {
+            "@pid": "203/8538",
+            "text": "Girish Sastry"
+          },
+          {
+            "@pid": "244/9888",
+            "text": "Amanda Askell"
+          },
+          {
+            "@pid": "286/8196",
+            "text": "Pamela Mishkin"
+          },
+          {
+            "@pid": "127/1112",
+            "text": "Jack Clark"
+          },
+          {
+            "@pid": "263/1905",
+            "text": "Gretchen Krueger"
+          },
+          {
+            "@pid": "60/5276",
+            "text": "Ilya Sutskever"
+          }
+        ]
+      },
+      "title": "Learning Transferable Visual Models From Natural Language Supervision.",
+      "venue": "ICML",
+      "pages": "8748-8763",
+      "year": "2021",
+      "type": "Conference and Workshop Papers",
+      "access": "open",
+      "key": "conf/icml/RadfordKHRGASAM21",
+      "ee": "http://proceedings.mlr.press/v139/radford21a.html",
+      "url": "https://dblp.org/rec/conf/icml/RadfordKHRGASAM21"
+    }
+  },
+  "Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision|||2021|||ICML": {
+    "matched": true,
+    "score": 1.3,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "95/5302",
+            "text": "Chao Jia"
+          },
+          {
+            "@pid": "117/4082",
+            "text": "Yinfei Yang"
+          },
+          {
+            "@pid": "04/4637-6",
+            "text": "Ye Xia 0006"
+          },
+          {
+            "@pid": "12/5268",
+            "text": "Yi-Ting Chen"
+          },
+          {
+            "@pid": "205/8995",
+            "text": "Zarana Parekh"
+          },
+          {
+            "@pid": "120/1102-1",
+            "text": "Hieu Pham 0001"
+          },
+          {
+            "@pid": "29/6166",
+            "text": "Quoc V. Le"
+          },
+          {
+            "@pid": "94/7823",
+            "text": "Yun-Hsuan Sung"
+          },
+          {
+            "@pid": "74/2397-28",
+            "text": "Zhen Li 0028"
+          },
+          {
+            "@pid": "172/1029",
+            "text": "Tom Duerig"
+          }
+        ]
+      },
+      "title": "Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision.",
+      "venue": "ICML",
+      "pages": "4904-4916",
+      "year": "2021",
+      "type": "Conference and Workshop Papers",
+      "access": "open",
+      "key": "conf/icml/JiaYXCPPLSLD21",
+      "ee": "http://proceedings.mlr.press/v139/jia21b.html",
+      "url": "https://dblp.org/rec/conf/icml/JiaYXCPPLSLD21"
+    }
+  },
+  "LiT: Zero-Shot Transfer with Locked-image Text Tuning|||2022|||CVPR": {
+    "matched": true,
+    "score": 1.3,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "66/636",
+            "text": "Xiaohua Zhai"
+          },
+          {
+            "@pid": "49/67-38",
+            "text": "Xiao Wang 0038"
+          },
+          {
+            "@pid": "223/4558",
+            "text": "Basil Mustafa"
+          },
+          {
+            "@pid": "s/AndreasSteiner",
+            "text": "Andreas Steiner 0001"
+          },
+          {
+            "@pid": "02/6955",
+            "text": "Daniel Keysers"
+          },
+          {
+            "@pid": "137/6963-3",
+            "text": "Alexander Kolesnikov 0003"
+          },
+          {
+            "@pid": "126/4720",
+            "text": "Lucas Beyer"
+          }
+        ]
+      },
+      "title": "LiT: Zero-Shot Transfer with Locked-image text Tuning.",
+      "venue": "CVPR",
+      "pages": "18102-18112",
+      "year": "2022",
+      "type": "Conference and Workshop Papers",
+      "access": "closed",
+      "key": "conf/cvpr/ZhaiWMSK0B22",
+      "doi": "10.1109/CVPR52688.2022.01759",
+      "ee": "https://doi.org/10.1109/CVPR52688.2022.01759",
+      "url": "https://dblp.org/rec/conf/cvpr/ZhaiWMSK0B22"
+    }
+  },
+  "Sigmoid Loss for Language Image Pre-Training|||2023|||ICCV": {
+    "matched": true,
+    "score": 1.3,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "66/636",
+            "text": "Xiaohua Zhai"
+          },
+          {
+            "@pid": "223/4558",
+            "text": "Basil Mustafa"
+          },
+          {
+            "@pid": "137/6963-3",
+            "text": "Alexander Kolesnikov 0003"
+          },
+          {
+            "@pid": "126/4720",
+            "text": "Lucas Beyer"
+          }
+        ]
+      },
+      "title": "Sigmoid Loss for Language Image Pre-Training.",
+      "venue": "ICCV",
+      "pages": "11941-11952",
+      "year": "2023",
+      "type": "Conference and Workshop Papers",
+      "access": "closed",
+      "key": "conf/iccv/ZhaiM0B23",
+      "doi": "10.1109/ICCV51070.2023.01100",
+      "ee": "https://doi.org/10.1109/ICCV51070.2023.01100",
+      "url": "https://dblp.org/rec/conf/iccv/ZhaiM0B23"
+    }
+  },
+  "EVA-CLIP: Improved Training Techniques for CLIP at Scale|||2023|||": {
+    "matched": true,
+    "score": 1.15,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "47/5830",
+            "text": "Quan Sun"
+          },
+          {
+            "@pid": "171/2497",
+            "text": "Yuxin Fang"
+          },
+          {
+            "@pid": "206/6528",
+            "text": "Ledell Wu"
+          },
+          {
+            "@pid": "82/430",
+            "text": "Xinlong Wang"
+          },
+          {
+            "@pid": "74/5570-1",
+            "text": "Yue Cao 0001"
+          }
+        ]
+      },
+      "title": "EVA-CLIP: Improved Training Techniques for CLIP at Scale.",
+      "venue": "CoRR",
+      "volume": "abs/2303.15389",
+      "year": "2023",
+      "type": "Informal and Other Publications",
+      "access": "open",
+      "key": "journals/corr/abs-2303-15389",
+      "doi": "10.48550/ARXIV.2303.15389",
+      "ee": "https://doi.org/10.48550/arXiv.2303.15389",
+      "url": "https://dblp.org/rec/journals/corr/abs-2303-15389"
+    }
+  },
+  "ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision|||2021|||ICML": {
+    "matched": false,
+    "score": -1.0,
+    "result": {}
+  },
+  "Align before Fuse: Vision and Language Representation Learning with Momentum Distillation|||2021|||NEURIPS": {
+    "matched": false,
+    "score": -1.0,
+    "result": {}
+  },
+  "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation|||2022|||ICML": {
+    "matched": false,
+    "score": -1.0,
+    "result": {}
+  },
+  "CoCa: Contrastive Captioners are Image-Text Foundation Models|||2022|||TMLR": {
+    "matched": true,
+    "score": 1.15,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "185/1060",
+            "text": "Jiahui Yu"
+          },
+          {
+            "@pid": "140/8557",
+            "text": "Zirui Wang"
+          },
+          {
+            "@pid": "08/2793",
+            "text": "Vijay Vasudevan"
+          },
+          {
+            "@pid": "319/7234",
+            "text": "Legg Yeung"
+          },
+          {
+            "@pid": "93/8617",
+            "text": "Mojtaba Seyedhosseini"
+          },
+          {
+            "@pid": "26/2189",
+            "text": "Yonghui Wu"
+          }
+        ]
+      },
+      "title": "CoCa: Contrastive Captioners are Image-Text Foundation Models.",
+      "venue": "Trans. Mach. Learn. Res.",
+      "volume": "2022",
+      "year": "2022",
+      "type": "Journal Articles",
+      "access": "open",
+      "key": "journals/tmlr/YuWVYSW22",
+      "ee": "https://openreview.net/forum?id=Ee277P3AYC",
+      "url": "https://dblp.org/rec/journals/tmlr/YuWVYSW22"
+    }
+  },
+  "Image as a Foreign Language: BEiT Pretraining for All Vision and Vision-Language Tasks|||2023|||CVPR": {
+    "matched": true,
+    "score": 1.0,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "37/2855-3",
+            "text": "Wenhui Wang 0003"
+          },
+          {
+            "@pid": "199/2036",
+            "text": "Hangbo Bao"
+          },
+          {
+            "@pid": "85/5090-4",
+            "text": "Li Dong 0004"
+          },
+          {
+            "@pid": "188/6399",
+            "text": "Johan Bjorck"
+          },
+          {
+            "@pid": "289/0209",
+            "text": "Zhiliang Peng"
+          },
+          {
+            "@pid": "61/3234",
+            "text": "Qiang Liu"
+          },
+          {
+            "@pid": "318/7443",
+            "text": "Kriti Aggarwal"
+          },
+          {
+            "@pid": "327/3468",
+            "text": "Owais Khan Mohammed"
+          },
+          {
+            "@pid": "175/5340",
+            "text": "Saksham Singhal"
+          },
+          {
+            "@pid": "41/8038",
+            "text": "Subhojit Som"
+          },
+          {
+            "@pid": "72/5870",
+            "text": "Furu Wei"
+          }
+        ]
+      },
+      "title": "Image as a Foreign Language: BEiT Pretraining for All Vision and Vision-Language Tasks.",
+      "venue": "CoRR",
+      "volume": "abs/2208.10442",
+      "year": "2022",
+      "type": "Informal and Other Publications",
+      "access": "open",
+      "key": "journals/corr/abs-2208-10442",
+      "doi": "10.48550/ARXIV.2208.10442",
+      "ee": "https://doi.org/10.48550/arXiv.2208.10442",
+      "url": "https://dblp.org/rec/journals/corr/abs-2208-10442"
+    }
+  },
+  "Multimodal Few-Shot Learning with Frozen Language Models|||2021|||NEURIPS": {
+    "matched": true,
+    "score": 1.3,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "149/1334",
+            "text": "Maria Tsimpoukelli"
+          },
+          {
+            "@pid": "199/2303",
+            "text": "Jacob Menick"
+          },
+          {
+            "@pid": "202/1807",
+            "text": "Serkan Cabi"
+          },
+          {
+            "@pid": "117/4847",
+            "text": "S. M. Ali Eslami"
+          },
+          {
+            "@pid": "05/726",
+            "text": "Oriol Vinyals"
+          },
+          {
+            "@pid": "116/0509",
+            "text": "Felix Hill"
+          }
+        ]
+      },
+      "title": "Multimodal Few-Shot Learning with Frozen Language Models.",
+      "venue": "NeurIPS",
+      "pages": "200-212",
+      "year": "2021",
+      "type": "Conference and Workshop Papers",
+      "access": "open",
+      "key": "conf/nips/TsimpoukelliMCE21",
+      "ee": "https://proceedings.neurips.cc/paper/2021/hash/01b7575c38dac42f3cfb7d500438b875-Abstract.html",
+      "url": "https://dblp.org/rec/conf/nips/TsimpoukelliMCE21"
+    }
+  },
+  "Flamingo: a Visual Language Model for Few-Shot Learning|||2022|||NEURIPS": {
+    "matched": true,
+    "score": 1.3,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "164/5972",
+            "text": "Jean-Baptiste Alayrac"
+          },
+          {
+            "@pid": "43/10771",
+            "text": "Jeff Donahue"
+          },
+          {
+            "@pid": "190/7256",
+            "text": "Pauline Luc"
+          },
+          {
+            "@pid": "202/1721",
+            "text": "Antoine Miech"
+          },
+          {
+            "@pid": "317/0109",
+            "text": "Iain Barr"
+          },
+          {
+            "@pid": "234/2246",
+            "text": "Yana Hasson"
+          },
+          {
+            "@pid": "78/11341",
+            "text": "Karel Lenc"
+          },
+          {
+            "@pid": "156/2229",
+            "text": "Arthur Mensch"
+          },
+          {
+            "@pid": "346/1137",
+            "text": "Katherine Millican"
+          },
+          {
+            "@pid": "71/9989",
+            "text": "Malcolm Reynolds"
+          },
+          {
+            "@pid": "270/9030",
+            "text": "Roman Ring"
+          },
+          {
+            "@pid": "308/6065",
+            "text": "Eliza Rutherford"
+          },
+          {
+            "@pid": "202/1807",
+            "text": "Serkan Cabi"
+          },
+          {
+            "@pid": "203/8188",
+            "text": "Tengda Han"
+          },
+          {
+            "@pid": "199/2059",
+            "text": "Zhitao Gong"
+          },
+          {
+            "@pid": "73/633",
+            "text": "Sina Samangooei"
+          },
+          {
+            "@pid": "220/5576",
+            "text": "Marianne Monteiro"
+          },
+          {
+            "@pid": "346/0907",
+            "text": "Jacob L. Menick"
+          },
+          {
+            "@pid": "243/7160",
+            "text": "Sebastian Borgeaud"
+          },
+          {
+            "@pid": "186/8021",
+            "text": "Andy Brock"
+          },
+          {
+            "@pid": "153/9556",
+            "text": "Aida Nematzadeh"
+          },
+          {
+            "@pid": "192/1440",
+            "text": "Sahand Sharifzadeh"
+          },
+          {
+            "@pid": "198/0887",
+            "text": "Mikolaj Binkowski"
+          },
+          {
+            "@pid": "279/2877",
+            "text": "Ricardo Barreira"
+          },
+          {
+            "@pid": "05/726",
+            "text": "Oriol Vinyals"
+          },
+          {
+            "@pid": "z/AndrewZisserman",
+            "text": "Andrew Zisserman"
+          },
+          {
+            "@pid": "78/470",
+            "text": "Karén Simonyan"
+          }
+        ]
+      },
+      "title": "Flamingo: a Visual Language Model for Few-Shot Learning.",
+      "venue": "NeurIPS",
+      "year": "2022",
+      "type": "Conference and Workshop Papers",
+      "access": "open",
+      "key": "conf/nips/AlayracDLMBHLMM22",
+      "ee": "http://papers.nips.cc/paper_files/paper/2022/hash/960a172bc7fbf0177ccccbb411a7d800-Abstract-Conference.html",
+      "url": "https://dblp.org/rec/conf/nips/AlayracDLMBHLMM22"
+    }
+  },
+  "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models|||2023|||ICML": {
+    "matched": true,
+    "score": 1.3,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "193/6773-1",
+            "text": "Junnan Li 0001"
+          },
+          {
+            "@pid": "15/1408",
+            "text": "Dongxu Li"
+          },
+          {
+            "@pid": "50/3578",
+            "text": "Silvio Savarese"
+          },
+          {
+            "@pid": "h/StevenCHHoi",
+            "text": "Steven C. H. Hoi"
+          }
+        ]
+      },
+      "title": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models.",
+      "venue": "ICML",
+      "pages": "19730-19742",
+      "year": "2023",
+      "type": "Conference and Workshop Papers",
+      "access": "open",
+      "key": "conf/icml/0008LSH23",
+      "ee": "https://proceedings.mlr.press/v202/li23q.html",
+      "url": "https://dblp.org/rec/conf/icml/0008LSH23"
+    }
+  },
+  "Visual Instruction Tuning|||2023|||NEURIPS": {
+    "matched": false,
+    "score": 0.5066,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "221/5969-2",
+            "text": "Yifan Du 0002"
+          },
+          {
+            "@pid": "202/4991",
+            "text": "Hangyu Guo"
+          },
+          {
+            "@pid": "48/3927-2",
+            "text": "Kun Zhou 0002"
+          },
+          {
+            "@pid": "52/8700",
+            "text": "Wayne Xin Zhao"
+          },
+          {
+            "@pid": "74/113-1",
+            "text": "Jinpeng Wang 0001"
+          },
+          {
+            "@pid": "197/2251",
+            "text": "Chuyuan Wang"
+          },
+          {
+            "@pid": "305/0416",
+            "text": "Mingchen Cai"
+          },
+          {
+            "@pid": "s/RuihuaSong",
+            "text": "Ruihua Song"
+          },
+          {
+            "@pid": "w/JRWen",
+            "text": "Ji-Rong Wen"
+          }
+        ]
+      },
+      "title": "What Makes for Good Visual Instructions? Synthesizing Complex Visual Reasoning Instructions for Visual Instruction Tuning.",
+      "venue": "CoRR",
+      "volume": "abs/2311.01487",
+      "year": "2023",
+      "type": "Informal and Other Publications",
+      "access": "open",
+      "key": "journals/corr/abs-2311-01487",
+      "doi": "10.48550/ARXIV.2311.01487",
+      "ee": "https://doi.org/10.48550/arXiv.2311.01487",
+      "url": "https://dblp.org/rec/journals/corr/abs-2311-01487"
+    }
+  },
+  "MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models|||2023|||": {
+    "matched": true,
+    "score": 1.15,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "251/6017",
+            "text": "Deyao Zhu"
+          },
+          {
+            "@pid": "85/5901-21",
+            "text": "Jun Chen 0021"
+          },
+          {
+            "@pid": "197/6114",
+            "text": "Xiaoqian Shen"
+          },
+          {
+            "@pid": "40/1491",
+            "text": "Xiang Li"
+          },
+          {
+            "@pid": "125/2894",
+            "text": "Mohamed Elhoseiny"
+          }
+        ]
+      },
+      "title": "MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models.",
+      "venue": "CoRR",
+      "volume": "abs/2304.10592",
+      "year": "2023",
+      "type": "Informal and Other Publications",
+      "access": "open",
+      "key": "journals/corr/abs-2304-10592",
+      "doi": "10.48550/ARXIV.2304.10592",
+      "ee": "https://doi.org/10.48550/arXiv.2304.10592",
+      "url": "https://dblp.org/rec/journals/corr/abs-2304-10592"
+    }
+  },
+  "InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning|||2023|||NEURIPS": {
+    "matched": true,
+    "score": 1.3,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "263/9790",
+            "text": "Wenliang Dai"
+          },
+          {
+            "@pid": "193/6773-1",
+            "text": "Junnan Li 0001"
+          },
+          {
+            "@pid": "15/1408",
+            "text": "Dongxu Li"
+          },
+          {
+            "@pid": "236/4871",
+            "text": "Anthony Meng Huat Tiong"
+          },
+          {
+            "@pid": "221/1952",
+            "text": "Junqi Zhao"
+          },
+          {
+            "@pid": "92/7672",
+            "text": "Weisheng Wang"
+          },
+          {
+            "@pid": "70/1211-1",
+            "text": "Boyang Li 0001"
+          },
+          {
+            "@pid": "29/4187",
+            "text": "Pascale Fung"
+          },
+          {
+            "@pid": "h/StevenCHHoi",
+            "text": "Steven C. H. Hoi"
+          }
+        ]
+      },
+      "title": "InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning.",
+      "venue": "NeurIPS",
+      "year": "2023",
+      "type": "Conference and Workshop Papers",
+      "access": "open",
+      "key": "conf/nips/Dai0LTZW0FH23",
+      "ee": "http://papers.nips.cc/paper_files/paper/2023/hash/9a6a435e75419a836fe47ab6793623e6-Abstract-Conference.html",
+      "url": "https://dblp.org/rec/conf/nips/Dai0LTZW0FH23"
+    }
+  },
+  "Improved Baselines with Visual Instruction Tuning|||2024|||CVPR": {
+    "matched": true,
+    "score": 1.3,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "66/10511",
+            "text": "Haotian Liu"
+          },
+          {
+            "@pid": "64/9590",
+            "text": "Chunyuan Li"
+          },
+          {
+            "@pid": "39/3954",
+            "text": "Yuheng Li"
+          },
+          {
+            "@pid": "15/5471",
+            "text": "Yong Jae Lee"
+          }
+        ]
+      },
+      "title": "Improved Baselines with Visual Instruction Tuning.",
+      "venue": "CVPR",
+      "pages": "26286-26296",
+      "year": "2024",
+      "type": "Conference and Workshop Papers",
+      "access": "closed",
+      "key": "conf/cvpr/LiuLLL24",
+      "doi": "10.1109/CVPR52733.2024.02484",
+      "ee": "https://doi.org/10.1109/CVPR52733.2024.02484",
+      "url": "https://dblp.org/rec/conf/cvpr/LiuLLL24"
+    }
+  },
+  "mPLUG-Owl2: Revolutionizing Multi-modal Large Language Model with Modality Collaboration|||2024|||CVPR": {
+    "matched": true,
+    "score": 1.0,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "254/3247",
+            "text": "Qinghao Ye"
+          },
+          {
+            "@pid": "80/1339-1",
+            "text": "Haiyang Xu 0001"
+          },
+          {
+            "@pid": "304/1336",
+            "text": "Jiabo Ye"
+          },
+          {
+            "@pid": "51/5332-8",
+            "text": "Ming Yan 0008"
+          },
+          {
+            "@pid": "249/1182",
+            "text": "Anwen Hu"
+          },
+          {
+            "@pid": "74/9227",
+            "text": "Haowei Liu"
+          },
+          {
+            "@pid": "05/2084-1",
+            "text": "Qi Qian 0001"
+          },
+          {
+            "@pid": "86/1953-11",
+            "text": "Ji Zhang 0011"
+          },
+          {
+            "@pid": "h/FeiHuang-2",
+            "text": "Fei Huang 0002"
+          },
+          {
+            "@pid": "84/2644-1",
+            "text": "Jingren Zhou 0001"
+          }
+        ]
+      },
+      "title": "mPLUG-Owl2: Revolutionizing Multi-modal Large Language Model with Modality Collaboration.",
+      "venue": "CoRR",
+      "volume": "abs/2311.04257",
+      "year": "2023",
+      "type": "Informal and Other Publications",
+      "access": "open",
+      "key": "journals/corr/abs-2311-04257",
+      "doi": "10.48550/ARXIV.2311.04257",
+      "ee": "https://doi.org/10.48550/arXiv.2311.04257",
+      "url": "https://dblp.org/rec/journals/corr/abs-2311-04257"
+    }
+  },
+  "Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond|||2023|||": {
+    "matched": false,
+    "score": -1.0,
+    "result": {}
+  },
+  "ShareGPT4V: Improving Large Multi-Modal Models with Better Captions|||2023|||": {
+    "matched": true,
+    "score": 1.15,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "13/3479-26",
+            "text": "Lin Chen 0026"
+          },
+          {
+            "@pid": "29/3923-1",
+            "text": "Jinsong Li 0001"
+          },
+          {
+            "@pid": "230/3711",
+            "text": "Xiaoyi Dong"
+          },
+          {
+            "@pid": "29/1005-1",
+            "text": "Pan Zhang 0001"
+          },
+          {
+            "@pid": "187/5002",
+            "text": "Conghui He"
+          },
+          {
+            "@pid": "44/740-3",
+            "text": "Jiaqi Wang 0003"
+          },
+          {
+            "@pid": "181/2734-4",
+            "text": "Feng Zhao 0004"
+          },
+          {
+            "@pid": "53/6088",
+            "text": "Dahua Lin"
+          }
+        ]
+      },
+      "title": "ShareGPT4V: Improving Large Multi-Modal Models with Better Captions.",
+      "venue": "CoRR",
+      "volume": "abs/2311.12793",
+      "year": "2023",
+      "type": "Informal and Other Publications",
+      "access": "open",
+      "key": "journals/corr/abs-2311-12793",
+      "doi": "10.48550/ARXIV.2311.12793",
+      "ee": "https://doi.org/10.48550/arXiv.2311.12793",
+      "url": "https://dblp.org/rec/journals/corr/abs-2311-12793"
+    }
+  },
+  "VILA: On Pre-training for Visual Language Models|||2024|||CVPR": {
+    "matched": true,
+    "score": 1.3,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "02/8200-2",
+            "text": "Ji Lin 0002"
+          },
+          {
+            "@pid": "166/3425",
+            "text": "Hongxu Yin"
+          },
+          {
+            "@pid": "08/8399",
+            "text": "Wei Ping"
+          },
+          {
+            "@pid": "165/8169",
+            "text": "Pavlo Molchanov 0001"
+          },
+          {
+            "@pid": "53/9742",
+            "text": "Mohammad Shoeybi"
+          },
+          {
+            "@pid": "80/806-3",
+            "text": "Song Han 0003"
+          }
+        ]
+      },
+      "title": "VILA: On Pre-training for Visual Language Models.",
+      "venue": "CVPR",
+      "pages": "26679-26689",
+      "year": "2024",
+      "type": "Conference and Workshop Papers",
+      "access": "closed",
+      "key": "conf/cvpr/LinYP0SH24",
+      "doi": "10.1109/CVPR52733.2024.02520",
+      "ee": "https://doi.org/10.1109/CVPR52733.2024.02520",
+      "url": "https://dblp.org/rec/conf/cvpr/LinYP0SH24"
+    }
+  },
+  "MM1: Methods, Analysis & Insights from Multimodal LLM Pre-training|||2024|||": {
+    "matched": true,
+    "score": 1.123,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "331/5353",
+            "text": "Brandon McKinzie"
+          },
+          {
+            "@pid": "41/7845",
+            "text": "Zhe Gan"
+          },
+          {
+            "@pid": "152/4846",
+            "text": "Jean-Philippe Fauconnier"
+          },
+          {
+            "@pid": "372/2564",
+            "text": "Sam Dodge"
+          },
+          {
+            "@pid": "85/7433-2",
+            "text": "Bowen Zhang 0002"
+          },
+          {
+            "@pid": "213/8070",
+            "text": "Philipp Dufter"
+          },
+          {
+            "@pid": "211/7853",
+            "text": "Dhruti Shah"
+          },
+          {
+            "@pid": "32/10268",
+            "text": "Xianzhi Du"
+          },
+          {
+            "@pid": "236/5725",
+            "text": "Futang Peng"
+          },
+          {
+            "@pid": "359/5474",
+            "text": "Anton Belyi"
+          },
+          {
+            "@pid": "83/4184-5",
+            "text": "Haotian Zhang 0005"
+          },
+          {
+            "@pid": "372/2669",
+            "text": "Karanjeet Singh 0003"
+          },
+          {
+            "@pid": "372/2677",
+            "text": "Doug Kang"
+          },
+          {
+            "@pid": "352/3601",
+            "text": "Hongyu Hè"
+          },
+          {
+            "@pid": "228/9133",
+            "text": "Max Schwarzer"
+          },
+          {
+            "@pid": "56/3385",
+            "text": "Tom Gunter"
+          },
+          {
+            "@pid": "128/8032",
+            "text": "Xiang Kong"
+          },
+          {
+            "@pid": "86/40",
+            "text": "Aonan Zhang"
+          },
+          {
+            "@pid": "98/6805",
+            "text": "Jianyu Wang"
+          },
+          {
+            "@pid": "72/1334",
+            "text": "Chong Wang"
+          },
+          {
+            "@pid": "86/4539-2",
+            "text": "Nan Du 0002"
+          },
+          {
+            "@pid": "91/8024-1",
+            "text": "Tao Lei 0001"
+          },
+          {
+            "@pid": "149/1260",
+            "text": "Sam Wiseman"
+          },
+          {
+            "@pid": "02/1733",
+            "text": "Mark Lee"
+          },
+          {
+            "@pid": "140/8557",
+            "text": "Zirui Wang"
+          },
+          {
+            "@pid": "32/2940",
+            "text": "Ruoming Pang"
+          },
+          {
+            "@pid": "135/6658",
+            "text": "Peter Grasch"
+          },
+          {
+            "@pid": "96/2687",
+            "text": "Alexander Toshev"
+          },
+          {
+            "@pid": "117/4082",
+            "text": "Yinfei Yang"
+          }
+        ]
+      },
+      "title": "MM1: Methods, Analysis and Insights from Multimodal LLM Pre-training.",
+      "venue": "ECCV",
+      "pages": "304-323",
+      "year": "2024",
+      "type": "Conference and Workshop Papers",
+      "access": "closed",
+      "key": "conf/eccv/McKinzieGFDZDSDPBZSKHSG24",
+      "doi": "10.1007/978-3-031-73397-0_18",
+      "ee": "https://doi.org/10.1007/978-3-031-73397-0_18",
+      "url": "https://dblp.org/rec/conf/eccv/McKinzieGFDZDSDPBZSKHSG24"
+    }
+  },
+  "Fuyu-8B: A Multimodal Architecture for AI Agents|||2023|||": {
+    "matched": false,
+    "score": -1.0,
+    "result": {}
+  },
+  "Chameleon: Mixed-Modal Early-Fusion Foundation Models|||2024|||": {
+    "matched": true,
+    "score": 1.15,
+    "result": {
+      "authors": {
+        "author": {
+          "@pid": "377/5993",
+          "text": "Chameleon Team"
+        }
+      },
+      "title": "Chameleon: Mixed-Modal Early-Fusion Foundation Models.",
+      "venue": "CoRR",
+      "volume": "abs/2405.09818",
+      "year": "2024",
+      "type": "Informal and Other Publications",
+      "access": "open",
+      "key": "journals/corr/abs-2405-09818",
+      "doi": "10.48550/ARXIV.2405.09818",
+      "ee": "https://doi.org/10.48550/arXiv.2405.09818",
+      "url": "https://dblp.org/rec/journals/corr/abs-2405-09818"
+    }
+  },
+  "Transfusion: Predict the Next Token and Diffuse Images with One Multi-Modal Model|||2024|||": {
+    "matched": true,
+    "score": 1.15,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "161/2679",
+            "text": "Chunting Zhou"
+          },
+          {
+            "@pid": "69/5133",
+            "text": "Lili Yu"
+          },
+          {
+            "@pid": "191/8676",
+            "text": "Arun Babu"
+          },
+          {
+            "@pid": "276/0937",
+            "text": "Kushal Tirumala"
+          },
+          {
+            "@pid": "202/1809",
+            "text": "Michihiro Yasunaga"
+          },
+          {
+            "@pid": "21/8127",
+            "text": "Leonid Shamis"
+          },
+          {
+            "@pid": "232/2341",
+            "text": "Jacob Kahn"
+          },
+          {
+            "@pid": "127/0230",
+            "text": "Xuezhe Ma"
+          },
+          {
+            "@pid": "21/6793",
+            "text": "Luke Zettlemoyer"
+          },
+          {
+            "@pid": "117/4866",
+            "text": "Omer Levy"
+          }
+        ]
+      },
+      "title": "Transfusion: Predict the Next Token and Diffuse Images with One Multi-Modal Model.",
+      "venue": "CoRR",
+      "volume": "abs/2408.11039",
+      "year": "2024",
+      "type": "Informal and Other Publications",
+      "access": "open",
+      "key": "journals/corr/abs-2408-11039",
+      "doi": "10.48550/ARXIV.2408.11039",
+      "ee": "https://doi.org/10.48550/arXiv.2408.11039",
+      "url": "https://dblp.org/rec/journals/corr/abs-2408-11039"
+    }
+  },
+  "TGRS 2024||||||": {
+    "matched": false,
+    "score": -1.0,
+    "result": {}
+  },
+  "IEEE TGRS 2025||||||": {
+    "matched": false,
+    "score": -1.0,
+    "result": {}
+  },
+  "OpenReview 2025||||||": {
+    "matched": false,
+    "score": 0.2062,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "305/9115",
+            "text": "Gianluca Bonifazi"
+          },
+          {
+            "@pid": "416/6470",
+            "text": "Christopher Buratti"
+          },
+          {
+            "@pid": "91/8611",
+            "text": "Michele Marchetti"
+          },
+          {
+            "@pid": "405/1108",
+            "text": "Federica Parlapiano"
+          },
+          {
+            "@pid": "382/9894",
+            "text": "Davide Traini"
+          },
+          {
+            "@pid": "u/DomenicoUrsino",
+            "text": "Domenico Ursino"
+          },
+          {
+            "@pid": "234/3774",
+            "text": "Luca Virgili"
+          }
+        ]
+      },
+      "title": "Are Large Language Models Better Peer‑Reviewers Than Humans? An Early Investigation on OpenReview.",
+      "venue": "ITADATA-WS",
+      "year": "2025",
+      "type": "Conference and Workshop Papers",
+      "access": "open",
+      "key": "conf/itadata/BonifaziBMPTUV25",
+      "ee": "https://ceur-ws.org/Vol-4130/paper110.pdf",
+      "url": "https://dblp.org/rec/conf/itadata/BonifaziBMPTUV25"
+    }
+  },
+  "NeurIPS 2025||||||": {
+    "matched": false,
+    "score": 0.4231,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "245/7257",
+            "text": "Kun Ran"
+          },
+          {
+            "@pid": "323/9682",
+            "text": "Marwah Alaofi"
+          },
+          {
+            "@pid": "239/4679",
+            "text": "Danula Hettiachchi"
+          },
+          {
+            "@pid": "164/4606-1",
+            "text": "Chenglong Ma 0001"
+          },
+          {
+            "@pid": "410/3311",
+            "text": "Khoi Nguyen Dinh Anh"
+          },
+          {
+            "@pid": "430/8639",
+            "text": "Khoi Vo Nguyen"
+          },
+          {
+            "@pid": "299/0988",
+            "text": "Sachin Pathiyan Cherumanal"
+          },
+          {
+            "@pid": "08/10247",
+            "text": "Lida Rashidi"
+          },
+          {
+            "@pid": "98/1631",
+            "text": "Falk Scholer"
+          },
+          {
+            "@pid": "74/2824",
+            "text": "Damiano Spina"
+          },
+          {
+            "@pid": "380/2181",
+            "text": "Shuoqi Sun"
+          },
+          {
+            "@pid": "245/1783",
+            "text": "Oleg Zendel"
+          }
+        ]
+      },
+      "title": "RMIT-ADM+S at the MMU-RAG NeurIPS 2025 Competition.",
+      "venue": "CoRR",
+      "volume": "abs/2602.20735",
+      "year": "2026",
+      "type": "Informal and Other Publications",
+      "access": "open",
+      "key": "journals/corr/abs-2602-20735",
+      "doi": "10.48550/ARXIV.2602.20735",
+      "ee": "https://doi.org/10.48550/arXiv.2602.20735",
+      "url": "https://dblp.org/rec/journals/corr/abs-2602-20735"
+    }
+  },
+  "CVPR 2025||||||": {
+    "matched": false,
+    "score": 0.1852,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "02/2264-16",
+            "text": "Lei Sun 0016"
+          },
+          {
+            "@pid": "83/3734-2",
+            "text": "Hang Guo 0002"
+          },
+          {
+            "@pid": "02/6854-5",
+            "text": "Bin Ren 0005"
+          },
+          {
+            "@pid": "61/5017",
+            "text": "Luc Van Gool"
+          },
+          {
+            "@pid": "24/8616",
+            "text": "Radu Timofte"
+          },
+          {
+            "@pid": "32/6740-1",
+            "text": "Yawei Li 0001"
+          }
+        ]
+      },
+      "title": "The Tenth NTIRE 2025 Image Denoising Challenge Report.",
+      "venue": "CVPR Workshops",
+      "pages": "1342-1369",
+      "year": "2025",
+      "type": "Conference and Workshop Papers",
+      "access": "open",
+      "key": "conf/cvpr/0016GRGT025",
+      "ee": "https://openaccess.thecvf.com/content/CVPR2025W/NTIRE/html/Sun_The_Tenth_NTIRE_2025_Image_Denoising_Challenge_Report_CVPRW_2025_paper.html",
+      "url": "https://dblp.org/rec/conf/cvpr/0016GRGT025"
+    }
+  },
+  "Your ViT is Secretly an Image Segmentation Model|||2025|||CVPR": {
+    "matched": true,
+    "score": 1.3,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "326/8106",
+            "text": "Tommie Kerssies"
+          },
+          {
+            "@pid": "321/3631",
+            "text": "Niccolò Cavagnero"
+          },
+          {
+            "@pid": "151/9332",
+            "text": "Alexander Hermans"
+          },
+          {
+            "@pid": "157/9107",
+            "text": "Narges Norouzi"
+          },
+          {
+            "@pid": "203/4597",
+            "text": "Giuseppe Averta"
+          },
+          {
+            "@pid": "41/1228",
+            "text": "Bastian Leibe"
+          },
+          {
+            "@pid": "45/2051",
+            "text": "Gijs Dubbelman"
+          },
+          {
+            "@pid": "227/2962",
+            "text": "Daan de Geus"
+          }
+        ]
+      },
+      "title": "Your ViT is Secretly an Image Segmentation Model.",
+      "venue": "CVPR",
+      "pages": "25303-25313",
+      "year": "2025",
+      "type": "Conference and Workshop Papers",
+      "access": "open",
+      "key": "conf/cvpr/KerssiesCHNALDG25",
+      "doi": "10.1109/CVPR52734.2025.02356",
+      "ee": "https://openaccess.thecvf.com/content/CVPR2025/html/Kerssies_Your_ViT_is_Secretly_an_Image_Segmentation_Model_CVPR_2025_paper.html",
+      "url": "https://dblp.org/rec/conf/cvpr/KerssiesCHNALDG25"
+    }
+  },
+  "Image as a Foreign Language: BEiT Pretraining for All Vision and Vision-Language Tasks|||2022|||": {
+    "matched": true,
+    "score": 1.15,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "37/2855-3",
+            "text": "Wenhui Wang 0003"
+          },
+          {
+            "@pid": "199/2036",
+            "text": "Hangbo Bao"
+          },
+          {
+            "@pid": "85/5090-4",
+            "text": "Li Dong 0004"
+          },
+          {
+            "@pid": "188/6399",
+            "text": "Johan Bjorck"
+          },
+          {
+            "@pid": "289/0209",
+            "text": "Zhiliang Peng"
+          },
+          {
+            "@pid": "61/3234",
+            "text": "Qiang Liu"
+          },
+          {
+            "@pid": "318/7443",
+            "text": "Kriti Aggarwal"
+          },
+          {
+            "@pid": "327/3468",
+            "text": "Owais Khan Mohammed"
+          },
+          {
+            "@pid": "175/5340",
+            "text": "Saksham Singhal"
+          },
+          {
+            "@pid": "41/8038",
+            "text": "Subhojit Som"
+          },
+          {
+            "@pid": "72/5870",
+            "text": "Furu Wei"
+          }
+        ]
+      },
+      "title": "Image as a Foreign Language: BEiT Pretraining for All Vision and Vision-Language Tasks.",
+      "venue": "CoRR",
+      "volume": "abs/2208.10442",
+      "year": "2022",
+      "type": "Informal and Other Publications",
+      "access": "open",
+      "key": "journals/corr/abs-2208-10442",
+      "doi": "10.48550/ARXIV.2208.10442",
+      "ee": "https://doi.org/10.48550/arXiv.2208.10442",
+      "url": "https://dblp.org/rec/journals/corr/abs-2208-10442"
+    }
+  },
+  "mPLUG-Owl2: Revolutionizing Multi-modal Large Language Model with Modality Collaboration|||2023|||": {
+    "matched": true,
+    "score": 1.15,
+    "result": {
+      "authors": {
+        "author": [
+          {
+            "@pid": "254/3247",
+            "text": "Qinghao Ye"
+          },
+          {
+            "@pid": "80/1339-1",
+            "text": "Haiyang Xu 0001"
+          },
+          {
+            "@pid": "304/1336",
+            "text": "Jiabo Ye"
+          },
+          {
+            "@pid": "51/5332-8",
+            "text": "Ming Yan 0008"
+          },
+          {
+            "@pid": "249/1182",
+            "text": "Anwen Hu"
+          },
+          {
+            "@pid": "74/9227",
+            "text": "Haowei Liu"
+          },
+          {
+            "@pid": "05/2084-1",
+            "text": "Qi Qian 0001"
+          },
+          {
+            "@pid": "86/1953-11",
+            "text": "Ji Zhang 0011"
+          },
+          {
+            "@pid": "h/FeiHuang-2",
+            "text": "Fei Huang 0002"
+          },
+          {
+            "@pid": "84/2644-1",
+            "text": "Jingren Zhou 0001"
+          }
+        ]
+      },
+      "title": "mPLUG-Owl2: Revolutionizing Multi-modal Large Language Model with Modality Collaboration.",
+      "venue": "CoRR",
+      "volume": "abs/2311.04257",
+      "year": "2023",
+      "type": "Informal and Other Publications",
+      "access": "open",
+      "key": "journals/corr/abs-2311-04257",
+      "doi": "10.48550/ARXIV.2311.04257",
+      "ee": "https://doi.org/10.48550/arXiv.2311.04257",
+      "url": "https://dblp.org/rec/journals/corr/abs-2311-04257"
+    }
+  }
+}

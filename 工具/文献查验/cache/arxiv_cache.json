@@ -1,0 +1,2259 @@
+{
+  "1512.03385": {
+    "found": true,
+    "title": "Deep Residual Learning for Image Recognition",
+    "published": "2015-12-10T19:51:55Z",
+    "authors": [
+      "Kaiming He",
+      "Xiangyu Zhang",
+      "Shaoqing Ren",
+      "Jian Sun"
+    ],
+    "official_url": "https://arxiv.org/abs/1512.03385",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1506.01497": {
+    "found": true,
+    "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+    "published": "2015-06-04T07:58:34Z",
+    "authors": [
+      "Shaoqing Ren",
+      "Kaiming He",
+      "Ross Girshick",
+      "Jian Sun"
+    ],
+    "official_url": "https://arxiv.org/abs/1506.01497",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1603.05027": {
+    "found": true,
+    "title": "Identity Mappings in Deep Residual Networks",
+    "published": "2016-03-16T10:53:56Z",
+    "authors": [
+      "Kaiming He",
+      "Xiangyu Zhang",
+      "Shaoqing Ren",
+      "Jian Sun"
+    ],
+    "official_url": "https://arxiv.org/abs/1603.05027",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1411.4038": {
+    "found": true,
+    "title": "Fully Convolutional Networks for Semantic Segmentation",
+    "published": "2014-11-14T20:46:03Z",
+    "authors": [
+      "Jonathan Long",
+      "Evan Shelhamer",
+      "Trevor Darrell"
+    ],
+    "official_url": "https://arxiv.org/abs/1411.4038",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1505.04366": {
+    "found": true,
+    "title": "Learning Deconvolution Network for Semantic Segmentation",
+    "published": "2015-05-17T07:33:28Z",
+    "authors": [
+      "Hyeonwoo Noh",
+      "Seunghoon Hong",
+      "Bohyung Han"
+    ],
+    "official_url": "https://arxiv.org/abs/1505.04366",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1606.00915": {
+    "found": true,
+    "title": "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
+    "published": "2016-06-02T21:52:21Z",
+    "authors": [
+      "Liang-Chieh Chen",
+      "George Papandreou",
+      "Iasonas Kokkinos",
+      "Kevin Murphy",
+      "Alan L. Yuille"
+    ],
+    "official_url": "https://arxiv.org/abs/1606.00915",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1512.02325": {
+    "found": true,
+    "title": "SSD: Single Shot MultiBox Detector",
+    "published": "2015-12-08T04:46:38Z",
+    "authors": [
+      "Wei Liu",
+      "Dragomir Anguelov",
+      "Dumitru Erhan",
+      "Christian Szegedy",
+      "Scott Reed",
+      "Cheng-Yang Fu",
+      "Alexander C. Berg"
+    ],
+    "official_url": "https://arxiv.org/abs/1512.02325",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1602.07261": {
+    "found": true,
+    "title": "Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning",
+    "published": "2016-02-23T18:44:39Z",
+    "authors": [
+      "Christian Szegedy",
+      "Sergey Ioffe",
+      "Vincent Vanhoucke",
+      "Alex Alemi"
+    ],
+    "official_url": "https://arxiv.org/abs/1602.07261",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1409.4842": {
+    "found": true,
+    "title": "Going Deeper with Convolutions",
+    "published": "2014-09-17T01:03:11Z",
+    "authors": [
+      "Christian Szegedy",
+      "Wei Liu",
+      "Yangqing Jia",
+      "Pierre Sermanet",
+      "Scott Reed",
+      "Dragomir Anguelov",
+      "Dumitru Erhan",
+      "Vincent Vanhoucke",
+      "Andrew Rabinovich"
+    ],
+    "official_url": "https://arxiv.org/abs/1409.4842",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1312.4400": {
+    "found": true,
+    "title": "Network In Network",
+    "published": "2013-12-16T15:34:13Z",
+    "authors": [
+      "Min Lin",
+      "Qiang Chen",
+      "Shuicheng Yan"
+    ],
+    "official_url": "https://arxiv.org/abs/1312.4400",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1409.1556": {
+    "found": true,
+    "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+    "published": "2014-09-04T19:48:04Z",
+    "authors": [
+      "Karen Simonyan",
+      "Andrew Zisserman"
+    ],
+    "official_url": "https://arxiv.org/abs/1409.1556",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1511.00561": {
+    "found": true,
+    "title": "SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation",
+    "published": "2015-11-02T15:51:03Z",
+    "authors": [
+      "Vijay Badrinarayanan",
+      "Alex Kendall",
+      "Roberto Cipolla"
+    ],
+    "official_url": "https://arxiv.org/abs/1511.00561",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1503.02531": {
+    "found": true,
+    "title": "Distilling the Knowledge in a Neural Network",
+    "published": "2015-03-09T15:44:49Z",
+    "authors": [
+      "Geoffrey Hinton",
+      "Oriol Vinyals",
+      "Jeff Dean"
+    ],
+    "official_url": "https://arxiv.org/abs/1503.02531",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1502.03167": {
+    "found": true,
+    "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+    "published": "2015-02-11T01:44:18Z",
+    "authors": [
+      "Sergey Ioffe",
+      "Christian Szegedy"
+    ],
+    "official_url": "https://arxiv.org/abs/1502.03167",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1502.01852": {
+    "found": true,
+    "title": "Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification",
+    "published": "2015-02-06T10:44:00Z",
+    "authors": [
+      "Kaiming He",
+      "Xiangyu Zhang",
+      "Shaoqing Ren",
+      "Jian Sun"
+    ],
+    "official_url": "https://arxiv.org/abs/1502.01852",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1412.6980": {
+    "found": true,
+    "title": "Adam: A Method for Stochastic Optimization",
+    "published": "2014-12-22T13:54:29Z",
+    "authors": [
+      "Diederik P. Kingma",
+      "Jimmy Ba"
+    ],
+    "official_url": "https://arxiv.org/abs/1412.6980",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1310.1531": {
+    "found": true,
+    "title": "DeCAF: A Deep Convolutional Activation Feature for Generic Visual Recognition",
+    "published": "2013-10-06T02:48:17Z",
+    "authors": [
+      "Jeff Donahue",
+      "Yangqing Jia",
+      "Oriol Vinyals",
+      "Judy Hoffman",
+      "Ning Zhang",
+      "Eric Tzeng",
+      "Trevor Darrell"
+    ],
+    "official_url": "https://arxiv.org/abs/1310.1531",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1505.04597": {
+    "found": true,
+    "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+    "published": "2015-05-18T11:28:37Z",
+    "authors": [
+      "Olaf Ronneberger",
+      "Philipp Fischer",
+      "Thomas Brox"
+    ],
+    "official_url": "https://arxiv.org/abs/1505.04597",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1311.2901": {
+    "found": true,
+    "title": "Visualizing and Understanding Convolutional Networks",
+    "published": "2013-11-12T20:02:22Z",
+    "authors": [
+      "Matthew D Zeiler",
+      "Rob Fergus"
+    ],
+    "official_url": "https://arxiv.org/abs/1311.2901",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1512.00567": {
+    "found": true,
+    "title": "Rethinking the Inception Architecture for Computer Vision",
+    "published": "2015-12-02T03:44:38Z",
+    "authors": [
+      "Christian Szegedy",
+      "Vincent Vanhoucke",
+      "Sergey Ioffe",
+      "Jonathon Shlens",
+      "Zbigniew Wojna"
+    ],
+    "official_url": "https://arxiv.org/abs/1512.00567",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1901.02446": {
+    "found": true,
+    "title": "Panoptic Feature Pyramid Networks",
+    "published": "2019-01-08T18:55:31Z",
+    "authors": [
+      "Alexander Kirillov",
+      "Ross Girshick",
+      "Kaiming He",
+      "Piotr Dollár"
+    ],
+    "official_url": "https://arxiv.org/abs/1901.02446",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1804.02767": {
+    "found": true,
+    "title": "YOLOv3: An Incremental Improvement",
+    "published": "2018-04-08T22:27:57Z",
+    "authors": [
+      "Joseph Redmon",
+      "Ali Farhadi"
+    ],
+    "official_url": "https://arxiv.org/abs/1804.02767",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1708.04896": {
+    "found": true,
+    "title": "Random Erasing Data Augmentation",
+    "published": "2017-08-16T13:56:48Z",
+    "authors": [
+      "Zhun Zhong",
+      "Liang Zheng",
+      "Guoliang Kang",
+      "Shaozi Li",
+      "Yi Yang"
+    ],
+    "official_url": "https://arxiv.org/abs/1708.04896",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1904.07850": {
+    "found": true,
+    "title": "Objects as Points",
+    "published": "2019-04-16T17:54:26Z",
+    "authors": [
+      "Xingyi Zhou",
+      "Dequan Wang",
+      "Philipp Krähenbühl"
+    ],
+    "official_url": "https://arxiv.org/abs/1904.07850",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1908.07919": {
+    "found": true,
+    "title": "Deep High-Resolution Representation Learning for Visual Recognition",
+    "published": "2019-08-20T10:47:46Z",
+    "authors": [
+      "Jingdong Wang",
+      "Ke Sun",
+      "Tianheng Cheng",
+      "Borui Jiang",
+      "Chaorui Deng",
+      "Yang Zhao",
+      "Dong Liu",
+      "Yadong Mu",
+      "Mingkui Tan",
+      "Xinggang Wang",
+      "Wenyu Liu",
+      "Bin Xiao"
+    ],
+    "official_url": "https://arxiv.org/abs/1908.07919",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1807.10165": {
+    "found": true,
+    "title": "UNet++: A Nested U-Net Architecture for Medical Image Segmentation",
+    "published": "2018-07-18T04:08:21Z",
+    "authors": [
+      "Zongwei Zhou",
+      "Md Mahfuzur Rahman Siddiquee",
+      "Nima Tajbakhsh",
+      "Jianming Liang"
+    ],
+    "official_url": "https://arxiv.org/abs/1807.10165",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2005.12872": {
+    "found": true,
+    "title": "End-to-End Object Detection with Transformers",
+    "published": "2020-05-26T17:06:38Z",
+    "authors": [
+      "Nicolas Carion",
+      "Francisco Massa",
+      "Gabriel Synnaeve",
+      "Nicolas Usunier",
+      "Alexander Kirillov",
+      "Sergey Zagoruyko"
+    ],
+    "official_url": "https://arxiv.org/abs/2005.12872",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2010.04159": {
+    "found": true,
+    "title": "Deformable DETR: Deformable Transformers for End-to-End Object Detection",
+    "published": "2020-10-08T17:59:21Z",
+    "authors": [
+      "Xizhou Zhu",
+      "Weijie Su",
+      "Lewei Lu",
+      "Bin Li",
+      "Xiaogang Wang",
+      "Jifeng Dai"
+    ],
+    "official_url": "https://arxiv.org/abs/2010.04159",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1706.05587": {
+    "found": true,
+    "title": "Rethinking Atrous Convolution for Semantic Image Segmentation",
+    "published": "2017-06-17T22:48:57Z",
+    "authors": [
+      "Liang-Chieh Chen",
+      "George Papandreou",
+      "Florian Schroff",
+      "Hartwig Adam"
+    ],
+    "official_url": "https://arxiv.org/abs/1706.05587",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1802.02611": {
+    "found": true,
+    "title": "Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation",
+    "published": "2018-02-07T19:37:11Z",
+    "authors": [
+      "Liang-Chieh Chen",
+      "Yukun Zhu",
+      "George Papandreou",
+      "Florian Schroff",
+      "Hartwig Adam"
+    ],
+    "official_url": "https://arxiv.org/abs/1802.02611",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1808.01244": {
+    "found": true,
+    "title": "CornerNet: Detecting Objects as Paired Keypoints",
+    "published": "2018-08-03T16:05:55Z",
+    "authors": [
+      "Hei Law",
+      "Jia Deng"
+    ],
+    "official_url": "https://arxiv.org/abs/1808.01244",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1904.01355": {
+    "found": true,
+    "title": "FCOS: Fully Convolutional One-Stage Object Detection",
+    "published": "2019-04-02T11:56:36Z",
+    "authors": [
+      "Zhi Tian",
+      "Chunhua Shen",
+      "Hao Chen",
+      "Tong He"
+    ],
+    "official_url": "https://arxiv.org/abs/1904.01355",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1703.06870": {
+    "found": true,
+    "title": "Mask R-CNN",
+    "published": "2017-03-20T17:53:38Z",
+    "authors": [
+      "Kaiming He",
+      "Georgia Gkioxari",
+      "Piotr Dollár",
+      "Ross Girshick"
+    ],
+    "official_url": "https://arxiv.org/abs/1703.06870",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1612.01105": {
+    "found": true,
+    "title": "Pyramid Scene Parsing Network",
+    "published": "2016-12-04T11:46:22Z",
+    "authors": [
+      "Hengshuang Zhao",
+      "Jianping Shi",
+      "Xiaojuan Qi",
+      "Xiaogang Wang",
+      "Jiaya Jia"
+    ],
+    "official_url": "https://arxiv.org/abs/1612.01105",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1710.09412": {
+    "found": true,
+    "title": "mixup: Beyond Empirical Risk Minimization",
+    "published": "2017-10-25T18:30:49Z",
+    "authors": [
+      "Hongyi Zhang",
+      "Moustapha Cisse",
+      "Yann N. Dauphin",
+      "David Lopez-Paz"
+    ],
+    "official_url": "https://arxiv.org/abs/1710.09412",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1608.06993": {
+    "found": true,
+    "title": "Densely Connected Convolutional Networks",
+    "published": "2016-08-25T00:44:55Z",
+    "authors": [
+      "Gao Huang",
+      "Zhuang Liu",
+      "Laurens van der Maaten",
+      "Kilian Q. Weinberger"
+    ],
+    "official_url": "https://arxiv.org/abs/1608.06993",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1708.02002": {
+    "found": true,
+    "title": "Focal Loss for Dense Object Detection",
+    "published": "2017-08-07T06:32:42Z",
+    "authors": [
+      "Tsung-Yi Lin",
+      "Priya Goyal",
+      "Ross Girshick",
+      "Kaiming He",
+      "Piotr Dollár"
+    ],
+    "official_url": "https://arxiv.org/abs/1708.02002",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1708.04552": {
+    "found": true,
+    "title": "Improved Regularization of Convolutional Neural Networks with Cutout",
+    "published": "2017-08-15T15:21:53Z",
+    "authors": [
+      "Terrance DeVries",
+      "Graham W. Taylor"
+    ],
+    "official_url": "https://arxiv.org/abs/1708.04552",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1706.02677": {
+    "found": true,
+    "title": "Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour",
+    "published": "2017-06-08T16:51:53Z",
+    "authors": [
+      "Priya Goyal",
+      "Piotr Dollár",
+      "Ross Girshick",
+      "Pieter Noordhuis",
+      "Lukasz Wesolowski",
+      "Aapo Kyrola",
+      "Andrew Tulloch",
+      "Yangqing Jia",
+      "Kaiming He"
+    ],
+    "official_url": "https://arxiv.org/abs/1706.02677",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "1612.03144": {
+    "found": true,
+    "title": "Feature Pyramid Networks for Object Detection",
+    "published": "2016-12-09T19:55:54Z",
+    "authors": [
+      "Tsung-Yi Lin",
+      "Piotr Dollár",
+      "Ross Girshick",
+      "Kaiming He",
+      "Bharath Hariharan",
+      "Serge Belongie"
+    ],
+    "official_url": "https://arxiv.org/abs/1612.03144",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2112.01527": {
+    "found": true,
+    "title": "Masked-attention Mask Transformer for Universal Image Segmentation",
+    "published": "2021-12-02T18:59:58Z",
+    "authors": [
+      "Bowen Cheng",
+      "Ishan Misra",
+      "Alexander G. Schwing",
+      "Alexander Kirillov",
+      "Rohit Girdhar"
+    ],
+    "official_url": "https://arxiv.org/abs/2112.01527",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2111.07991": {
+    "found": true,
+    "title": "LiT: Zero-Shot Transfer with Locked-image text Tuning",
+    "published": "2021-11-15T18:53:48Z",
+    "authors": [
+      "Xiaohua Zhai",
+      "Xiao Wang",
+      "Basil Mustafa",
+      "Andreas Steiner",
+      "Daniel Keysers",
+      "Alexander Kolesnikov",
+      "Lucas Beyer"
+    ],
+    "official_url": "https://arxiv.org/abs/2111.07991",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2107.07651": {
+    "found": true,
+    "title": "Align before Fuse: Vision and Language Representation Learning with Momentum Distillation",
+    "published": "2021-07-16T00:19:22Z",
+    "authors": [
+      "Junnan Li",
+      "Ramprasaath R. Selvaraju",
+      "Akhilesh Deepak Gotmare",
+      "Shafiq Joty",
+      "Caiming Xiong",
+      "Steven Hoi"
+    ],
+    "official_url": "https://arxiv.org/abs/2107.07651",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2103.00020": {
+    "found": true,
+    "title": "Learning Transferable Visual Models From Natural Language Supervision",
+    "published": "2021-02-26T19:04:58Z",
+    "authors": [
+      "Alec Radford",
+      "Jong Wook Kim",
+      "Chris Hallacy",
+      "Aditya Ramesh",
+      "Gabriel Goh",
+      "Sandhini Agarwal",
+      "Girish Sastry",
+      "Amanda Askell",
+      "Pamela Mishkin",
+      "Jack Clark",
+      "Gretchen Krueger",
+      "Ilya Sutskever"
+    ],
+    "official_url": "https://arxiv.org/abs/2103.00020",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2102.03334": {
+    "found": true,
+    "title": "ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision",
+    "published": "2021-02-05T18:36:11Z",
+    "authors": [
+      "Wonjae Kim",
+      "Bokyung Son",
+      "Ildoo Kim"
+    ],
+    "official_url": "https://arxiv.org/abs/2102.03334",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2105.15203": {
+    "found": true,
+    "title": "SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers",
+    "published": "2021-05-31T17:59:51Z",
+    "authors": [
+      "Enze Xie",
+      "Wenhai Wang",
+      "Zhiding Yu",
+      "Anima Anandkumar",
+      "Jose M. Alvarez",
+      "Ping Luo"
+    ],
+    "official_url": "https://arxiv.org/abs/2105.15203",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2107.06278": {
+    "found": true,
+    "title": "Per-Pixel Classification is Not All You Need for Semantic Segmentation",
+    "published": "2021-07-13T17:59:50Z",
+    "authors": [
+      "Bowen Cheng",
+      "Alexander G. Schwing",
+      "Alexander Kirillov"
+    ],
+    "official_url": "https://arxiv.org/abs/2107.06278",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2203.03605": {
+    "found": true,
+    "title": "DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection",
+    "published": "2022-03-07T18:55:26Z",
+    "authors": [
+      "Hao Zhang",
+      "Feng Li",
+      "Shilong Liu",
+      "Lei Zhang",
+      "Hang Su",
+      "Jun Zhu",
+      "Lionel M. Ni",
+      "Heung-Yeung Shum"
+    ],
+    "official_url": "https://arxiv.org/abs/2203.03605",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2211.06220": {
+    "found": true,
+    "title": "OneFormer: One Transformer to Rule Universal Image Segmentation",
+    "published": "2022-11-10T18:56:04Z",
+    "authors": [
+      "Jitesh Jain",
+      "Jiachen Li",
+      "MangTik Chiu",
+      "Ali Hassani",
+      "Nikita Orlov",
+      "Humphrey Shi"
+    ],
+    "official_url": "https://arxiv.org/abs/2211.06220",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2211.02506": {
+    "found": true,
+    "title": "Neural Feature Predictor and Discriminative Residual Coding for Low-Bitrate Speech Coding",
+    "published": "2022-11-04T15:07:42Z",
+    "authors": [
+      "Haici Yang",
+      "Wootaek Lim",
+      "Minje Kim"
+    ],
+    "official_url": "https://arxiv.org/abs/2211.02506",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2208.10442": {
+    "found": true,
+    "title": "Image as a Foreign Language: BEiT Pretraining for All Vision and Vision-Language Tasks",
+    "published": "2022-08-22T16:55:04Z",
+    "authors": [
+      "Wenhui Wang",
+      "Hangbo Bao",
+      "Li Dong",
+      "Johan Bjorck",
+      "Zhiliang Peng",
+      "Qiang Liu",
+      "Kriti Aggarwal",
+      "Owais Khan Mohammed",
+      "Saksham Singhal",
+      "Subhojit Som",
+      "Furu Wei"
+    ],
+    "official_url": "https://arxiv.org/abs/2208.10442",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2303.04803": {
+    "found": true,
+    "title": "Open-Vocabulary Panoptic Segmentation with Text-to-Image Diffusion Models",
+    "published": "2023-03-08T18:58:26Z",
+    "authors": [
+      "Jiarui Xu",
+      "Sifei Liu",
+      "Arash Vahdat",
+      "Wonmin Byeon",
+      "Xiaolong Wang",
+      "Shalini De Mello"
+    ],
+    "official_url": "https://arxiv.org/abs/2303.04803",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2204.14198": {
+    "found": true,
+    "title": "Flamingo: a Visual Language Model for Few-Shot Learning",
+    "published": "2022-04-29T16:29:01Z",
+    "authors": [
+      "Jean-Baptiste Alayrac",
+      "Jeff Donahue",
+      "Pauline Luc",
+      "Antoine Miech",
+      "Iain Barr",
+      "Yana Hasson",
+      "Karel Lenc",
+      "Arthur Mensch",
+      "Katie Millican",
+      "Malcolm Reynolds",
+      "Roman Ring",
+      "Eliza Rutherford",
+      "Serkan Cabi",
+      "Tengda Han",
+      "Zhitao Gong",
+      "Sina Samangooei",
+      "Marianne Monteiro",
+      "Jacob Menick",
+      "Sebastian Borgeaud",
+      "Andrew Brock",
+      "Aida Nematzadeh",
+      "Sahand Sharifzadeh",
+      "Mikolaj Binkowski",
+      "Ricardo Barreira",
+      "Oriol Vinyals",
+      "Andrew Zisserman",
+      "Karen Simonyan"
+    ],
+    "official_url": "https://arxiv.org/abs/2204.14198",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2301.12597": {
+    "found": true,
+    "title": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+    "published": "2023-01-30T00:56:51Z",
+    "authors": [
+      "Junnan Li",
+      "Dongxu Li",
+      "Silvio Savarese",
+      "Steven Hoi"
+    ],
+    "official_url": "https://arxiv.org/abs/2301.12597",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2211.12860": {
+    "found": true,
+    "title": "DETRs with Collaborative Hybrid Assignments Training",
+    "published": "2022-11-22T16:19:52Z",
+    "authors": [
+      "Zhuofan Zong",
+      "Guanglu Song",
+      "Yu Liu"
+    ],
+    "official_url": "https://arxiv.org/abs/2211.12860",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2205.01917": {
+    "found": true,
+    "title": "CoCa: Contrastive Captioners are Image-Text Foundation Models",
+    "published": "2022-05-04T07:01:14Z",
+    "authors": [
+      "Jiahui Yu",
+      "Zirui Wang",
+      "Vijay Vasudevan",
+      "Legg Yeung",
+      "Mojtaba Seyedhosseini",
+      "Yonghui Wu"
+    ],
+    "official_url": "https://arxiv.org/abs/2205.01917",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2201.12086": {
+    "found": true,
+    "title": "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation",
+    "published": "2022-01-28T12:49:48Z",
+    "authors": [
+      "Junnan Li",
+      "Dongxu Li",
+      "Caiming Xiong",
+      "Steven Hoi"
+    ],
+    "official_url": "https://arxiv.org/abs/2201.12086",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2106.13884": {
+    "found": true,
+    "title": "Multimodal Few-Shot Learning with Frozen Language Models",
+    "published": "2021-06-25T21:07:09Z",
+    "authors": [
+      "Maria Tsimpoukelli",
+      "Jacob Menick",
+      "Serkan Cabi",
+      "S. M. Ali Eslami",
+      "Oriol Vinyals",
+      "Felix Hill"
+    ],
+    "official_url": "https://arxiv.org/abs/2106.13884",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2102.05918": {
+    "found": true,
+    "title": "Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision",
+    "published": "2021-02-11T10:08:12Z",
+    "authors": [
+      "Chao Jia",
+      "Yinfei Yang",
+      "Ye Xia",
+      "Yi-Ting Chen",
+      "Zarana Parekh",
+      "Hieu Pham",
+      "Quoc V. Le",
+      "Yunhsuan Sung",
+      "Zhen Li",
+      "Tom Duerig"
+    ],
+    "official_url": "https://arxiv.org/abs/2102.05918",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2303.05499": {
+    "found": true,
+    "title": "Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection",
+    "published": "2023-03-09T18:52:16Z",
+    "authors": [
+      "Shilong Liu",
+      "Zhaoyang Zeng",
+      "Tianhe Ren",
+      "Feng Li",
+      "Hao Zhang",
+      "Jie Yang",
+      "Qing Jiang",
+      "Chunyuan Li",
+      "Jianwei Yang",
+      "Hang Su",
+      "Jun Zhu",
+      "Lei Zhang"
+    ],
+    "official_url": "https://arxiv.org/abs/2303.05499",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2311.04257": {
+    "found": true,
+    "title": "mPLUG-Owl2: Revolutionizing Multi-modal Large Language Model with Modality Collaboration",
+    "published": "2023-11-07T14:21:29Z",
+    "authors": [
+      "Qinghao Ye",
+      "Haiyang Xu",
+      "Jiabo Ye",
+      "Ming Yan",
+      "Anwen Hu",
+      "Haowei Liu",
+      "Qi Qian",
+      "Ji Zhang",
+      "Fei Huang",
+      "Jingren Zhou"
+    ],
+    "official_url": "https://arxiv.org/abs/2311.04257",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2303.15389": {
+    "found": true,
+    "title": "EVA-CLIP: Improved Training Techniques for CLIP at Scale",
+    "published": "2023-03-27T17:02:21Z",
+    "authors": [
+      "Quan Sun",
+      "Yuxin Fang",
+      "Ledell Wu",
+      "Xinlong Wang",
+      "Yue Cao"
+    ],
+    "official_url": "https://arxiv.org/abs/2303.15389",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2308.12966": {
+    "found": true,
+    "title": "Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond",
+    "published": "2023-08-24T17:59:17Z",
+    "authors": [
+      "Jinze Bai",
+      "Shuai Bai",
+      "Shusheng Yang",
+      "Shijie Wang",
+      "Sinan Tan",
+      "Peng Wang",
+      "Junyang Lin",
+      "Chang Zhou",
+      "Jingren Zhou"
+    ],
+    "official_url": "https://arxiv.org/abs/2308.12966",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2304.02643": {
+    "found": true,
+    "title": "Segment Anything",
+    "published": "2023-04-05T17:59:46Z",
+    "authors": [
+      "Alexander Kirillov",
+      "Eric Mintun",
+      "Nikhila Ravi",
+      "Hanzi Mao",
+      "Chloe Rolland",
+      "Laura Gustafson",
+      "Tete Xiao",
+      "Spencer Whitehead",
+      "Alexander C. Berg",
+      "Wan-Yen Lo",
+      "Piotr Dollár",
+      "Ross Girshick"
+    ],
+    "official_url": "https://arxiv.org/abs/2304.02643",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2312.07533": {
+    "found": true,
+    "title": "VILA: On Pre-training for Visual Language Models",
+    "published": "2023-12-12T18:58:18Z",
+    "authors": [
+      "Ji Lin",
+      "Hongxu Yin",
+      "Wei Ping",
+      "Yao Lu",
+      "Pavlo Molchanov",
+      "Andrew Tao",
+      "Huizi Mao",
+      "Jan Kautz",
+      "Mohammad Shoeybi",
+      "Song Han"
+    ],
+    "official_url": "https://arxiv.org/abs/2312.07533",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2303.15343": {
+    "found": true,
+    "title": "Sigmoid Loss for Language Image Pre-Training",
+    "published": "2023-03-27T15:53:01Z",
+    "authors": [
+      "Xiaohua Zhai",
+      "Basil Mustafa",
+      "Alexander Kolesnikov",
+      "Lucas Beyer"
+    ],
+    "official_url": "https://arxiv.org/abs/2303.15343",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2312.02153": {
+    "found": true,
+    "title": "Aligning and Prompting Everything All at Once for Universal Visual Perception",
+    "published": "2023-12-04T18:59:50Z",
+    "authors": [
+      "Yunhang Shen",
+      "Chaoyou Fu",
+      "Peixian Chen",
+      "Mengdan Zhang",
+      "Ke Li",
+      "Xing Sun",
+      "Yunsheng Wu",
+      "Shaohui Lin",
+      "Rongrong Ji"
+    ],
+    "official_url": "https://arxiv.org/abs/2312.02153",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2305.06500": {
+    "found": true,
+    "title": "InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning",
+    "published": "2023-05-11T00:38:10Z",
+    "authors": [
+      "Wenliang Dai",
+      "Junnan Li",
+      "Dongxu Li",
+      "Anthony Meng Huat Tiong",
+      "Junqi Zhao",
+      "Weisheng Wang",
+      "Boyang Li",
+      "Pascale Fung",
+      "Steven Hoi"
+    ],
+    "official_url": "https://arxiv.org/abs/2305.06500",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2311.06242": {
+    "found": true,
+    "title": "Florence-2: Advancing a Unified Representation for a Variety of Vision Tasks",
+    "published": "2023-11-10T18:59:08Z",
+    "authors": [
+      "Bin Xiao",
+      "Haiping Wu",
+      "Weijian Xu",
+      "Xiyang Dai",
+      "Houdong Hu",
+      "Yumao Lu",
+      "Michael Zeng",
+      "Ce Liu",
+      "Lu Yuan"
+    ],
+    "official_url": "https://arxiv.org/abs/2311.06242",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2311.12793": {
+    "found": true,
+    "title": "ShareGPT4V: Improving Large Multi-Modal Models with Better Captions",
+    "published": "2023-11-21T18:58:11Z",
+    "authors": [
+      "Lin Chen",
+      "Jinsong Li",
+      "Xiaoyi Dong",
+      "Pan Zhang",
+      "Conghui He",
+      "Jiaqi Wang",
+      "Feng Zhao",
+      "Dahua Lin"
+    ],
+    "official_url": "https://arxiv.org/abs/2311.12793",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2311.15826": {
+    "found": true,
+    "title": "GeoChat: Grounded Large Vision-Language Model for Remote Sensing",
+    "published": "2023-11-24T18:59:10Z",
+    "authors": [
+      "Kartik Kuckreja",
+      "Muhammad Sohail Danish",
+      "Muzammal Naseer",
+      "Abhijit Das",
+      "Salman Khan",
+      "Fahad Shahbaz Khan"
+    ],
+    "official_url": "https://arxiv.org/abs/2311.15826",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2304.08485": {
+    "found": true,
+    "title": "Visual Instruction Tuning",
+    "published": "2023-04-17T17:59:25Z",
+    "authors": [
+      "Haotian Liu",
+      "Chunyuan Li",
+      "Qingyang Wu",
+      "Yong Jae Lee"
+    ],
+    "official_url": "https://arxiv.org/abs/2304.08485",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2304.10592": {
+    "found": true,
+    "title": "MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models",
+    "published": "2023-04-20T18:25:35Z",
+    "authors": [
+      "Deyao Zhu",
+      "Jun Chen",
+      "Xiaoqian Shen",
+      "Xiang Li",
+      "Mohamed Elhoseiny"
+    ],
+    "official_url": "https://arxiv.org/abs/2304.10592",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2303.11797": {
+    "found": true,
+    "title": "CAT-Seg: Cost Aggregation for Open-Vocabulary Semantic Segmentation",
+    "published": "2023-03-21T12:28:21Z",
+    "authors": [
+      "Seokju Cho",
+      "Heeseong Shin",
+      "Sunghwan Hong",
+      "Anurag Arnab",
+      "Paul Hongsuck Seo",
+      "Seungryong Kim"
+    ],
+    "official_url": "https://arxiv.org/abs/2303.11797",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2401.06209": {
+    "found": true,
+    "title": "Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs",
+    "published": "2024-01-11T18:58:36Z",
+    "authors": [
+      "Shengbang Tong",
+      "Zhuang Liu",
+      "Yuexiang Zhai",
+      "Yi Ma",
+      "Yann LeCun",
+      "Saining Xie"
+    ],
+    "official_url": "https://arxiv.org/abs/2401.06209",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2312.12470": {
+    "found": true,
+    "title": "Rotated Multi-Scale Interaction Network for Referring Remote Sensing Image Segmentation",
+    "published": "2023-12-19T08:14:14Z",
+    "authors": [
+      "Sihan Liu",
+      "Yiwei Ma",
+      "Xiaoqing Zhang",
+      "Haowei Wang",
+      "Jiayi Ji",
+      "Xiaoshuai Sun",
+      "Rongrong Ji"
+    ],
+    "official_url": "https://arxiv.org/abs/2312.12470",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2308.02487": {
+    "found": true,
+    "title": "Convolutions Die Hard: Open-Vocabulary Segmentation with Single Frozen Convolutional CLIP",
+    "published": "2023-08-04T17:59:01Z",
+    "authors": [
+      "Qihang Yu",
+      "Ju He",
+      "Xueqing Deng",
+      "Xiaohui Shen",
+      "Liang-Chieh Chen"
+    ],
+    "official_url": "https://arxiv.org/abs/2308.02487",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2310.03744": {
+    "found": true,
+    "title": "Improved Baselines with Visual Instruction Tuning",
+    "published": "2023-10-05T17:59:56Z",
+    "authors": [
+      "Haotian Liu",
+      "Chunyuan Li",
+      "Yuheng Li",
+      "Yong Jae Lee"
+    ],
+    "official_url": "https://arxiv.org/abs/2310.03744",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2310.19785": {
+    "found": true,
+    "title": "What's \"up\" with vision-language models? Investigating their struggle with spatial reasoning",
+    "published": "2023-10-30T17:50:15Z",
+    "authors": [
+      "Amita Kamath",
+      "Jack Hessel",
+      "Kai-Wei Chang"
+    ],
+    "official_url": "https://arxiv.org/abs/2310.19785",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2304.03284": {
+    "found": true,
+    "title": "SegGPT: Segmenting Everything In Context",
+    "published": "2023-04-06T17:59:57Z",
+    "authors": [
+      "Xinlong Wang",
+      "Xiaosong Zhang",
+      "Yue Cao",
+      "Wen Wang",
+      "Chunhua Shen",
+      "Tiejun Huang"
+    ],
+    "official_url": "https://arxiv.org/abs/2304.03284",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2409.16261": {
+    "found": true,
+    "title": "CDChat: A Large Multimodal Model for Remote Sensing Change Description",
+    "published": "2024-09-24T17:31:02Z",
+    "authors": [
+      "Mubashir Noman",
+      "Noor Ahsan",
+      "Muzammal Naseer",
+      "Hisham Cholakkal",
+      "Rao Muhammad Anwer",
+      "Salman Khan",
+      "Fahad Shahbaz Khan"
+    ],
+    "official_url": "https://arxiv.org/abs/2409.16261",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2411.09301": {
+    "found": true,
+    "title": "LHRS-Bot-Nova: Improved Multimodal Large Language Model for Remote Sensing Vision-Language Interpretation",
+    "published": "2024-11-14T09:23:40Z",
+    "authors": [
+      "Zhenshi Li",
+      "Dilxat Muhtar",
+      "Feng Gu",
+      "Xueliang Zhang",
+      "Pengfeng Xiao",
+      "Guangjun He",
+      "Xiaoxiang Zhu"
+    ],
+    "official_url": "https://arxiv.org/abs/2411.09301",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2403.20213": {
+    "found": true,
+    "title": "VHM: Versatile and Honest Vision Language Model for Remote Sensing Image Analysis",
+    "published": "2024-03-29T14:50:43Z",
+    "authors": [
+      "Chao Pang",
+      "Xingxing Weng",
+      "Jiang Wu",
+      "Jiayu Li",
+      "Yi Liu",
+      "Jiaxing Sun",
+      "Weijia Li",
+      "Shuai Wang",
+      "Litong Feng",
+      "Gui-Song Xia",
+      "Conghui He"
+    ],
+    "official_url": "https://arxiv.org/abs/2403.20213",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2405.10300": {
+    "found": true,
+    "title": "Grounding DINO 1.5: Advance the \"Edge\" of Open-Set Object Detection",
+    "published": "2024-05-16T17:54:15Z",
+    "authors": [
+      "Tianhe Ren",
+      "Qing Jiang",
+      "Shilong Liu",
+      "Zhaoyang Zeng",
+      "Wenlong Liu",
+      "Han Gao",
+      "Hongjie Huang",
+      "Zhengyu Ma",
+      "Xiaoke Jiang",
+      "Yihao Chen",
+      "Yuda Xiong",
+      "Hao Zhang",
+      "Feng Li",
+      "Peijun Tang",
+      "Kent Yu",
+      "Lei Zhang"
+    ],
+    "official_url": "https://arxiv.org/abs/2405.10300",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2411.14347": {
+    "found": true,
+    "title": "DINO-X: A Unified Vision Model for Open-World Object Detection and Understanding",
+    "published": "2024-11-21T17:42:20Z",
+    "authors": [
+      "Tianhe Ren",
+      "Yihao Chen",
+      "Qing Jiang",
+      "Zhaoyang Zeng",
+      "Yuda Xiong",
+      "Wenlong Liu",
+      "Zhengyu Ma",
+      "Junyi Shen",
+      "Yuan Gao",
+      "Xiaoke Jiang",
+      "Xingyu Chen",
+      "Zhuheng Song",
+      "Yuhong Zhang",
+      "Hongjie Huang",
+      "Han Gao",
+      "Shilong Liu",
+      "Hao Zhang",
+      "Feng Li",
+      "Kent Yu",
+      "Lei Zhang"
+    ],
+    "official_url": "https://arxiv.org/abs/2411.14347",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2401.10891": {
+    "found": true,
+    "title": "Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data",
+    "published": "2024-01-19T18:59:52Z",
+    "authors": [
+      "Lihe Yang",
+      "Bingyi Kang",
+      "Zilong Huang",
+      "Xiaogang Xu",
+      "Jiashi Feng",
+      "Hengshuang Zhao"
+    ],
+    "official_url": "https://arxiv.org/abs/2401.10891",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2403.19646": {
+    "found": true,
+    "title": "Change-Agent: Towards Interactive Comprehensive Remote Sensing Change Interpretation and Analysis",
+    "published": "2024-03-28T17:55:42Z",
+    "authors": [
+      "Chenyang Liu",
+      "Keyan Chen",
+      "Haotian Zhang",
+      "Zipeng Qi",
+      "Zhengxia Zou",
+      "Zhenwei Shi"
+    ],
+    "official_url": "https://arxiv.org/abs/2403.19646",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2405.09818": {
+    "found": true,
+    "title": "Chameleon: Mixed-Modal Early-Fusion Foundation Models",
+    "published": "2024-05-16T05:23:41Z",
+    "authors": [
+      "Chameleon Team"
+    ],
+    "official_url": "https://arxiv.org/abs/2405.09818",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2411.11904": {
+    "found": true,
+    "title": "GeoGround: A Unified Large Vision-Language Model for Remote Sensing Visual Grounding",
+    "published": "2024-11-16T05:12:11Z",
+    "authors": [
+      "Yue Zhou",
+      "Mengcheng Lan",
+      "Xiang Li",
+      "Litong Feng",
+      "Yiping Ke",
+      "Xue Jiang",
+      "Qingyun Li",
+      "Xue Yang",
+      "Wayne Zhang"
+    ],
+    "official_url": "https://arxiv.org/abs/2411.11904",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2403.14610": {
+    "found": true,
+    "title": "T-Rex2: Towards Generic Object Detection via Text-Visual Prompt Synergy",
+    "published": "2024-03-21T17:57:03Z",
+    "authors": [
+      "Qing Jiang",
+      "Feng Li",
+      "Zhaoyang Zeng",
+      "Tianhe Ren",
+      "Shilong Liu",
+      "Lei Zhang"
+    ],
+    "official_url": "https://arxiv.org/abs/2403.14610",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2406.09414": {
+    "found": true,
+    "title": "Depth Anything V2",
+    "published": "2024-06-13T17:59:56Z",
+    "authors": [
+      "Lihe Yang",
+      "Bingyi Kang",
+      "Zilong Huang",
+      "Zhen Zhao",
+      "Xiaogang Xu",
+      "Jiashi Feng",
+      "Hengshuang Zhao"
+    ],
+    "official_url": "https://arxiv.org/abs/2406.09414",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2403.09611": {
+    "found": true,
+    "title": "MM1: Methods, Analysis & Insights from Multimodal LLM Pre-training",
+    "published": "2024-03-14T17:51:32Z",
+    "authors": [
+      "Brandon McKinzie",
+      "Zhe Gan",
+      "Jean-Philippe Fauconnier",
+      "Sam Dodge",
+      "Bowen Zhang",
+      "Philipp Dufter",
+      "Dhruti Shah",
+      "Xianzhi Du",
+      "Futang Peng",
+      "Floris Weers",
+      "Anton Belyi",
+      "Haotian Zhang",
+      "Karanjeet Singh",
+      "Doug Kang",
+      "Ankur Jain",
+      "Hongyu Hè",
+      "Max Schwarzer",
+      "Tom Gunter",
+      "Xiang Kong",
+      "Aonan Zhang",
+      "Jianyu Wang",
+      "Chong Wang",
+      "Nan Du",
+      "Tao Lei",
+      "Sam Wiseman",
+      "Guoli Yin",
+      "Mark Lee",
+      "Zirui Wang",
+      "Ruoming Pang",
+      "Peter Grasch",
+      "Alexander Toshev",
+      "Yinfei Yang"
+    ],
+    "official_url": "https://arxiv.org/abs/2403.09611",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2409.08582": {
+    "found": true,
+    "title": "ChangeChat: An Interactive Model for Remote Sensing Change Analysis via Multimodal Instruction Tuning",
+    "published": "2024-09-13T07:00:44Z",
+    "authors": [
+      "Pei Deng",
+      "Wenqian Zhou",
+      "Hanlin Wu"
+    ],
+    "official_url": "https://arxiv.org/abs/2409.08582",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2410.06234": {
+    "found": true,
+    "title": "TEOChat: A Large Vision-Language Assistant for Temporal Earth Observation Data",
+    "published": "2024-10-08T17:45:51Z",
+    "authors": [
+      "Jeremy Andrew Irvin",
+      "Emily Ruoyu Liu",
+      "Joyce Chuyi Chen",
+      "Ines Dormoy",
+      "Jinyoung Kim",
+      "Samar Khanna",
+      "Zhuo Zheng",
+      "Stefano Ermon"
+    ],
+    "official_url": "https://arxiv.org/abs/2410.06234",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2404.08892": {
+    "found": true,
+    "title": "ChangeAnywhere: Sample Generation for Remote Sensing Change Detection via Semantic Latent Diffusion Model",
+    "published": "2024-04-13T03:46:35Z",
+    "authors": [
+      "Kai Tang",
+      "Jin Chen"
+    ],
+    "official_url": "https://arxiv.org/abs/2404.08892",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2408.11039": {
+    "found": true,
+    "title": "Transfusion: Predict the Next Token and Diffuse Images with One Multi-Modal Model",
+    "published": "2024-08-20T17:48:20Z",
+    "authors": [
+      "Chunting Zhou",
+      "Lili Yu",
+      "Arun Babu",
+      "Kushal Tirumala",
+      "Michihiro Yasunaga",
+      "Leonid Shamis",
+      "Jacob Kahn",
+      "Xuezhe Ma",
+      "Luke Zettlemoyer",
+      "Omer Levy"
+    ],
+    "official_url": "https://arxiv.org/abs/2408.11039",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2401.17270": {
+    "found": true,
+    "title": "YOLO-World: Real-Time Open-Vocabulary Object Detection",
+    "published": "2024-01-30T18:59:38Z",
+    "authors": [
+      "Tianheng Cheng",
+      "Lin Song",
+      "Yixiao Ge",
+      "Wenyu Liu",
+      "Xinggang Wang",
+      "Ying Shan"
+    ],
+    "official_url": "https://arxiv.org/abs/2401.17270",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2402.02544": {
+    "found": true,
+    "title": "LHRS-Bot: Empowering Remote Sensing with VGI-Enhanced Large Multimodal Language Model",
+    "published": "2024-02-04T15:46:43Z",
+    "authors": [
+      "Dilxat Muhtar",
+      "Zhenshi Li",
+      "Feng Gu",
+      "Xueliang Zhang",
+      "Pengfeng Xiao"
+    ],
+    "official_url": "https://arxiv.org/abs/2402.02544",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2408.00714": {
+    "found": true,
+    "title": "SAM 2: Segment Anything in Images and Videos",
+    "published": "2024-08-01T17:00:08Z",
+    "authors": [
+      "Nikhila Ravi",
+      "Valentin Gabeur",
+      "Yuan-Ting Hu",
+      "Ronghang Hu",
+      "Chaitanya Ryali",
+      "Tengyu Ma",
+      "Haitham Khedr",
+      "Roman Rädle",
+      "Chloe Rolland",
+      "Laura Gustafson",
+      "Eric Mintun",
+      "Junting Pan",
+      "Kalyan Vasudev Alwala",
+      "Nicolas Carion",
+      "Chao-Yuan Wu",
+      "Ross Girshick",
+      "Piotr Dollár",
+      "Christoph Feichtenhofer"
+    ],
+    "official_url": "https://arxiv.org/abs/2408.00714",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2411.11360": {
+    "found": true,
+    "title": "CCExpert: Advancing MLLM Capability in Remote Sensing Change Captioning with Difference-Aware Integration and a Foundational Dataset",
+    "published": "2024-11-18T08:10:49Z",
+    "authors": [
+      "Zhiming Wang",
+      "Mingze Wang",
+      "Sheng Xu",
+      "Yanjing Li",
+      "Baochang Zhang"
+    ],
+    "official_url": "https://arxiv.org/abs/2411.11360",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2501.13925": {
+    "found": true,
+    "title": "GeoPixel: Pixel Grounding Large Multimodal Model in Remote Sensing",
+    "published": "2025-01-23T18:59:30Z",
+    "authors": [
+      "Akashah Shabbir",
+      "Mohammed Zumri",
+      "Mohammed Bennamoun",
+      "Fahad S. Khan",
+      "Salman Khan"
+    ],
+    "official_url": "https://arxiv.org/abs/2501.13925",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2503.19108": {
+    "found": true,
+    "title": "Your ViT is Secretly an Image Segmentation Model",
+    "published": "2025-03-24T19:56:02Z",
+    "authors": [
+      "Tommie Kerssies",
+      "Niccolò Cavagnero",
+      "Alexander Hermans",
+      "Narges Norouzi",
+      "Giuseppe Averta",
+      "Bastian Leibe",
+      "Gijs Dubbelman",
+      "Daan de Geus"
+    ],
+    "official_url": "https://arxiv.org/abs/2503.19108",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2501.06186": {
+    "found": true,
+    "title": "LlamaV-o1: Rethinking Step-by-step Visual Reasoning in LLMs",
+    "published": "2025-01-10T18:59:51Z",
+    "authors": [
+      "Omkar Thawakar",
+      "Dinura Dissanayake",
+      "Ketan More",
+      "Ritesh Thawkar",
+      "Ahmed Heakl",
+      "Noor Ahsan",
+      "Yuhao Li",
+      "Mohammed Zumri",
+      "Jean Lahoud",
+      "Rao Muhammad Anwer",
+      "Hisham Cholakkal",
+      "Ivan Laptev",
+      "Mubarak Shah",
+      "Fahad Shahbaz Khan",
+      "Salman Khan"
+    ],
+    "official_url": "https://arxiv.org/abs/2501.06186",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2503.07266": {
+    "found": true,
+    "title": "RS2-SAM2: Customized SAM2 for Referring Remote Sensing Image Segmentation",
+    "published": "2025-03-10T12:48:29Z",
+    "authors": [
+      "Fu Rong",
+      "Meng Lan",
+      "Qian Zhang",
+      "Lefei Zhang"
+    ],
+    "official_url": "https://arxiv.org/abs/2503.07266",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2506.18862": {
+    "found": true,
+    "title": "TAMMs: Change Understanding and Forecasting in Satellite Image Time Series with Temporal-Aware Multimodal Models",
+    "published": "2025-06-23T17:26:16Z",
+    "authors": [
+      "Zhongbin Guo",
+      "Yuhao Wang",
+      "Ping Jian",
+      "Chengzhi Li",
+      "Xinyue Chen",
+      "Zhen Yang",
+      "Ertai E"
+    ],
+    "official_url": "https://arxiv.org/abs/2506.18862",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2505.08723": {
+    "found": true,
+    "title": "TiMo: Spatiotemporal Foundation Model for Satellite Image Time Series",
+    "published": "2025-05-13T16:35:11Z",
+    "authors": [
+      "Xiaolei Qin",
+      "Di Wang",
+      "Jing Zhang",
+      "Fengxiang Wang",
+      "Xin Su",
+      "Bo Du",
+      "Liangpei Zhang"
+    ],
+    "official_url": "https://arxiv.org/abs/2505.08723",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2510.09361": {
+    "found": true,
+    "title": "BLINK-Twice: You see, but do you observe? A Reasoning Benchmark on Visual Perception",
+    "published": "2025-10-10T13:14:13Z",
+    "authors": [
+      "Junyan Ye",
+      "Dongzhi Jiang",
+      "Jun He",
+      "Baichuan Zhou",
+      "Zilong Huang",
+      "Zhiyuan Yan",
+      "Hongsheng Li",
+      "Conghui He",
+      "Weijia Li"
+    ],
+    "official_url": "https://arxiv.org/abs/2510.09361",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2504.07951": {
+    "found": true,
+    "title": "Scaling Laws for Native Multimodal Models",
+    "published": "2025-04-10T17:57:28Z",
+    "authors": [
+      "Mustafa Shukor",
+      "Enrico Fini",
+      "Victor Guilherme Turrisi da Costa",
+      "Matthieu Cord",
+      "Joshua Susskind",
+      "Alaaeldin El-Nouby"
+    ],
+    "official_url": "https://arxiv.org/abs/2504.07951",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2509.05895": {
+    "found": true,
+    "title": "BTCChat: Advancing Remote Sensing Bi-temporal Change Captioning with Multimodal Large Language Model",
+    "published": "2025-09-07T02:16:18Z",
+    "authors": [
+      "Yujie Li",
+      "Wenjia Xu",
+      "Yuanben Zhang",
+      "Zhiwei Wei",
+      "Mugen Peng"
+    ],
+    "official_url": "https://arxiv.org/abs/2509.05895",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2509.23322": {
+    "found": true,
+    "title": "Mitigating Visual Context Degradation in Large Multimodal Models: A Training-Free Decoupled Agentic Framework",
+    "published": "2025-09-27T14:13:41Z",
+    "authors": [
+      "Hongrui Jia",
+      "Chaoya Jiang",
+      "Shikun Zhang",
+      "Wei Ye"
+    ],
+    "official_url": "https://arxiv.org/abs/2509.23322",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2508.11919": {
+    "found": true,
+    "title": "TimeSenCLIP: A Time Series Vision-Language Model for Remote Sensing",
+    "published": "2025-08-16T05:44:33Z",
+    "authors": [
+      "Pallavi Jain",
+      "Diego Marcos",
+      "Dino Ienco",
+      "Roberto Interdonato",
+      "Tristan Berchoux"
+    ],
+    "official_url": "https://arxiv.org/abs/2508.11919",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2507.22346": {
+    "found": true,
+    "title": "DeltaVLM: Interactive Remote Sensing Image Change Analysis via Instruction-guided Difference Perception",
+    "published": "2025-07-30T03:14:27Z",
+    "authors": [
+      "Pei Deng",
+      "Wenqian Zhou",
+      "Hanlin Wu"
+    ],
+    "official_url": "https://arxiv.org/abs/2507.22346",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2502.13923": {
+    "found": true,
+    "title": "Qwen2.5-VL Technical Report",
+    "published": "2025-02-19T18:00:14Z",
+    "authors": [
+      "Shuai Bai",
+      "Keqin Chen",
+      "Xuejing Liu",
+      "Jialin Wang",
+      "Wenbin Ge",
+      "Sibo Song",
+      "Kai Dang",
+      "Peng Wang",
+      "Shijie Wang",
+      "Jun Tang",
+      "Humen Zhong",
+      "Yuanzhi Zhu",
+      "Mingkun Yang",
+      "Zhaohai Li",
+      "Jianqiang Wan",
+      "Pengfei Wang",
+      "Wei Ding",
+      "Zheren Fu",
+      "Yiheng Xu",
+      "Jiabo Ye",
+      "Xi Zhang",
+      "Tianbao Xie",
+      "Zesen Cheng",
+      "Hang Zhang",
+      "Zhibo Yang",
+      "Haiyang Xu",
+      "Junyang Lin"
+    ],
+    "official_url": "https://arxiv.org/abs/2502.13923",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2504.10479": {
+    "found": true,
+    "title": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
+    "published": "2025-04-14T17:59:25Z",
+    "authors": [
+      "Jinguo Zhu",
+      "Weiyun Wang",
+      "Zhe Chen",
+      "Zhaoyang Liu",
+      "Shenglong Ye",
+      "Lixin Gu",
+      "Hao Tian",
+      "Yuchen Duan",
+      "Weijie Su",
+      "Jie Shao",
+      "Zhangwei Gao",
+      "Erfei Cui",
+      "Xuehui Wang",
+      "Yue Cao",
+      "Yangzhou Liu",
+      "Xingguang Wei",
+      "Hongjie Zhang",
+      "Haomin Wang",
+      "Weiye Xu",
+      "Hao Li",
+      "Jiahao Wang",
+      "Nianchen Deng",
+      "Songze Li",
+      "Yinan He",
+      "Tan Jiang",
+      "Jiapeng Luo",
+      "Yi Wang",
+      "Conghui He",
+      "Botian Shi",
+      "Xingcheng Zhang",
+      "Wenqi Shao",
+      "Junjun He",
+      "Yingtong Xiong",
+      "Wenwen Qu",
+      "Peng Sun",
+      "Penglong Jiao",
+      "Han Lv",
+      "Lijun Wu",
+      "Kaipeng Zhang",
+      "Huipeng Deng",
+      "Jiaye Ge",
+      "Kai Chen",
+      "Limin Wang",
+      "Min Dou",
+      "Lewei Lu",
+      "Xizhou Zhu",
+      "Tong Lu",
+      "Dahua Lin",
+      "Yu Qiao",
+      "Jifeng Dai",
+      "Wenhai Wang"
+    ],
+    "official_url": "https://arxiv.org/abs/2504.10479",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2412.20742": {
+    "found": true,
+    "title": "UniRS: Unifying Multi-temporal Remote Sensing Tasks through Vision Language Models",
+    "published": "2024-12-30T06:34:18Z",
+    "authors": [
+      "Yujie Li",
+      "Wenjia Xu",
+      "Guangzuo Li",
+      "Zijian Yu",
+      "Zhiwei Wei",
+      "Jiuniu Wang",
+      "Mugen Peng"
+    ],
+    "official_url": "https://arxiv.org/abs/2412.20742",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2502.16428": {
+    "found": true,
+    "title": "Visual Reasoning Evaluation of Grok, Deepseek Janus, Gemini, Qwen, Mistral, and ChatGPT",
+    "published": "2025-02-23T04:01:43Z",
+    "authors": [
+      "Nidhal Jegham",
+      "Marwan Abdelatti",
+      "Abdeltawab Hendawi"
+    ],
+    "official_url": "https://arxiv.org/abs/2502.16428",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2504.01017": {
+    "found": true,
+    "title": "Scaling Language-Free Visual Representation Learning",
+    "published": "2025-04-01T17:59:15Z",
+    "authors": [
+      "David Fan",
+      "Shengbang Tong",
+      "Jiachen Zhu",
+      "Koustuv Sinha",
+      "Zhuang Liu",
+      "Xinlei Chen",
+      "Michael Rabbat",
+      "Nicolas Ballas",
+      "Yann LeCun",
+      "Amir Bar",
+      "Saining Xie"
+    ],
+    "official_url": "https://arxiv.org/abs/2504.01017",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2412.02573": {
+    "found": true,
+    "title": "Remote Sensing SpatioTemporal Vision-Language Models: A Comprehensive Survey",
+    "published": "2024-12-03T16:56:10Z",
+    "authors": [
+      "Chenyang Liu",
+      "Jiafan Zhang",
+      "Keyan Chen",
+      "Man Wang",
+      "Zhengxia Zou",
+      "Zhenwei Shi"
+    ],
+    "official_url": "https://arxiv.org/abs/2412.02573",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2509.23105": {
+    "found": true,
+    "title": "Towards Comprehensive Interactive Change Understanding in Remote Sensing: A Large-scale Dataset and Dual-granularity Enhanced VLM",
+    "published": "2025-09-27T04:28:42Z",
+    "authors": [
+      "Junxiao Xue",
+      "Quan Deng",
+      "Xuecheng Wu",
+      "Kelu Yao",
+      "Xinyi Yin",
+      "Fei Yu",
+      "Wei Zhou",
+      "Yanfei Zhong",
+      "Yang Liu",
+      "Dingkang Yang"
+    ],
+    "official_url": "https://arxiv.org/abs/2509.23105",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2412.02732": {
+    "found": true,
+    "title": "Prithvi-EO-2.0: A Versatile Multi-Temporal Foundation Model for Earth Observation Applications",
+    "published": "2024-12-03T17:59:50Z",
+    "authors": [
+      "Daniela Szwarcman",
+      "Sujit Roy",
+      "Paolo Fraccaro",
+      "Þorsteinn Elí Gíslason",
+      "Benedikt Blumenstiel",
+      "Rinki Ghosal",
+      "Pedro Henrique de Oliveira",
+      "Joao Lucas de Sousa Almeida",
+      "Rocco Sedona",
+      "Yanghui Kang",
+      "Srija Chakraborty",
+      "Sizhe Wang",
+      "Carlos Gomes",
+      "Ankur Kumar",
+      "Myscon Truong",
+      "Denys Godwin",
+      "Hyunho Lee",
+      "Chia-Yu Hsu",
+      "Rohit Lal",
+      "Ata Akbari Asanjan",
+      "Besart Mujeci",
+      "Disha Shidham",
+      "Trevor Keenan",
+      "Paulo Arevalo",
+      "Wenwen Li",
+      "Hamed Alemohammad",
+      "Pontus Olofsson",
+      "Christopher Hain",
+      "Robert Kennedy",
+      "Bianca Zadrozny",
+      "David Bell",
+      "Gabriele Cavallaro",
+      "Campbell Watson",
+      "Manil Maskey",
+      "Rahul Ramachandran",
+      "Juan Bernabe Moreno"
+    ],
+    "official_url": "https://arxiv.org/abs/2412.02732",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2602.02539": {
+    "found": true,
+    "title": "How Much Information Can a Vision Token Hold? A Scaling Law for Recognition Limits in VLMs",
+    "published": "2026-01-28T15:21:51Z",
+    "authors": [
+      "Shuxin Zhuang",
+      "Zi Liang",
+      "Runsheng Yu",
+      "Hongzong Li",
+      "Rong Feng",
+      "Shiqin Tang",
+      "Youzhi Zhang"
+    ],
+    "official_url": "https://arxiv.org/abs/2602.02539",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2601.04497": {
+    "found": true,
+    "title": "Vision-Language Agents for Interactive Forest Change Analysis",
+    "published": "2026-01-08T02:02:36Z",
+    "authors": [
+      "James Brock",
+      "Ce Zhang",
+      "Nantheera Anantrasirichai"
+    ],
+    "official_url": "https://arxiv.org/abs/2601.04497",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2604.14044": {
+    "found": true,
+    "title": "Decoding the Delta: Unifying Remote Sensing Change Detection and Understanding with Multimodal Large Language Models",
+    "published": "2026-04-15T16:23:05Z",
+    "authors": [
+      "Xiaohe Li",
+      "Jiahao Li",
+      "Kaixin Zhang",
+      "Yuqiang Fang",
+      "Leilei Lin",
+      "Hong Wang",
+      "Haohua Wu",
+      "Zide Fan"
+    ],
+    "official_url": "https://arxiv.org/abs/2604.14044",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2511.16719": {
+    "found": true,
+    "title": "SAM 3: Segment Anything with Concepts",
+    "published": "2025-11-20T18:59:56Z",
+    "authors": [
+      "Nicolas Carion",
+      "Laura Gustafson",
+      "Yuan-Ting Hu",
+      "Shoubhik Debnath",
+      "Ronghang Hu",
+      "Didac Suris",
+      "Chaitanya Ryali",
+      "Kalyan Vasudev Alwala",
+      "Haitham Khedr",
+      "Andrew Huang",
+      "Jie Lei",
+      "Tengyu Ma",
+      "Baishan Guo",
+      "Arpit Kalla",
+      "Markus Marks",
+      "Joseph Greer",
+      "Meng Wang",
+      "Peize Sun",
+      "Roman Rädle",
+      "Triantafyllos Afouras",
+      "Effrosyni Mavroudi",
+      "Katherine Xu",
+      "Tsung-Han Wu",
+      "Yu Zhou",
+      "Liliane Momeni",
+      "Rishi Hazra",
+      "Shuangrui Ding",
+      "Sagar Vaze",
+      "Francois Porcher",
+      "Feng Li",
+      "Siyuan Li",
+      "Aishwarya Kamath",
+      "Ho Kei Cheng",
+      "Piotr Dollár",
+      "Nikhila Ravi",
+      "Kate Saenko",
+      "Pengchuan Zhang",
+      "Christoph Feichtenhofer"
+    ],
+    "official_url": "https://arxiv.org/abs/2511.16719",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2512.11719": {
+    "found": true,
+    "title": "Referring Change Detection in Remote Sensing Imagery",
+    "published": "2025-12-12T16:57:12Z",
+    "authors": [
+      "Yilmaz Korkmaz",
+      "Jay N. Paranjape",
+      "Celso M. de Melo",
+      "Vishal M. Patel"
+    ],
+    "official_url": "https://arxiv.org/abs/2512.11719",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2511.02607": {
+    "found": true,
+    "title": "UniChange: Unifying Change Detection with Multimodal Large Language Model",
+    "published": "2025-11-04T14:31:06Z",
+    "authors": [
+      "Xu Zhang",
+      "Danyang Li",
+      "Xiaohang Dong",
+      "Tianhao Wu",
+      "Hualong Yu",
+      "Jianye Wang",
+      "Qicheng Li",
+      "Xiang Li"
+    ],
+    "official_url": "https://arxiv.org/abs/2511.02607",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2512.23244": {
+    "found": true,
+    "title": "ViLaCD-R1: A Vision-Language Framework for Semantic Change Detection in Remote Sensing",
+    "published": "2025-12-29T06:58:46Z",
+    "authors": [
+      "Xingwei Ma",
+      "Shiyang Feng",
+      "Bo Zhang",
+      "Bin Wang"
+    ],
+    "official_url": "https://arxiv.org/abs/2512.23244",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2511.12869": {
+    "found": true,
+    "title": "On the Fundamental Limits of LLMs at Scale",
+    "published": "2025-11-17T01:55:33Z",
+    "authors": [
+      "Muhammad Ahmed Mohsin",
+      "Muhammad Umer",
+      "Ahsan Bilal",
+      "Zeeshan Memon",
+      "Muhammad Ibtsaam Qadir",
+      "Sagnik Bhattacharya",
+      "Hassan Rizwan",
+      "Abhiram R. Gorle",
+      "Maahe Zehra Kazmi",
+      "Nukhba Amir",
+      "Ali Subhan",
+      "Muhammad Usman Rafique",
+      "Zihao He",
+      "Pulkit Mehta",
+      "Muhammad Ali Jamshed",
+      "John M. Cioffi"
+    ],
+    "official_url": "https://arxiv.org/abs/2511.12869",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  },
+  "2410.23946": {
+    "found": true,
+    "title": "MV-CC: Mask Enhanced Video Model for Remote Sensing Change Caption",
+    "published": "2024-10-31T14:02:40Z",
+    "authors": [
+      "Ruixun Liu",
+      "Kaiyu Li",
+      "Jiayi Song",
+      "Dongwei Sun",
+      "Xiangyong Cao"
+    ],
+    "official_url": "https://arxiv.org/abs/2410.23946",
+    "venue": "arXiv",
+    "publisher": "Cornell University"
+  }
+}

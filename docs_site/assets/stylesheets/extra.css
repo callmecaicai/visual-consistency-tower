@@ -1,0 +1,58 @@
+:root {
+  --md-primary-fg-color: #18324a;
+  --md-accent-fg-color: #a05a2c;
+}
+
+.md-content {
+  max-width: 52rem;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  scroll-margin-top: 4.5rem;
+}
+
+.md-typeset table:not([class]) {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.md-typeset code {
+  word-break: break-word;
+}
+
+.md-nav__title,
+.md-nav__item .md-nav__link,
+.md-tabs__link {
+  font-size: 0.75rem;
+}
+
+@media screen and (max-width: 76.2344em) {
+  .md-typeset {
+    font-size: 0.8rem;
+  }
+
+  .md-content {
+    max-width: 100%;
+  }
+
+  .md-header__title {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset h1 {
+    font-size: 1.55rem;
+  }
+
+  .md-typeset h2 {
+    font-size: 1.2rem;
+  }
+
+  .md-typeset h3 {
+    font-size: 1rem;
+  }
+}

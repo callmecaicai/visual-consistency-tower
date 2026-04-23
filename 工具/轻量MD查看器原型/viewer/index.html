@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>视觉理论大厦 · 轻量查看器原型</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Knowledge Console</p>
+          <h1>视觉理论大厦 · 轻量查看器原型</h1>
+        </div>
+        <div class="topbar-meta" id="statsBar"></div>
+      </header>
+
+      <main class="workspace">
+        <aside class="sidebar panel">
+          <section class="panel-section">
+            <label class="field-label" for="searchInput">全文索引</label>
+            <input id="searchInput" class="text-input" type="search" placeholder="搜索章节、模型、关键词、残差">
+          </section>
+
+          <section class="panel-section filters">
+            <div>
+              <label class="field-label" for="layerFilter">层级</label>
+              <select id="layerFilter" class="select-input"></select>
+            </div>
+            <div>
+              <label class="field-label" for="roleFilter">角色</label>
+              <select id="roleFilter" class="select-input"></select>
+            </div>
+          </section>
+
+          <section class="panel-section">
+            <label class="checkbox-row">
+              <input id="archiveToggle" type="checkbox">
+              <span>显示归档文档</span>
+            </label>
+          </section>
+
+          <section class="panel-section">
+            <div class="section-header">
+              <h2>阶段与章节</h2>
+              <span id="resultCount" class="mono"></span>
+            </div>
+            <div id="stageTree" class="stage-tree"></div>
+          </section>
+        </aside>
+
+        <section class="main-column">
+          <section class="hero panel">
+            <div class="hero-copy">
+              <p class="eyebrow">Layered Markdown System</p>
+              <h2>让新论文和新需求先落位，再展开</h2>
+              <p>
+                这个原型把知识库视为可索引的分层体系，而不是纯文档堆。路径、编号、元数据头与残差链共同构成机器可读接口。
+              </p>
+            </div>
+            <div class="hero-note">
+              <p class="field-label">当前协议</p>
+              <p class="mono">T0 入口协议 → T1 定位卡/横切 → T2 主机制 → T3 扩展证据 → T4 档案与案例</p>
+            </div>
+          </section>
+
+          <section class="panel">
+            <div class="section-header">
+              <h2>文档索引</h2>
+              <span class="field-label">点击一篇文档查看摘要与原始路径</span>
+            </div>
+            <div id="docList" class="doc-list"></div>
+          </section>
+        </section>
+
+        <aside class="inspector">
+          <section class="panel locator-panel">
+            <div class="section-header">
+              <h2>新论文 / 新需求定位器</h2>
+              <span class="field-label">本地关键词启发式，不调用模型</span>
+            </div>
+            <textarea id="locatorInput" class="locator-input" placeholder="粘贴论文摘要、需求描述或关键点，例如：开放词汇检测 + language grounding + 遥感变化检测"></textarea>
+            <button id="locatorButton" class="action-button" type="button">执行定位</button>
+            <div id="locatorOutput" class="locator-output empty-state">输入一段摘要或需求，系统会给出阶段/章节候选和相关文档。</div>
+          </section>
+
+          <section class="panel preview-panel">
+            <div class="section-header">
+              <h2>文档预览</h2>
+              <span class="field-label">来自 Markdown 前部元数据与摘要</span>
+            </div>
+            <div id="previewPane" class="preview-pane empty-state">从左侧文档索引中选择一篇文档。</div>
+          </section>
+        </aside>
+      </main>
+    </div>
+
+    <script src="data/knowledge-base.js"></script>
+    <script src="app.js"></script>
+  </body>
+  </html>

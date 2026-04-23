@@ -1,0 +1,16 @@
+﻿方法 / 模型,年份,方法家族,CD 任务类型,优先级
+Change Vector Analysis (CVA),1980,Transform (PCA/MAD/CVA),二值 CD（Binary）,P1 · 重点
+IR-MAD (Iteratively Reweighted MAD),2007,Transform (PCA/MAD/CVA),二值 CD（Binary）,P2 · 参考
+FC-EF / FC-Siam-conc / FC-Siam-diff (Daudt 2018),2018,"FCN / U-Net, Siamese CNN","二值 CD（Binary）, 建筑 CD",P0 · 必读
+STANet（+ LEVIR-CD 数据集）,2020,"Siamese CNN, Spatial-Temporal Attention","二值 CD（Binary）, 建筑 CD",P0 · 必读
+BIT (Binary change detection with Transformers),2021,Hybrid CNN-Transformer,"二值 CD（Binary）, 建筑 CD",P0 · 必读
+SNUNet-CD,2021,"FCN / U-Net, Siamese CNN",二值 CD（Binary）,P2 · 参考
+ChangeFormer,2022,Pure Transformer,"二值 CD（Binary）, 建筑 CD",P0 · 必读
+⑥-A · Change Captioning 奠基：双分支 Transformer → 自然语言描述（Chg2Cap / RSICCformer+LEVIR-CC）,2023,"Change Captioning, Hybrid CNN-Transformer","变化描述（Captioning）, 建筑 CD",P0 · 必读
+⑦-A · Training-Free CD 路线 A：SAM Segment-Everything + Mask 对应匹配（AnyChange）,2024,"Open-Vocabulary CD, SAM-based, Training-Free CD","Referring CD, 二值 CD（Binary）, 损毁评估（Damage Assessment）",P0 · 必读
+⑥-B · Change Captioning 三条进化路径：语义化 / 高效化 / 解耦化（KCFI / RSCaMa / PromptCC）,2024,"CLIP-based, Change Captioning","变化描述（Captioning）, 语义 CD（Semantic）",P1 · 重点
+⑥-C · 从单轮 caption → 会话 & Agent 化 RS CD（TeoChat / ChangeChat / Change-Agent）,2024,"CLIP-based, Change Captioning, LLM-Agent","Referring CD, 变化描述（Captioning）, 变化问答（Change QA）, 多时相 CD（Multi-temporal）, 损毁评估（Damage Assessment）",P0 · 必读
+⑤-C · 统一 FM 适配器 & RS 多任务预训练（BAN / MTP）,2024,"CLIP-based, DINOv2-based, SAM-based, Self-Supervised CD","二值 CD（Binary）, 建筑 CD, 语义 CD（Semantic）",P1 · 重点
+⑤-A · SAM 路线：冻结分割基座 → 适配 CD（RSPrompter / TTP / SAM-CD）,2024,"Hybrid CNN-Transformer, SAM-based","二值 CD（Binary）, 建筑 CD",P0 · 必读
+⑤-B · CLIP/VLM 路线：跨模态对齐做 CD（RemoteCLIP / ChangeCLIP）,2024,"CLIP-based, Hybrid CNN-Transformer","二值 CD（Binary）, 语义 CD（Semantic）",P1 · 重点
+⑦-B · Training-Free Open-Vocabulary CD：开放词汇分割 → 时相差分（SegEarth-OV / Seg2Change / AdaptOVCD）,2025,"CLIP-based, Open-Vocabulary CD, SAM-based, Training-Free CD","Referring CD, 二值 CD（Binary）, 语义 CD（Semantic）",P0 · 必读
