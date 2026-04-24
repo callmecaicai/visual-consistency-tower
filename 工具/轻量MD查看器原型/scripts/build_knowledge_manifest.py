@@ -216,6 +216,14 @@ LOCATOR_SCHEMA = [
         "keywords": ["vilbert", "lxmert", "uniter", "vinvl", "外挂"],
     },
     {
+        "id": "stage-III-core",
+        "level": "chapter",
+        "stage": "III",
+        "title": "阶段 III 核心语法",
+        "summary": "命名、指代、调用、遮蔽构成阶段 III 的公共语义契约语法。",
+        "keywords": ["命名", "指代", "调用", "遮蔽", "语言角色", "公共语义契约", "linguistic contract"],
+    },
+    {
         "id": "§22",
         "level": "chapter",
         "stage": "III",
@@ -252,8 +260,8 @@ LOCATOR_SCHEMA = [
         "level": "chapter",
         "stage": "III",
         "title": "§26 语言条件可提示视觉",
-        "summary": "语言指令到像素动作的闭环。",
-        "keywords": ["grounded-sam", "lisa", "seem", "ferret", "pixel grounding", "可提示视觉"],
+        "summary": "语言指令到像素级输出的闭环。",
+        "keywords": ["grounded-sam", "lisa", "seem", "ferret", "pixel grounding", "可提示视觉", "像素级输出"],
     },
     {
         "id": "§27",

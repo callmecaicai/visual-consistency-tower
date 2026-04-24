@@ -32,6 +32,9 @@ TOP_LEVEL_DIR_NAMES = {
     if source.is_dir()
 }
 
+EXCLUDE_SITE_PARTS = {"导出残留"}
+COLLAPSED_NAV_DIRS = {"归档"}
+
 WINDOWS_ROOT_PATTERN = re.escape(ROOT.as_posix())
 ABSOLUTE_MD_LINK = re.compile(
     rf"\((<?){WINDOWS_ROOT_PATTERN}/([^)>:]+?\.md)(?::\d+)?(>?)\)"
@@ -70,12 +73,17 @@ def reset_generated_dirs() -> None:
 
 
 def copy_selected_sources() -> None:
+    def ignore_excluded(_directory: str, names: list[str]) -> set[str]:
+        if Path(_directory).name in COLLAPSED_NAV_DIRS:
+            return {name for name in names if name.lower() != "readme.md"}
+        return {name for name in names if name in EXCLUDE_SITE_PARTS}
+
     for label, source in TOP_LEVEL_ITEMS:
         if source.is_file():
             target_name = "index.md" if source.name.upper() == "INDEX.MD" else source.name
             shutil.copy2(source, DOCS_ROOT / target_name)
         elif source.is_dir():
-            shutil.copytree(source, DOCS_ROOT / source.name)
+            shutil.copytree(source, DOCS_ROOT / source.name, ignore=ignore_excluded)
 
 
 def relative_target_for(source_md: Path, target_rel: str) -> str:
@@ -162,6 +170,7 @@ def build_index_content(directory: Path) -> str | None:
         child
         for child in directory.iterdir()
         if not child.name.startswith(".")
+        and child.name not in EXCLUDE_SITE_PARTS
     ]
     children.sort(key=lambda p: natural_sort_key(p.name))
     if not children:
@@ -344,15 +353,20 @@ def rewrite_markdown_links() -> None:
 def build_directory_nav(rel_dir: Path) -> List[object]:
     absolute_dir = DOCS_ROOT / rel_dir
     items: List[object] = []
+
+    index_path = absolute_dir / "index.md"
+    if absolute_dir.name in COLLAPSED_NAV_DIRS:
+        return [index_path.relative_to(DOCS_ROOT).as_posix()] if index_path.exists() else []
+
     children = [
         child
         for child in absolute_dir.iterdir()
         if not child.name.startswith(".")
+        and child.name not in EXCLUDE_SITE_PARTS
         and (child.is_dir() or child.suffix.lower() == ".md")
     ]
     children.sort(key=lambda p: natural_sort_key(p.name))
 
-    index_path = absolute_dir / "index.md"
     if index_path.exists():
         items.append(index_path.relative_to(DOCS_ROOT).as_posix())
 
