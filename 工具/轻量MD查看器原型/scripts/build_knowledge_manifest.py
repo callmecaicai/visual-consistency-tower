@@ -41,6 +41,25 @@ SELECTED_META_KEYS = [
 
 LOCATOR_SCHEMA = [
     {
+        "id": "axiom-core",
+        "level": "cross",
+        "stage": "00",
+        "title": "公理层 · 第一性原理",
+        "summary": "相容性为根；纯存在态、闭合制度、内在残差构成展开动力学。",
+        "keywords": [
+            "第一性原理",
+            "相容性",
+            "纯存在态",
+            "闭合制度",
+            "内在残差",
+            "内在残差展开",
+            "公理三",
+            "五问",
+            "遮蔽",
+            "成功",
+        ],
+    },
+    {
         "id": "stage-I",
         "level": "stage",
         "stage": "I",
