@@ -13,6 +13,7 @@ Read only these files first:
 - `INDEX.md`
 - stage-level `00-总纲` or `00-阶段导读`
 - `90-*` navigation/protocol files
+- `00-公理层/04-闭合、残差与半径的形式语法.md` when the task asks about closure, residual, consistency radius, subjectivity, reflexivity, or cross-stage positioning
 
 Use when the task only asks for a stage-level judgement.
 
@@ -21,6 +22,8 @@ Use when the task only asks for a stage-level judgement.
 Read:
 
 - `横切/知识库编号与索引协议.md`
+- `横切/阶段偏序与桥接节点.md` when the object spans stages or may be a bridge/retro-feed node
+- `横切/领域实例化协议.md` when the object is domain-specific evidence
 - target chapter `00-定位卡.md`
 
 Use when the task asks for chapter-level location.

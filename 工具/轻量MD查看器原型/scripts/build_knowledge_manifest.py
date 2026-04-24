@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[3]
 VIEWER_DIR = ROOT / "工具" / "轻量MD查看器原型" / "viewer"
 OUTPUT_FILE = VIEWER_DIR / "data" / "knowledge-base.js"
 
-EXCLUDE_TOP_LEVEL = {"ZIP合并", ".claude", "工具"}
+EXCLUDE_TOP_LEVEL = {"ZIP合并", ".claude", "工具", "docs_site"}
 EXCLUDE_PARTS = {"导出残留"}
 
 TOP_LEVEL_ORDER = [

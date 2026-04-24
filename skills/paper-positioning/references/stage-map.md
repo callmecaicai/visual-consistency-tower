@@ -95,3 +95,22 @@ Planned chapters:
 - Image generation lands in `IV`
 - World representation and state prediction without pixel output land in `V`
 - Domain-specific RS/VLM work usually lands in `应用域`, but only after a main chapter anchor is chosen
+
+## Cross-stage Labels
+
+Do not force every object into a single linear stage. After choosing a primary stage, also decide whether it has one of these structural labels:
+
+- `主阶段`: the stage whose closure residual is primarily solved
+- `副阶段`: another stage whose closure ability is borrowed or reused
+- `桥接节点`: a method that changes the transition relation between two stages
+- `反向输血`: a higher-stage mechanism flowing back to improve a lower-stage task
+
+Examples:
+
+- `SAM`: primary `II`, secondary interface/prompt pressure toward `III`
+- `Grounding DINO / OWL-ViT`: primary `III`, secondary dense-task anchor in `II`
+- `MAE / BEiT`: bridge from reconstruction/generation pressure toward representation learning
+- `DINO / iBOT`: primary `V`, often back-feeds dense structure in `II`
+- `diffusion features`: bridge/retro-feed from `IV` to `V` or dense correspondence tasks
+
+When uncertain, choose one primary stage and record the cross-stage label instead of splitting the item across multiple primary stages.
