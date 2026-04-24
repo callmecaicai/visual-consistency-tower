@@ -13,6 +13,17 @@
 
 **这个最小骨架才是 object query 的真正身份**。"对象槽位"只是它在 DETR 里最早的一个具体用法。把它当"对象槽位"理解，是**把特例当成一般定义**。
 
+为避免 query 变成万能词，后续使用必须标注类型：
+
+| 类型 | 代表 | 判定边界 |
+|---|---|---|
+| Learned slot query | DETR object query、MaskFormer mask query | 模型内部学出的输出槽位 |
+| User prompt query | SAM point / box / mask prompt | 用户运行时给出的视觉提示 |
+| Text query | Grounding DINO、open-vocabulary detection | 文本嵌入携带类别或短语语义 |
+| Memory query | tracking、video segmentation、retrieval | 历史状态或记忆作为调用条件 |
+| Instruction query | VLM / agent 指令 | 自然语言任务说明规定调用方式 |
+| Tool query | agent 选择视觉工具或模型 | query 不直接取特征，而是选择外部能力 |
+
 下面五代每一代打破了什么属性：
 
 | 代 | 打破了什么 | query 变成了什么 |
@@ -387,4 +398,3 @@ LLM 时代的 parameter-efficient fine-tuning 方法：
 这个定义下包含检测、分割、全景、开放词汇、交互分割、in-context 分割、LLM few-shot、visual prompt tuning、多模态大模型的 visual tokenizer 输出……几乎覆盖整个现代 transformer 系的交互界面。
 
 ---
-

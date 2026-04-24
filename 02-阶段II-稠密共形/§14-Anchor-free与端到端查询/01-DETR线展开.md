@@ -58,7 +58,7 @@ Image → CNN backbone → feature map (H/32 × W/32 × C)
 
 - feature map 每个位置之间做全局 attention
 - 功能：**对象尺度的长程依赖建模**（一张图两端的两个对象之间可以交互）
-- 这是 CNN 时代 backbone 不具备的能力——CNN 的感受野再大也是"加权平均的局部"
+- 这不是简单说 “CNN 没有全局感受野”：CNN/FPN 可以通过大感受野、金字塔、global pooling、non-local block 等引入全局信息。真正的差别在对象闭合制度上：CNN/FPN 检测主线主要通过 dense feature + local assignment + post-processing 组织对象；DETR 则把对象作为 set element，由 query 和 Hungarian matching 直接规定。
 
 **2. Object query（最关键）**
 

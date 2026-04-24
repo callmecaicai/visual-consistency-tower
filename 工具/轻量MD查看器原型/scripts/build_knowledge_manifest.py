@@ -252,7 +252,7 @@ LOCATOR_SCHEMA = [
         "level": "stage",
         "stage": "IV",
         "title": "阶段 IV · 生成共形",
-        "summary": "从判别翻入图像生成，主体性首次点燃，diffusion 是当前主轴。",
+        "summary": "从判别翻入图像生成，外显生产主体性首次点燃，diffusion 是当前主轴。",
         "keywords": [
             "generation",
             "diffusion",
