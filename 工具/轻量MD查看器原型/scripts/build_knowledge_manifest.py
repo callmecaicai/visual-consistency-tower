@@ -104,6 +104,14 @@ LOCATOR_SCHEMA = [
         "keywords": ["optimizer", "adam", "sgd", "residual", "resnet", "残差网络"],
     },
     {
+        "id": "§06",
+        "level": "chapter",
+        "stage": "I",
+        "title": "§06 标签制度的异化",
+        "summary": "分类成功如何遮蔽空间、关系、开放语义与视觉状态。",
+        "keywords": ["标签制度", "异化", "texture bias", "shortcut learning", "imagenet-c", "鲁棒性"],
+    },
+    {
         "id": "stage-II",
         "level": "stage",
         "stage": "II",
