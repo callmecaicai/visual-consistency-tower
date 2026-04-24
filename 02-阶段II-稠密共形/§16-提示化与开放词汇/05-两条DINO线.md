@@ -1,3 +1,13 @@
+# 三线重定位：同名 DINO、开放词汇与通用稠密基础模型
+
+本页标题仍叫“两条 DINO 线”，但实际内容承载了三条应该区分的路线：
+
+1. **DINO (SSL) 线**：DINOv1/v2/v3，核心是语言无关的自监督视觉表征 scaling。
+2. **DINO (DETR) 线**：DAB/DN/DINO-DETR -> Grounding DINO -> DINO-X，核心是端到端检测和开放词汇 query。
+3. **Universal dense foundation 线**：Florence-2、Depth Anything、RADIO、SAM encoder 等，核心是把稠密视觉任务压到通用 backbone 与开放接口上。
+
+这三条线在阶段 II 末端交汇，但不能混写成同一谱系。后续可将本页拆成三页；当前先用这段重定位防止读者把 DINOv3 和 Grounding DINO 误读成同一代际链。
+
 # 第一条线 · DINO (SSL) —— 自监督视觉表征的 scaling
 
 这条线的共形内核不变：**学生网络预测教师网络的输出（自蒸馏）+ teacher 是 student 的 EMA**。三代的差异全在**数据规模、架构细节、目标函数的工程修补**上。

@@ -1,5 +1,5 @@
 window.KNOWLEDGE_BASE = {
-  "generatedAt": "2026-04-24T14:17:10.907553+00:00",
+  "generatedAt": "2026-04-24T14:39:16.432532+00:00",
   "rootName": "视觉理论大厦的一致性建模",
   "topLevelOrder": [
     "ROOT",
@@ -14,12 +14,12 @@ window.KNOWLEDGE_BASE = {
     "skills"
   ],
   "stats": {
-    "documents": 258,
+    "documents": 260,
     "stages": 5,
-    "chapters": 36,
+    "chapters": 37,
     "archived": 20,
     "byRole": {
-      "document": 53,
+      "document": 55,
       "mechanism": 30,
       "expansion": 34,
       "stage-entry": 5,
@@ -36,7 +36,7 @@ window.KNOWLEDGE_BASE = {
       "cross-cut": 13
     },
     "byTier": {
-      "3": 88,
+      "3": 90,
       "2": 35,
       "0": 10,
       "1": 43,
@@ -46,7 +46,7 @@ window.KNOWLEDGE_BASE = {
       "ROOT": 1,
       "00-公理层": 9,
       "01-阶段I-判别共形": 24,
-      "02-阶段II-稠密共形": 27,
+      "02-阶段II-稠密共形": 29,
       "03-阶段III-语言共形": 38,
       "04-阶段IV-生成共形": 29,
       "05-阶段V-表征共形": 26,
@@ -184,6 +184,22 @@ window.KNOWLEDGE_BASE = {
         "detr",
         "sam",
         "open vocabulary"
+      ]
+    },
+    {
+      "id": "§10",
+      "level": "chapter",
+      "stage": "II",
+      "title": "§10 阶段II导论：三重闭合",
+      "summary": "场闭合、对象闭合、接口闭合构成阶段 II 的中层形式骨架。",
+      "keywords": [
+        "场闭合",
+        "对象闭合",
+        "接口闭合",
+        "field closure",
+        "object closure",
+        "prompt",
+        "query"
       ]
     },
     {
@@ -1177,6 +1193,49 @@ window.KNOWLEDGE_BASE = {
       "sortKey": "02-阶段ii-稠密共形/00-总纲-从整图到每一像素.md"
     },
     {
+      "id": "02-阶段II-稠密共形/99-阶段II深化执行记录.md",
+      "title": "阶段 II 深化执行记录",
+      "path": "02-阶段II-稠密共形/99-阶段II深化执行记录.md",
+      "openPath": "../../../02-阶段II-稠密共形/99-阶段II深化执行记录.md",
+      "topLevel": "02-阶段II-稠密共形",
+      "stage": "II",
+      "chapter": "",
+      "role": "document",
+      "retrievalTier": 3,
+      "archived": false,
+      "meta": {
+        "类型": "计划/执行记录",
+        "阶段": "II · 稠密共形的扩张",
+        "共形维度": "度量, 接口, 残差",
+        "关键贡献": "记录本轮阶段 II 深化目标、执行范围与命题降级纪律，保证后续修订按同一抽象协议推进。"
+      },
+      "excerpt": "---\n本轮优化不把阶段 II 继续扩成更多论文条目，而是把它从“稠密视觉技术集合”加硬为“图像作为空间定义域的理念展开史”。\n核心改写：\n```text\n```\n阶段 II 的真正对象不是分割、检测、深度或开放词汇本身，而是图像从一个被判别的整体，展开为一个可处处度量、可对象化、可被外部提示调用的空间场。\n1. 新增 `§10-阶段II导论-场闭合对象闭合接口闭合.md`，确立三重闭合骨架。\n2. 在总纲中补入阶段 II 纯存在态公式与三种闭合形态。\n3. 清理 §15、§16 中的聊天残留。\n4. 修正结语重复标题和过强“阶段 II 公理”。",
+      "searchBlob": "阶段 ii 深化执行记录 ---\n本轮优化不把阶段 ii 继续扩成更多论文条目，而是把它从“稠密视觉技术集合”加硬为“图像作为空间定义域的理念展开史”。\n核心改写：\n```text\n```\n阶段 ii 的真正对象不是分割、检测、深度或开放词汇本身，而是图像从一个被判别的整体，展开为一个可处处度量、可对象化、可被外部提示调用的空间场。\n1. 新增 `§10-阶段ii导论-场闭合对象闭合接口闭合.md`，确立三重闭合骨架。\n2. 在总纲中补入阶段 ii 纯存在态公式与三种闭合形态。\n3. 清理 §15、§16 中的聊天残留。\n4. 修正结语重复标题和过强“阶段 ii 公理”。 02-阶段ii-稠密共形/99-阶段ii深化执行记录.md 类型 计划/执行记录 阶段 ii · 稠密共形的扩张 共形维度 度量, 接口, 残差 关键贡献 记录本轮阶段 ii 深化目标、执行范围与命题降级纪律，保证后续修订按同一抽象协议推进。",
+      "sortKey": "02-阶段ii-稠密共形/99-阶段ii深化执行记录.md"
+    },
+    {
+      "id": "02-阶段II-稠密共形/§10-阶段II导论-场闭合对象闭合接口闭合.md",
+      "title": "阶段 II 导论补页：场闭合、对象闭合、接口闭合",
+      "path": "02-阶段II-稠密共形/§10-阶段II导论-场闭合对象闭合接口闭合.md",
+      "openPath": "../../../02-阶段II-稠密共形/§10-阶段II导论-场闭合对象闭合接口闭合.md",
+      "topLevel": "02-阶段II-稠密共形",
+      "stage": "II",
+      "chapter": "§10",
+      "role": "document",
+      "retrievalTier": 3,
+      "archived": false,
+      "meta": {
+        "类型": "理论/分析",
+        "阶段": "II · 稠密共形的扩张",
+        "共形维度": "度量, 接口, 载体",
+        "关键贡献": "把阶段 II 从“分割/检测/开放词汇任务集合”改写为三种主导闭合形态：场闭合、对象闭合、接口闭合。",
+        "残差 / 它催生了什么": "空间被处处度量后，像素不是对象；对象被分离后，对象生成依赖外部制度；接口被打开后，语义仍不属于视觉自身。这三层自我否定共同推出阶段 III 的公共语义闭合。"
+      },
+      "excerpt": "---\n阶段 I 的纯存在态是：\n```text\nImage -> Label\n图像 -> 标签\n```\n阶段 II 的纯存在态不再是把图像压成一个点，而是把图像展开成一个定义域：\n```text\nImage-as-domain -> Field / Object / Interface\n```",
+      "searchBlob": "阶段 ii 导论补页：场闭合、对象闭合、接口闭合 ---\n阶段 i 的纯存在态是：\n```text\nimage -> label\n图像 -> 标签\n```\n阶段 ii 的纯存在态不再是把图像压成一个点，而是把图像展开成一个定义域：\n```text\nimage-as-domain -> field / object / interface\n``` 02-阶段ii-稠密共形/§10-阶段ii导论-场闭合对象闭合接口闭合.md 类型 理论/分析 阶段 ii · 稠密共形的扩张 共形维度 度量, 接口, 载体 关键贡献 把阶段 ii 从“分割/检测/开放词汇任务集合”改写为三种主导闭合形态：场闭合、对象闭合、接口闭合。 残差 / 它催生了什么 空间被处处度量后，像素不是对象；对象被分离后，对象生成依赖外部制度；接口被打开后，语义仍不属于视觉自身。这三层自我否定共同推出阶段 iii 的公共语义闭合。",
+      "sortKey": "02-阶段ii-稠密共形/§10-阶段ii导论-场闭合对象闭合接口闭合.md"
+    },
+    {
       "id": "02-阶段II-稠密共形/§11-全卷积转向.md",
       "title": "阶段 II · 全卷积转向：像素级度量的诞生（FCN / DeconvNet / SegNet / U-Net / U-Net++）",
       "path": "02-阶段II-稠密共形/§11-全卷积转向.md",
@@ -1264,8 +1323,8 @@ window.KNOWLEDGE_BASE = {
       "retrievalTier": 3,
       "archived": false,
       "meta": {},
-      "excerpt": "前一轮只写到\"它解决了 M 维状态广播到 N 个决策\"。这个说法对，但还停留在表象。真正要挖的是：**为什么这个原语在数学/信息论/计算结构的意义上是无可避免的**。\n我想在七个互相独立的理论视角下把它重新推一遍，每个视角都独立得出同一个结论：**你要做稠密预测，你就必须发明这个原语**。\n稠密预测的输出 Y ∈ ℝ^{N×C_out}。**名义维度**是 N·C_out（对 512×512 语义分割是几百万维）。但**真实秩**（intrinsic rank）远远更低。为什么？\n任何合法的输出 Y 可以近似分解为：\n$Y \\approx \\sum_{i=1}^{k} m_i \\otimes v_i$\n其中 m_i ∈ ℝ^N 是一个「软 mask」（描述第 i 个对象的空间分布），v_i ∈ ℝ^{C_out} 是这个对象对应的类别向量。k 约等于**图中对象/语义区域的数量**。\n对自然图像的语义分割，**k 的典型量级是几十到几百**。这比 N ~ 10^5 小三到四个数量级。",
-      "searchBlob": "两个追问，都在碰同一块基岩 前一轮只写到\"它解决了 m 维状态广播到 n 个决策\"。这个说法对，但还停留在表象。真正要挖的是：**为什么这个原语在数学/信息论/计算结构的意义上是无可避免的**。\n我想在七个互相独立的理论视角下把它重新推一遍，每个视角都独立得出同一个结论：**你要做稠密预测，你就必须发明这个原语**。\n稠密预测的输出 y ∈ ℝ^{n×c_out}。**名义维度**是 n·c_out（对 512×512 语义分割是几百万维）。但**真实秩**（intrinsic rank）远远更低。为什么？\n任何合法的输出 y 可以近似分解为：\n$y \\approx \\sum_{i=1}^{k} m_i \\otimes v_i$\n其中 m_i ∈ ℝ^n 是一个「软 mask」（描述第 i 个对象的空间分布），v_i ∈ ℝ^{c_out} 是这个对象对应的类别向量。k 约等于**图中对象/语义区域的数量**。\n对自然图像的语义分割，**k 的典型量级是几十到几百**。这比 n ~ 10^5 小三到四个数量级。 02-阶段ii-稠密共形/§12-空洞卷积与多尺度/03-追问与深化.md ",
+      "excerpt": "前一轮只写到\"它解决了 M 维状态广播到 N 个决策\"。这个说法对，但还停留在表象。真正要挖的是：**为什么这个原语会在数学、信息论和计算结构上反复出现**。\n我想在七个互相独立的理论视角下把它重新推一遍。它们不构成严格定理，但能说明同一件事：在保持局部预测的同时引入全局上下文时，大量有效架构都会呈现“汇聚—回注”的模式。\n稠密预测的输出 Y ∈ ℝ^{N×C_out}。**名义维度**是 N·C_out（对 512×512 语义分割是几百万维）。但**真实秩**（intrinsic rank）远远更低。为什么？\n任何合法的输出 Y 可以近似分解为：\n$Y \\approx \\sum_{i=1}^{k} m_i \\otimes v_i$\n其中 m_i ∈ ℝ^N 是一个「软 mask」（描述第 i 个对象的空间分布），v_i ∈ ℝ^{C_out} 是这个对象对应的类别向量。k 约等于**图中对象/语义区域的数量**。\n对自然图像的语义分割，**k 的典型量级是几十到几百**。这比 N ~ 10^5 小三到四个数量级。",
+      "searchBlob": "两个追问，都在碰同一块基岩 前一轮只写到\"它解决了 m 维状态广播到 n 个决策\"。这个说法对，但还停留在表象。真正要挖的是：**为什么这个原语会在数学、信息论和计算结构上反复出现**。\n我想在七个互相独立的理论视角下把它重新推一遍。它们不构成严格定理，但能说明同一件事：在保持局部预测的同时引入全局上下文时，大量有效架构都会呈现“汇聚—回注”的模式。\n稠密预测的输出 y ∈ ℝ^{n×c_out}。**名义维度**是 n·c_out（对 512×512 语义分割是几百万维）。但**真实秩**（intrinsic rank）远远更低。为什么？\n任何合法的输出 y 可以近似分解为：\n$y \\approx \\sum_{i=1}^{k} m_i \\otimes v_i$\n其中 m_i ∈ ℝ^n 是一个「软 mask」（描述第 i 个对象的空间分布），v_i ∈ ℝ^{c_out} 是这个对象对应的类别向量。k 约等于**图中对象/语义区域的数量**。\n对自然图像的语义分割，**k 的典型量级是几十到几百**。这比 n ~ 10^5 小三到四个数量级。 02-阶段ii-稠密共形/§12-空洞卷积与多尺度/03-追问与深化.md ",
       "sortKey": "02-阶段ii-稠密共形/§12-空洞卷积与多尺度/03-追问与深化.md"
     },
     {
@@ -1372,13 +1431,13 @@ window.KNOWLEDGE_BASE = {
       "retrievalTier": 3,
       "archived": false,
       "meta": {},
-      "excerpt": "原始 DETR 里，query 是：\n- **内生的**（模型自己学出来的）\n- **无语义的**（N 个向量，含义不可解释）\n- **任务绑定的**（专门用于 COCO 检测的 80 类 + 框）\n这三个属性**每一个都会在后续五代里被打破**。最终留下的只有一件事：\n> **query = k 个与稠密特征做 cross-attention 的向量，输出绑定到这 k 个 query 上。**\n>\n**这个最小骨架才是 object query 的真正身份**。\"对象槽位\"只是它在 DETR 里最早的一个具体用法。把它当\"对象槽位\"理解，是**把特例当成一般定义**。\n下面五代每一代打破了什么属性：\n| 代 | 打破了什么 | query 变成了什么 |",
-      "searchBlob": "先把论断本身抽象化 原始 detr 里，query 是：\n- **内生的**（模型自己学出来的）\n- **无语义的**（n 个向量，含义不可解释）\n- **任务绑定的**（专门用于 coco 检测的 80 类 + 框）\n这三个属性**每一个都会在后续五代里被打破**。最终留下的只有一件事：\n> **query = k 个与稠密特征做 cross-attention 的向量，输出绑定到这 k 个 query 上。**\n>\n**这个最小骨架才是 object query 的真正身份**。\"对象槽位\"只是它在 detr 里最早的一个具体用法。把它当\"对象槽位\"理解，是**把特例当成一般定义**。\n下面五代每一代打破了什么属性：\n| 代 | 打破了什么 | query 变成了什么 | 02-阶段ii-稠密共形/§14-anchor-free与端到端查询/04-query本体论溢出.md ",
+      "excerpt": "原始 DETR 里，query 是：\n- **内生的**（模型自己学出来的）\n- **无语义的**（N 个向量，含义不可解释）\n- **任务绑定的**（专门用于 COCO 检测的 80 类 + 框）\n这三个属性**每一个都会在后续五代里被打破**。最终留下的只有一件事：\n> **query = k 个与稠密特征做 cross-attention 的向量，输出绑定到这 k 个 query 上。**\n>\n**这个最小骨架才是 object query 的真正身份**。\"对象槽位\"只是它在 DETR 里最早的一个具体用法。把它当\"对象槽位\"理解，是**把特例当成一般定义**。\n为避免 query 变成万能词，后续使用必须标注类型，并遵守判定边界：一个对象要被称为 query，至少要规定输出槽位或调用目标，主动从某个表征场索取信息，并且它的改变会改变模型输出的对象、区域、属性或任务。否则它只是 input token、condition token、latent token 或 routing variable。",
+      "searchBlob": "先把论断本身抽象化 原始 detr 里，query 是：\n- **内生的**（模型自己学出来的）\n- **无语义的**（n 个向量，含义不可解释）\n- **任务绑定的**（专门用于 coco 检测的 80 类 + 框）\n这三个属性**每一个都会在后续五代里被打破**。最终留下的只有一件事：\n> **query = k 个与稠密特征做 cross-attention 的向量，输出绑定到这 k 个 query 上。**\n>\n**这个最小骨架才是 object query 的真正身份**。\"对象槽位\"只是它在 detr 里最早的一个具体用法。把它当\"对象槽位\"理解，是**把特例当成一般定义**。\n为避免 query 变成万能词，后续使用必须标注类型，并遵守判定边界：一个对象要被称为 query，至少要规定输出槽位或调用目标，主动从某个表征场索取信息，并且它的改变会改变模型输出的对象、区域、属性或任务。否则它只是 input token、condition token、latent token 或 routing variable。 02-阶段ii-稠密共形/§14-anchor-free与端到端查询/04-query本体论溢出.md ",
       "sortKey": "02-阶段ii-稠密共形/§14-anchor-free与端到端查询/04-query本体论溢出.md"
     },
     {
       "id": "02-阶段II-稠密共形/§15-统一Mask架构/00-定位卡.md",
-      "title": "阶段 II · 统一 Mask 架构：任何稠密任务一种范式（MaskFormer / Mask2Former / SegFormer / OneFormer / SegGPT / EoMT）",
+      "title": "阶段 II · 统一 Mask 架构：区域/实例类稠密任务的一种强统一范式（MaskFormer / Mask2Former / SegFormer / OneFormer / SegGPT / EoMT）",
       "path": "02-阶段II-稠密共形/§15-统一Mask架构/00-定位卡.md",
       "openPath": "../../../02-阶段II-稠密共形/§15-统一Mask架构/00-定位卡.md",
       "topLevel": "02-阶段II-稠密共形",
@@ -1389,13 +1448,13 @@ window.KNOWLEDGE_BASE = {
       "archived": false,
       "meta": {
         "共形维度": "度量, 材料, 载体",
-        "关键贡献": "把语义 / 实例 / 全景 / 深度 / 视频对象分割全部抽象成「一组 mask 查询 + 每个查询一个标签」；EoMT 进一步证明 ViT encoder 本身就够——decoder 可选。",
+        "关键贡献": "把语义 / 实例 / 全景 / 视频对象分割等区域/实例类任务抽象成「一组 mask 查询 + 每个查询一个标签」；EoMT 进一步证明在强预训练 ViT 条件下，部分分割任务可进入 encoder-centric regime，decoder 可变薄。",
         "残差 / 它催生了什么": "架构统一了，但类别边界仍锁在训练集之内，第 81 类无法产生 → 催生 SAM / Grounding DINO / APE / CAT-Seg 的提示化与开放词汇。",
         "类型": "架构",
         "阶段": "II · 稠密共形的扩张"
       },
-      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：可统一写成 mask 查询的区域差异，以及不同稠密任务共享的分割原语。\n- **闭合半径**：把分割、实例、全景、深度等任务压到同一 mask 架构中，显著扩大稠密闭合的任务半径。\n- **出口残差**：统一架构仍默认闭集类别表，第 81 类问题暴露出语义来源仍在系统外。\n</aside>\n<aside>\n🧩\n**主题**：稠密任务的架构坍缩——语义 / 实例 / 全景 / 深度 / 视频对象分割全部被抽象成「一组 mask 查询 + 每个查询一个标签」。EoMT 甚至证明连专门的 mask decoder 都可以省掉——ViT encoder 本身就够。",
-      "searchBlob": "阶段 ii · 统一 mask 架构：任何稠密任务一种范式（maskformer / mask2former / segformer / oneformer / seggpt / eomt） <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：可统一写成 mask 查询的区域差异，以及不同稠密任务共享的分割原语。\n- **闭合半径**：把分割、实例、全景、深度等任务压到同一 mask 架构中，显著扩大稠密闭合的任务半径。\n- **出口残差**：统一架构仍默认闭集类别表，第 81 类问题暴露出语义来源仍在系统外。\n</aside>\n<aside>\n🧩\n**主题**：稠密任务的架构坍缩——语义 / 实例 / 全景 / 深度 / 视频对象分割全部被抽象成「一组 mask 查询 + 每个查询一个标签」。eomt 甚至证明连专门的 mask decoder 都可以省掉——vit encoder 本身就够。 02-阶段ii-稠密共形/§15-统一mask架构/00-定位卡.md 共形维度 度量, 材料, 载体 关键贡献 把语义 / 实例 / 全景 / 深度 / 视频对象分割全部抽象成「一组 mask 查询 + 每个查询一个标签」；eomt 进一步证明 vit encoder 本身就够——decoder 可选。 残差 / 它催生了什么 架构统一了，但类别边界仍锁在训练集之内，第 81 类无法产生 → 催生 sam / grounding dino / ape / cat-seg 的提示化与开放词汇。 类型 架构 阶段 ii · 稠密共形的扩张",
+      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：可统一写成 mask 查询的区域差异，以及不同稠密任务共享的分割原语。\n- **闭合半径**：把分割、实例、全景、视频对象分割等区域/实例类任务压到同一 mask 架构中，显著扩大稠密闭合的任务半径；连续场回归任务仍保留 field-to-field 的闭合形态。\n- **出口残差**：统一架构仍默认闭集类别表，第 81 类问题暴露出语义来源仍在系统外。\n</aside>\n<aside>\n🧩\n**主题**：区域/实例类稠密任务的架构收束——语义 / 实例 / 全景 / 视频对象分割等任务被抽象成「一组 mask 查询 + 每个查询一个标签」。EoMT 进一步说明，在强预训练 ViT 与适当 query 注入下，部分分割任务可以让 encoder 同时承担 backbone 与读出机制；这不是所有稠密视觉任务的终局，但它是阶段 II 晚期最强的统一形态之一。",
+      "searchBlob": "阶段 ii · 统一 mask 架构：区域/实例类稠密任务的一种强统一范式（maskformer / mask2former / segformer / oneformer / seggpt / eomt） <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：可统一写成 mask 查询的区域差异，以及不同稠密任务共享的分割原语。\n- **闭合半径**：把分割、实例、全景、视频对象分割等区域/实例类任务压到同一 mask 架构中，显著扩大稠密闭合的任务半径；连续场回归任务仍保留 field-to-field 的闭合形态。\n- **出口残差**：统一架构仍默认闭集类别表，第 81 类问题暴露出语义来源仍在系统外。\n</aside>\n<aside>\n🧩\n**主题**：区域/实例类稠密任务的架构收束——语义 / 实例 / 全景 / 视频对象分割等任务被抽象成「一组 mask 查询 + 每个查询一个标签」。eomt 进一步说明，在强预训练 vit 与适当 query 注入下，部分分割任务可以让 encoder 同时承担 backbone 与读出机制；这不是所有稠密视觉任务的终局，但它是阶段 ii 晚期最强的统一形态之一。 02-阶段ii-稠密共形/§15-统一mask架构/00-定位卡.md 共形维度 度量, 材料, 载体 关键贡献 把语义 / 实例 / 全景 / 视频对象分割等区域/实例类任务抽象成「一组 mask 查询 + 每个查询一个标签」；eomt 进一步证明在强预训练 vit 条件下，部分分割任务可进入 encoder-centric regime，decoder 可变薄。 残差 / 它催生了什么 架构统一了，但类别边界仍锁在训练集之内，第 81 类无法产生 → 催生 sam / grounding dino / ape / cat-seg 的提示化与开放词汇。 类型 架构 阶段 ii · 稠密共形的扩张",
       "sortKey": "02-阶段ii-稠密共形/§15-统一mask架构/00-定位卡.md"
     },
     {
@@ -1426,8 +1485,8 @@ window.KNOWLEDGE_BASE = {
       "retrievalTier": 3,
       "archived": false,
       "meta": {},
-      "excerpt": "> 编者说明：本页保存的是“MaskFormer / Mask2Former 深推导 + 跨阶段外溢判断”的合并稿。阅读时可先看导前，再进入 §1–§5 的机制展开；这样既能看清本页的技术内核，也能看清它为什么会成为阶段 II 向后几层的接口转折。\n回到你的谱系语言：\n**阶段 II** 的核心是\"**稠密穿透**\"——从整图分类穿透到每像素。这个阶段结束时留下的**唯一本体论原语**就是 object query。\n**阶段 III（语言共形）** 的一条关键接口线**确实建在 object query 上**：\n- 3D 重建的 NeRF / Gaussian splatting 也用 query 做视角条件\n- 视频理解的 tracking query、action query\n- 跨模态对齐的 text-image cross-attention 就是 query 机制\n**阶段 IV（生成共形）**：\n- Diffusion 的 class-conditional / text-conditional 生成 = query 注入机制",
-      "searchBlob": "导前 · object query 的跨阶段意义 > 编者说明：本页保存的是“maskformer / mask2former 深推导 + 跨阶段外溢判断”的合并稿。阅读时可先看导前，再进入 §1–§5 的机制展开；这样既能看清本页的技术内核，也能看清它为什么会成为阶段 ii 向后几层的接口转折。\n回到你的谱系语言：\n**阶段 ii** 的核心是\"**稠密穿透**\"——从整图分类穿透到每像素。这个阶段结束时留下的**唯一本体论原语**就是 object query。\n**阶段 iii（语言共形）** 的一条关键接口线**确实建在 object query 上**：\n- 3d 重建的 nerf / gaussian splatting 也用 query 做视角条件\n- 视频理解的 tracking query、action query\n- 跨模态对齐的 text-image cross-attention 就是 query 机制\n**阶段 iv（生成共形）**：\n- diffusion 的 class-conditional / text-conditional 生成 = query 注入机制 02-阶段ii-稠密共形/§15-统一mask架构/02-maskformer范式展开.md ",
+      "excerpt": "> 编者说明：本页保存的是“MaskFormer / Mask2Former 深推导 + 跨阶段外溢判断”的合并稿。阅读时可先看导前，再进入 §1–§5 的机制展开；这样既能看清本页的技术内核，也能看清它为什么会成为阶段 II 向后几层的接口转折。\n回到你的谱系语言：\n**阶段 II** 的核心是\"**稠密穿透**\"——从整图分类穿透到每像素。这个阶段结束时留下了一组本体论原语：field、pyramid、object/slot、mask/support、matching/assignment，以及最具跨阶段外溢能力的 query/prompt。\n**阶段 III（语言共形）** 的一条关键接口线**确实建在 object query 上**：\n- 3D 重建的 NeRF / Gaussian splatting 也用 query 做视角条件\n- 视频理解的 tracking query、action query\n- 跨模态对齐的 text-image cross-attention 就是 query 机制",
+      "searchBlob": "导前 · object query 的跨阶段意义 > 编者说明：本页保存的是“maskformer / mask2former 深推导 + 跨阶段外溢判断”的合并稿。阅读时可先看导前，再进入 §1–§5 的机制展开；这样既能看清本页的技术内核，也能看清它为什么会成为阶段 ii 向后几层的接口转折。\n回到你的谱系语言：\n**阶段 ii** 的核心是\"**稠密穿透**\"——从整图分类穿透到每像素。这个阶段结束时留下了一组本体论原语：field、pyramid、object/slot、mask/support、matching/assignment，以及最具跨阶段外溢能力的 query/prompt。\n**阶段 iii（语言共形）** 的一条关键接口线**确实建在 object query 上**：\n- 3d 重建的 nerf / gaussian splatting 也用 query 做视角条件\n- 视频理解的 tracking query、action query\n- 跨模态对齐的 text-image cross-attention 就是 query 机制 02-阶段ii-稠密共形/§15-统一mask架构/02-maskformer范式展开.md ",
       "sortKey": "02-阶段ii-稠密共形/§15-统一mask架构/02-maskformer范式展开.md"
     },
     {
@@ -1464,7 +1523,7 @@ window.KNOWLEDGE_BASE = {
     },
     {
       "id": "02-阶段II-稠密共形/§15-统一Mask架构/05-SegGPT.md",
-      "title": "接下来",
+      "title": "SegFormer、OneFormer 与 SegGPT：decoder 变薄、权重统一、提示化雏形",
       "path": "02-阶段II-稠密共形/§15-统一Mask架构/05-SegGPT.md",
       "openPath": "../../../02-阶段II-稠密共形/§15-统一Mask架构/05-SegGPT.md",
       "topLevel": "02-阶段II-稠密共形",
@@ -1474,13 +1533,13 @@ window.KNOWLEDGE_BASE = {
       "retrievalTier": 3,
       "archived": false,
       "meta": {},
-      "excerpt": "下一个核心问题是 Hungarian matching 的一对一绑定机制（这个是 DETR 系的另一条腿，和 query、cross-attention 同样重要但你还没系统追过）。或者继续深挖点积在别的场景里的变体（比如为什么 QK^T 要除以 $sqrt{d}$、为什么有 multi-head）。\n你想先进哪一条？还是先把现在的展开整合进某个页面再继续？\n**共形贡献**：纯 ViT backbone + 纯 MLP decoder——证明「多尺度归纳偏置」可以被 Transformer 的分层结构自然吸收。稠密任务的 decoder 开始变薄。\n**共形贡献**：一次训练、一份权重，同时胜任语义 / 实例 / 全景——训练时引入 task token 告诉模型当前任务类型。「一个模型 vs 三组模型」的彻底清算。\n先纠个小事：EoMT 实际上是 **CVPR 2025 Highlight**（arXiv 2503.19108 是 2025 年 3 月），不是 ECCV 2024。你之前条目里写错了年份/会议——后面你若整合进页面可以顺手改掉。",
-      "searchBlob": "接下来 下一个核心问题是 hungarian matching 的一对一绑定机制（这个是 detr 系的另一条腿，和 query、cross-attention 同样重要但你还没系统追过）。或者继续深挖点积在别的场景里的变体（比如为什么 qk^t 要除以 $sqrt{d}$、为什么有 multi-head）。\n你想先进哪一条？还是先把现在的展开整合进某个页面再继续？\n**共形贡献**：纯 vit backbone + 纯 mlp decoder——证明「多尺度归纳偏置」可以被 transformer 的分层结构自然吸收。稠密任务的 decoder 开始变薄。\n**共形贡献**：一次训练、一份权重，同时胜任语义 / 实例 / 全景——训练时引入 task token 告诉模型当前任务类型。「一个模型 vs 三组模型」的彻底清算。\n先纠个小事：eomt 实际上是 **cvpr 2025 highlight**（arxiv 2503.19108 是 2025 年 3 月），不是 eccv 2024。你之前条目里写错了年份/会议——后面你若整合进页面可以顺手改掉。 02-阶段ii-稠密共形/§15-统一mask架构/05-seggpt.md ",
+      "excerpt": "本页承接 MaskFormer / Mask2Former 的 query-mask 统一范式，追踪三条后续分化：SegFormer 把 decoder 变薄，OneFormer 把三种分割任务压进同一份权重，Painter / SegGPT 把 in-context learning 引入稠密预测。它们共同说明：阶段 II 的统一不只发生在架构层，也发生在训练协议和任务接口层。\n**共形贡献**：纯 ViT backbone + 纯 MLP decoder——证明「多尺度归纳偏置」可以被 Transformer 的分层结构自然吸收。稠密任务的 decoder 开始变薄。\n**共形贡献**：一次训练、一份权重，同时胜任语义 / 实例 / 全景——训练时引入 task token 告诉模型当前任务类型。「一个模型 vs 三组模型」的彻底清算。\n先纠个小事：EoMT 实际上是 **CVPR 2025 Highlight**（arXiv 2503.19108 是 2025 年 3 月），不是 ECCV 2024。你之前条目里写错了年份/会议——后面你若整合进页面可以顺手改掉。",
+      "searchBlob": "segformer、oneformer 与 seggpt：decoder 变薄、权重统一、提示化雏形 本页承接 maskformer / mask2former 的 query-mask 统一范式，追踪三条后续分化：segformer 把 decoder 变薄，oneformer 把三种分割任务压进同一份权重，painter / seggpt 把 in-context learning 引入稠密预测。它们共同说明：阶段 ii 的统一不只发生在架构层，也发生在训练协议和任务接口层。\n**共形贡献**：纯 vit backbone + 纯 mlp decoder——证明「多尺度归纳偏置」可以被 transformer 的分层结构自然吸收。稠密任务的 decoder 开始变薄。\n**共形贡献**：一次训练、一份权重，同时胜任语义 / 实例 / 全景——训练时引入 task token 告诉模型当前任务类型。「一个模型 vs 三组模型」的彻底清算。\n先纠个小事：eomt 实际上是 **cvpr 2025 highlight**（arxiv 2503.19108 是 2025 年 3 月），不是 eccv 2024。你之前条目里写错了年份/会议——后面你若整合进页面可以顺手改掉。 02-阶段ii-稠密共形/§15-统一mask架构/05-seggpt.md ",
       "sortKey": "02-阶段ii-稠密共形/§15-统一mask架构/05-seggpt.md"
     },
     {
       "id": "02-阶段II-稠密共形/§15-统一Mask架构/06-EoMT.md",
-      "title": "§6 · EoMT —— Decoder 的最终谢幕",
+      "title": "§6 · EoMT —— Decoder 变薄到 encoder-centric regime",
       "path": "02-阶段II-稠密共形/§15-统一Mask架构/06-EoMT.md",
       "openPath": "../../../02-阶段II-稠密共形/§15-统一Mask架构/06-EoMT.md",
       "topLevel": "02-阶段II-稠密共形",
@@ -1490,8 +1549,8 @@ window.KNOWLEDGE_BASE = {
       "retrievalTier": 3,
       "archived": false,
       "meta": {},
-      "excerpt": "> 编者说明：本页是“统一 Mask 架构”组的深推导汇编稿，内部保留了若干从 SegFormer / OneFormer / SegGPT / EoMT 逐步累积而来的专题段落。阅读时可先看 §6 主体与其残差判断，再按后续专题追踪 decoder 坍缩、单权重统一与 encoder-only 终局的细部推演。\n本节按重要性展开，并先校正几条背景事实：\n- **作者**：Kerssies, Cassara, Fontanel, de Geus, Cordts, Gall（TU Eindhoven + RWTH + Mercedes-Benz + Uni Bonn）\n- **发表**：**CVPR 2025 Highlight**，不是 ECCV 2024\n- **arxiv 2503.19108**（2025 年 3 月）\n- 完整名字：**Encoder-only Mask Transformer**\nMask2Former 架构（你已经吃透了）：",
-      "searchBlob": "§6 · eomt —— decoder 的最终谢幕 > 编者说明：本页是“统一 mask 架构”组的深推导汇编稿，内部保留了若干从 segformer / oneformer / seggpt / eomt 逐步累积而来的专题段落。阅读时可先看 §6 主体与其残差判断，再按后续专题追踪 decoder 坍缩、单权重统一与 encoder-only 终局的细部推演。\n本节按重要性展开，并先校正几条背景事实：\n- **作者**：kerssies, cassara, fontanel, de geus, cordts, gall（tu eindhoven + rwth + mercedes-benz + uni bonn）\n- **发表**：**cvpr 2025 highlight**，不是 eccv 2024\n- **arxiv 2503.19108**（2025 年 3 月）\n- 完整名字：**encoder-only mask transformer**\nmask2former 架构（你已经吃透了）： 02-阶段ii-稠密共形/§15-统一mask架构/06-eomt.md ",
+      "excerpt": "> 编者说明：本页是“统一 Mask 架构”组的深推导汇编稿，内部保留了若干从 SegFormer / OneFormer / SegGPT / EoMT 逐步累积而来的专题段落。阅读时可先看 §6 主体与其残差判断，再按后续专题追踪 decoder 变薄、单权重统一与 encoder-centric regime 的细部推演。\n本节按重要性展开，并先校正几条背景事实：\n- **作者**：Kerssies, Cassara, Fontanel, de Geus, Cordts, Gall（TU Eindhoven + RWTH + Mercedes-Benz + Uni Bonn）\n- **发表**：**CVPR 2025 Highlight**，不是 ECCV 2024\n- **arxiv 2503.19108**（2025 年 3 月）\n- 完整名字：**Encoder-only Mask Transformer**\nMask2Former 架构（你已经吃透了）：",
+      "searchBlob": "§6 · eomt —— decoder 变薄到 encoder-centric regime > 编者说明：本页是“统一 mask 架构”组的深推导汇编稿，内部保留了若干从 segformer / oneformer / seggpt / eomt 逐步累积而来的专题段落。阅读时可先看 §6 主体与其残差判断，再按后续专题追踪 decoder 变薄、单权重统一与 encoder-centric regime 的细部推演。\n本节按重要性展开，并先校正几条背景事实：\n- **作者**：kerssies, cassara, fontanel, de geus, cordts, gall（tu eindhoven + rwth + mercedes-benz + uni bonn）\n- **发表**：**cvpr 2025 highlight**，不是 eccv 2024\n- **arxiv 2503.19108**（2025 年 3 月）\n- 完整名字：**encoder-only mask transformer**\nmask2former 架构（你已经吃透了）： 02-阶段ii-稠密共形/§15-统一mask架构/06-eomt.md ",
       "sortKey": "02-阶段ii-稠密共形/§15-统一mask架构/06-eomt.md"
     },
     {
@@ -1528,8 +1587,8 @@ window.KNOWLEDGE_BASE = {
       "retrievalTier": 2,
       "archived": false,
       "meta": {},
-      "excerpt": "作者：Kirillov, Mintun, Ravi, Mao, ... Girshick（Meta FAIR，2023）。\nSAM 之前，分割任务的定义是：\n> 给一张图，输出一组 pixel → class 的映射。\n>\n这个定义里\"做什么分割\"**由训练集决定**——你在 COCO 训，它就分 80 类；在 ADE20K 训，就分 150 类。换一个领域就要重训。\nSAM 把问题**重新定义**了：\n> 给一张图 **+ 一个提示（prompt）**，输出和提示对应的 mask。\n>\n这一改动的分量：**分割从\"任务\"变成了\"可调用的原语\"**。任务的规格不在模型内部，在运行时输入里——这和 OS 领域从\"专用程序\"到\"shell + 命令\"的转化同构。\nSAM 论文里叫这套组合 **\"Promptable Segmentation Task + Model + Data\"**——三个东西耦合才 work：",
-      "searchBlob": "§1 · sam —— 分割任务本身被重新定义 作者：kirillov, mintun, ravi, mao, ... girshick（meta fair，2023）。\nsam 之前，分割任务的定义是：\n> 给一张图，输出一组 pixel → class 的映射。\n>\n这个定义里\"做什么分割\"**由训练集决定**——你在 coco 训，它就分 80 类；在 ade20k 训，就分 150 类。换一个领域就要重训。\nsam 把问题**重新定义**了：\n> 给一张图 **+ 一个提示（prompt）**，输出和提示对应的 mask。\n>\n这一改动的分量：**分割从\"任务\"变成了\"可调用的原语\"**。任务的规格不在模型内部，在运行时输入里——这和 os 领域从\"专用程序\"到\"shell + 命令\"的转化同构。\nsam 论文里叫这套组合 **\"promptable segmentation task + model + data\"**——三个东西耦合才 work： 02-阶段ii-稠密共形/§16-提示化与开放词汇/01-sam展开.md ",
+      "excerpt": "作者：Kirillov, Mintun, Ravi, Mao, ... Girshick（Meta FAIR，2023）。\nSAM 之前，分割任务的定义是：\n> 给一张图，输出一组 pixel → class 的映射。\n>\n这个定义里\"做什么分割\"**由训练集决定**——你在 COCO 训，它就分 80 类；在 ADE20K 训，就分 150 类。换一个领域就要重训。\nSAM 把问题**重新定义**了：\n> 给一张图 **+ 一个提示（prompt）**，输出和提示对应的 mask。\n>\n这一改动的分量：**分割从\"任务\"变成了\"可调用的原语\"**。任务的规格不在模型内部，在运行时输入里——这和 OS 领域从\"专用程序\"到\"shell + 命令\"的转化同构。\n这里必须加一个边界：SAM 是 **promptable segmentation foundation model**，不是 universal semantic understanding model。它解决的是“给定提示，如何返回空间支撑”；它没有解决“概念从哪里来、语义如何自持、关系如何组织”。",
+      "searchBlob": "§1 · sam —— 分割任务本身被重新定义 作者：kirillov, mintun, ravi, mao, ... girshick（meta fair，2023）。\nsam 之前，分割任务的定义是：\n> 给一张图，输出一组 pixel → class 的映射。\n>\n这个定义里\"做什么分割\"**由训练集决定**——你在 coco 训，它就分 80 类；在 ade20k 训，就分 150 类。换一个领域就要重训。\nsam 把问题**重新定义**了：\n> 给一张图 **+ 一个提示（prompt）**，输出和提示对应的 mask。\n>\n这一改动的分量：**分割从\"任务\"变成了\"可调用的原语\"**。任务的规格不在模型内部，在运行时输入里——这和 os 领域从\"专用程序\"到\"shell + 命令\"的转化同构。\n这里必须加一个边界：sam 是 **promptable segmentation foundation model**，不是 universal semantic understanding model。它解决的是“给定提示，如何返回空间支撑”；它没有解决“概念从哪里来、语义如何自持、关系如何组织”。 02-阶段ii-稠密共形/§16-提示化与开放词汇/01-sam展开.md ",
       "sortKey": "02-阶段ii-稠密共形/§16-提示化与开放词汇/01-sam展开.md"
     },
     {
@@ -1560,8 +1619,8 @@ window.KNOWLEDGE_BASE = {
       "retrievalTier": 3,
       "archived": false,
       "meta": {},
-      "excerpt": "视觉的 scaling 不是失败了，而是**斜率远比语言小**，而且**在 benchmark 上接近噪声地板**。三个深层原因：\n1. **信息论层面**：图像 token 的有效香农熵远低于文本 token，单位数据的\"监督密度\"差 1-2 个量级\n2. **训练目标层面**：语言的 next-token prediction **原生就是世界模型**；视觉的 pixel reconstruction / patch contrastive **离语义极远**\n3. **数据几何层面**：自然图像的**内在流形维度**很低（真实世界只有有限几种光照、姿态、纹理），10 亿张图并不等于 10 亿个\"新世界\"\n再结合实证：DINOv2→v3 要靠 Gram Anchoring 防止 scale 时 dense feature 退化;[[1]](https://zhuanlan.zhihu.com/p/1940074425849458833) Fluid (Google+MIT) 论文直接指出 VQ 引入的信息损失是视觉自回归 scaling 失效的核心;[[2]](https://www.51cto.com/aigc/2567.html) OpenCLIP 的 scaling 研究报告\"明显的缩放瓶颈（小模型看 3B 样本时，数据从 400M→2B 几乎无提升）\";[[3]](https://www.cnblogs.com/moonout/p/19836058) 清华赵行直接说\"具身智能领域还没有找到 Scaling Law\"。[[4]](https://hub.baai.ac",
-      "searchBlob": "§0 · 先放结论 视觉的 scaling 不是失败了，而是**斜率远比语言小**，而且**在 benchmark 上接近噪声地板**。三个深层原因：\n1. **信息论层面**：图像 token 的有效香农熵远低于文本 token，单位数据的\"监督密度\"差 1-2 个量级\n2. **训练目标层面**：语言的 next-token prediction **原生就是世界模型**；视觉的 pixel reconstruction / patch contrastive **离语义极远**\n3. **数据几何层面**：自然图像的**内在流形维度**很低（真实世界只有有限几种光照、姿态、纹理），10 亿张图并不等于 10 亿个\"新世界\"\n再结合实证：dinov2→v3 要靠 gram anchoring 防止 scale 时 dense feature 退化;[[1]](https://zhuanlan.zhihu.com/p/1940074425849458833) fluid (google+mit) 论文直接指出 vq 引入的信息损失是视觉自回归 scaling 失效的核心;[[2]](https://www.51cto.com/aigc/2567.html) openclip 的 scaling 研究报告\"明显的缩放瓶颈（小模型看 3b 样本时，数据从 400m→2b 几乎无提升）\";[[3]](https://www.cnblogs.com/moonout/p/19836058) 清华赵行直接说\"具身智能领域还没有找到 scaling law\"。[[4]](https://hub.baai.ac 02-阶段ii-稠密共形/§16-提示化与开放词汇/03-视觉scaling分析.md ",
+      "excerpt": "视觉的 scaling 不是失败了，而是**斜率远比语言小**，而且**在 benchmark 上接近噪声地板**。三个深层原因：\n1. **信息论层面**：图像 token 的有效香农熵远低于文本 token，单位数据的\"监督密度\"差 1-2 个量级\n2. **训练目标层面**：语言的 next-token prediction 直接学习人类文本分布中的世界结构投影；视觉的 pixel reconstruction / patch contrastive 与公共语义之间隔着更远的映射层\n3. **数据几何层面**：标准自然图像 benchmark 的有效变化更容易饱和，10 亿张自然图不等于 10 亿个新任务；但视觉世界本身在视频、3D、科学影像、医学、遥感、显微、工业和具身场景中仍高度开放\n再结合若干研究线索：DINOv2→v3 要靠 Gram Anchoring 防止 scale 时 dense feature 退化;[[1]](https://zhuanlan.zhihu.com/p/1940074425849458833) Fluid 相关讨论指出 VQ 信息损失会限制视觉自回归 scaling;[[2]](https://www.51cto.com/aigc/2567.html) OpenCLIP scaling 报告显示不同模型/数据规模下存在缩放瓶颈;[[3]](https://www.cnblogs.com/moonout/p/19836058) 具身智能社区也仍在寻找稳定 scaling law。[[4]](https://hub.baai.ac.cn/vi",
+      "searchBlob": "§0 · 先放结论 视觉的 scaling 不是失败了，而是**斜率远比语言小**，而且**在 benchmark 上接近噪声地板**。三个深层原因：\n1. **信息论层面**：图像 token 的有效香农熵远低于文本 token，单位数据的\"监督密度\"差 1-2 个量级\n2. **训练目标层面**：语言的 next-token prediction 直接学习人类文本分布中的世界结构投影；视觉的 pixel reconstruction / patch contrastive 与公共语义之间隔着更远的映射层\n3. **数据几何层面**：标准自然图像 benchmark 的有效变化更容易饱和，10 亿张自然图不等于 10 亿个新任务；但视觉世界本身在视频、3d、科学影像、医学、遥感、显微、工业和具身场景中仍高度开放\n再结合若干研究线索：dinov2→v3 要靠 gram anchoring 防止 scale 时 dense feature 退化;[[1]](https://zhuanlan.zhihu.com/p/1940074425849458833) fluid 相关讨论指出 vq 信息损失会限制视觉自回归 scaling;[[2]](https://www.51cto.com/aigc/2567.html) openclip scaling 报告显示不同模型/数据规模下存在缩放瓶颈;[[3]](https://www.cnblogs.com/moonout/p/19836058) 具身智能社区也仍在寻找稳定 scaling law。[[4]](https://hub.baai.ac.cn/vi 02-阶段ii-稠密共形/§16-提示化与开放词汇/03-视觉scaling分析.md ",
       "sortKey": "02-阶段ii-稠密共形/§16-提示化与开放词汇/03-视觉scaling分析.md"
     },
     {
@@ -1582,7 +1641,7 @@ window.KNOWLEDGE_BASE = {
     },
     {
       "id": "02-阶段II-稠密共形/§16-提示化与开放词汇/05-两条DINO线.md",
-      "title": "第一条线 · DINO (SSL) —— 自监督视觉表征的 scaling",
+      "title": "三线重定位：同名 DINO、开放词汇与通用稠密基础模型",
       "path": "02-阶段II-稠密共形/§16-提示化与开放词汇/05-两条DINO线.md",
       "openPath": "../../../02-阶段II-稠密共形/§16-提示化与开放词汇/05-两条DINO线.md",
       "topLevel": "02-阶段II-稠密共形",
@@ -1592,8 +1651,8 @@ window.KNOWLEDGE_BASE = {
       "retrievalTier": 3,
       "archived": false,
       "meta": {},
-      "excerpt": "这条线的共形内核不变：**学生网络预测教师网络的输出（自蒸馏）+ teacher 是 student 的 EMA**。三代的差异全在**数据规模、架构细节、目标函数的工程修补**上。\n**定位**：**自监督学习 + ViT 的第一次深度结合**。\n**机制**：\n- 两个 view（不同 crop + 不同增强）喂给同一个架构的 student 和 teacher\n- **Student** 预测 **teacher** 的输出（softmax + centering + sharpening）\n- **Teacher 不反向传播**——它是 student 的指数滑动平均（EMA momentum ≈ 0.996）\n- 无对比学习、无负样本——单纯让 student 逼近 teacher\n**炸裂的附带发现**（这是 DINO 真正的历史地位）：\n- **self-supervised ViT 的最后一层 self-attention map，直接可视化就是物体分割**——**几乎等于 unsupervised segmentation**",
-      "searchBlob": "第一条线 · dino (ssl) —— 自监督视觉表征的 scaling 这条线的共形内核不变：**学生网络预测教师网络的输出（自蒸馏）+ teacher 是 student 的 ema**。三代的差异全在**数据规模、架构细节、目标函数的工程修补**上。\n**定位**：**自监督学习 + vit 的第一次深度结合**。\n**机制**：\n- 两个 view（不同 crop + 不同增强）喂给同一个架构的 student 和 teacher\n- **student** 预测 **teacher** 的输出（softmax + centering + sharpening）\n- **teacher 不反向传播**——它是 student 的指数滑动平均（ema momentum ≈ 0.996）\n- 无对比学习、无负样本——单纯让 student 逼近 teacher\n**炸裂的附带发现**（这是 dino 真正的历史地位）：\n- **self-supervised vit 的最后一层 self-attention map，直接可视化就是物体分割**——**几乎等于 unsupervised segmentation** 02-阶段ii-稠密共形/§16-提示化与开放词汇/05-两条dino线.md ",
+      "excerpt": "本页标题仍叫“两条 DINO 线”，但实际内容承载了三条应该区分的路线：\n1. **DINO (SSL) 线**：DINOv1/v2/v3，核心是语言无关的自监督视觉表征 scaling。\n2. **DINO (DETR) 线**：DAB/DN/DINO-DETR -> Grounding DINO -> DINO-X，核心是端到端检测和开放词汇 query。\n3. **Universal dense foundation 线**：Florence-2、Depth Anything、RADIO、SAM encoder 等，核心是把稠密视觉任务压到通用 backbone 与开放接口上。\n这三条线在阶段 II 末端交汇，但不能混写成同一谱系。后续可将本页拆成三页；当前先用这段重定位防止读者把 DINOv3 和 Grounding DINO 误读成同一代际链。\n这条线的共形内核不变：**学生网络预测教师网络的输出（自蒸馏）+ teacher 是 student 的 EMA**。三代的差异全在**数据规模、架构细节、目标函数的工程修补**上。",
+      "searchBlob": "三线重定位：同名 dino、开放词汇与通用稠密基础模型 本页标题仍叫“两条 dino 线”，但实际内容承载了三条应该区分的路线：\n1. **dino (ssl) 线**：dinov1/v2/v3，核心是语言无关的自监督视觉表征 scaling。\n2. **dino (detr) 线**：dab/dn/dino-detr -> grounding dino -> dino-x，核心是端到端检测和开放词汇 query。\n3. **universal dense foundation 线**：florence-2、depth anything、radio、sam encoder 等，核心是把稠密视觉任务压到通用 backbone 与开放接口上。\n这三条线在阶段 ii 末端交汇，但不能混写成同一谱系。后续可将本页拆成三页；当前先用这段重定位防止读者把 dinov3 和 grounding dino 误读成同一代际链。\n这条线的共形内核不变：**学生网络预测教师网络的输出（自蒸馏）+ teacher 是 student 的 ema**。三代的差异全在**数据规模、架构细节、目标函数的工程修补**上。 02-阶段ii-稠密共形/§16-提示化与开放词汇/05-两条dino线.md ",
       "sortKey": "02-阶段ii-稠密共形/§16-提示化与开放词汇/05-两条dino线.md"
     },
     {

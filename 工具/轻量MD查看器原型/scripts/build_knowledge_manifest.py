@@ -132,6 +132,14 @@ LOCATOR_SCHEMA = [
         ],
     },
     {
+        "id": "§10",
+        "level": "chapter",
+        "stage": "II",
+        "title": "§10 阶段II导论：三重闭合",
+        "summary": "场闭合、对象闭合、接口闭合构成阶段 II 的中层形式骨架。",
+        "keywords": ["场闭合", "对象闭合", "接口闭合", "field closure", "object closure", "prompt", "query"],
+    },
+    {
         "id": "§11",
         "level": "chapter",
         "stage": "II",

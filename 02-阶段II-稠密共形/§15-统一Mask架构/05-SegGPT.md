@@ -1,8 +1,6 @@
-# 接下来
+# SegFormer、OneFormer 与 SegGPT：decoder 变薄、权重统一、提示化雏形
 
-下一个核心问题是 Hungarian matching 的一对一绑定机制（这个是 DETR 系的另一条腿，和 query、cross-attention 同样重要但你还没系统追过）。或者继续深挖点积在别的场景里的变体（比如为什么 QK^T 要除以 $sqrt{d}$、为什么有 multi-head）。
-
-你想先进哪一条？还是先把现在的展开整合进某个页面再继续？
+本页承接 MaskFormer / Mask2Former 的 query-mask 统一范式，追踪三条后续分化：SegFormer 把 decoder 变薄，OneFormer 把三种分割任务压进同一份权重，Painter / SegGPT 把 in-context learning 引入稠密预测。它们共同说明：阶段 II 的统一不只发生在架构层，也发生在训练协议和任务接口层。
 
 ## 3 · SegFormer —— *Simple and Efficient Design for Semantic Segmentation with Transformers* (Xie 等, NeurIPS 2021)
 
@@ -140,4 +138,3 @@ SegGPT 还加了一个 **"in-context tuning"** 技术：推理时可以针对特
 这些残差让 SegGPT 没能成为统一分割的终点——**它的接棒者是 SAM**（prompt 更精确）和 **CAT-Seg / ODISE**（开放词汇更彻底）。
 
 ---
-

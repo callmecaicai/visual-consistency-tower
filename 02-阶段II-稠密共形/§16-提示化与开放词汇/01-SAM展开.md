@@ -18,6 +18,8 @@ SAM 把问题**重新定义**了：
 
 这一改动的分量：**分割从"任务"变成了"可调用的原语"**。任务的规格不在模型内部，在运行时输入里——这和 OS 领域从"专用程序"到"shell + 命令"的转化同构。
 
+这里必须加一个边界：SAM 是 **promptable segmentation foundation model**，不是 universal semantic understanding model。它解决的是“给定提示，如何返回空间支撑”；它没有解决“概念从哪里来、语义如何自持、关系如何组织”。
+
 ## 1.2 SAM 的三件套
 
 SAM 论文里叫这套组合 **"Promptable Segmentation Task + Model + Data"**——三个东西耦合才 work：

@@ -24,6 +24,14 @@
 | Instruction query | VLM / agent 指令 | 自然语言任务说明规定调用方式 |
 | Tool query | agent 选择视觉工具或模型 | query 不直接取特征，而是选择外部能力 |
 
+同样重要的是：**不是所有 token 都是 query**。一个对象要被称为 query，至少满足三条：
+
+1. 它规定一个输出槽位或调用目标；
+2. 它主动从某个表征场中索取信息；
+3. 它的改变会改变模型输出的对象、区域、属性或任务。
+
+否则它只是 input token、condition token、latent token 或 routing variable。这个边界用来防止“query”通胀成所有条件输入的同义词。
+
 下面五代每一代打破了什么属性：
 
 | 代 | 打破了什么 | query 变成了什么 |
@@ -134,7 +142,7 @@ N 个 mask (通常 N=3, 代表不同粒度)
 
 - DETR 里 query 是抽象嵌入 + 训练学出位置偏好
 - SAM 里 query 是**直接的位置编码**——点的坐标直接 embed
-- 这把"**query 是什么**"从"可学习的语义向量"扩到了"**任何可被 encode 成向量的用户意图**"
+- 这把"**query 是什么**"从"可学习的语义向量"扩到了"**可被编码成向量、并能改变输出目标的用户意图**"
 
 **(b) 推理时 query 可以变**
 
@@ -153,7 +161,7 @@ N 个 mask (通常 N=3, 代表不同粒度)
 
 SAM 让人看清了一件事：**object query 本质上就是"任务的外部输入"这个位置的占位符**。
 
-在 DETR 里这个占位符被内生化（模型自己填）是**因为任务是封闭的**（COCO 80 类 + 固定位置）。一旦任务变成"用户想分什么就分什么"——开放、动态、交互——这个占位符**必然要外生化**。
+在 DETR 里这个占位符被内生化（模型自己填）是**因为任务是封闭的**（COCO 80 类 + 固定位置）。一旦任务变成"用户想分什么就分什么"——开放、动态、交互——这个占位符就强烈倾向于外生化。
 
 **这不是"SAM 发明了新东西"，是"SAM 把 object query 最深的结构暴露了出来"**——它本来就是一个任务指令接口，DETR 只是把它塞在模型内部而已。
 
@@ -224,7 +232,7 @@ Grounding DINO 的**文本-图像对齐**本质上就是 CLIP 思想的一次落
 
 # §4 · SEEM / SegGPT —— query 任意模态
 
-Grounding DINO 还是"文本 query + 图像 feature"的固定组合。**SEEM / SegGPT 往前推了一步：任何东西都能当 query**。
+Grounding DINO 还是"文本 query + 图像 feature"的固定组合。**SEEM / SegGPT 往前推了一步：多种模态都可以在满足调用边界时成为 query**。
 
 ## 4.1 SEEM (Segment Everything Everywhere, 2023)
 
@@ -253,7 +261,7 @@ mask   ─┘
 
 - 给一张"例图 + 例 mask"作为 context
 - 模型看一张新图，模仿 context 给出 mask
-- **不需要任何 prompt encoder**——context 本身就是 prompt
+- 不需要显式 prompt encoder——context 本身承担 prompt 角色
 
 ```
 Context image + mask  ─┐
@@ -322,9 +330,9 @@ LLM 时代的 parameter-efficient fine-tuning 方法：
 
 ---
 
-# §6 · 公理的推导：为什么"k 个外生 token"是必然
+# §6 · 机制推导：为什么"k 个外生 token"会反复出现
 
-现在可以回答：为什么所有这些任务**必然**都演化到 k 个 query token 这个架构？
+现在可以回答：为什么许多这类任务会反复演化到 k 个 query token 这个架构。
 
 ## 6.1 形式化问题
 
@@ -334,7 +342,7 @@ LLM 时代的 parameter-efficient fine-tuning 方法：
 2. **输出是结构化的**（k 个对象、k 个 mask、k 段生成、k 项答案——**可数、离散**）
 3. **任务可能动态变化**（不同 prompt、不同类别、不同指令）
 
-问题本质：**如何在一个可微、并行的架构里，把 N 个位置的稠密信息，路由到 k 个结构化输出上？**
+问题本质：**如何在一个可微、并行、硬件友好的架构里，把 N 个位置的稠密信息，路由到 k 个结构化输出上？**
 
 ## 6.2 可能的架构方案
 
@@ -343,7 +351,7 @@ LLM 时代的 parameter-efficient fine-tuning 方法：
 | 固定 slot attention | 定义 k 个 slot，每个 slot 通过迭代聚类聚合位置 | 迭代慢、难以控制 slot 语义 |
 | **k 个 query + cross-attention** | k 个外生向量主动 attend 稠密特征 | —— |
 
-## 6.3 为什么只有最后一个满足全部需求
+## 6.3 为什么 query + cross-attention 成为主导形态
 
 **可微** ✓ —— cross-attention 全程可微
 
@@ -357,17 +365,17 @@ LLM 时代的 parameter-efficient fine-tuning 方法：
 
 **k 动态** ✓ —— k 每次推理都可以不一样
 
-**其他方案每一个都在上面某个维度上失败**。k 个 query + cross-attention 是**这六个约束下唯一可行的架构形式**——这就是为什么它到处出现。
+在当前 Transformer 工具箱和 GPU-friendly 的可微并行约束下，k 个 query + cross-attention 是处理“稠密输入 → 结构化输出”的主导局部最优形式之一。这就是为什么它到处出现。
 
-这不是"伟大发明被不断借鉴"的叙事，**是"约束的联立解只有一个"的数学事实**。
+这不是"伟大发明被不断借鉴"的叙事，而是约束联立后反复逼出的工程稳定点。但它不是数学上的唯一解：slot attention、routing networks、implicit fields、diffusion refinement、energy-based inference、graph message passing 都可以在某些条件下替代或补充它。
 
-## 6.4 关于"外生"的必然性
+## 6.4 关于"外生"的结构压力
 
-"内生 query"（DETR 原版）看起来也行——为什么必然要外生化？
+"内生 query"（DETR 原版）看起来也行——为什么会强烈走向外生化？
 
-因为**内生 query 只能覆盖训练时见过的任务**。只要任务要开放、要交互、要跨模态，**任务规格必须在推理时才能确定**——所以规格必须从外部喂，而规格喂到哪？**喂到 query 的位置**——因为那就是"任务接口"这个角色的唯一位置。
+因为**内生 query 只能覆盖训练时见过的任务**。只要任务要开放、要交互、要跨模态，**任务规格必须在推理时才能确定**——所以规格必须从外部喂，而 query 是最自然的任务接口位置之一。
 
-所以 SAM 的"外生化"**不是创新，是 DETR 范式开放化后的必然结论**。
+所以 SAM 的"外生化"不是凭空创新，而是 DETR 范式开放化后最稳定的展开方向之一。
 
 ---
 
@@ -392,9 +400,9 @@ LLM 时代的 parameter-efficient fine-tuning 方法：
 
 所以论断的**精确版**是：
 
-> **任何"输入是稠密表征 + 输出是 k 个结构化单元 + 任务规格可能动态变化"的任务，最优架构几乎必然演化到"k 个外生 query token + cross-attention"的形式**。
+> **在"输入是稠密表征 + 输出是 k 个结构化单元 + 任务规格可能动态变化"的任务上，"k 个外生 query token + cross-attention" 是当前最强、最常见的接口形态之一。**
 > 
 
-这个定义下包含检测、分割、全景、开放词汇、交互分割、in-context 分割、LLM few-shot、visual prompt tuning、多模态大模型的 visual tokenizer 输出……几乎覆盖整个现代 transformer 系的交互界面。
+这个定义下包含检测、分割、全景、开放词汇、交互分割、in-context 分割、LLM few-shot、visual prompt tuning、多模态大模型的 visual tokenizer 输出等现代 transformer 系的大量交互界面。但它不能抹掉阶段 II 的其他遗产：field、pyramid、object/slot、mask/support、matching/assignment 仍然是同等重要的结构原语。
 
 ---

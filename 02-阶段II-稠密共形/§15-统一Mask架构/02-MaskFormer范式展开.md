@@ -4,7 +4,7 @@
 
 回到你的谱系语言：
 
-**阶段 II** 的核心是"**稠密穿透**"——从整图分类穿透到每像素。这个阶段结束时留下的**唯一本体论原语**就是 object query。
+**阶段 II** 的核心是"**稠密穿透**"——从整图分类穿透到每像素。这个阶段结束时留下了一组本体论原语：field、pyramid、object/slot、mask/support、matching/assignment，以及最具跨阶段外溢能力的 query/prompt。
 
 **阶段 III（语言共形）** 的一条关键接口线**确实建在 object query 上**：
 
@@ -24,7 +24,7 @@
 - SAM 的 "Segment Anything" = 任意 prompt 作为 query
 - LLaVA / GPT-4V 的 visual token = ViT 输出 projected 成 LLM 的 "query-side" 输入
 
-**在阶段 II 出现的 object query，实质上是后面所有阶段的"接口母版"**。别的东西（FPN、RoIAlign、anchor）都是具体任务的组件，只有 object query 是**跨任务、跨模态、跨阶段**的架构原语。
+**在阶段 II 出现的 object query，实质上是后面许多阶段的"接口母版"**。FPN、RoIAlign、anchor、mask、assignment 不是无关组件，而是阶段 II 的不同遗产；其中 object query 是最会向后外溢、最容易被跨任务和跨模态复用的接口原语。
 
 这就是为什么我说 DETR 在检测里的命运（被 YOLO 吞掉）**不重要**——DETR 这四代真正留下的是**把 object query 从一个检测 trick 提炼成 transformer 时代通用接口**这件事。之后的每一个基础模型，都在用这个接口。
 
@@ -342,12 +342,12 @@ DAB-DETR 用"query 每层输出 box 增量"做逐层精修；Mask2Former 用"que
 
 "经验上被证成"这句话听起来平淡，实际上是**一个本体论判断被数据支持**：
 
-> **语义 / 实例 / 全景分割不是三个任务，是一个任务的三种监督格式。**
+> **语义 / 实例 / 全景分割可以共享同一种 mask classification 架构和大量训练机制。**
 > 
 
-在 Mask2Former 之前这只是一个假设；在 Mask2Former 之后这是事实——**同一个架构、同一套超参、同一种损失函数，在三个任务上全面 SOTA**——没有其他解释方式，只能说三个任务的本质是同一个。
+在 Mask2Former 之前这只是一个假设；在 Mask2Former 之后它得到了很强经验支持——**同一个架构、同一套超参、同一种损失函数，在三个任务上全面 SOTA**。但这不等于三者本体完全相同：语义分割以类别场为对象，实例分割以可数实体为对象，全景分割要调和 stuff 与 thing。它们可以被同一架构统一，仍保留不同评价目标和错误类型。
 
-这和 Ising 模型里"二阶相变在不同系统中都遵循同一套临界指数"是同一种性质的结论——**表面不同的现象共享同一个底层结构**。
+更稳的说法是：表面不同的分割任务共享一个足够强的底层结构，但监督格式、度量对象和残差类型仍需区分。
 
 ---
 
@@ -394,7 +394,7 @@ Mask2Former 之后看 MaskFormer-style 架构，它的组件分工是：
 
 你前面已经追出来的命题：
 
-> **凡是需要"从稠密特征里提取结构化输出"的任务，最终都会演化出 k 个外生 token 作为接口**。
+> **凡是需要"从稠密特征里提取可数结构化输出"且任务规格可能动态变化的任务，往往会演化出 k 个 query / prompt token 作为接口**。
 > 
 
 Mask2Former 是**这个命题在分割任务上的第一次完整兑现**。DETR 是在检测上的首次兑现，Mask2Former 是在分割上的兑现。两者的共同骨架（backbone + pixel/feature + N queries + cross-attention + Hungarian matching）完全一致——不同任务的差异全部在"如何从 query 解码输出"这一步。
@@ -494,6 +494,6 @@ SAM / Grounding DINO / CAT-Seg (2023+)
 
 ## 编排定位
 
-这份展开应被视为 [阶段 II · 统一 Mask 架构：任何稠密任务一种范式（MaskFormer / Mask2Former / SegFormer / OneFormer / SegGPT / EoMT）](00-定位卡.md) 中 §1–§2 的正文支撑。定位卡保留总览与坐标，本页负责给出完整机制、性能判断与残差传递；二者合用，才能把“mask classification 为什么是范式切换”这件事真正讲透。
+这份展开应被视为 [阶段 II · 统一 Mask 架构：区域/实例类稠密任务的一种强统一范式](00-定位卡.md) 中 §1–§2 的正文支撑。定位卡保留总览与坐标，本页负责给出完整机制、性能判断与残差传递；二者合用，才能把“mask classification 为什么是范式切换”这件事真正讲透。
 
 本页到此完成两项工作：一是把分割从“逐像素分类”改写为“query 驱动的 mask 读出”；二是把这一改写和后续提示化、开放词汇、跨模态接口的生长链条提前接通。后续若继续下钻，最自然的承接页就是 SegFormer / OneFormer / SegGPT / EoMT 那条“decoder 逐步退场”的路线。
