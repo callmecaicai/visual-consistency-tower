@@ -13,7 +13,7 @@ VIEWER_DIR = ROOT / "工具" / "轻量MD查看器原型" / "viewer"
 OUTPUT_FILE = VIEWER_DIR / "data" / "knowledge-base.js"
 
 EXCLUDE_TOP_LEVEL = {"ZIP合并", ".claude", "工具", "docs_site"}
-EXCLUDE_PARTS = {"导出残留"}
+EXCLUDE_PARTS = {"导出残留", "归档", "90-归档导航.md", "展开债务审计.md"}
 
 TOP_LEVEL_ORDER = [
     "ROOT",
@@ -57,6 +57,24 @@ LOCATOR_SCHEMA = [
             "五问",
             "遮蔽",
             "成功",
+        ],
+    },
+    {
+        "id": "prediction-validation",
+        "level": "cross",
+        "stage": "cross",
+        "title": "横切 · 预测验证协议",
+        "summary": "把生成性预测转成验证卡，明确任务、对照、支持条件、失败条件与证据等级。",
+        "keywords": [
+            "预测验证",
+            "验证协议",
+            "预测性判据",
+            "可证伪",
+            "证据等级",
+            "E0",
+            "E6",
+            "benchmark",
+            "stress test",
         ],
     },
     {

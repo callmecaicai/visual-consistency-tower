@@ -4,6 +4,20 @@
 
 ---
 
+## 章首协议（五问版）
+
+| 问项 | 本页回答 |
+|---|---|
+| 纯存在态 | `Visual Difference -> Public Linguistic Contract`：视觉差异进入公共语言契约。 |
+| 稳定差异 | 可被名称、caption、embedding、phrase、instruction、rationale 与评价语言调用的视觉差异。 |
+| 闭合制度 | `C_III=(Z_image-text, Π_caption/VQA/grounding/instruction, Γ_modality/language/prompt, M_contrastive/IT/judge, D_alignment/IT/projector)`。 |
+| 成功标准 | 可命名、可指代、可调用、可在公共语义接口中回答。 |
+| 遮蔽对象 | 未命名视觉、细粒度空间、对象状态、视觉语义主权。 |
+| 内在残差 | 语言越强，越可能替视觉说话；公共语义成立不等于视觉自身持有世界。 |
+| 下一步重写 | 系统必须证明语义不只是会说，而能外显生产观测，推出阶段 IV。 |
+
+---
+
 ## 一、纯存在态
 
 阶段 I 的最小公式是：
@@ -117,4 +131,3 @@ CLIP 是 L2：语言进入预训练目标和共享相似度空间。它不是完
 ## 七、一句话
 
 > 视觉不是终于“拥有语言”，而是进入了语言的公共契约；这张契约让视觉获得命名、指代、调用和对话能力，但契约的主权仍在语言手里。
-

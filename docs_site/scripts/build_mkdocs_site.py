@@ -32,8 +32,13 @@ TOP_LEVEL_DIR_NAMES = {
     if source.is_dir()
 }
 
-EXCLUDE_SITE_PARTS = {"导出残留"}
-COLLAPSED_NAV_DIRS = {"归档"}
+EXCLUDE_SITE_PARTS = {
+    "导出残留",
+    "归档",
+    "90-归档导航.md",
+    "展开债务审计.md",
+}
+COLLAPSED_NAV_DIRS: set[str] = set()
 
 WINDOWS_ROOT_PATTERN = re.escape(ROOT.as_posix())
 ABSOLUTE_MD_LINK = re.compile(
