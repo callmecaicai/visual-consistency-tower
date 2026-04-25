@@ -15,6 +15,14 @@
 
 为避免 query 变成万能词，后续使用必须标注类型，并遵守判定边界：一个对象要被称为 query，至少要规定输出槽位或调用目标，主动从某个表征场索取信息，并且它的改变会改变模型输出的对象、区域、属性或任务。否则它只是 input token、condition token、latent token 或 routing variable。
 
+## Query 是绑定制度，不是意义制度
+
+query 的本体不是语义，而是绑定。
+
+它回答“由哪个槽位接管这片证据”，但不自动回答“这片证据是什么意思”。一个 DETR query 可以绑定到一个框，一个 MaskFormer query 可以绑定到一张 mask，一个 SAM prompt 可以绑定到一片空间支撑；但这些绑定的意义仍要靠类别表、mask head、文本 embedding、prompt 或任务定义赋予。
+
+因此 query 机制的胜利，必然把阶段 II 推到接口闭合；接口闭合的胜利，又暴露出语义主权仍在外部。
+
 下面五代每一代打破了什么属性：
 
 | 代 | 打破了什么 | query 变成了什么 |

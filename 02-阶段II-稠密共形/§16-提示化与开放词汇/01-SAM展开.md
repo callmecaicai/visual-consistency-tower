@@ -82,7 +82,7 @@ SAM 的 mask decoder 结构和 MaskFormer 惊人地相似但更简化：
 - 对 image embedding 做两层 cross-attention（bidirectional）
 - 最后用 output token 和 upsampled image embedding 做**点积**生成 mask
 
-**这就是 MaskFormer 的 query-based 结构**——只是 query 数量很少（3 个候选）且由 prompt 条件化。你之前吃透的"mask embedding · pixel embedding 点积"机制在 SAM 里原封不动沿用。
+**这就是 MaskFormer 的 query-based 结构**——只是 query 数量很少（3 个候选）且由 prompt 条件化。前文已经展开的"mask embedding · pixel embedding 点积"机制在 SAM 里原封不动沿用。
 
 所以 SAM 不是新机制——**它是"MaskFormer 的 query 被 prompt 条件化 + 大规模数据训练"**。架构创新度不高，**范式创新度极高**。
 
@@ -159,7 +159,7 @@ Prompt  ────────────────────────
 
 SAM 2 的 memory attention 本质是**让当前帧的 pixel embedding"知道"过去帧里对象在哪、长什么样**。
 
-为什么这个能工作？回到你之前吃透的"pixel embedding + mask embedding 点积生成 mask"机制：
+为什么这个能工作？回到前文已经展开的"pixel embedding + mask embedding 点积生成 mask"机制：
 
 - 在 SAM 1 里，mask embedding 来自 prompt（一次性）
 - 在 SAM 2 里，mask embedding 来自 prompt + memory（时间积累）

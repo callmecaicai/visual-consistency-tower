@@ -1,5 +1,5 @@
 window.KNOWLEDGE_BASE = {
-  "generatedAt": "2026-04-25T03:17:06.705748+00:00",
+  "generatedAt": "2026-04-25T03:31:45.512774+00:00",
   "rootName": "视觉理论大厦的一致性建模",
   "topLevelOrder": [
     "ROOT",
@@ -14,13 +14,13 @@ window.KNOWLEDGE_BASE = {
     "skills"
   ],
   "stats": {
-    "documents": 247,
+    "documents": 256,
     "stages": 5,
     "chapters": 34,
     "archived": 0,
     "byRole": {
-      "document": 58,
-      "expansion": 37,
+      "document": 64,
+      "expansion": 38,
       "stage-entry": 5,
       "locator": 28,
       "mechanism": 31,
@@ -32,12 +32,12 @@ window.KNOWLEDGE_BASE = {
       "skill": 2,
       "skill-meta": 1,
       "application": 62,
-      "cross-cut": 14
+      "cross-cut": 16
     },
     "byTier": {
-      "3": 96,
+      "3": 103,
       "0": 9,
-      "1": 44,
+      "1": 46,
       "2": 36,
       "4": 62
     },
@@ -45,11 +45,11 @@ window.KNOWLEDGE_BASE = {
       "ROOT": 1,
       "00-公理层": 7,
       "01-阶段I-判别共形": 24,
-      "02-阶段II-稠密共形": 29,
+      "02-阶段II-稠密共形": 36,
       "03-阶段III-语言共形": 28,
       "04-阶段IV-生成共形": 23,
       "05-阶段V-表征共形": 30,
-      "横切": 14,
+      "横切": 16,
       "应用域": 62,
       "skills": 9
     }
@@ -1357,8 +1357,8 @@ window.KNOWLEDGE_BASE = {
         "类型": "理论/分析",
         "阶段": "II · 稠密共形的扩张"
       },
-      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：图像定义域内处处需要被保留的局部、边界、尺度与实例差异。\n- **闭合半径**：把阶段 I 的末端标签闭合扩成整张图上的场状闭合，让度量真正穿透到每个位置。\n- **出口残差**：即使空间被吃下，语义仍依赖外部类别表和语言代理，开放词汇与结构关系仍不足。\n</aside>\n<aside>\n🧭\n**本章位置**：阶段 I 把判别共形做到天然边界——梯度能穿 1000 层，但度量只落在图像的最后一个标量。阶段 II 的使命是**让度量压力穿透到每一个像素、每一个实例、每一个位置**。这不是「扩展能力」，是度量本身的深化：从「整图 ↔ 标签」走向「空间内部 ↔ 结构化输出」。",
-      "searchBlob": "阶段 ii · 开篇总纲：从整图到每一像素，度量的稠密穿透 <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：图像定义域内处处需要被保留的局部、边界、尺度与实例差异。\n- **闭合半径**：把阶段 i 的末端标签闭合扩成整张图上的场状闭合，让度量真正穿透到每个位置。\n- **出口残差**：即使空间被吃下，语义仍依赖外部类别表和语言代理，开放词汇与结构关系仍不足。\n</aside>\n<aside>\n🧭\n**本章位置**：阶段 i 把判别共形做到天然边界——梯度能穿 1000 层，但度量只落在图像的最后一个标量。阶段 ii 的使命是**让度量压力穿透到每一个像素、每一个实例、每一个位置**。这不是「扩展能力」，是度量本身的深化：从「整图 ↔ 标签」走向「空间内部 ↔ 结构化输出」。 02-阶段ii-稠密共形/00-总纲-从整图到每一像素.md 共形维度 度量, 材料, 载体 关键贡献 把阶段 i 终章那条「残差 → 阶段 ii 入口」的过渡句，展开成阶段 ii 的本体论命题、六维度位移、内部接力线与出口。本章不是论文，是整个阶段 ii 的阅读骨架。 残差 / 它催生了什么 三条原始残差（空间内部坍缩 / 度量对位置盲视 / 输出空间退化）被逐组吸收；阶段 ii 的最终残差是「语义仍是借来的」——这条残差直接定义阶段 iii 的入口。 类型 理论/分析 阶段 ii · 稠密共形的扩张",
+      "excerpt": "<aside>\n🧭\n**章首协议（七栏版）**：\n| 项 | 本章回答 |\n|---|---|\n| 零度设定 | 已经被采样为图像的可见性，不再允许被压缩成一个标签；它必须作为投影表面，在每个位置、区域、对象和提示下作答。 |\n| 反面 / 无 | 阶段 I 的标签闭合只看最后一个类别裁决，图像内部、边界、局部、对象、尺度和实例被遮蔽。 |\n| 成为 | 场闭合、对象闭合、接口闭合依次形成，把图像定义域变成可度量、可对象化、可调用的空间法律。 |\n| 闭合制度 | `C_II=(Z_dense/slot/prompt, Π_field/object/interface, Γ_space/scale/prompt, M_IoU/mAP/PQ/Dice/RMSE, D_assignment/query/prompt)` |\n| 成功标准 | 图像不再只是一个标签，而成为可处处作答的投影表面。 |",
+      "searchBlob": "阶段 ii · 开篇总纲：从整图到每一像素，度量的稠密穿透 <aside>\n🧭\n**章首协议（七栏版）**：\n| 项 | 本章回答 |\n|---|---|\n| 零度设定 | 已经被采样为图像的可见性，不再允许被压缩成一个标签；它必须作为投影表面，在每个位置、区域、对象和提示下作答。 |\n| 反面 / 无 | 阶段 i 的标签闭合只看最后一个类别裁决，图像内部、边界、局部、对象、尺度和实例被遮蔽。 |\n| 成为 | 场闭合、对象闭合、接口闭合依次形成，把图像定义域变成可度量、可对象化、可调用的空间法律。 |\n| 闭合制度 | `c_ii=(z_dense/slot/prompt, π_field/object/interface, γ_space/scale/prompt, m_iou/map/pq/dice/rmse, d_assignment/query/prompt)` |\n| 成功标准 | 图像不再只是一个标签，而成为可处处作答的投影表面。 | 02-阶段ii-稠密共形/00-总纲-从整图到每一像素.md 共形维度 度量, 材料, 载体 关键贡献 把阶段 i 终章那条「残差 → 阶段 ii 入口」的过渡句，展开成阶段 ii 的本体论命题、六维度位移、内部接力线与出口。本章不是论文，是整个阶段 ii 的阅读骨架。 残差 / 它催生了什么 三条原始残差（空间内部坍缩 / 度量对位置盲视 / 输出空间退化）被逐组吸收；阶段 ii 的最终残差是「语义仍是借来的」——这条残差直接定义阶段 iii 的入口。 类型 理论/分析 阶段 ii · 稠密共形的扩张",
       "sortKey": "02-阶段ii-稠密共形/00-总纲-从整图到每一像素.md"
     },
     {
@@ -1381,6 +1381,38 @@ window.KNOWLEDGE_BASE = {
       "excerpt": "---\n本轮优化不把阶段 II 继续扩成更多论文条目，而是把它从“稠密视觉技术集合”加硬为“图像作为空间定义域的理念展开史”。\n核心改写：\n```text\n```\n阶段 II 的真正对象不是分割、检测、深度或开放词汇本身，而是图像从一个被判别的整体，展开为一个可处处度量、可对象化、可被外部提示调用的空间场。\n1. 新增 `§10-阶段II导论-场闭合对象闭合接口闭合.md`，确立三重闭合骨架。\n2. 在总纲中补入阶段 II 纯存在态公式与三种闭合形态。\n3. 清理 §15、§16 中的聊天残留。\n4. 修正结语重复标题和过强“阶段 II 公理”。",
       "searchBlob": "阶段 ii 深化执行记录 ---\n本轮优化不把阶段 ii 继续扩成更多论文条目，而是把它从“稠密视觉技术集合”加硬为“图像作为空间定义域的理念展开史”。\n核心改写：\n```text\n```\n阶段 ii 的真正对象不是分割、检测、深度或开放词汇本身，而是图像从一个被判别的整体，展开为一个可处处度量、可对象化、可被外部提示调用的空间场。\n1. 新增 `§10-阶段ii导论-场闭合对象闭合接口闭合.md`，确立三重闭合骨架。\n2. 在总纲中补入阶段 ii 纯存在态公式与三种闭合形态。\n3. 清理 §15、§16 中的聊天残留。\n4. 修正结语重复标题和过强“阶段 ii 公理”。 02-阶段ii-稠密共形/99-阶段ii深化执行记录.md 类型 计划/执行记录 阶段 ii · 稠密共形的扩张 共形维度 度量, 接口, 残差 关键贡献 记录本轮阶段 ii 深化目标、执行范围与命题降级纪律，保证后续修订按同一抽象协议推进。",
       "sortKey": "02-阶段ii-稠密共形/99-阶段ii深化执行记录.md"
+    },
+    {
+      "id": "02-阶段II-稠密共形/§10-A-阶段II的投影表面-从图像定义域到世界缺席.md",
+      "title": "§10-A · 阶段 II 的投影表面：从图像定义域到世界缺席",
+      "path": "02-阶段II-稠密共形/§10-A-阶段II的投影表面-从图像定义域到世界缺席.md",
+      "openPath": "../../../02-阶段II-稠密共形/§10-A-阶段II的投影表面-从图像定义域到世界缺席.md",
+      "topLevel": "02-阶段II-稠密共形",
+      "stage": "II",
+      "chapter": "§10",
+      "role": "document",
+      "retrievalTier": 3,
+      "archived": false,
+      "meta": {},
+      "excerpt": "阶段 II 不是直接处理世界空间，而是处理可见性被传感器捕获后的投影表面。\n```text\n```\n`Ω` 是图像定义域，可以是像素网格、patch 网格、feature field 或 token field。`A` 是在该位置可观测、可编码、可训练的局部值。\n阶段 II 的所有模型首先面对的是 `H x W x C` 的观测平面。这个平面来自某个传感器、某个时间点、某个视角和某个采样制度。\n因此，`Ω` 能承载：\n- 像素类别；\n- 边界；\n- box；\n- mask；",
+      "searchBlob": "§10-a · 阶段 ii 的投影表面：从图像定义域到世界缺席 阶段 ii 不是直接处理世界空间，而是处理可见性被传感器捕获后的投影表面。\n```text\n```\n`ω` 是图像定义域，可以是像素网格、patch 网格、feature field 或 token field。`a` 是在该位置可观测、可编码、可训练的局部值。\n阶段 ii 的所有模型首先面对的是 `h x w x c` 的观测平面。这个平面来自某个传感器、某个时间点、某个视角和某个采样制度。\n因此，`ω` 能承载：\n- 像素类别；\n- 边界；\n- box；\n- mask； 02-阶段ii-稠密共形/§10-a-阶段ii的投影表面-从图像定义域到世界缺席.md ",
+      "sortKey": "02-阶段ii-稠密共形/§10-a-阶段ii的投影表面-从图像定义域到世界缺席.md"
+    },
+    {
+      "id": "02-阶段II-稠密共形/§10-B-空间标注制度-从标签数据到图像定义域的法律.md",
+      "title": "§10-B · 空间标注制度：从标签数据到图像定义域的法律",
+      "path": "02-阶段II-稠密共形/§10-B-空间标注制度-从标签数据到图像定义域的法律.md",
+      "openPath": "../../../02-阶段II-稠密共形/§10-B-空间标注制度-从标签数据到图像定义域的法律.md",
+      "topLevel": "02-阶段II-稠密共形",
+      "stage": "II",
+      "chapter": "§10",
+      "role": "document",
+      "retrievalTier": 3,
+      "archived": false,
+      "meta": {},
+      "excerpt": "阶段 I 的材料制度是标签数据：一张图属于什么类。\n阶段 II 的材料制度是空间标注：图像内部哪里算对象，哪里算边界，哪里算实例，哪里算 stuff，哪里算 ignore region。\n这不是中性监督。它是可见性第一次被空间法律切开。\n阶段 I 的标签回答：\n```text\nimage -> class\n```\n阶段 II 的空间标注回答：\n```text\nΩ -> label / box / mask / keypoint / depth / flow",
+      "searchBlob": "§10-b · 空间标注制度：从标签数据到图像定义域的法律 阶段 i 的材料制度是标签数据：一张图属于什么类。\n阶段 ii 的材料制度是空间标注：图像内部哪里算对象，哪里算边界，哪里算实例，哪里算 stuff，哪里算 ignore region。\n这不是中性监督。它是可见性第一次被空间法律切开。\n阶段 i 的标签回答：\n```text\nimage -> class\n```\n阶段 ii 的空间标注回答：\n```text\nω -> label / box / mask / keypoint / depth / flow 02-阶段ii-稠密共形/§10-b-空间标注制度-从标签数据到图像定义域的法律.md ",
+      "sortKey": "02-阶段ii-稠密共形/§10-b-空间标注制度-从标签数据到图像定义域的法律.md"
     },
     {
       "id": "02-阶段II-稠密共形/§10-阶段II导论-场闭合对象闭合接口闭合.md",
@@ -1406,7 +1438,7 @@ window.KNOWLEDGE_BASE = {
     },
     {
       "id": "02-阶段II-稠密共形/§11-全卷积转向.md",
-      "title": "阶段 II · 全卷积转向：像素级度量的诞生（FCN / DeconvNet / SegNet / U-Net / U-Net++）",
+      "title": "阶段 II · 全卷积转向：场闭合的出生（FCN / DeconvNet / SegNet / U-Net / U-Net++）",
       "path": "02-阶段II-稠密共形/§11-全卷积转向.md",
       "openPath": "../../../02-阶段II-稠密共形/§11-全卷积转向.md",
       "topLevel": "02-阶段II-稠密共形",
@@ -1422,8 +1454,8 @@ window.KNOWLEDGE_BASE = {
         "类型": "架构",
         "阶段": "II · 稠密共形的扩张"
       },
-      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：像素级类别差异、边界差异与 encoder-decoder 之间可回填的空间细节。\n- **闭合半径**：把分类 backbone 改写成逐像素输出结构，第一次让闭合从单点标签扩到整张图。\n- **出口残差**：像素处处有输出后，感受野、尺度一致性与全局上下文反而成为新的缺口。\n</aside>\n<aside>\n🖼️\n**主题**：从 AlexNet / VGG 那套「卷积 + FC + Softmax」的管道里拆掉 FC，让网络在每一个空间位置都输出预测。度量第一次真正落到像素上。",
-      "searchBlob": "阶段 ii · 全卷积转向：像素级度量的诞生（fcn / deconvnet / segnet / u-net / u-net++） <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：像素级类别差异、边界差异与 encoder-decoder 之间可回填的空间细节。\n- **闭合半径**：把分类 backbone 改写成逐像素输出结构，第一次让闭合从单点标签扩到整张图。\n- **出口残差**：像素处处有输出后，感受野、尺度一致性与全局上下文反而成为新的缺口。\n</aside>\n<aside>\n🖼️\n**主题**：从 alexnet / vgg 那套「卷积 + fc + softmax」的管道里拆掉 fc，让网络在每一个空间位置都输出预测。度量第一次真正落到像素上。 02-阶段ii-稠密共形/§11-全卷积转向.md 共形维度 度量, 材料 关键贡献 去掉 fc，把分类网络改造成每个空间位置都输出一份预测的稠密网络；encoder–decoder + skip 把判别共形拉成稠密共形。 残差 / 它催生了什么 像素级共形达成，但感受野碎片化、尺度不一致 → 催生空洞卷积（deeplab）、多尺度池化（pspnet）、并行高分辨率（hrnet）。 类型 架构 阶段 ii · 稠密共形的扩张",
+      "excerpt": "<aside>\n🧭\n**章首协议（七栏版）**：\n| 项 | 本章回答 |\n|---|---|\n| 零度设定 | 图像定义域 `Ω` 上的每个位置都必须承担一份损失。 |\n| 反面 / 无 | 分类 backbone 只在最后一点输出，图像内部仍未被度量。 |\n| 成为 | FCN、DeconvNet、SegNet、U-Net 把分类器改写成场读出器。 |\n| 闭合制度 | `C_11=(Z_dense, Π_pixel, Γ_crop/scale, M_pixelCE/IoU/Dice, D_backprop/upsampling/skip)` |\n| 成功标准 | 每个像素 / 位置都有可训练、可评估的输出。 |",
+      "searchBlob": "阶段 ii · 全卷积转向：场闭合的出生（fcn / deconvnet / segnet / u-net / u-net++） <aside>\n🧭\n**章首协议（七栏版）**：\n| 项 | 本章回答 |\n|---|---|\n| 零度设定 | 图像定义域 `ω` 上的每个位置都必须承担一份损失。 |\n| 反面 / 无 | 分类 backbone 只在最后一点输出，图像内部仍未被度量。 |\n| 成为 | fcn、deconvnet、segnet、u-net 把分类器改写成场读出器。 |\n| 闭合制度 | `c_11=(z_dense, π_pixel, γ_crop/scale, m_pixelce/iou/dice, d_backprop/upsampling/skip)` |\n| 成功标准 | 每个像素 / 位置都有可训练、可评估的输出。 | 02-阶段ii-稠密共形/§11-全卷积转向.md 共形维度 度量, 材料 关键贡献 去掉 fc，把分类网络改造成每个空间位置都输出一份预测的稠密网络；encoder–decoder + skip 把判别共形拉成稠密共形。 残差 / 它催生了什么 像素级共形达成，但感受野碎片化、尺度不一致 → 催生空洞卷积（deeplab）、多尺度池化（pspnet）、并行高分辨率（hrnet）。 类型 架构 阶段 ii · 稠密共形的扩张",
       "sortKey": "02-阶段ii-稠密共形/§11-全卷积转向.md"
     },
     {
@@ -1444,8 +1476,8 @@ window.KNOWLEDGE_BASE = {
         "类型": "架构, 训练技术",
         "阶段": "II · 稠密共形的扩张"
       },
-      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：跨尺度稳定成立的上下文差异，以及高分辨率与大感受野之间的可兼容结构。\n- **闭合半径**：让稠密表征同时保留局部精度和全局语义，把场状闭合从单尺度扩到多尺度。\n- **出口残差**：语义场变得连贯，但实例边界、对象归属和检测式结构仍未被显式建模。\n</aside>\n<aside>\n🕳️\n**主题**：稠密任务的二难——高分辨率 vs 大感受野——用「空洞卷积 / 多尺度池化 / 并行高分辨率 / Transformer 分层 backbone」四条路径给出答案。尺度问题在稠密共形里不是调参问题，是度量问题。",
-      "searchBlob": "阶段 ii · 空洞卷积与多尺度：感受野的重构（deeplab v1–v3+ / pspnet / hrnet / segformer） <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：跨尺度稳定成立的上下文差异，以及高分辨率与大感受野之间的可兼容结构。\n- **闭合半径**：让稠密表征同时保留局部精度和全局语义，把场状闭合从单尺度扩到多尺度。\n- **出口残差**：语义场变得连贯，但实例边界、对象归属和检测式结构仍未被显式建模。\n</aside>\n<aside>\n🕳️\n**主题**：稠密任务的二难——高分辨率 vs 大感受野——用「空洞卷积 / 多尺度池化 / 并行高分辨率 / transformer 分层 backbone」四条路径给出答案。尺度问题在稠密共形里不是调参问题，是度量问题。 02-阶段ii-稠密共形/§12-空洞卷积与多尺度/00-定位卡.md 共形维度 度量, 载体 关键贡献 用空洞卷积 / aspp / ppm / 并行高分辨率分支 / 分层 vit，四条路径同时解决「分辨率 vs 感受野」的二难——让全局上下文与像素精度共存。 残差 / 它催生了什么 语义稠密已解决，但「实例」与「语义」割裂，两个像素属于同一个对象这件事没有被建模 → 催生检测 / 实例分割 / 全景分割的流水线化。 类型 架构, 训练技术 阶段 ii · 稠密共形的扩张",
+      "excerpt": "<aside>\n🧭\n**章首协议（七栏版）**：\n| 项 | 本章回答 |\n|---|---|\n| 零度设定 | 投影表面的每个位置既要看清局部，又要获得远处上下文。 |\n| 反面 / 无 | FCN / U-Net 已让每点可训练，但感受野碎片化，尺度不一致。 |\n| 成为 | DeepLab、ASPP、PSPNet、HRNet、SegFormer 让多尺度上下文进入场闭合。 |\n| 闭合制度 | `C_12=(Z_multiscale, Π_field, Γ_scale/RF, M_mIoU/Dice/RMSE, D_atrous/pyramid/HR/ViT)` |\n| 成功标准 | 局部精度和大感受野在同一投影表面上保持相容。 |",
+      "searchBlob": "阶段 ii · 空洞卷积与多尺度：感受野的重构（deeplab v1–v3+ / pspnet / hrnet / segformer） <aside>\n🧭\n**章首协议（七栏版）**：\n| 项 | 本章回答 |\n|---|---|\n| 零度设定 | 投影表面的每个位置既要看清局部，又要获得远处上下文。 |\n| 反面 / 无 | fcn / u-net 已让每点可训练，但感受野碎片化，尺度不一致。 |\n| 成为 | deeplab、aspp、pspnet、hrnet、segformer 让多尺度上下文进入场闭合。 |\n| 闭合制度 | `c_12=(z_multiscale, π_field, γ_scale/rf, m_miou/dice/rmse, d_atrous/pyramid/hr/vit)` |\n| 成功标准 | 局部精度和大感受野在同一投影表面上保持相容。 | 02-阶段ii-稠密共形/§12-空洞卷积与多尺度/00-定位卡.md 共形维度 度量, 载体 关键贡献 用空洞卷积 / aspp / ppm / 并行高分辨率分支 / 分层 vit，四条路径同时解决「分辨率 vs 感受野」的二难——让全局上下文与像素精度共存。 残差 / 它催生了什么 语义稠密已解决，但「实例」与「语义」割裂，两个像素属于同一个对象这件事没有被建模 → 催生检测 / 实例分割 / 全景分割的流水线化。 类型 架构, 训练技术 阶段 ii · 稠密共形的扩张",
       "sortKey": "02-阶段ii-稠密共形/§12-空洞卷积与多尺度/00-定位卡.md"
     },
     {
@@ -1497,6 +1529,22 @@ window.KNOWLEDGE_BASE = {
       "sortKey": "02-阶段ii-稠密共形/§12-空洞卷积与多尺度/03-追问与深化.md"
     },
     {
+      "id": "02-阶段II-稠密共形/§12-空洞卷积与多尺度/04-连续场闭合-深度光流法线边界与低层恢复.md",
+      "title": "04 · 连续场闭合：深度、光流、法线、边界与低层恢复",
+      "path": "02-阶段II-稠密共形/§12-空洞卷积与多尺度/04-连续场闭合-深度光流法线边界与低层恢复.md",
+      "openPath": "../../../02-阶段II-稠密共形/§12-空洞卷积与多尺度/04-连续场闭合-深度光流法线边界与低层恢复.md",
+      "topLevel": "02-阶段II-稠密共形",
+      "stage": "II",
+      "chapter": "§12",
+      "role": "expansion",
+      "retrievalTier": 3,
+      "archived": false,
+      "meta": {},
+      "excerpt": "阶段 II 不能只写离散语义场。真正的稠密共形还包括连续物理量在图像定义域上的闭合。\n| 类型 | 问题形式 | 典型任务 | 主残差 |\n|---|---|---|---|\n| 离散语义场 | `Ω -> {1...K}` | 语义分割、stuff 分割、开放词汇分割 | 类别来自外部语义制度 |\n| 连续几何场 | `Ω -> R^d` | 深度、光流、法线、边界、稠密对应、低层恢复 | 量值可预测，但对象意义与世界状态仍欠定 |\n离散语义场问：“这个位置属于什么？”\n连续几何场问：“这个位置的量值、方向、运动、深度、对应是什么？”\n二者都让 `Ω` 上的每个点变成可训练对象，但它们闭合的对象不同。\n深度估计、光流、法线估计、边界检测、低层恢复和稠密对应都在扩展阶段 II 的场闭合半径。\n它们提醒我们：稠密共形不只是 mask / box / class，也包括连续量的可调用性。",
+      "searchBlob": "04 · 连续场闭合：深度、光流、法线、边界与低层恢复 阶段 ii 不能只写离散语义场。真正的稠密共形还包括连续物理量在图像定义域上的闭合。\n| 类型 | 问题形式 | 典型任务 | 主残差 |\n|---|---|---|---|\n| 离散语义场 | `ω -> {1...k}` | 语义分割、stuff 分割、开放词汇分割 | 类别来自外部语义制度 |\n| 连续几何场 | `ω -> r^d` | 深度、光流、法线、边界、稠密对应、低层恢复 | 量值可预测，但对象意义与世界状态仍欠定 |\n离散语义场问：“这个位置属于什么？”\n连续几何场问：“这个位置的量值、方向、运动、深度、对应是什么？”\n二者都让 `ω` 上的每个点变成可训练对象，但它们闭合的对象不同。\n深度估计、光流、法线估计、边界检测、低层恢复和稠密对应都在扩展阶段 ii 的场闭合半径。\n它们提醒我们：稠密共形不只是 mask / box / class，也包括连续量的可调用性。 02-阶段ii-稠密共形/§12-空洞卷积与多尺度/04-连续场闭合-深度光流法线边界与低层恢复.md ",
+      "sortKey": "02-阶段ii-稠密共形/§12-空洞卷积与多尺度/04-连续场闭合-深度光流法线边界与低层恢复.md"
+    },
+    {
       "id": "02-阶段II-稠密共形/§13-检测共形的流水线化.md",
       "title": "阶段 II · 检测共形的流水线化：从区域提议到特征金字塔（R-CNN 家族 / YOLO / SSD / FPN / RetinaNet / Mask R-CNN / Panoptic FPN）",
       "path": "02-阶段II-稠密共形/§13-检测共形的流水线化.md",
@@ -1514,8 +1562,8 @@ window.KNOWLEDGE_BASE = {
         "类型": "任务/基准, 损失/目标, 架构",
         "阶段": "II · 稠密共形的扩张"
       },
-      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：对象级实例差异、多尺度候选差异与框/掩码级局部结构。\n- **闭合半径**：把“实例”引入稠密共形，使闭合从像素语义扩到目标、区域和全景流水线。\n- **出口残差**：anchor、NMS、RoI 等手工先验塞满系统，端到端闭合仍被外部规则打断。\n</aside>\n<aside>\n🎯\n**主题**：把「实例」作为一级原语引入稠密共形。两阶段（R-CNN 家族）与一阶段（YOLO / SSD）分道扬镳；FPN 让多尺度成为统一语言；Mask R-CNN 把语义 / 实例 / 关键点 / 全景塞进一个 RoI 头。稠密度量把「框」和「掩码」都吃下的时期。",
-      "searchBlob": "阶段 ii · 检测共形的流水线化：从区域提议到特征金字塔（r-cnn 家族 / yolo / ssd / fpn / retinanet / mask r-cnn / panoptic fpn） <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：对象级实例差异、多尺度候选差异与框/掩码级局部结构。\n- **闭合半径**：把“实例”引入稠密共形，使闭合从像素语义扩到目标、区域和全景流水线。\n- **出口残差**：anchor、nms、roi 等手工先验塞满系统，端到端闭合仍被外部规则打断。\n</aside>\n<aside>\n🎯\n**主题**：把「实例」作为一级原语引入稠密共形。两阶段（r-cnn 家族）与一阶段（yolo / ssd）分道扬镳；fpn 让多尺度成为统一语言；mask r-cnn 把语义 / 实例 / 关键点 / 全景塞进一个 roi 头。稠密度量把「框」和「掩码」都吃下的时期。 02-阶段ii-稠密共形/§13-检测共形的流水线化.md 共形维度 度量, 材料, 载体 关键贡献 把「实例」作为一级原语引入稠密共形；两阶段 / 一阶段分野形成；fpn 把多尺度架构化为 neck 级基础设施；mask r-cnn 把语义 / 实例 / 关键点 / 全景塞进一个 roi 头。 残差 / 它催生了什么 架构内部塞满手工先验（anchor / nms / roi 池化 / iou 阈值匹配），端到端共形未达成 → 催生 anchor-free（fcos）与查询范式（detr）。 类型 任务/基准, 损失/目标, 架构 阶段 ii · 稠密共形的扩张",
+      "excerpt": "<aside>\n🧭\n**章首协议（七栏版）**：\n| 项 | 本章回答 |\n|---|---|\n| 零度设定 | 连续投影场中必须出现可数实体。 |\n| 反面 / 无 | 语义场能给每个像素类别，却不能区分同类实例，也不能给对象身份。 |\n| 成为 | R-CNN、YOLO、SSD、FPN、RetinaNet、Mask R-CNN 形成对象闭合流水线。 |\n| 闭合制度 | `C_13=(Z_region/pyramid, Π_box/mask, Γ_scale/IoU, M_mAP/Focal/IoU/PQ, D_anchor/RoI/NMS/FPN)` |\n| 成功标准 | 投影表面中的局部证据可以被绑定成具有类别、位置、置信度和身份的对象。 |",
+      "searchBlob": "阶段 ii · 检测共形的流水线化：从区域提议到特征金字塔（r-cnn 家族 / yolo / ssd / fpn / retinanet / mask r-cnn / panoptic fpn） <aside>\n🧭\n**章首协议（七栏版）**：\n| 项 | 本章回答 |\n|---|---|\n| 零度设定 | 连续投影场中必须出现可数实体。 |\n| 反面 / 无 | 语义场能给每个像素类别，却不能区分同类实例，也不能给对象身份。 |\n| 成为 | r-cnn、yolo、ssd、fpn、retinanet、mask r-cnn 形成对象闭合流水线。 |\n| 闭合制度 | `c_13=(z_region/pyramid, π_box/mask, γ_scale/iou, m_map/focal/iou/pq, d_anchor/roi/nms/fpn)` |\n| 成功标准 | 投影表面中的局部证据可以被绑定成具有类别、位置、置信度和身份的对象。 | 02-阶段ii-稠密共形/§13-检测共形的流水线化.md 共形维度 度量, 材料, 载体 关键贡献 把「实例」作为一级原语引入稠密共形；两阶段 / 一阶段分野形成；fpn 把多尺度架构化为 neck 级基础设施；mask r-cnn 把语义 / 实例 / 关键点 / 全景塞进一个 roi 头。 残差 / 它催生了什么 架构内部塞满手工先验（anchor / nms / roi 池化 / iou 阈值匹配），端到端共形未达成 → 催生 anchor-free（fcos）与查询范式（detr）。 类型 任务/基准, 损失/目标, 架构 阶段 ii · 稠密共形的扩张",
       "sortKey": "02-阶段ii-稠密共形/§13-检测共形的流水线化.md"
     },
     {
@@ -1536,8 +1584,8 @@ window.KNOWLEDGE_BASE = {
         "类型": "损失/目标, 架构",
         "阶段": "II · 稠密共形的扩张"
       },
-      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：查询驱动的实例差异，以及可微匹配下稳定成立的目标表征。\n- **闭合半径**：把稠密检测从规则堆叠推进到纯网络 + 匹配损失，让实例闭合更接近端到端。\n- **出口残差**：查询范式统一了检测，但各稠密任务仍各自成头，语义 / 实例 / 全景尚未真正同构。\n</aside>\n<aside>\n↗️\n**主题**：稠密共形「去手工先验」的决定性一跃。anchor 消失（FCOS / CenterNet）→ NMS 消失（DETR）→ 查询收敛（Deformable / DN / DINO-DETR）→ 多监督并联（Co-DETR）。架构里塞的规则越来越少，损失里的匹配越来越可微。",
-      "searchBlob": "阶段 ii · anchor-free 与端到端查询：从先验到查询（cornernet / centernet / fcos / detr / deformable detr / dino-detr / co-detr） <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：查询驱动的实例差异，以及可微匹配下稳定成立的目标表征。\n- **闭合半径**：把稠密检测从规则堆叠推进到纯网络 + 匹配损失，让实例闭合更接近端到端。\n- **出口残差**：查询范式统一了检测，但各稠密任务仍各自成头，语义 / 实例 / 全景尚未真正同构。\n</aside>\n<aside>\n↗️\n**主题**：稠密共形「去手工先验」的决定性一跃。anchor 消失（fcos / centernet）→ nms 消失（detr）→ 查询收敛（deformable / dn / dino-detr）→ 多监督并联（co-detr）。架构里塞的规则越来越少，损失里的匹配越来越可微。 02-阶段ii-稠密共形/§14-anchor-free与端到端查询/00-定位卡.md 共形维度 动力, 度量, 载体 关键贡献 稠密共形「去手工先验」的决定性一跃。fcos / centernet 让 anchor 消失；detr 让 nms 消失；deformable / dn / dino-detr / co-detr 让查询成为真正收敛的稠密原语。架构从「规则 + 网络」退化为「纯网络 + 匹配损失」。 残差 / 它催生了什么 查询范式统一，但每个稠密任务仍有自己的头，语义 / 实例 / 全景 / 深度各走各的 → 催生 maskformer / mask2former 式的统一 mask 架构。 类型 损失/目标, 架构 阶段 ii · 稠密共形的扩张",
+      "excerpt": "<aside>\n🧭\n**章首协议（七栏版）**：\n| 项 | 本章回答 |\n|---|---|\n| 零度设定 | 对象必须由网络内部槽位端到端绑定，而不是由 anchor / NMS / RoI 规则外部指定。 |\n| 反面 / 无 | 检测流水线成熟，但对象分配、重复去除和候选生成仍依赖手工制度。 |\n| 成为 | CornerNet、CenterNet、FCOS、DETR、Deformable、DINO-DETR、Co-DETR 让 anchor 和 NMS 逐步退场。 |\n| 闭合制度 | `C_14=(Z_query/set, Π_box/object, Γ_matching/position, M_Hungarian/AP, D_query/cross-attn/denoise)` |\n| 成功标准 | 对象成为 set element，训练时一对一匹配，推理时不再依赖 NMS 去重。 |",
+      "searchBlob": "阶段 ii · anchor-free 与端到端查询：从先验到查询（cornernet / centernet / fcos / detr / deformable detr / dino-detr / co-detr） <aside>\n🧭\n**章首协议（七栏版）**：\n| 项 | 本章回答 |\n|---|---|\n| 零度设定 | 对象必须由网络内部槽位端到端绑定，而不是由 anchor / nms / roi 规则外部指定。 |\n| 反面 / 无 | 检测流水线成熟，但对象分配、重复去除和候选生成仍依赖手工制度。 |\n| 成为 | cornernet、centernet、fcos、detr、deformable、dino-detr、co-detr 让 anchor 和 nms 逐步退场。 |\n| 闭合制度 | `c_14=(z_query/set, π_box/object, γ_matching/position, m_hungarian/ap, d_query/cross-attn/denoise)` |\n| 成功标准 | 对象成为 set element，训练时一对一匹配，推理时不再依赖 nms 去重。 | 02-阶段ii-稠密共形/§14-anchor-free与端到端查询/00-定位卡.md 共形维度 动力, 度量, 载体 关键贡献 稠密共形「去手工先验」的决定性一跃。fcos / centernet 让 anchor 消失；detr 让 nms 消失；deformable / dn / dino-detr / co-detr 让查询成为真正收敛的稠密原语。架构从「规则 + 网络」退化为「纯网络 + 匹配损失」。 残差 / 它催生了什么 查询范式统一，但每个稠密任务仍有自己的头，语义 / 实例 / 全景 / 深度各走各的 → 催生 maskformer / mask2former 式的统一 mask 架构。 类型 损失/目标, 架构 阶段 ii · 稠密共形的扩张",
       "sortKey": "02-阶段ii-稠密共形/§14-anchor-free与端到端查询/00-定位卡.md"
     },
     {
@@ -1568,8 +1616,8 @@ window.KNOWLEDGE_BASE = {
       "retrievalTier": 3,
       "archived": false,
       "meta": {},
-      "excerpt": "这四篇是 2017-2019 年检测/分割\"合流\"的四个关键节点。我把它们按**解决的问题 → 机制 → 第一性原理 → 下游影响**的格式打穿。\n最后再把\"手工先验\"这个残差往深里推一层——你会发现那四条先验其实是同一个更底层失配的四种表现。\n---\n检测（和分割）都逃不开一个事实：**物体尺度差别能到 100×**。COCO 里小物体 <32²，大物体 >96²。一个单尺度特征图几乎必然在某一端表现差：\n- 如果用**浅层 feature**（大分辨率）：空间细节够，能定位小物体——但语义弱（只有低级纹理，不知道是啥）\n- 如果用**深层 feature**（小分辨率）：语义强（知道是狗还是车）——但分辨率差，小物体直接丢失\n| 方案 | 做法 | 问题 |\n| --- | --- | --- |\n| **Image pyramid**（传统） | 把原图缩放成多种尺度，每个尺度跑一遍 backbone | 计算爆炸，内存吃不消 |",
-      "searchBlob": "回到主线：fpn → retinanet → mask r-cnn → panoptic fpn 的四级共形推进 这四篇是 2017-2019 年检测/分割\"合流\"的四个关键节点。我把它们按**解决的问题 → 机制 → 第一性原理 → 下游影响**的格式打穿。\n最后再把\"手工先验\"这个残差往深里推一层——你会发现那四条先验其实是同一个更底层失配的四种表现。\n---\n检测（和分割）都逃不开一个事实：**物体尺度差别能到 100×**。coco 里小物体 <32²，大物体 >96²。一个单尺度特征图几乎必然在某一端表现差：\n- 如果用**浅层 feature**（大分辨率）：空间细节够，能定位小物体——但语义弱（只有低级纹理，不知道是啥）\n- 如果用**深层 feature**（小分辨率）：语义强（知道是狗还是车）——但分辨率差，小物体直接丢失\n| 方案 | 做法 | 问题 |\n| --- | --- | --- |\n| **image pyramid**（传统） | 把原图缩放成多种尺度，每个尺度跑一遍 backbone | 计算爆炸，内存吃不消 | 02-阶段ii-稠密共形/§14-anchor-free与端到端查询/02-fpn线展开.md ",
+      "excerpt": "这四篇是 2017-2019 年检测/分割\"合流\"的四个关键节点。我把它们按**解决的问题 → 机制 → 第一性原理 → 下游影响**的格式展开。\n最后再把\"手工先验\"这个残差往深里推一层——你会发现那四条先验其实是同一个更底层失配的四种表现。\n---\n检测（和分割）都逃不开一个事实：**物体尺度差别能到 100×**。COCO 里小物体 <32²，大物体 >96²。一个单尺度特征图几乎必然在某一端表现差：\n- 如果用**浅层 feature**（大分辨率）：空间细节够，能定位小物体——但语义弱（只有低级纹理，不知道是啥）\n- 如果用**深层 feature**（小分辨率）：语义强（知道是狗还是车）——但分辨率差，小物体直接丢失\n| 方案 | 做法 | 问题 |\n| --- | --- | --- |\n| **Image pyramid**（传统） | 把原图缩放成多种尺度，每个尺度跑一遍 backbone | 计算爆炸，内存吃不消 |",
+      "searchBlob": "回到主线：fpn → retinanet → mask r-cnn → panoptic fpn 的四级共形推进 这四篇是 2017-2019 年检测/分割\"合流\"的四个关键节点。我把它们按**解决的问题 → 机制 → 第一性原理 → 下游影响**的格式展开。\n最后再把\"手工先验\"这个残差往深里推一层——你会发现那四条先验其实是同一个更底层失配的四种表现。\n---\n检测（和分割）都逃不开一个事实：**物体尺度差别能到 100×**。coco 里小物体 <32²，大物体 >96²。一个单尺度特征图几乎必然在某一端表现差：\n- 如果用**浅层 feature**（大分辨率）：空间细节够，能定位小物体——但语义弱（只有低级纹理，不知道是啥）\n- 如果用**深层 feature**（小分辨率）：语义强（知道是狗还是车）——但分辨率差，小物体直接丢失\n| 方案 | 做法 | 问题 |\n| --- | --- | --- |\n| **image pyramid**（传统） | 把原图缩放成多种尺度，每个尺度跑一遍 backbone | 计算爆炸，内存吃不消 | 02-阶段ii-稠密共形/§14-anchor-free与端到端查询/02-fpn线展开.md ",
       "sortKey": "02-阶段ii-稠密共形/§14-anchor-free与端到端查询/02-fpn线展开.md"
     },
     {
@@ -1622,8 +1670,8 @@ window.KNOWLEDGE_BASE = {
         "类型": "架构",
         "阶段": "II · 稠密共形的扩张"
       },
-      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：可统一写成 mask 查询的区域差异，以及不同稠密任务共享的分割原语。\n- **闭合半径**：把分割、实例、全景、视频对象分割等区域/实例类任务压到同一 mask 架构中，显著扩大稠密闭合的任务半径；连续场回归任务仍保留 field-to-field 的闭合形态。\n- **出口残差**：统一架构仍默认闭集类别表，第 81 类问题暴露出语义来源仍在系统外。\n</aside>\n<aside>\n🧩\n**主题**：区域/实例类稠密任务的架构收束——语义 / 实例 / 全景 / 视频对象分割等任务被抽象成「一组 mask 查询 + 每个查询一个标签」。EoMT 进一步说明，在强预训练 ViT 与适当 query 注入下，部分分割任务可以让 encoder 同时承担 backbone 与读出机制；这不是所有稠密视觉任务的终局，但它是阶段 II 晚期最强的统一形态之一。",
-      "searchBlob": "阶段 ii · 统一 mask 架构：区域/实例类稠密任务的一种强统一范式（maskformer / mask2former / segformer / oneformer / seggpt / eomt） <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：可统一写成 mask 查询的区域差异，以及不同稠密任务共享的分割原语。\n- **闭合半径**：把分割、实例、全景、视频对象分割等区域/实例类任务压到同一 mask 架构中，显著扩大稠密闭合的任务半径；连续场回归任务仍保留 field-to-field 的闭合形态。\n- **出口残差**：统一架构仍默认闭集类别表，第 81 类问题暴露出语义来源仍在系统外。\n</aside>\n<aside>\n🧩\n**主题**：区域/实例类稠密任务的架构收束——语义 / 实例 / 全景 / 视频对象分割等任务被抽象成「一组 mask 查询 + 每个查询一个标签」。eomt 进一步说明，在强预训练 vit 与适当 query 注入下，部分分割任务可以让 encoder 同时承担 backbone 与读出机制；这不是所有稠密视觉任务的终局，但它是阶段 ii 晚期最强的统一形态之一。 02-阶段ii-稠密共形/§15-统一mask架构/00-定位卡.md 共形维度 度量, 材料, 载体 关键贡献 把语义 / 实例 / 全景 / 视频对象分割等区域/实例类任务抽象成「一组 mask 查询 + 每个查询一个标签」；eomt 进一步证明在强预训练 vit 条件下，部分分割任务可进入 encoder-centric regime，decoder 可变薄。 残差 / 它催生了什么 架构统一了，但类别边界仍锁在训练集之内，第 81 类无法产生 → 催生 sam / grounding dino / ape / cat-seg 的提示化与开放词汇。 类型 架构 阶段 ii · 稠密共形的扩张",
+      "excerpt": "<aside>\n🧭\n**章首协议（七栏版）**：\n| 项 | 本章回答 |\n|---|---|\n| 零度设定 | 区域 / 实例类稠密任务必须共享 mask 原语，而不是每个任务一套头。 |\n| 反面 / 无 | DETR 统一了检测，但分割、实例、全景仍在各自任务头和数据集内闭合。 |\n| 成为 | MaskFormer、Mask2Former、OneFormer、SegGPT、EoMT 把区域 / 实例类任务推向 mask-query 统一。 |\n| 闭合制度 | `C_15=(Z_mask/pixel, Π_mask/query/task, Γ_task/scale, M_maskCE/Dice/Hungarian/PQ, D_mask-query/encoder-readout)` |\n| 成功标准 | 语义、实例、全景等区域任务可共用 mask 原语和大量训练机制。 |",
+      "searchBlob": "阶段 ii · 统一 mask 架构：区域/实例类稠密任务的一种强统一范式（maskformer / mask2former / segformer / oneformer / seggpt / eomt） <aside>\n🧭\n**章首协议（七栏版）**：\n| 项 | 本章回答 |\n|---|---|\n| 零度设定 | 区域 / 实例类稠密任务必须共享 mask 原语，而不是每个任务一套头。 |\n| 反面 / 无 | detr 统一了检测，但分割、实例、全景仍在各自任务头和数据集内闭合。 |\n| 成为 | maskformer、mask2former、oneformer、seggpt、eomt 把区域 / 实例类任务推向 mask-query 统一。 |\n| 闭合制度 | `c_15=(z_mask/pixel, π_mask/query/task, γ_task/scale, m_maskce/dice/hungarian/pq, d_mask-query/encoder-readout)` |\n| 成功标准 | 语义、实例、全景等区域任务可共用 mask 原语和大量训练机制。 | 02-阶段ii-稠密共形/§15-统一mask架构/00-定位卡.md 共形维度 度量, 材料, 载体 关键贡献 把语义 / 实例 / 全景 / 视频对象分割等区域/实例类任务抽象成「一组 mask 查询 + 每个查询一个标签」；eomt 进一步证明在强预训练 vit 条件下，部分分割任务可进入 encoder-centric regime，decoder 可变薄。 残差 / 它催生了什么 架构统一了，但类别边界仍锁在训练集之内，第 81 类无法产生 → 催生 sam / grounding dino / ape / cat-seg 的提示化与开放词汇。 类型 架构 阶段 ii · 稠密共形的扩张",
       "sortKey": "02-阶段ii-稠密共形/§15-统一mask架构/00-定位卡.md"
     },
     {
@@ -1654,8 +1702,8 @@ window.KNOWLEDGE_BASE = {
       "retrievalTier": 3,
       "archived": false,
       "meta": {},
-      "excerpt": "> 编者说明：本页保存的是“MaskFormer / Mask2Former 深推导 + 跨阶段外溢判断”的合并稿。阅读时可先看导前，再进入 §1–§5 的机制展开；这样既能看清本页的技术内核，也能看清它为什么会成为阶段 II 向后几层的接口转折。\n回到你的谱系语言：\n**阶段 II** 的核心是\"**稠密穿透**\"——从整图分类穿透到每像素。这个阶段结束时留下了一组本体论原语：field、pyramid、object/slot、mask/support、matching/assignment，以及最具跨阶段外溢能力的 query/prompt。\n**阶段 III（语言共形）** 的一条关键接口线**确实建在 object query 上**：\n- 3D 重建的 NeRF / Gaussian splatting 也用 query 做视角条件\n- 视频理解的 tracking query、action query\n- 跨模态对齐的 text-image cross-attention 就是 query 机制",
-      "searchBlob": "导前 · object query 的跨阶段意义 > 编者说明：本页保存的是“maskformer / mask2former 深推导 + 跨阶段外溢判断”的合并稿。阅读时可先看导前，再进入 §1–§5 的机制展开；这样既能看清本页的技术内核，也能看清它为什么会成为阶段 ii 向后几层的接口转折。\n回到你的谱系语言：\n**阶段 ii** 的核心是\"**稠密穿透**\"——从整图分类穿透到每像素。这个阶段结束时留下了一组本体论原语：field、pyramid、object/slot、mask/support、matching/assignment，以及最具跨阶段外溢能力的 query/prompt。\n**阶段 iii（语言共形）** 的一条关键接口线**确实建在 object query 上**：\n- 3d 重建的 nerf / gaussian splatting 也用 query 做视角条件\n- 视频理解的 tracking query、action query\n- 跨模态对齐的 text-image cross-attention 就是 query 机制 02-阶段ii-稠密共形/§15-统一mask架构/02-maskformer范式展开.md ",
+      "excerpt": "> 编者说明：本页保存的是“MaskFormer / Mask2Former 深推导 + 跨阶段外溢判断”的合并稿。阅读时可先看导前，再进入 §1–§5 的机制展开；这样既能看清本页的技术内核，也能看清它为什么会成为阶段 II 向后几层的接口转折。\n回到本谱系语言：\n**阶段 II** 的核心是\"**稠密穿透**\"——从整图分类穿透到每像素。这个阶段结束时留下了一组本体论原语：field、pyramid、object/slot、mask/support、matching/assignment，以及最具跨阶段外溢能力的 query/prompt。\n**阶段 III（语言共形）** 的一条关键接口线**确实建在 object query 上**：\n- 3D 重建的 NeRF / Gaussian splatting 也用 query 做视角条件\n- 视频理解的 tracking query、action query\n- 跨模态对齐的 text-image cross-attention 就是 query 机制",
+      "searchBlob": "导前 · object query 的跨阶段意义 > 编者说明：本页保存的是“maskformer / mask2former 深推导 + 跨阶段外溢判断”的合并稿。阅读时可先看导前，再进入 §1–§5 的机制展开；这样既能看清本页的技术内核，也能看清它为什么会成为阶段 ii 向后几层的接口转折。\n回到本谱系语言：\n**阶段 ii** 的核心是\"**稠密穿透**\"——从整图分类穿透到每像素。这个阶段结束时留下了一组本体论原语：field、pyramid、object/slot、mask/support、matching/assignment，以及最具跨阶段外溢能力的 query/prompt。\n**阶段 iii（语言共形）** 的一条关键接口线**确实建在 object query 上**：\n- 3d 重建的 nerf / gaussian splatting 也用 query 做视角条件\n- 视频理解的 tracking query、action query\n- 跨模态对齐的 text-image cross-attention 就是 query 机制 02-阶段ii-稠密共形/§15-统一mask架构/02-maskformer范式展开.md ",
       "sortKey": "02-阶段ii-稠密共形/§15-统一mask架构/02-maskformer范式展开.md"
     },
     {
@@ -1670,8 +1718,8 @@ window.KNOWLEDGE_BASE = {
       "retrievalTier": 3,
       "archived": false,
       "meta": {},
-      "excerpt": "你记得\"特征金字塔网络\"但忘了具体搭法。先复习。\n**Backbone (ResNet-50) 的天然四层输出**：\n```\n输入 H×W×3\n↓ stem (7×7 conv, stride 2)\n↓ maxpool (stride 2)\nC2 = H/4  × W/4  × 256    ← stage 2 后\n↓ stride 2\nC3 = H/8  × W/8  × 512    ← stage 3 后\n↓ stride 2",
-      "searchBlob": "§1 · fpn 回顾 —— 特征金字塔的构造细节 你记得\"特征金字塔网络\"但忘了具体搭法。先复习。\n**backbone (resnet-50) 的天然四层输出**：\n```\n输入 h×w×3\n↓ stem (7×7 conv, stride 2)\n↓ maxpool (stride 2)\nc2 = h/4  × w/4  × 256    ← stage 2 后\n↓ stride 2\nc3 = h/8  × w/8  × 512    ← stage 3 后\n↓ stride 2 02-阶段ii-稠密共形/§15-统一mask架构/03-pixel-decoder与query工程.md ",
+      "excerpt": "先复盘特征金字塔网络的具体搭法。\n**Backbone (ResNet-50) 的天然四层输出**：\n```\n输入 H×W×3\n↓ stem (7×7 conv, stride 2)\n↓ maxpool (stride 2)\nC2 = H/4  × W/4  × 256    ← stage 2 后\n↓ stride 2\nC3 = H/8  × W/8  × 512    ← stage 3 后\n↓ stride 2",
+      "searchBlob": "§1 · fpn 回顾 —— 特征金字塔的构造细节 先复盘特征金字塔网络的具体搭法。\n**backbone (resnet-50) 的天然四层输出**：\n```\n输入 h×w×3\n↓ stem (7×7 conv, stride 2)\n↓ maxpool (stride 2)\nc2 = h/4  × w/4  × 256    ← stage 2 后\n↓ stride 2\nc3 = h/8  × w/8  × 512    ← stage 3 后\n↓ stride 2 02-阶段ii-稠密共形/§15-统一mask架构/03-pixel-decoder与query工程.md ",
       "sortKey": "02-阶段ii-稠密共形/§15-统一mask架构/03-pixel-decoder与query工程.md"
     },
     {
@@ -1686,8 +1734,8 @@ window.KNOWLEDGE_BASE = {
       "retrievalTier": 3,
       "archived": false,
       "meta": {},
-      "excerpt": "```python\nself.query_embed = nn.Embedding(N, d_model)  # N=100, d_model=256\n```\n就这么简单。N × d_model 大小的可学习矩阵，随机初始化（通常 Xavier 或 normal），训练中和其他所有参数一起被优化。\n**大小选择**：\n**选择逻辑**：单图最多实例数的安全上界。COCO 单图最多 ~70 实例，100 够用。剩下的 query 学到输出 \"no-object\"（空预测）。\n**初始化不加先验**——这一点特别值得注意。你可能会觉得\"既然要检测 100 个对象，是不是应该初始化成 100 个不同位置的 anchor\"。DETR 原论文做过对比：**加位置先验没什么帮助，甚至有害**——反而 Hungarian matching 在训练中自发诱导每个 query 学会自己的\"偏好槽位\"（某个大致位置 / 某种对象尺寸），这是**涌现式的特化**。",
-      "searchBlob": "§5 · n 个可学习 query 的工程细节 ```python\nself.query_embed = nn.embedding(n, d_model)  # n=100, d_model=256\n```\n就这么简单。n × d_model 大小的可学习矩阵，随机初始化（通常 xavier 或 normal），训练中和其他所有参数一起被优化。\n**大小选择**：\n**选择逻辑**：单图最多实例数的安全上界。coco 单图最多 ~70 实例，100 够用。剩下的 query 学到输出 \"no-object\"（空预测）。\n**初始化不加先验**——这一点特别值得注意。你可能会觉得\"既然要检测 100 个对象，是不是应该初始化成 100 个不同位置的 anchor\"。detr 原论文做过对比：**加位置先验没什么帮助，甚至有害**——反而 hungarian matching 在训练中自发诱导每个 query 学会自己的\"偏好槽位\"（某个大致位置 / 某种对象尺寸），这是**涌现式的特化**。 02-阶段ii-稠密共形/§15-统一mask架构/04-追问与深化.md ",
+      "excerpt": "```python\nself.query_embed = nn.Embedding(N, d_model)  # N=100, d_model=256\n```\n就这么简单。N × d_model 大小的可学习矩阵，随机初始化（通常 Xavier 或 normal），训练中和其他所有参数一起被优化。\n**大小选择**：\n**选择逻辑**：单图最多实例数的安全上界。COCO 单图最多 ~70 实例，100 够用。剩下的 query 学到输出 \"no-object\"（空预测）。\n**初始化不加先验**——这一点特别值得注意。可能会认为\"既然要检测 100 个对象，是不是应该初始化成 100 个不同位置的 anchor\"。DETR 原论文做过对比：**加位置先验没什么帮助，甚至有害**——反而 Hungarian matching 在训练中自发诱导每个 query 学会自己的\"偏好槽位\"（某个大致位置 / 某种对象尺寸），这是**涌现式的特化**。",
+      "searchBlob": "§5 · n 个可学习 query 的工程细节 ```python\nself.query_embed = nn.embedding(n, d_model)  # n=100, d_model=256\n```\n就这么简单。n × d_model 大小的可学习矩阵，随机初始化（通常 xavier 或 normal），训练中和其他所有参数一起被优化。\n**大小选择**：\n**选择逻辑**：单图最多实例数的安全上界。coco 单图最多 ~70 实例，100 够用。剩下的 query 学到输出 \"no-object\"（空预测）。\n**初始化不加先验**——这一点特别值得注意。可能会认为\"既然要检测 100 个对象，是不是应该初始化成 100 个不同位置的 anchor\"。detr 原论文做过对比：**加位置先验没什么帮助，甚至有害**——反而 hungarian matching 在训练中自发诱导每个 query 学会自己的\"偏好槽位\"（某个大致位置 / 某种对象尺寸），这是**涌现式的特化**。 02-阶段ii-稠密共形/§15-统一mask架构/04-追问与深化.md ",
       "sortKey": "02-阶段ii-稠密共形/§15-统一mask架构/04-追问与深化.md"
     },
     {
@@ -1702,8 +1750,8 @@ window.KNOWLEDGE_BASE = {
       "retrievalTier": 3,
       "archived": false,
       "meta": {},
-      "excerpt": "本页承接 MaskFormer / Mask2Former 的 query-mask 统一范式，追踪三条后续分化：SegFormer 把 decoder 变薄，OneFormer 把三种分割任务压进同一份权重，Painter / SegGPT 把 in-context learning 引入稠密预测。它们共同说明：阶段 II 的统一不只发生在架构层，也发生在训练协议和任务接口层。\n**共形贡献**：纯 ViT backbone + 纯 MLP decoder——证明「多尺度归纳偏置」可以被 Transformer 的分层结构自然吸收。稠密任务的 decoder 开始变薄。\n**共形贡献**：一次训练、一份权重，同时胜任语义 / 实例 / 全景——训练时引入 task token 告诉模型当前任务类型。「一个模型 vs 三组模型」的彻底清算。\n先纠个小事：EoMT 实际上是 **CVPR 2025 Highlight**（arXiv 2503.19108 是 2025 年 3 月），不是 ECCV 2024。你之前条目里写错了年份/会议——后面你若整合进页面可以顺手改掉。",
-      "searchBlob": "segformer、oneformer 与 seggpt：decoder 变薄、权重统一、提示化雏形 本页承接 maskformer / mask2former 的 query-mask 统一范式，追踪三条后续分化：segformer 把 decoder 变薄，oneformer 把三种分割任务压进同一份权重，painter / seggpt 把 in-context learning 引入稠密预测。它们共同说明：阶段 ii 的统一不只发生在架构层，也发生在训练协议和任务接口层。\n**共形贡献**：纯 vit backbone + 纯 mlp decoder——证明「多尺度归纳偏置」可以被 transformer 的分层结构自然吸收。稠密任务的 decoder 开始变薄。\n**共形贡献**：一次训练、一份权重，同时胜任语义 / 实例 / 全景——训练时引入 task token 告诉模型当前任务类型。「一个模型 vs 三组模型」的彻底清算。\n先纠个小事：eomt 实际上是 **cvpr 2025 highlight**（arxiv 2503.19108 是 2025 年 3 月），不是 eccv 2024。你之前条目里写错了年份/会议——后面你若整合进页面可以顺手改掉。 02-阶段ii-稠密共形/§15-统一mask架构/05-seggpt.md ",
+      "excerpt": "本页承接 MaskFormer / Mask2Former 的 query-mask 统一范式，追踪三条后续分化：SegFormer 把 decoder 变薄，OneFormer 把三种分割任务压进同一份权重，Painter / SegGPT 把 in-context learning 引入稠密预测。它们共同说明：阶段 II 的统一不只发生在架构层，也发生在训练协议和任务接口层。\n**共形贡献**：纯 ViT backbone + 纯 MLP decoder——证明「多尺度归纳偏置」可以被 Transformer 的分层结构自然吸收。稠密任务的 decoder 开始变薄。\n**共形贡献**：一次训练、一份权重，同时胜任语义 / 实例 / 全景——训练时引入 task token 告诉模型当前任务类型。「一个模型 vs 三组模型」的彻底清算。\n补充说明：EoMT 实际上是 **CVPR 2025 Highlight**（arXiv 2503.19108 是 2025 年 3 月），不是 ECCV 2024。`n`n---`n`n# §5 · Painter / SegGPT —— In-context learning 首次登陆稠密预测",
+      "searchBlob": "segformer、oneformer 与 seggpt：decoder 变薄、权重统一、提示化雏形 本页承接 maskformer / mask2former 的 query-mask 统一范式，追踪三条后续分化：segformer 把 decoder 变薄，oneformer 把三种分割任务压进同一份权重，painter / seggpt 把 in-context learning 引入稠密预测。它们共同说明：阶段 ii 的统一不只发生在架构层，也发生在训练协议和任务接口层。\n**共形贡献**：纯 vit backbone + 纯 mlp decoder——证明「多尺度归纳偏置」可以被 transformer 的分层结构自然吸收。稠密任务的 decoder 开始变薄。\n**共形贡献**：一次训练、一份权重，同时胜任语义 / 实例 / 全景——训练时引入 task token 告诉模型当前任务类型。「一个模型 vs 三组模型」的彻底清算。\n补充说明：eomt 实际上是 **cvpr 2025 highlight**（arxiv 2503.19108 是 2025 年 3 月），不是 eccv 2024。`n`n---`n`n# §5 · painter / seggpt —— in-context learning 首次登陆稠密预测 02-阶段ii-稠密共形/§15-统一mask架构/05-seggpt.md ",
       "sortKey": "02-阶段ii-稠密共形/§15-统一mask架构/05-seggpt.md"
     },
     {
@@ -1718,13 +1766,13 @@ window.KNOWLEDGE_BASE = {
       "retrievalTier": 3,
       "archived": false,
       "meta": {},
-      "excerpt": "> 编者说明：本页是“统一 Mask 架构”组的深推导汇编稿，内部保留了若干从 SegFormer / OneFormer / SegGPT / EoMT 逐步累积而来的专题段落。阅读时可先看 §6 主体与其残差判断，再按后续专题追踪 decoder 变薄、单权重统一与 encoder-centric regime 的细部推演。\n本节按重要性展开，并先校正几条背景事实：\n- **作者**：Kerssies, Cassara, Fontanel, de Geus, Cordts, Gall（TU Eindhoven + RWTH + Mercedes-Benz + Uni Bonn）\n- **发表**：**CVPR 2025 Highlight**，不是 ECCV 2024\n- **arxiv 2503.19108**（2025 年 3 月）\n- 完整名字：**Encoder-only Mask Transformer**\nMask2Former 架构（你已经吃透了）：",
-      "searchBlob": "§6 · eomt —— decoder 变薄到 encoder-centric regime > 编者说明：本页是“统一 mask 架构”组的深推导汇编稿，内部保留了若干从 segformer / oneformer / seggpt / eomt 逐步累积而来的专题段落。阅读时可先看 §6 主体与其残差判断，再按后续专题追踪 decoder 变薄、单权重统一与 encoder-centric regime 的细部推演。\n本节按重要性展开，并先校正几条背景事实：\n- **作者**：kerssies, cassara, fontanel, de geus, cordts, gall（tu eindhoven + rwth + mercedes-benz + uni bonn）\n- **发表**：**cvpr 2025 highlight**，不是 eccv 2024\n- **arxiv 2503.19108**（2025 年 3 月）\n- 完整名字：**encoder-only mask transformer**\nmask2former 架构（你已经吃透了）： 02-阶段ii-稠密共形/§15-统一mask架构/06-eomt.md ",
+      "excerpt": "> 编者说明：本页是“统一 Mask 架构”组的深推导汇编稿，内部保留了若干从 SegFormer / OneFormer / SegGPT / EoMT 逐步累积而来的专题段落。阅读时可先看 §6 主体与其残差判断，再按后续专题追踪 decoder 变薄、单权重统一与 encoder-centric regime 的细部推演。\n本节按重要性展开，并先校正几条背景事实：\n- **作者**：Kerssies, Cassara, Fontanel, de Geus, Cordts, Gall（TU Eindhoven + RWTH + Mercedes-Benz + Uni Bonn）\n- **发表**：**CVPR 2025 Highlight**，不是 ECCV 2024\n- **arxiv 2503.19108**（2025 年 3 月）\n- 完整名字：**Encoder-only Mask Transformer**\nMask2Former 架构：",
+      "searchBlob": "§6 · eomt —— decoder 变薄到 encoder-centric regime > 编者说明：本页是“统一 mask 架构”组的深推导汇编稿，内部保留了若干从 segformer / oneformer / seggpt / eomt 逐步累积而来的专题段落。阅读时可先看 §6 主体与其残差判断，再按后续专题追踪 decoder 变薄、单权重统一与 encoder-centric regime 的细部推演。\n本节按重要性展开，并先校正几条背景事实：\n- **作者**：kerssies, cassara, fontanel, de geus, cordts, gall（tu eindhoven + rwth + mercedes-benz + uni bonn）\n- **发表**：**cvpr 2025 highlight**，不是 eccv 2024\n- **arxiv 2503.19108**（2025 年 3 月）\n- 完整名字：**encoder-only mask transformer**\nmask2former 架构： 02-阶段ii-稠密共形/§15-统一mask架构/06-eomt.md ",
       "sortKey": "02-阶段ii-稠密共形/§15-统一mask架构/06-eomt.md"
     },
     {
       "id": "02-阶段II-稠密共形/§16-提示化与开放词汇/00-定位卡.md",
-      "title": "阶段 II · 提示化与开放词汇：稠密共形的开放——阶段 II 的出口与阶段 III 的入口（SAM / SAM 2 / Grounding DINO / DINO-X / T-Rex2 / YOLO-World / Florence-2 / APE / ODISE / CAT-Seg / FC-CLIP / Depth Anything）",
+      "title": "阶段 II · 接口主权的临界点：prompt 打开空间，语言夺走语义（SAM / SAM 2 / Grounding DINO / DINO-X / T-Rex2 / YOLO-World / Florence-2 / APE / ODISE / CAT-Seg / FC-CLIP / Depth Anything）",
       "path": "02-阶段II-稠密共形/§16-提示化与开放词汇/00-定位卡.md",
       "openPath": "../../../02-阶段II-稠密共形/§16-提示化与开放词汇/00-定位卡.md",
       "topLevel": "02-阶段II-稠密共形",
@@ -1740,8 +1788,8 @@ window.KNOWLEDGE_BASE = {
         "类型": "任务/基准, 数据集, 架构",
         "阶段": "II · 稠密共形的扩张"
       },
-      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：可被提示词、点、框和开放词汇稳定锚定的视觉差异。\n- **闭合半径**：把稠密闭合从固定类别表扩到开放接口，使视觉场第一次接上公共语义调用。\n- **出口残差**：开放语义主要借自 CLIP / 文本监督，视觉自身不持有语义，也不处理复杂结构关系。\n</aside>\n<aside>\n🔓\n**主题**：稠密共形的最后一跃——类别边界从「训练见过的 80 类」变成「提示时用语言 / 点 / 框指定的任意概念」。SAM 把分割做成可提示原语；Grounding DINO / APE / DINO-X 把开放词汇检测推到通用；CAT-Seg / FC-CLIP 把 CLIP 的语义接到稠密掩码上；Depth Anything 把回归类稠密任务也拉入零样本时代。这一组是阶段 II 的出口，也是阶段 III 的入口。",
-      "searchBlob": "阶段 ii · 提示化与开放词汇：稠密共形的开放——阶段 ii 的出口与阶段 iii 的入口（sam / sam 2 / grounding dino / dino-x / t-rex2 / yolo-world / florence-2 / ape / odise / cat-seg / fc-clip / depth anything） <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：可被提示词、点、框和开放词汇稳定锚定的视觉差异。\n- **闭合半径**：把稠密闭合从固定类别表扩到开放接口，使视觉场第一次接上公共语义调用。\n- **出口残差**：开放语义主要借自 clip / 文本监督，视觉自身不持有语义，也不处理复杂结构关系。\n</aside>\n<aside>\n🔓\n**主题**：稠密共形的最后一跃——类别边界从「训练见过的 80 类」变成「提示时用语言 / 点 / 框指定的任意概念」。sam 把分割做成可提示原语；grounding dino / ape / dino-x 把开放词汇检测推到通用；cat-seg / fc-clip 把 clip 的语义接到稠密掩码上；depth anything 把回归类稠密任务也拉入零样本时代。这一组是阶段 ii 的出口，也是阶段 iii 的入口。 02-阶段ii-稠密共形/§16-提示化与开放词汇/00-定位卡.md 共形维度 度量, 时间尺度, 材料, 载体 关键贡献 把稠密任务的「类别闭集」彻底拆开——类别从「训练见过的 80 类」变成「提示时用语言 / 点 / 框指定的任意概念」。sam 把分割做成可提示原语；grounding dino / ape / dino-x 把开放词汇检测推到通用；cat-seg / fc-clip 把 clip 的语义接到稠密掩码上；depth anything 把零样本带进回归类任务。 残差 / 它催生了什么 开放词汇是借来的——语义挂载 clip 的外部向量，视觉侧自己不产语义；结构化关系仍不在稠密输出里 → 这两条残差自然流进阶段 iii 的入口：让语言从外挂变成视觉的骨干，vlm 由此登场，视觉主体性第一次以「与语言共享」的形式出现。 类型 任务/基准, 数据集, 架构 阶段 ii · 稠密共形的扩张",
+      "excerpt": "<aside>\n🧭\n**章首协议（七栏版）**：\n| 项 | 本章回答 |\n|---|---|\n| 零度设定 | 空间接口必须在推理时被外部提示调用，而不是被训练集类别表锁死。 |\n| 反面 / 无 | Mask 统一仍默认闭集类别；第 81 类没有通道，任务规格固定在训练集内部。 |\n| 成为 | SAM、SAM 2/3、Grounding DINO、YOLO-World、Florence-2、CAT-Seg、Depth Anything 等把 prompt、文本、示例和开放词汇接入稠密输出。 |\n| 闭合制度 | `C_16=(Z_foundation/prompt, Π_prompt/text/example/dense, Γ_prompt/modality/domain, M_prompt-IoU/open-vocab-AP/zero-shot, D_data-engine/grounding/open-vocab)` |",
+      "searchBlob": "阶段 ii · 接口主权的临界点：prompt 打开空间，语言夺走语义（sam / sam 2 / grounding dino / dino-x / t-rex2 / yolo-world / florence-2 / ape / odise / cat-seg / fc-clip / depth anything） <aside>\n🧭\n**章首协议（七栏版）**：\n| 项 | 本章回答 |\n|---|---|\n| 零度设定 | 空间接口必须在推理时被外部提示调用，而不是被训练集类别表锁死。 |\n| 反面 / 无 | mask 统一仍默认闭集类别；第 81 类没有通道，任务规格固定在训练集内部。 |\n| 成为 | sam、sam 2/3、grounding dino、yolo-world、florence-2、cat-seg、depth anything 等把 prompt、文本、示例和开放词汇接入稠密输出。 |\n| 闭合制度 | `c_16=(z_foundation/prompt, π_prompt/text/example/dense, γ_prompt/modality/domain, m_prompt-iou/open-vocab-ap/zero-shot, d_data-engine/grounding/open-vocab)` | 02-阶段ii-稠密共形/§16-提示化与开放词汇/00-定位卡.md 共形维度 度量, 时间尺度, 材料, 载体 关键贡献 把稠密任务的「类别闭集」彻底拆开——类别从「训练见过的 80 类」变成「提示时用语言 / 点 / 框指定的任意概念」。sam 把分割做成可提示原语；grounding dino / ape / dino-x 把开放词汇检测推到通用；cat-seg / fc-clip 把 clip 的语义接到稠密掩码上；depth anything 把零样本带进回归类任务。 残差 / 它催生了什么 开放词汇是借来的——语义挂载 clip 的外部向量，视觉侧自己不产语义；结构化关系仍不在稠密输出里 → 这两条残差自然流进阶段 iii 的入口：让语言从外挂变成视觉的骨干，vlm 由此登场，视觉主体性第一次以「与语言共享」的形式出现。 类型 任务/基准, 数据集, 架构 阶段 ii · 稠密共形的扩张",
       "sortKey": "02-阶段ii-稠密共形/§16-提示化与开放词汇/00-定位卡.md"
     },
     {
@@ -1788,8 +1836,8 @@ window.KNOWLEDGE_BASE = {
       "retrievalTier": 3,
       "archived": false,
       "meta": {},
-      "excerpt": "视觉的 scaling 不是失败了，而是**斜率远比语言小**，而且**在 benchmark 上接近噪声地板**。三个深层原因：\n1. **信息论层面**：图像 token 的有效香农熵远低于文本 token，单位数据的\"监督密度\"差 1-2 个量级\n2. **训练目标层面**：语言的 next-token prediction 直接学习人类文本分布中的世界结构投影；视觉的 pixel reconstruction / patch contrastive 与公共语义之间隔着更远的映射层\n3. **数据几何层面**：标准自然图像 benchmark 的有效变化更容易饱和，10 亿张自然图不等于 10 亿个新任务；但视觉世界本身在视频、3D、科学影像、医学、遥感、显微、工业和具身场景中仍高度开放\n再结合若干研究线索：DINOv2→v3 要靠 Gram Anchoring 防止 scale 时 dense feature 退化;[[1]](https://zhuanlan.zhihu.com/p/1940074425849458833) Fluid 相关讨论指出 VQ 信息损失会限制视觉自回归 scaling;[[2]](https://www.51cto.com/aigc/2567.html) OpenCLIP scaling 报告显示不同模型/数据规模下存在缩放瓶颈;[[3]](https://www.cnblogs.com/moonout/p/19836058) 具身智能社区也仍在寻找稳定 scaling law。[[4]](https://hub.baai.ac.cn/vi",
-      "searchBlob": "§0 · 先放结论 视觉的 scaling 不是失败了，而是**斜率远比语言小**，而且**在 benchmark 上接近噪声地板**。三个深层原因：\n1. **信息论层面**：图像 token 的有效香农熵远低于文本 token，单位数据的\"监督密度\"差 1-2 个量级\n2. **训练目标层面**：语言的 next-token prediction 直接学习人类文本分布中的世界结构投影；视觉的 pixel reconstruction / patch contrastive 与公共语义之间隔着更远的映射层\n3. **数据几何层面**：标准自然图像 benchmark 的有效变化更容易饱和，10 亿张自然图不等于 10 亿个新任务；但视觉世界本身在视频、3d、科学影像、医学、遥感、显微、工业和具身场景中仍高度开放\n再结合若干研究线索：dinov2→v3 要靠 gram anchoring 防止 scale 时 dense feature 退化;[[1]](https://zhuanlan.zhihu.com/p/1940074425849458833) fluid 相关讨论指出 vq 信息损失会限制视觉自回归 scaling;[[2]](https://www.51cto.com/aigc/2567.html) openclip scaling 报告显示不同模型/数据规模下存在缩放瓶颈;[[3]](https://www.cnblogs.com/moonout/p/19836058) 具身智能社区也仍在寻找稳定 scaling law。[[4]](https://hub.baai.ac.cn/vi 02-阶段ii-稠密共形/§16-提示化与开放词汇/03-视觉scaling分析.md ",
+      "excerpt": "> 页面定位：理论假说页 / 待一手证据页。本页记录阶段 II 末端关于视觉 scaling 的结构性判断，其中部分证据仍来自二手讨论材料；后续版本应优先替换为一手论文、官方报告和可复现实验。\n视觉的 scaling 不是失败了，而是**斜率远比语言小**，而且**在 benchmark 上接近噪声地板**。三个深层原因：\n1. **信息论层面**：图像 token 的有效香农熵远低于文本 token，单位数据的\"监督密度\"差 1-2 个量级\n2. **训练目标层面**：语言的 next-token prediction 直接学习人类文本分布中的世界结构投影；视觉的 pixel reconstruction / patch contrastive 与公共语义之间隔着更远的映射层\n3. **数据几何层面**：标准自然图像 benchmark 的有效变化更容易饱和，10 亿张自然图不等于 10 亿个新任务；但视觉世界本身在视频、3D、科学影像、医学、遥感、显微、工业和具身场景中仍高度开放",
+      "searchBlob": "§0 · 先放结论 > 页面定位：理论假说页 / 待一手证据页。本页记录阶段 ii 末端关于视觉 scaling 的结构性判断，其中部分证据仍来自二手讨论材料；后续版本应优先替换为一手论文、官方报告和可复现实验。\n视觉的 scaling 不是失败了，而是**斜率远比语言小**，而且**在 benchmark 上接近噪声地板**。三个深层原因：\n1. **信息论层面**：图像 token 的有效香农熵远低于文本 token，单位数据的\"监督密度\"差 1-2 个量级\n2. **训练目标层面**：语言的 next-token prediction 直接学习人类文本分布中的世界结构投影；视觉的 pixel reconstruction / patch contrastive 与公共语义之间隔着更远的映射层\n3. **数据几何层面**：标准自然图像 benchmark 的有效变化更容易饱和，10 亿张自然图不等于 10 亿个新任务；但视觉世界本身在视频、3d、科学影像、医学、遥感、显微、工业和具身场景中仍高度开放 02-阶段ii-稠密共形/§16-提示化与开放词汇/03-视觉scaling分析.md ",
       "sortKey": "02-阶段ii-稠密共形/§16-提示化与开放词汇/03-视觉scaling分析.md"
     },
     {
@@ -1804,8 +1852,8 @@ window.KNOWLEDGE_BASE = {
       "retrievalTier": 3,
       "archived": false,
       "meta": {},
-      "excerpt": "你说的\"模糊地看 + 虚假地想\"其实可以拆成四种独立可测的故障模式，每一种都有专门的 benchmark：\n1. **Perceptual blindness（感知性盲）**：两张明显不同的图在 CLIP 编码里几乎相同 → VLM 根本区分不出。证据：**MMVP / CLIP-blind pairs**。\n2. **Visual-unnecessary answering（视觉无关作答）**：不给图也能答对。证据：**MMStar**。\n3. **Recognition-masked reasoning errors（识别错误伪装成推理错误）**：62% 的所谓\"推理错误\"追回去是识别错误。\n4. **Unfaithful CoT / hallucinated reasoning（不忠实的思维链）**：给出的思考过程并不是模型真正用于决策的过程。证据：Anthropic 的 \"Language Models Don't Always Say What They Think\"[[1]](https://www.notion.so/Language-Models-Don-t-Always-Say-What-They-Think-Unfaithful-Explanations-in-Chain-of-Thought-Prompt-a69748d648008277a182017c02134800?pvs=21) 及其视觉扩展。",
-      "searchBlob": "§0 · 先把现象精确化 你说的\"模糊地看 + 虚假地想\"其实可以拆成四种独立可测的故障模式，每一种都有专门的 benchmark：\n1. **perceptual blindness（感知性盲）**：两张明显不同的图在 clip 编码里几乎相同 → vlm 根本区分不出。证据：**mmvp / clip-blind pairs**。\n2. **visual-unnecessary answering（视觉无关作答）**：不给图也能答对。证据：**mmstar**。\n3. **recognition-masked reasoning errors（识别错误伪装成推理错误）**：62% 的所谓\"推理错误\"追回去是识别错误。\n4. **unfaithful cot / hallucinated reasoning（不忠实的思维链）**：给出的思考过程并不是模型真正用于决策的过程。证据：anthropic 的 \"language models don't always say what they think\"[[1]](https://www.notion.so/language-models-don-t-always-say-what-they-think-unfaithful-explanations-in-chain-of-thought-prompt-a69748d648008277a182017c02134800?pvs=21) 及其视觉扩展。 02-阶段ii-稠密共形/§16-提示化与开放词汇/04-vlm看不清问题.md ",
+      "excerpt": "> 页面定位：阶段 II 出口残差 / 阶段 III 借语言代价的前史。本页不是 VLM 综述，而是说明阶段 II 的视觉编码器在进入语言系统前已经暴露感知残差；如果阶段 III 只接上语言，语言会替视觉说话。\n所谓“模糊地看 + 虚假地想”其实可以拆成四种独立可测的故障模式，每一种都有专门的 benchmark：\n1. **Perceptual blindness（感知性盲）**：两张明显不同的图在 CLIP 编码里几乎相同 → VLM 根本区分不出。证据：**MMVP / CLIP-blind pairs**。\n2. **Visual-unnecessary answering（视觉无关作答）**：不给图也能答对。证据：**MMStar**。\n3. **Recognition-masked reasoning errors（识别错误伪装成推理错误）**：62% 的所谓\"推理错误\"追回去是识别错误。\n4. **Unfaithful CoT / hallucinated reasoning（不忠实的思维链）**：给出的思考过程并不是模型真正用于决策的过程。证据：Anthropic 的 \"Language Models Don't Always Say What They Think\"[[1]](https://www.notion.so/Language-Models-Don-t-Always-Say-What-They-Think-Unfaithful-Explanations-in-Chain-of-Thought-Prompt-a69748d648008277a18201",
+      "searchBlob": "§0 · 先把现象精确化 > 页面定位：阶段 ii 出口残差 / 阶段 iii 借语言代价的前史。本页不是 vlm 综述，而是说明阶段 ii 的视觉编码器在进入语言系统前已经暴露感知残差；如果阶段 iii 只接上语言，语言会替视觉说话。\n所谓“模糊地看 + 虚假地想”其实可以拆成四种独立可测的故障模式，每一种都有专门的 benchmark：\n1. **perceptual blindness（感知性盲）**：两张明显不同的图在 clip 编码里几乎相同 → vlm 根本区分不出。证据：**mmvp / clip-blind pairs**。\n2. **visual-unnecessary answering（视觉无关作答）**：不给图也能答对。证据：**mmstar**。\n3. **recognition-masked reasoning errors（识别错误伪装成推理错误）**：62% 的所谓\"推理错误\"追回去是识别错误。\n4. **unfaithful cot / hallucinated reasoning（不忠实的思维链）**：给出的思考过程并不是模型真正用于决策的过程。证据：anthropic 的 \"language models don't always say what they think\"[[1]](https://www.notion.so/language-models-don-t-always-say-what-they-think-unfaithful-explanations-in-chain-of-thought-prompt-a69748d648008277a18201 02-阶段ii-稠密共形/§16-提示化与开放词汇/04-vlm看不清问题.md ",
       "sortKey": "02-阶段ii-稠密共形/§16-提示化与开放词汇/04-vlm看不清问题.md"
     },
     {
@@ -1820,9 +1868,73 @@ window.KNOWLEDGE_BASE = {
       "retrievalTier": 3,
       "archived": false,
       "meta": {},
-      "excerpt": "本页标题仍叫“两条 DINO 线”，但实际内容承载了三条应该区分的路线：\n1. **DINO (SSL) 线**：DINOv1/v2/v3，核心是语言无关的自监督视觉表征 scaling。\n2. **DINO (DETR) 线**：DAB/DN/DINO-DETR -> Grounding DINO -> DINO-X，核心是端到端检测和开放词汇 query。\n3. **Universal dense foundation 线**：Florence-2、Depth Anything、RADIO、SAM encoder 等，核心是把稠密视觉任务压到通用 backbone 与开放接口上。\n这三条线在阶段 II 末端交汇，但不能混写成同一谱系。后续可将本页拆成三页；当前先用这段重定位防止读者把 DINOv3 和 Grounding DINO 误读成同一代际链。\n这条线的共形内核不变：**学生网络预测教师网络的输出（自蒸馏）+ teacher 是 student 的 EMA**。三代的差异全在**数据规模、架构细节、目标函数的工程修补**上。",
-      "searchBlob": "三线重定位：同名 dino、开放词汇与通用稠密基础模型 本页标题仍叫“两条 dino 线”，但实际内容承载了三条应该区分的路线：\n1. **dino (ssl) 线**：dinov1/v2/v3，核心是语言无关的自监督视觉表征 scaling。\n2. **dino (detr) 线**：dab/dn/dino-detr -> grounding dino -> dino-x，核心是端到端检测和开放词汇 query。\n3. **universal dense foundation 线**：florence-2、depth anything、radio、sam encoder 等，核心是把稠密视觉任务压到通用 backbone 与开放接口上。\n这三条线在阶段 ii 末端交汇，但不能混写成同一谱系。后续可将本页拆成三页；当前先用这段重定位防止读者把 dinov3 和 grounding dino 误读成同一代际链。\n这条线的共形内核不变：**学生网络预测教师网络的输出（自蒸馏）+ teacher 是 student 的 ema**。三代的差异全在**数据规模、架构细节、目标函数的工程修补**上。 02-阶段ii-稠密共形/§16-提示化与开放词汇/05-两条dino线.md ",
+      "excerpt": "> 页面定位：本页保留为材料总账。正式阅读入口已拆为 [05A-DINO-SSL线](05A-DINO-SSL线-语言无关视觉表征scaling.md)、[05B-DINO-DETR线](05B-DINO-DETR线-检测query与开放词汇.md)、[05C-Universal-Dense-Foundation线](05C-Universal-Dense-Foundation线-Florence2-DepthAnything-RADIO-SAMencoder.md)。三条路线不能混写成同一谱系。\n本页标题仍叫“两条 DINO 线”，但实际内容承载了三条应该区分的路线：\n1. **DINO (SSL) 线**：DINOv1/v2/v3，核心是语言无关的自监督视觉表征 scaling。\n2. **DINO (DETR) 线**：DAB/DN/DINO-DETR -> Grounding DINO -> DINO-X，核心是端到端检测和开放词汇 query。",
+      "searchBlob": "三线重定位：同名 dino、开放词汇与通用稠密基础模型 > 页面定位：本页保留为材料总账。正式阅读入口已拆为 [05a-dino-ssl线](05a-dino-ssl线-语言无关视觉表征scaling.md)、[05b-dino-detr线](05b-dino-detr线-检测query与开放词汇.md)、[05c-universal-dense-foundation线](05c-universal-dense-foundation线-florence2-depthanything-radio-samencoder.md)。三条路线不能混写成同一谱系。\n本页标题仍叫“两条 dino 线”，但实际内容承载了三条应该区分的路线：\n1. **dino (ssl) 线**：dinov1/v2/v3，核心是语言无关的自监督视觉表征 scaling。\n2. **dino (detr) 线**：dab/dn/dino-detr -> grounding dino -> dino-x，核心是端到端检测和开放词汇 query。 02-阶段ii-稠密共形/§16-提示化与开放词汇/05-两条dino线.md ",
       "sortKey": "02-阶段ii-稠密共形/§16-提示化与开放词汇/05-两条dino线.md"
+    },
+    {
+      "id": "02-阶段II-稠密共形/§16-提示化与开放词汇/05A-DINO-SSL线-语言无关视觉表征scaling.md",
+      "title": "05A · DINO-SSL 线：语言无关视觉表征 scaling",
+      "path": "02-阶段II-稠密共形/§16-提示化与开放词汇/05A-DINO-SSL线-语言无关视觉表征scaling.md",
+      "openPath": "../../../02-阶段II-稠密共形/§16-提示化与开放词汇/05A-DINO-SSL线-语言无关视觉表征scaling.md",
+      "topLevel": "02-阶段II-稠密共形",
+      "stage": "II",
+      "chapter": "§16",
+      "role": "document",
+      "retrievalTier": 3,
+      "archived": false,
+      "meta": {},
+      "excerpt": "本页从原“05-两条DINO线”中拆出，专门处理 DINO / DINOv2 / DINOv3 这一条语言无关视觉表征线。\n| 项 | 内容 |\n|---|---|\n| 所属闭合 | 阶段 II 的稠密基础特征回流，同时通向阶段 V 的表征共形。 |\n| 主要对象 | patch / dense feature / objectness signal。 |\n| 语义来源 | 主要来自视觉自监督与数据分布，不直接来自文本 prompt。 |\n| 阶段 II 功能 | 为分割、检测、深度、对应等稠密任务提供可迁移骨干。 |\n| 残差 | 强 feature 不等于世界状态；objectness signal 不等于对象持有。 |\nDINO SSL 线处理的是“视觉表征如何在无语言监督下形成可迁移结构”。它的核心问题是 feature quality、dense transfer、objectness emergence 和 scaling 稳定性。",
+      "searchBlob": "05a · dino-ssl 线：语言无关视觉表征 scaling 本页从原“05-两条dino线”中拆出，专门处理 dino / dinov2 / dinov3 这一条语言无关视觉表征线。\n| 项 | 内容 |\n|---|---|\n| 所属闭合 | 阶段 ii 的稠密基础特征回流，同时通向阶段 v 的表征共形。 |\n| 主要对象 | patch / dense feature / objectness signal。 |\n| 语义来源 | 主要来自视觉自监督与数据分布，不直接来自文本 prompt。 |\n| 阶段 ii 功能 | 为分割、检测、深度、对应等稠密任务提供可迁移骨干。 |\n| 残差 | 强 feature 不等于世界状态；objectness signal 不等于对象持有。 |\ndino ssl 线处理的是“视觉表征如何在无语言监督下形成可迁移结构”。它的核心问题是 feature quality、dense transfer、objectness emergence 和 scaling 稳定性。 02-阶段ii-稠密共形/§16-提示化与开放词汇/05a-dino-ssl线-语言无关视觉表征scaling.md ",
+      "sortKey": "02-阶段ii-稠密共形/§16-提示化与开放词汇/05a-dino-ssl线-语言无关视觉表征scaling.md"
+    },
+    {
+      "id": "02-阶段II-稠密共形/§16-提示化与开放词汇/05B-DINO-DETR线-检测query与开放词汇.md",
+      "title": "05B · DINO-DETR 线：检测 query 与开放词汇",
+      "path": "02-阶段II-稠密共形/§16-提示化与开放词汇/05B-DINO-DETR线-检测query与开放词汇.md",
+      "openPath": "../../../02-阶段II-稠密共形/§16-提示化与开放词汇/05B-DINO-DETR线-检测query与开放词汇.md",
+      "topLevel": "02-阶段II-稠密共形",
+      "stage": "II",
+      "chapter": "§16",
+      "role": "document",
+      "retrievalTier": 3,
+      "archived": false,
+      "meta": {},
+      "excerpt": "本页从原“05-两条DINO线”中拆出，专门处理 DINO-DETR / Grounding DINO / DINO-X 这一条检测与开放词汇线。\n| 项 | 内容 |\n|---|---|\n| 所属闭合 | 阶段 II 的对象闭合与接口闭合。 |\n| 主要对象 | box / object query / text-conditioned detection。 |\n| 语义来源 | 类别表、文本 embedding、grounding 数据和开放词汇训练。 |\n| 阶段 II 功能 | 让检测从封闭类别表走向文本条件与开放词汇。 |\n| 残差 | query 负责绑定证据，文本负责赋义；语义仍不完全属于视觉自身。 |\nDINO-DETR 的核心是让 DETR 式 query 更快、更稳地收敛：显式位置、去噪训练、匹配制度和多监督共同降低原始 DETR 的训练成本。\nGrounding DINO 则把文本引入这套检测制度：文本不再只是输出标签，而成为检测 query / condition 的语义来源。",
+      "searchBlob": "05b · dino-detr 线：检测 query 与开放词汇 本页从原“05-两条dino线”中拆出，专门处理 dino-detr / grounding dino / dino-x 这一条检测与开放词汇线。\n| 项 | 内容 |\n|---|---|\n| 所属闭合 | 阶段 ii 的对象闭合与接口闭合。 |\n| 主要对象 | box / object query / text-conditioned detection。 |\n| 语义来源 | 类别表、文本 embedding、grounding 数据和开放词汇训练。 |\n| 阶段 ii 功能 | 让检测从封闭类别表走向文本条件与开放词汇。 |\n| 残差 | query 负责绑定证据，文本负责赋义；语义仍不完全属于视觉自身。 |\ndino-detr 的核心是让 detr 式 query 更快、更稳地收敛：显式位置、去噪训练、匹配制度和多监督共同降低原始 detr 的训练成本。\ngrounding dino 则把文本引入这套检测制度：文本不再只是输出标签，而成为检测 query / condition 的语义来源。 02-阶段ii-稠密共形/§16-提示化与开放词汇/05b-dino-detr线-检测query与开放词汇.md ",
+      "sortKey": "02-阶段ii-稠密共形/§16-提示化与开放词汇/05b-dino-detr线-检测query与开放词汇.md"
+    },
+    {
+      "id": "02-阶段II-稠密共形/§16-提示化与开放词汇/05C-Universal-Dense-Foundation线-Florence2-DepthAnything-RADIO-SAMencoder.md",
+      "title": "05C · Universal Dense Foundation 线：Florence-2 / Depth Anything / RADIO / SAM Encoder",
+      "path": "02-阶段II-稠密共形/§16-提示化与开放词汇/05C-Universal-Dense-Foundation线-Florence2-DepthAnything-RADIO-SAMencoder.md",
+      "openPath": "../../../02-阶段II-稠密共形/§16-提示化与开放词汇/05C-Universal-Dense-Foundation线-Florence2-DepthAnything-RADIO-SAMencoder.md",
+      "topLevel": "02-阶段II-稠密共形",
+      "stage": "II",
+      "chapter": "§16",
+      "role": "document",
+      "retrievalTier": 3,
+      "archived": false,
+      "meta": {},
+      "excerpt": "本页从原“05-两条DINO线”中拆出，专门处理通用稠密基础模型线。\n| 项 | 内容 |\n|---|---|\n| 所属闭合 | 阶段 II 的接口闭合与横切基础设施。 |\n| 主要对象 | task prompt、dense feature、continuous field、multi-teacher representation。 |\n| 语义来源 | 文本 token、伪标签、视觉 SSL、数据引擎和多教师蒸馏。 |\n| 阶段 II 功能 | 把检测、分割、描述、深度、定位等任务推向统一接口或统一骨干。 |\n| 残差 | 接口统一不等于世界统一；连续场与状态持有仍需更强审计。 |\nFlorence-2 把多种视觉任务序列化成 prompt 与结构 token 输出。它的贡献是接口统一：同一模型可以在文本式任务提示下输出 caption、box、region、dense 标注等结果。\n但这种统一首先是接口统一，不是世界状态统一。",
+      "searchBlob": "05c · universal dense foundation 线：florence-2 / depth anything / radio / sam encoder 本页从原“05-两条dino线”中拆出，专门处理通用稠密基础模型线。\n| 项 | 内容 |\n|---|---|\n| 所属闭合 | 阶段 ii 的接口闭合与横切基础设施。 |\n| 主要对象 | task prompt、dense feature、continuous field、multi-teacher representation。 |\n| 语义来源 | 文本 token、伪标签、视觉 ssl、数据引擎和多教师蒸馏。 |\n| 阶段 ii 功能 | 把检测、分割、描述、深度、定位等任务推向统一接口或统一骨干。 |\n| 残差 | 接口统一不等于世界统一；连续场与状态持有仍需更强审计。 |\nflorence-2 把多种视觉任务序列化成 prompt 与结构 token 输出。它的贡献是接口统一：同一模型可以在文本式任务提示下输出 caption、box、region、dense 标注等结果。\n但这种统一首先是接口统一，不是世界状态统一。 02-阶段ii-稠密共形/§16-提示化与开放词汇/05c-universal-dense-foundation线-florence2-depthanything-radio-samencoder.md ",
+      "sortKey": "02-阶段ii-稠密共形/§16-提示化与开放词汇/05c-universal-dense-foundation线-florence2-depthanything-radio-samencoder.md"
+    },
+    {
+      "id": "02-阶段II-稠密共形/§16-提示化与开放词汇/index.md",
+      "title": "§16 · 接口主权的临界点：prompt 打开空间，语言夺走语义",
+      "path": "02-阶段II-稠密共形/§16-提示化与开放词汇/index.md",
+      "openPath": "../../../02-阶段II-稠密共形/§16-提示化与开放词汇/index.md",
+      "topLevel": "02-阶段II-稠密共形",
+      "stage": "II",
+      "chapter": "§16",
+      "role": "document",
+      "retrievalTier": 3,
+      "archived": false,
+      "meta": {},
+      "excerpt": "§16 是阶段 II 的出口章，不是普通的开放词汇模型列表。\n阶段 II 前半程把图像变成场、对象和 mask；§16 则让这些空间结构在推理时被外部提示调用。这里发生的不是“视觉自己拥有开放语义”，而是：\n> 视觉把空间支撑服务化；语义主权则暂时交给语言、示例、数据引擎和外部概念制度。\nMaskFormer / Mask2Former 统一了区域 / 实例类任务，但它们仍默认一个闭集类别表。训练集中没有的类别，就没有对应通道。\nSAM、Grounding DINO、YOLO-World、Florence-2、CAT-Seg、Depth Anything 等方法共同拆开了这个封闭口：\n- 点、框、mask 让用户直接调用空间支撑。\n- 文本和名词短语让外部概念进入检测与分割。\n- 示例图像让“像这个”成为可操作提示。\n- 大规模数据引擎让稠密监督可以持续扩张。\n§16 的成功标准不是某个 AP 数值，而是：空间输出不再完全由训练集类别表规定，而可以在推理时由 prompt / text / exemplar 指定。",
+      "searchBlob": "§16 · 接口主权的临界点：prompt 打开空间，语言夺走语义 §16 是阶段 ii 的出口章，不是普通的开放词汇模型列表。\n阶段 ii 前半程把图像变成场、对象和 mask；§16 则让这些空间结构在推理时被外部提示调用。这里发生的不是“视觉自己拥有开放语义”，而是：\n> 视觉把空间支撑服务化；语义主权则暂时交给语言、示例、数据引擎和外部概念制度。\nmaskformer / mask2former 统一了区域 / 实例类任务，但它们仍默认一个闭集类别表。训练集中没有的类别，就没有对应通道。\nsam、grounding dino、yolo-world、florence-2、cat-seg、depth anything 等方法共同拆开了这个封闭口：\n- 点、框、mask 让用户直接调用空间支撑。\n- 文本和名词短语让外部概念进入检测与分割。\n- 示例图像让“像这个”成为可操作提示。\n- 大规模数据引擎让稠密监督可以持续扩张。\n§16 的成功标准不是某个 ap 数值，而是：空间输出不再完全由训练集类别表规定，而可以在推理时由 prompt / text / exemplar 指定。 02-阶段ii-稠密共形/§16-提示化与开放词汇/index.md ",
+      "sortKey": "02-阶段ii-稠密共形/§16-提示化与开放词汇/index.md"
     },
     {
       "id": "02-阶段II-稠密共形/结语/哲学思考.md",
@@ -1836,8 +1948,8 @@ window.KNOWLEDGE_BASE = {
       "retrievalTier": 3,
       "archived": false,
       "meta": {},
-      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：二维投影中可被视觉模型抓住的表面差异，以及其与真实世界状态之间的落差。\n- **闭合半径**：把稠密视觉的工程问题上升为认识论问题，明确阶段 II 的闭合仍停留在投影层。\n- **出口残差**：只处理投影差异不足以解释语义、关系和世界状态，语言与更深表征层因此成为必然入口。\n</aside>\n<aside>\n🌑\n前面七节做的是**技术哲学**的拆解。但阶段二末尾遇到的四个残差（语义外包 / scaling 饱和 / VLM 看不清 / query 黑箱），其实已经不是工程问题，而是**哲学问题**——它们关乎「视觉作为一种认识方式」本身的地位。指向阶段三之前，有必要从哲学上清理：视觉在认识学里到底是什么。",
-      "searchBlob": "八、哲学的思考：视觉作为一种存在方式 <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：二维投影中可被视觉模型抓住的表面差异，以及其与真实世界状态之间的落差。\n- **闭合半径**：把稠密视觉的工程问题上升为认识论问题，明确阶段 ii 的闭合仍停留在投影层。\n- **出口残差**：只处理投影差异不足以解释语义、关系和世界状态，语言与更深表征层因此成为必然入口。\n</aside>\n<aside>\n🌑\n前面七节做的是**技术哲学**的拆解。但阶段二末尾遇到的四个残差（语义外包 / scaling 饱和 / vlm 看不清 / query 黑箱），其实已经不是工程问题，而是**哲学问题**——它们关乎「视觉作为一种认识方式」本身的地位。指向阶段三之前，有必要从哲学上清理：视觉在认识学里到底是什么。 02-阶段ii-稠密共形/结语/哲学思考.md ",
+      "excerpt": "<aside>\n🧭\n**章首协议（七栏版）**：\n| 项 | 本章回答 |\n|---|---|\n| 零度设定 | 阶段 II 处理的是投影表面，不是世界本身。 |\n| 反面 / 无 | 投影表面可以被处处度量，但它缺少背面、历史、身体、行动和因果。 |\n| 成为 | 柏拉图、康德、维特根斯坦、梅洛-庞蒂、海德格尔、谢林等框架被技术回译为投影表面问题。 |\n| 闭合制度 | `C_philo=(Z_surface, Π_dense/prompt, Γ_view/scale, M_mask/box/depth, D_annotation/prompt)` |\n| 成功标准 | 说明阶段 II 的空间胜利为什么仍停在二维 sensor plane 的闭合上。 |",
+      "searchBlob": "八、哲学的思考：视觉作为一种存在方式 <aside>\n🧭\n**章首协议（七栏版）**：\n| 项 | 本章回答 |\n|---|---|\n| 零度设定 | 阶段 ii 处理的是投影表面，不是世界本身。 |\n| 反面 / 无 | 投影表面可以被处处度量，但它缺少背面、历史、身体、行动和因果。 |\n| 成为 | 柏拉图、康德、维特根斯坦、梅洛-庞蒂、海德格尔、谢林等框架被技术回译为投影表面问题。 |\n| 闭合制度 | `c_philo=(z_surface, π_dense/prompt, γ_view/scale, m_mask/box/depth, d_annotation/prompt)` |\n| 成功标准 | 说明阶段 ii 的空间胜利为什么仍停在二维 sensor plane 的闭合上。 | 02-阶段ii-稠密共形/结语/哲学思考.md ",
       "sortKey": "02-阶段ii-稠密共形/结语/哲学思考.md"
     },
     {
@@ -1852,8 +1964,8 @@ window.KNOWLEDGE_BASE = {
       "retrievalTier": 3,
       "archived": false,
       "meta": {},
-      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：从像素到实例再到提示接口的一整条稠密差异链。\n- **闭合半径**：回收 §11–§16 的全部闭合扩张，确认阶段 II 已完成从“点”到“场”的总体跃迁。\n- **出口残差**：阶段 II 完成了空间扩张，但没有完成语义主权，开放词汇依旧建立在借来的语言空间上。\n</aside>\n<aside>\n🧭\n阶段二（§11–§16，2014–2024）的十年，视觉深度学习完成了一次**共形的横向扩张**：从「一张图 → 一个标签」扩展到「一张图 → 稠密预测」。这一阶段的六个子章节是一条完整的逻辑链——从 **FCN 把分类器扩成稠密输出** 开始，经过 **空洞卷积补全多尺度**、**两阶段 / 一阶段检测器工程化流水线**、**DETR 把检测端到端化**、**Mask2Former 把检测/分割/全景统一到 Mask Classification**，最后到 **SAM/Grounding DINO/Florence-2/APE 把提示与开放词汇挂接进来**。",
-      "searchBlob": "阶段二的结语：稠密共形的完成与开放词汇的未竟 <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：从像素到实例再到提示接口的一整条稠密差异链。\n- **闭合半径**：回收 §11–§16 的全部闭合扩张，确认阶段 ii 已完成从“点”到“场”的总体跃迁。\n- **出口残差**：阶段 ii 完成了空间扩张，但没有完成语义主权，开放词汇依旧建立在借来的语言空间上。\n</aside>\n<aside>\n🧭\n阶段二（§11–§16，2014–2024）的十年，视觉深度学习完成了一次**共形的横向扩张**：从「一张图 → 一个标签」扩展到「一张图 → 稠密预测」。这一阶段的六个子章节是一条完整的逻辑链——从 **fcn 把分类器扩成稠密输出** 开始，经过 **空洞卷积补全多尺度**、**两阶段 / 一阶段检测器工程化流水线**、**detr 把检测端到端化**、**mask2former 把检测/分割/全景统一到 mask classification**，最后到 **sam/grounding dino/florence-2/ape 把提示与开放词汇挂接进来**。 02-阶段ii-稠密共形/结语/技术总结.md ",
+      "excerpt": "<aside>\n🧭\n**章首协议（七栏版）**：\n| 项 | 本章回答 |\n|---|---|\n| 零度设定 | 图像终于不再只是标签，而成为可处处作答的投影表面。 |\n| 反面 / 无 | 投影表面即使处处可度量，也仍不是公共意义，也仍不是世界状态。 |\n| 成为 | §11–§16 回收为场闭合、对象闭合、集合 / mask 闭合、接口闭合四次展开。 |\n| 闭合制度 | `C_II=(Z_dense/slot/prompt, Π_field/object/interface, Γ_space/scale/prompt, M_IoU/mAP/PQ/Dice/RMSE, D_assignment/query/prompt)` |\n| 成功标准 | 像素、区域、实例、边界、prompt 和开放词汇都能在投影表面上被度量。 |",
+      "searchBlob": "阶段二的结语：稠密共形的完成与开放词汇的未竟 <aside>\n🧭\n**章首协议（七栏版）**：\n| 项 | 本章回答 |\n|---|---|\n| 零度设定 | 图像终于不再只是标签，而成为可处处作答的投影表面。 |\n| 反面 / 无 | 投影表面即使处处可度量，也仍不是公共意义，也仍不是世界状态。 |\n| 成为 | §11–§16 回收为场闭合、对象闭合、集合 / mask 闭合、接口闭合四次展开。 |\n| 闭合制度 | `c_ii=(z_dense/slot/prompt, π_field/object/interface, γ_space/scale/prompt, m_iou/map/pq/dice/rmse, d_assignment/query/prompt)` |\n| 成功标准 | 像素、区域、实例、边界、prompt 和开放词汇都能在投影表面上被度量。 | 02-阶段ii-稠密共形/结语/技术总结.md ",
       "sortKey": "02-阶段ii-稠密共形/结语/技术总结.md"
     },
     {
@@ -5294,6 +5406,38 @@ window.KNOWLEDGE_BASE = {
       "excerpt": "阶段一现在已经不是“ImageNet 分类时代综述”了，它已经具备了真正的楼层形态：**视觉作为标签存在**。你这轮把五问协议、`Image -> Label` 纯存在态、命题分级、§06 标签制度的异化都补上了，阶段一的主梁已经立住。尤其 §06 写得非常关键：阶段 I 不是因为“不够准”而被否定，而是因为它太会在标签制度下成功；只要标签正确，空间内部、部件、关系、形状、状态、纹理捷径和背景捷径都可以暂时不被追问。这个判断已经抓住了阶段一的自我否定。([CallMeCaicai][1])\n但从你现在新加入的“真正的开端：可见性”看，阶段一还需要再提升一次。它的问题不再是“有没有解释分类史”，而是：**它是否真正把‘可见性如何第一次被标签制度裁决’写出来了。**\n---\n你现在阶段一导读把纯存在态写成：\n```text\nImage -> Label\n```\n并解释为“一张图必须被决断为一个标签”。这对阶段一内部是正确的；导读还把闭合制度写成 `C_I=(Z_global, Π_label, Γ_aug, M_CE/Top-k, D_SGD/BN/Residual)`，这已经接上了新公理层的闭合制度语言。([CallMeCaicai][2])",
       "searchBlob": "总判断：阶段一已经成形，但还差一个“可见性 → 图像 → 标签”的过渡 阶段一现在已经不是“imagenet 分类时代综述”了，它已经具备了真正的楼层形态：**视觉作为标签存在**。你这轮把五问协议、`image -> label` 纯存在态、命题分级、§06 标签制度的异化都补上了，阶段一的主梁已经立住。尤其 §06 写得非常关键：阶段 i 不是因为“不够准”而被否定，而是因为它太会在标签制度下成功；只要标签正确，空间内部、部件、关系、形状、状态、纹理捷径和背景捷径都可以暂时不被追问。这个判断已经抓住了阶段一的自我否定。([callmecaicai][1])\n但从你现在新加入的“真正的开端：可见性”看，阶段一还需要再提升一次。它的问题不再是“有没有解释分类史”，而是：**它是否真正把‘可见性如何第一次被标签制度裁决’写出来了。**\n---\n你现在阶段一导读把纯存在态写成：\n```text\nimage -> label\n```\n并解释为“一张图必须被决断为一个标签”。这对阶段一内部是正确的；导读还把闭合制度写成 `c_i=(z_global, π_label, γ_aug, m_ce/top-k, d_sgd/bn/residual)`，这已经接上了新公理层的闭合制度语言。([callmecaicai][2]) 横切/阶段1优化计划.md ",
       "sortKey": "横切/阶段1优化计划.md"
+    },
+    {
+      "id": "横切/阶段2优化.md",
+      "title": "1. 最高层判断：阶段 II 的零度设定还可以再深一层",
+      "path": "横切/阶段2优化.md",
+      "openPath": "../../../横切/阶段2优化.md",
+      "topLevel": "横切",
+      "stage": "",
+      "chapter": "",
+      "role": "cross-cut",
+      "retrievalTier": 1,
+      "archived": false,
+      "meta": {},
+      "excerpt": "我按当前导航把阶段 II 主线重新过了一遍：总纲、§10 导论、§11–§16 主章及关键子页、阶段 II 结语的技术总结和哲学思考都看了。阶段 II 现在已经不是“分割/检测/SAM 综述”，它的骨架已经立住：**图像不再作为整体被判别，而是作为空间定义域被处处要求作答**。这一点在总纲和 §10 中已经写出来了，尤其 `Image-as-domain -> Field / Object / Interface` 这个公式是阶段 II 的关键压缩。([CallMeCaicai][1])\n但如果接上你最新的“真正的开端 / 可见性”层级，阶段 II 还可以更高。它现在的主线是“从整图到空间场”，下一步应升级为：\n> **阶段 II 是标签裁决失败之后，可见性以“投影表面”的形式返回。\n> 它不是简单扩展输出维度，而是让图像内部被迫成为一个可度量、可对象化、可调用的空间法律。**\n---\n你现在阶段 II 的纯存在态是：\n```text",
+      "searchBlob": "1. 最高层判断：阶段 ii 的零度设定还可以再深一层 我按当前导航把阶段 ii 主线重新过了一遍：总纲、§10 导论、§11–§16 主章及关键子页、阶段 ii 结语的技术总结和哲学思考都看了。阶段 ii 现在已经不是“分割/检测/sam 综述”，它的骨架已经立住：**图像不再作为整体被判别，而是作为空间定义域被处处要求作答**。这一点在总纲和 §10 中已经写出来了，尤其 `image-as-domain -> field / object / interface` 这个公式是阶段 ii 的关键压缩。([callmecaicai][1])\n但如果接上你最新的“真正的开端 / 可见性”层级，阶段 ii 还可以更高。它现在的主线是“从整图到空间场”，下一步应升级为：\n> **阶段 ii 是标签裁决失败之后，可见性以“投影表面”的形式返回。\n> 它不是简单扩展输出维度，而是让图像内部被迫成为一个可度量、可对象化、可调用的空间法律。**\n---\n你现在阶段 ii 的纯存在态是：\n```text 横切/阶段2优化.md ",
+      "sortKey": "横切/阶段2优化.md"
+    },
+    {
+      "id": "横切/阶段3优化.md",
+      "title": "1. 阶段 III 的最高层定位应再提升一步",
+      "path": "横切/阶段3优化.md",
+      "openPath": "../../../横切/阶段3优化.md",
+      "topLevel": "横切",
+      "stage": "",
+      "chapter": "",
+      "role": "cross-cut",
+      "retrievalTier": 1,
+      "archived": false,
+      "meta": {},
+      "excerpt": "阶段 III 现在已经很有分量了。它不再只是“CLIP/VLM/多模态模型史”，而是已经被你压成了一个非常清楚的纯存在态：\n> **Visual Difference → Public Linguistic Contract**\n> 视觉差异必须进入公共语言契约。\n这个设定是对的，而且非常适合作为你当前研究主方向。阶段 III 的独特性就在于：它不是单纯让视觉“更强”，而是让视觉第一次接受一个外部公共制度的裁决。阶段 I 是标签制度，阶段 II 是空间制度，阶段 III 则是**公共语义制度**。你现在已经抓住了这一点：语言提供公共概念、指代表达、任务指令和评价话语，视觉提供图像证据、空间定位和部分感知支撑；阶段 III 的残差也来自这张契约不是视觉自身的主权。这个判断非常重要。([CallMeCaicai][1])\n但因为阶段 III 是你最主要的研究方向，它还需要比其他阶段更硬、更丰富、更一致。我的总体判断是：\n> **阶段 III 的灵魂已经立住，但它还没有完全成为“公共语义契约的逻辑学”。**",
+      "searchBlob": "1. 阶段 iii 的最高层定位应再提升一步 阶段 iii 现在已经很有分量了。它不再只是“clip/vlm/多模态模型史”，而是已经被你压成了一个非常清楚的纯存在态：\n> **visual difference → public linguistic contract**\n> 视觉差异必须进入公共语言契约。\n这个设定是对的，而且非常适合作为你当前研究主方向。阶段 iii 的独特性就在于：它不是单纯让视觉“更强”，而是让视觉第一次接受一个外部公共制度的裁决。阶段 i 是标签制度，阶段 ii 是空间制度，阶段 iii 则是**公共语义制度**。你现在已经抓住了这一点：语言提供公共概念、指代表达、任务指令和评价话语，视觉提供图像证据、空间定位和部分感知支撑；阶段 iii 的残差也来自这张契约不是视觉自身的主权。这个判断非常重要。([callmecaicai][1])\n但因为阶段 iii 是你最主要的研究方向，它还需要比其他阶段更硬、更丰富、更一致。我的总体判断是：\n> **阶段 iii 的灵魂已经立住，但它还没有完全成为“公共语义契约的逻辑学”。** 横切/阶段3优化.md ",
+      "sortKey": "横切/阶段3优化.md"
     },
     {
       "id": "横切/阶段偏序与桥接节点.md",

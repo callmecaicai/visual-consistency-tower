@@ -1,5 +1,7 @@
 # 三线重定位：同名 DINO、开放词汇与通用稠密基础模型
 
+> 页面定位：本页保留为材料总账。正式阅读入口已拆为 [05A-DINO-SSL线](05A-DINO-SSL线-语言无关视觉表征scaling.md)、[05B-DINO-DETR线](05B-DINO-DETR线-检测query与开放词汇.md)、[05C-Universal-Dense-Foundation线](05C-Universal-Dense-Foundation线-Florence2-DepthAnything-RADIO-SAMencoder.md)。三条路线不能混写成同一谱系。
+
 本页标题仍叫“两条 DINO 线”，但实际内容承载了三条应该区分的路线：
 
 1. **DINO (SSL) 线**：DINOv1/v2/v3，核心是语言无关的自监督视觉表征 scaling。
@@ -84,7 +86,7 @@
 
 - Feature 值可以漂移（模型适应新数据），但**feature 之间的相对几何不能崩**
 - 这是"**保留结构而非保留绝对值**"的典型——**和 ResNet 的残差连接、LayerNorm 的放缩不变性是同一个哲学家族**
-- 它部分回应了你之前吃透的"语言 vs 视觉 scaling 斜率不同"——**视觉的 scaling 需要额外的结构稳定器，语言不需要**
+- 它部分回应了前文已经展开的"语言 vs 视觉 scaling 斜率不同"——**视觉的 scaling 需要额外的结构稳定器，语言不需要**
 
 **其他工程层面**：
 
@@ -271,7 +273,7 @@ Custom Prompt    (用户定义的 concept embedding)
 **DINO-X 的哲学意义**：
 
 - **"开放词汇"的真正定义不是"任意类别"，而是"任意任务"** —— 用户的意图可以用文本、可以用视觉样例、可以用 region、可以空（让模型自己决定）
-- **这是 SAM 3 的直接前驱** —— 你之前吃透的 SAM 3 的"promptable concept segmentation"和 DINO-X 的设计高度同构，只是 Meta 做到了更大规模、更强的 concept encoder
+- **这是 SAM 3 的直接前驱** —— 前文已经展开的 SAM 3 的"promptable concept segmentation"和 DINO-X 的设计高度同构，只是 Meta 做到了更大规模、更强的 concept encoder
 - **它是阶段 II 末端"稠密任务统一化"的完全形态** —— 比 SAM 3 早一年，比 Florence-2 更细粒度
 
 ## §10 · T-Rex2 (2024-03, Jiang et al., IDEA, ECCV 2024, arXiv 2403.14610)
@@ -356,7 +358,7 @@ T-Rex2        : + 视觉-文本双塔对齐                (文本无力 → 视
 - **DETR 线负责"问问题"** ——提供 query 机制、文本/视觉 prompt、任务头
 - **两者的能力正交**——前者是**表征**，后者是**接口**
 
-这也回应了你之前吃透的 SAM 架构：SAM 也是 image encoder（表征）+ prompt encoder + mask decoder（接口）的正交分工。**整个阶段 II 末端的所有基础模型，都是"表征 + 接口"两层架构**——这是一个普遍的共形模式。
+这也回应了前文已经展开的 SAM 架构：SAM 也是 image encoder（表征）+ prompt encoder + mask decoder（接口）的正交分工。**整个阶段 II 末端的所有基础模型，都是"表征 + 接口"两层架构**——这是一个普遍的共形模式。
 
 ---
 
@@ -424,7 +426,7 @@ graph TB
 
 ---
 
-从谱系完整性看，SSL 线的 DINOv1-v3 不应只是聊天补充，而应作为正式条目回补到 [阶段 II · 提示化与开放词汇：稠密共形的开放——阶段 II 的出口与阶段 III 的入口（SAM / SAM 2 / Grounding DINO / DINO-X / T-Rex2 / YOLO-World / Florence-2 / APE / ODISE / CAT-Seg / FC-CLIP / Depth Anything）](00-定位卡.md) 的外围说明中。否则页面会只看见“开放词汇如何调用视觉”，却看不见“视觉自己如何先长成可调用的表征”。
+从谱系完整性看，SSL 线的 DINOv1-v3 不应只是附注材料，而应作为正式条目回补到 [阶段 II · 提示化与开放词汇：稠密共形的开放——阶段 II 的出口与阶段 III 的入口（SAM / SAM 2 / Grounding DINO / DINO-X / T-Rex2 / YOLO-World / Florence-2 / APE / ODISE / CAT-Seg / FC-CLIP / Depth Anything）](00-定位卡.md) 的外围说明中。否则页面会只看见“开放词汇如何调用视觉”，却看不见“视觉自己如何先长成可调用的表征”。
 
 ## 6 · YOLO-World —— *Real-Time Open-Vocabulary Object Detection* (Cheng 等, CVPR 2024)
 
@@ -831,7 +833,7 @@ Image → Frozen ConvNeXt-CLIP → 多尺度 Feature
 
 这正是阶段 II 残差一"**语义是借来的**"最显式的体现。三篇论文都不回避这一点——它们**就是要借**，而且证明了借得漂亮可以达到 SOTA。
 
-这也是**为什么阶段 III 必然到来**：借久了就发现**借不够**。CLIP 的语义粒度限制住了所有借 CLIP 的方法——MMVP 盲对、属性混淆、语言先验压制，都是"借来的语义"的代价（你之前吃透的）。
+这也是**为什么阶段 III 必然到来**：借久了就发现**借不够**。CLIP 的语义粒度限制住了所有借 CLIP 的方法——MMVP 盲对、属性混淆、语言先验压制，都是"借来的语义"的代价（前文已经展开的）。
 
 ---
 
@@ -1028,7 +1030,7 @@ graph TB
 
 ---
 
-这十条模型加 SAM 系列一共 13 个条目，至此阶段 II §16 的深度展开**全部完成**。页面 [阶段 II · 提示化与开放词汇：稠密共形的开放——阶段 II 的出口与阶段 III 的入口（SAM / SAM 2 / Grounding DINO / DINO-X / T-Rex2 / YOLO-World / Florence-2 / APE / ODISE / CAT-Seg / FC-CLIP / Depth Anything）](00-定位卡.md) 目前的状态是：§1 §2（SAM / SAM 2）**有**深度展开正文（已在页面中）、§3 §4 §5（Grounding DINO / DINO-X / T-Rex2）**有短条目 + 聊天里 SSL/DETR 双线展开**、§6-§10（YOLO-World 到 Depth Anything）**短条目 + 本轮展开**。
+这十条模型加 SAM 系列一共 13 个条目，至此阶段 II §16 的深度展开**全部完成**。页面 [阶段 II · 提示化与开放词汇：稠密共形的开放——阶段 II 的出口与阶段 III 的入口（SAM / SAM 2 / Grounding DINO / DINO-X / T-Rex2 / YOLO-World / Florence-2 / APE / ODISE / CAT-Seg / FC-CLIP / Depth Anything）](00-定位卡.md) 目前的状态是：§1 §2（SAM / SAM 2）**有**深度展开正文（已在页面中）、§3 §4 §5（Grounding DINO / DINO-X / T-Rex2）**有短条目 + SSL/DETR 双线展开材料**、§6-§10（YOLO-World 到 Depth Anything）**短条目 + 本轮展开**。
 
 累积下来待整合的深度内容 = SAM 全系列展开 + 视觉 scaling 本体论分析 + VLM 看不清机制 + DINO 双线展开 + 本轮的 YOLO-World/Florence-2/APE/分割三家/Depth Anything——约 25000 字。
 

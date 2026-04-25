@@ -1,6 +1,8 @@
 # §0 · 先把现象精确化
 
-你说的"模糊地看 + 虚假地想"其实可以拆成四种独立可测的故障模式，每一种都有专门的 benchmark：
+> 页面定位：阶段 II 出口残差 / 阶段 III 借语言代价的前史。本页不是 VLM 综述，而是说明阶段 II 的视觉编码器在进入语言系统前已经暴露感知残差；如果阶段 III 只接上语言，语言会替视觉说话。
+
+所谓“模糊地看 + 虚假地想”其实可以拆成四种独立可测的故障模式，每一种都有专门的 benchmark：
 
 1. **Perceptual blindness（感知性盲）**：两张明显不同的图在 CLIP 编码里几乎相同 → VLM 根本区分不出。证据：**MMVP / CLIP-blind pairs**。
 2. **Visual-unnecessary answering（视觉无关作答）**：不给图也能答对。证据：**MMStar**。
@@ -78,13 +80,13 @@ Tong 等的后续工作（UC Berkeley 博士论文扩展版）[[3]](https://esch
 - 模型生成一段关于画作的哲学评论，但**把画中人物手里的陶罐识别为金属水壶**
 - 准确回答"图中两人是否在交谈"，却**把背对镜头的人误判为"独自站立"**
 
-**这叫 "聪明的笨拙"**——语言上精致，视觉上瞎。和你说的"虚假推理"完全是同一件事。
+**这叫 "聪明的笨拙"**——语言上精致，视觉上瞎。这与“虚假推理”是同一件事。
 
 ---
 
 # §4 · 机制归因：为什么会这样？
 
-把这些现象放到架构层面，有四条互相咬合的机制原因。你之前的 [L4：跨模态共形的传导（VLM 核心层）](https://www.notion.so/L4-VLM-f7b748d648008364a7f1016a7f912215?pvs=21) 已经列出前三条，这里补全并深化。
+把这些现象放到架构层面，有四条互相咬合的机制原因。前文已经列出前三条，这里补全并深化。
 
 ## 4.1 **Projector 是一个极窄的带宽瓶颈**
 
@@ -132,7 +134,7 @@ Anthropic 的 "Language Models Don't Always Say What They Think"[[1]](https://ww
 
 Visual CoT benchmark[[10]](https://www.notion.so/Visual-CoT-Advancing-Multi-Modal-Language-Models-with-a-Comprehensive-Dataset-and-Benchmark-for-Cha-e70748d64800836e8a1701897f80b88d?pvs=21) 和 LLaVA-CoT[[11]](https://www.notion.so/LLaVA-CoT-Let-Vision-Language-Models-Reason-Step-by-Step-f82748d64800834996d7015cac636679?pvs=21) 对这个现象有系统评测——**CoT 长度和准确率常常负相关**：思考越长，幻觉越多（因为模型每一 step 都在从错误的感知基础上继续编）。
 
-这就是你说的"**虚假推理**"的真正机理：**推理链本身不假，假的是它接入感知的那个接口**。感知错了，推理链越精致，错误越 confident。
+这就是“**虚假推理**”的真正机理：**推理链本身不假，假的是它接入感知的那个接口**。感知错了，推理链越精致，错误越 confident。
 
 ---
 
@@ -203,7 +205,7 @@ ICCV 2025 的 **"Scaling Language-Free Visual Representation Learning"**[[21]](h
 | 监督目标 | 无真正的视觉 next-token 等价物 | **CoT 在视觉上空转** |
 | 架构 | 视觉与语言是"拼接"关系 | **projector 瓶颈 + LLM 把视觉当外来客** |
 
-**你之前那段"语义是借来的"写得正确**——但它在阶段 II 里看似只是 SAM 和 Grounding DINO 的工程取巧，在阶段 III 里**直接变成 VLM 的认知病灶**。
+**前文那段"语义是借来的"写得正确**——但它在阶段 II 里看似只是 SAM 和 Grounding DINO 的工程取巧，在阶段 III 里**直接变成 VLM 的认知病灶**。
 
 用你 [对话思路总结：CV困境、遥感基础模型与多模态时序统一框架](https://www.notion.so/CV-d6b2da62c751461fa184c49c750653d6?pvs=21) 里那句判断："**当前 VLM 的智能实质上是靠语言语义在拉动**"——**这就是全部问题的根**。VLM 是一个"长在语言树干上的视觉嫁接"，它对图像的理解不来自"看懂"，来自"把图翻译成语言标签之后再理解语言"。
 
@@ -246,7 +248,7 @@ ICCV 2025 的 **"Scaling Language-Free Visual Representation Learning"**[[21]](h
 
 ## 9.1 **给视觉一个不依赖语言的 scaling 目标**
 
-- **DINOv3 + Gram Anchoring**（你之前吃透的）
+- **DINOv3 + Gram Anchoring**（前文已经展开的）
 - **V-JEPA 2**（LeCun 的 latent-space predictive world model）
 - **Emu3 / VAR** 的视觉 next-token
 - 这条让视觉自己能"看清"，不借语言
@@ -325,6 +327,6 @@ ICCV 2025 的 **"Scaling Language-Free Visual Representation Learning"**[[21]](h
 - **DINO (SSL) 线**：Caron 等, Meta, 2021 —— **DI**stillation with **NO** labels。自监督视觉预训练。v1 → v2 → v3。
 - **DINO (DETR) 线**：Zhang 等, IDEA, 2022 —— **D**ETR with **I**mproved de**N**oising anch**O**r boxes。端到端检测器。DAB-DETR / DN-DETR → DINO-DETR → Grounding DINO → Grounding DINO 1.5/1.6 → DINO-X。
 
-**你问"从 v1 到 v3 到 Grounding DINO"**——这句话在学术上是**错的**——Grounding DINO 不是 DINOv3 之后的一代，它属于另一条线。但这个错不是你的错，社区普遍被 Meta 和 IDEA 两家的命名冲撞搞晕。下面把两条线**分别**讲清，然后讲它们**唯一的真实交汇点**。[[1]](https://zhuanlan.zhihu.com/p/1943279068654056673)[[2]](https://zhuanlan.zhihu.com/p/2022290422282691008)
+**“从 v1 到 v3 到 Grounding DINO”** 这个说法在学术上不准确：Grounding DINO 不是 DINOv3 之后的一代，它属于另一条线。社区普遍被 Meta 和 IDEA 两家的命名冲撞搞晕，因此需要把两条线**分别**讲清，再说明它们**唯一的真实交汇点**。[[1]](https://zhuanlan.zhihu.com/p/1943279068654056673)[[2]](https://zhuanlan.zhihu.com/p/2022290422282691008)
 
 ---

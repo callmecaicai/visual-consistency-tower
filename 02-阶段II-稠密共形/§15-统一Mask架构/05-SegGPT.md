@@ -14,13 +14,7 @@
 
 🔗 [https://arxiv.org/abs/2211.06220](https://arxiv.org/abs/2211.06220)
 
-先纠个小事：EoMT 实际上是 **CVPR 2025 Highlight**（arXiv 2503.19108 是 2025 年 3 月），不是 ECCV 2024。你之前条目里写错了年份/会议——后面你若整合进页面可以顺手改掉。
-
-下面按同样密度打穿。
-
----
-
-# §5 · Painter / SegGPT —— In-context learning 首次登陆稠密预测
+补充说明：EoMT 实际上是 **CVPR 2025 Highlight**（arXiv 2503.19108 是 2025 年 3 月），不是 ECCV 2024。`n`n---`n`n# §5 · Painter / SegGPT —— In-context learning 首次登陆稠密预测
 
 作者：Wang Xinlong 等（BAAI 智源）。Painter 是 CVPR 2023，SegGPT 是 ICCV 2023——**同一组作者半年内连续两篇**，思路一脉相承，SegGPT 是 Painter 的分割特化版。
 
