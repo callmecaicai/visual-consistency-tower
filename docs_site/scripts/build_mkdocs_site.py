@@ -16,13 +16,13 @@ CONFIG_PATH = SITE_ROOT / "mkdocs.yml"
 
 TOP_LEVEL_ITEMS: List[Tuple[str, Path]] = [
     ("首页", ROOT / "INDEX.md"),
-    ("00-公理层", ROOT / "00-公理层"),
-    ("01-阶段I-判别共形", ROOT / "01-阶段I-判别共形"),
-    ("02-阶段II-稠密共形", ROOT / "02-阶段II-稠密共形"),
-    ("03-阶段III-语言共形", ROOT / "03-阶段III-语言共形"),
-    ("04-阶段IV-生成共形", ROOT / "04-阶段IV-生成共形"),
-    ("05-阶段V-表征共形", ROOT / "05-阶段V-表征共形"),
-    ("横切", ROOT / "横切"),
+    ("开端与公理：可见性如何生成视觉世界", ROOT / "00-公理层"),
+    ("阶段 I：视觉作为标签存在", ROOT / "01-阶段I-判别共形"),
+    ("阶段 II：视觉作为投影表面存在", ROOT / "02-阶段II-稠密共形"),
+    ("阶段 III：视觉作为公共语义契约存在", ROOT / "03-阶段III-语言共形"),
+    ("阶段 IV：视觉作为外显生产存在", ROOT / "04-阶段IV-生成共形"),
+    ("阶段 V：视觉作为部分世界状态存在", ROOT / "05-阶段V-表征共形"),
+    ("横切协议：残差、反身与预测登记", ROOT / "横切"),
 ]
 
 TOP_LEVEL_DIR_NAMES = {
@@ -41,6 +41,18 @@ DIR_CHILD_ORDER = {
         "五阶段总览.md",
         "05-派生判据与边界.md",
     ],
+    "横切": [
+        "反身脊柱.md",
+        "残差生命周期与登记协议.md",
+        "阶段偏序与桥接节点.md",
+        "中层形式语法与深化协议.md",
+        "知识库编号与索引协议.md",
+        "08-命名制度与文件职责协议.md",
+        "预测性判据登记簿.md",
+        "预测验证协议.md",
+        "领域实例化协议.md",
+        "文献查验",
+    ],
 }
 
 EXCLUDE_SITE_PARTS = {
@@ -49,8 +61,27 @@ EXCLUDE_SITE_PARTS = {
     "90-归档导航.md",
     "展开债务审计.md",
     "新计划.md",
+    "阶段1优化计划.md",
+    "阶段2优化.md",
+    "阶段3优化.md",
+    "阶段4.md",
+    "阶段5.md",
+    "前三阶段债务复审.md",
+    "下一轮精华固化执行计划.md",
+    "极致状态.md",
 }
 COLLAPSED_NAV_DIRS: set[str] = set()
+
+DISPLAY_NAME_OVERRIDES = {
+    "00-公理层": "开端与公理：可见性如何生成视觉世界",
+    "01-阶段I-判别共形": "阶段 I：视觉作为标签存在",
+    "02-阶段II-稠密共形": "阶段 II：视觉作为投影表面存在",
+    "03-阶段III-语言共形": "阶段 III：视觉作为公共语义契约存在",
+    "04-阶段IV-生成共形": "阶段 IV：视觉作为外显生产存在",
+    "05-阶段V-表征共形": "阶段 V：视觉作为部分世界状态存在",
+    "横切": "横切协议：残差、反身与预测登记",
+    "08-命名制度与文件职责协议.md": "08-命名制度与文件职责协议",
+}
 
 WINDOWS_ROOT_PATTERN = re.escape(ROOT.as_posix())
 ABSOLUTE_MD_LINK = re.compile(
@@ -83,6 +114,8 @@ def directory_child_sort_key(parent: Path, child: Path):
 def display_name(path: Path) -> str:
     if path.name == "index.md":
         return "首页"
+    if path.name in DISPLAY_NAME_OVERRIDES:
+        return DISPLAY_NAME_OVERRIDES[path.name]
     return path.stem if path.is_file() else path.name
 
 
@@ -152,6 +185,7 @@ def choose_landing_page(directory: Path) -> Path | None:
         "00-总览.md",
         "00-阶段导读.md",
         "00-公理层导航.md",
+        "反身脊柱.md",
         "90-阶段导航.md",
     ]
     for name in preferred_exact:
@@ -200,7 +234,7 @@ def build_index_content(directory: Path) -> str | None:
     if not children:
         return None
 
-    sections: List[str] = [f"# {directory.name}", "", "> 自动生成的章节入口页。", ""]
+    sections: List[str] = [f"# {display_name(directory)}", "", "> 自动生成的章节入口页。", ""]
 
     landing = choose_landing_page(directory)
     if landing is not None and landing.name.lower() != "index.md":
@@ -209,7 +243,7 @@ def build_index_content(directory: Path) -> str | None:
             [
                 "## 推荐入口",
                 "",
-                f"- [{landing.stem}]({markdown_path_target(landing_rel)})",
+                f"- [{display_name(landing)}]({markdown_path_target(landing_rel)})",
                 "",
             ]
         )
@@ -222,7 +256,7 @@ def build_index_content(directory: Path) -> str | None:
         sections.append("## 文件")
         sections.append("")
         for child in markdown_children:
-            sections.append(f"- [{child.stem}]({markdown_path_target(child.name)})")
+            sections.append(f"- [{display_name(child)}]({markdown_path_target(child.name)})")
         sections.append("")
 
     subdirs = [child for child in children if child.is_dir()]
@@ -230,7 +264,7 @@ def build_index_content(directory: Path) -> str | None:
         sections.append("## 子目录")
         sections.append("")
         for child in subdirs:
-            sections.append(f"- [{child.name}]({markdown_path_target(f'{child.name}/')})")
+            sections.append(f"- [{display_name(child)}]({markdown_path_target(f'{child.name}/')})")
         sections.append("")
 
     asset_children = [
