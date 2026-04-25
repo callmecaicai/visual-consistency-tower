@@ -32,6 +32,21 @@ TOP_LEVEL_DIR_NAMES = {
     if source.is_dir()
 }
 
+DIR_CHILD_ORDER = {
+    "00-公理层": [
+        "00-公理层导航.md",
+        "真正的开端.md",
+        "第一性原理.md",
+        "术语分层表.md",
+        "04-闭合、残差与半径的形式语法.md",
+        "视觉-语义-语言-功能-智能链.md",
+        "五阶段总览.md",
+        "01-表征闭合与经验闭环.md",
+        "02-理解、世界模型、因果与符号.md",
+        "03-一致性半径与一致性闭包.md",
+    ],
+}
+
 EXCLUDE_SITE_PARTS = {
     "导出残留",
     "归档",
@@ -59,6 +74,13 @@ def natural_sort_key(name: str):
         else:
             key.append(part.casefold())
     return key
+
+
+def directory_child_sort_key(parent: Path, child: Path):
+    order = DIR_CHILD_ORDER.get(parent.name)
+    if order and child.name in order:
+        return (0, order.index(child.name))
+    return (1, natural_sort_key(child.name))
 
 
 def display_name(path: Path) -> str:
@@ -177,7 +199,7 @@ def build_index_content(directory: Path) -> str | None:
         if not child.name.startswith(".")
         and child.name not in EXCLUDE_SITE_PARTS
     ]
-    children.sort(key=lambda p: natural_sort_key(p.name))
+    children.sort(key=lambda p: directory_child_sort_key(directory, p))
     if not children:
         return None
 
@@ -370,7 +392,7 @@ def build_directory_nav(rel_dir: Path) -> List[object]:
         and child.name not in EXCLUDE_SITE_PARTS
         and (child.is_dir() or child.suffix.lower() == ".md")
     ]
-    children.sort(key=lambda p: natural_sort_key(p.name))
+    children.sort(key=lambda p: directory_child_sort_key(absolute_dir, p))
 
     if index_path.exists():
         items.append(index_path.relative_to(DOCS_ROOT).as_posix())
