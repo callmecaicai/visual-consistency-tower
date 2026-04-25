@@ -23,7 +23,6 @@ TOP_LEVEL_ITEMS: List[Tuple[str, Path]] = [
     ("04-阶段IV-生成共形", ROOT / "04-阶段IV-生成共形"),
     ("05-阶段V-表征共形", ROOT / "05-阶段V-表征共形"),
     ("横切", ROOT / "横切"),
-    ("RS_CD", ROOT / "RS_CD"),
 ]
 
 TOP_LEVEL_DIR_NAMES = {
@@ -49,6 +48,7 @@ EXCLUDE_SITE_PARTS = {
     "归档",
     "90-归档导航.md",
     "展开债务审计.md",
+    "新计划.md",
 }
 COLLAPSED_NAV_DIRS: set[str] = set()
 
@@ -360,9 +360,9 @@ def sanitize_homepage() -> None:
     note = (
         "\n\n---\n\n"
         "## 本站范围\n\n"
-        "- 当前首版已纳入：`INDEX`、`00-公理层`、`01-05 阶段`、`横切`、`RS_CD`\n"
-        "- 当前首版暂未纳入：`应用域`、`skills`、`工具`\n"
-        "- 本地原始仓库仍保留这些目录；本次 GitHub Pages 初版只发布主线阅读层\n"
+        "- 当前首版已纳入：`INDEX`、`00-公理层`、`01-05 阶段`、`横切`\n"
+        "- 当前首版暂未纳入：`RS_CD`、`应用域`、`skills`、`工具`\n"
+        "- 本地原始仓库可保留这些目录；本次 GitHub Pages 只发布核心视觉第一性原理大厦\n"
     )
     index_path.write_text(kept + note, encoding="utf-8")
 
