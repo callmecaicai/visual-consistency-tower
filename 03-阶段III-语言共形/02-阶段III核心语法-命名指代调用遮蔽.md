@@ -114,7 +114,52 @@ CLIP 是 L2：语言进入预训练目标和共享相似度空间。它不是完
 
 ---
 
-## 六、自我否定
+## 六、语义主权：谁决定什么算意义
+
+语义主权不是模型能不能输出语义词，而是谁规定语义空间的坐标、粒度、边界、评价和纠错方式。阶段 III 的核心悖论在于：视觉获得了公共语义接口，却没有获得公共语义主权。
+
+| 权能 | 阶段 III 是否拥有 | 说明 |
+|---|---|---|
+| 命名权 | 部分拥有 | 能输出名称，但名称来自语言制度、类别表、caption 和 LLM prior。 |
+| 指代权 | 部分拥有 | 能指到区域、框、mask 或 token，但指代词和消歧规则来自语言。 |
+| 调用权 | 较强 | prompt / instruction 可以调用任务，VLM 能在对话中复用视觉入口。 |
+| 评价权 | 很弱 | 多由 benchmark、LLM judge、人类偏好和 rubric 控制。 |
+| 生成权 | 未完成 | 阶段 III 不能稳定反向生产新观测，推出阶段 IV。 |
+| 状态持有权 | 未完成 | 公共语义不等于对象、几何、遮挡、对应等视觉状态自持，推出阶段 V。 |
+
+因此，阶段 III 的胜利不是“视觉获得自己的语义”，而是“视觉获得进入公共语言游戏的资格”。它的代价是：语义空间的主权仍然在语言制度手里。
+
+---
+
+## 七、语言的三层制度
+
+| 层级 | 内容 | 技术表现 | 残差 |
+|---|---|---|---|
+| 语言形式层 | token、caption、prompt、phrase | CLIP text encoder、VLM prompt、referring expression | 语言歧义与提示敏感 |
+| 语义制度层 | 类别、概念、命名习惯、文化偏见 | web-scale alt-text、标签空间、LLM prior | 未命名视觉被压扁 |
+| 评价制度层 | benchmark、rubric、preference、judge | VQA、人类评测、LLM-as-judge、DPO/RLHF | 能讨好评测不等于看见 |
+
+这三层说明：阶段 III 不是把“文本”接入视觉，而是把视觉接入一套社会语义制度。caption、instruction、judge 和 preference 都会塑造视觉系统最终保留什么、忽略什么、回答什么。
+
+---
+
+## 八、阶段 III 闭合制度矩阵
+
+| 环节 | Z：表征域 | Π：接口 | Γ：变换族 | M：度量 | D：动力机制 | 遮蔽对象 |
+|---|---|---|---|---|---|---|
+| §21 外挂 | frozen region feature | VQA / caption / ITM | box / phrase / region | MLM / ITM / WRA | detector + BERT fusion | 原始像素与开放对象 |
+| §22 对齐 | image-text embedding | retrieval / zero-shot / prompt classifier | caption / class prompt / web noise | InfoNCE / sigmoid contrastive | web-scale alignment | 空间、计数、方向、状态 |
+| §23 稠密锚定 | dense CLIP / query feature | box / mask / region grounding | phrase / open vocab / spatial prompt | AP / mIoU / grounding | text-as-query / adapter | 指代后的状态关系 |
+| §24 统一骨干 | multimodal shared representation | caption / VQA / grounding / task prompt | task prompt / output format | ITC / ITM / LM / seq2seq | multi-task VLP | 世界统一与度量主权 |
+| §25 LLM 后端 | visual tokens in LLM space | dialogue / instruction / CoT | prompt / multi-image / resolution | VQA / judge / preference | projector / Q-Former / SFT | 视觉证据存活 |
+| §26 像素调用 | language-conditioned mask token | bbox / mask / grounded output | region prompt / instruction | mask IoU / grounding score | pipeline / SEG token / decoder | 新观测生成与状态验证 |
+| §27 账单清算 | failure cases / audit traces | benchmark stress / no-image control | counterfactual / adversarial pair | MMVP / MMStar / attention audit | error taxonomy / falsifier | 语言契约本身 |
+
+这张表把阶段 III 从“模型谱系”压回闭合制度：每一章都在改变表征、接口、变换、度量或动力机制，但每一次成功都把某些视觉证据继续留在契约之外。
+
+---
+
+## 九、自我否定
 
 阶段 III 的自我否定分三层：
 
@@ -128,6 +173,6 @@ CLIP 是 L2：语言进入预训练目标和共享相似度空间。它不是完
 
 ---
 
-## 七、一句话
+## 十、一句话
 
 > 视觉不是终于“拥有语言”，而是进入了语言的公共契约；这张契约让视觉获得命名、指代、调用和对话能力，但契约的主权仍在语言手里。

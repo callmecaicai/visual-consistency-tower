@@ -1,5 +1,5 @@
 window.KNOWLEDGE_BASE = {
-  "generatedAt": "2026-04-25T03:31:45.512774+00:00",
+  "generatedAt": "2026-04-25T03:41:43.471214+00:00",
   "rootName": "视觉理论大厦的一致性建模",
   "topLevelOrder": [
     "ROOT",
@@ -14,13 +14,13 @@ window.KNOWLEDGE_BASE = {
     "skills"
   ],
   "stats": {
-    "documents": 256,
+    "documents": 259,
     "stages": 5,
     "chapters": 34,
     "archived": 0,
     "byRole": {
       "document": 64,
-      "expansion": 38,
+      "expansion": 40,
       "stage-entry": 5,
       "locator": 28,
       "mechanism": 31,
@@ -32,12 +32,12 @@ window.KNOWLEDGE_BASE = {
       "skill": 2,
       "skill-meta": 1,
       "application": 62,
-      "cross-cut": 16
+      "cross-cut": 17
     },
     "byTier": {
-      "3": 103,
+      "3": 105,
       "0": 9,
-      "1": 46,
+      "1": 47,
       "2": 36,
       "4": 62
     },
@@ -46,10 +46,10 @@ window.KNOWLEDGE_BASE = {
       "00-公理层": 7,
       "01-阶段I-判别共形": 24,
       "02-阶段II-稠密共形": 36,
-      "03-阶段III-语言共形": 28,
+      "03-阶段III-语言共形": 30,
       "04-阶段IV-生成共形": 23,
       "05-阶段V-表征共形": 30,
-      "横切": 16,
+      "横切": 17,
       "应用域": 62,
       "skills": 9
     }
@@ -1970,7 +1970,7 @@ window.KNOWLEDGE_BASE = {
     },
     {
       "id": "03-阶段III-语言共形/00-总纲-语义从外挂到骨架.md",
-      "title": "阶段 III · 开篇总纲：语义从外挂到骨架——语言成为视觉的脊柱",
+      "title": "阶段 III · 开篇总纲：语言共形——视觉进入公共语义契约",
       "path": "03-阶段III-语言共形/00-总纲-语义从外挂到骨架.md",
       "openPath": "../../../03-阶段III-语言共形/00-总纲-语义从外挂到骨架.md",
       "topLevel": "03-阶段III-语言共形",
@@ -1986,8 +1986,8 @@ window.KNOWLEDGE_BASE = {
         "类型": "理论/分析",
         "阶段": "III · 语言共形的深化"
       },
-      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：可被语言命名、对齐、调用的视觉差异，以及视觉对语言语义的共享依赖。\n- **闭合半径**：把视觉闭合从任务内表征扩到跨模态公共语义空间，建立阶段 III 的整条接力线。\n- **出口残差**：语言确实放大了语义闭合，但视觉既不能反向合成，也不能脱离配对文本自持语义。\n</aside>\n<aside>\n🗣️\n**主题**：阶段 II 的出口残差「语义是借来的」在阶段 III 被推至它的极限——语言从外挂信号变成视觉骨干的一部分。视觉主体性第一次出现，但是以「与语言共享」的形式——不是自主的，是借来的。VLM 是这一阶段的主体阵地。",
-      "searchBlob": "阶段 iii · 开篇总纲：语义从外挂到骨架——语言成为视觉的脊柱 <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：可被语言命名、对齐、调用的视觉差异，以及视觉对语言语义的共享依赖。\n- **闭合半径**：把视觉闭合从任务内表征扩到跨模态公共语义空间，建立阶段 iii 的整条接力线。\n- **出口残差**：语言确实放大了语义闭合，但视觉既不能反向合成，也不能脱离配对文本自持语义。\n</aside>\n<aside>\n🗣️\n**主题**：阶段 ii 的出口残差「语义是借来的」在阶段 iii 被推至它的极限——语言从外挂信号变成视觉骨干的一部分。视觉主体性第一次出现，但是以「与语言共享」的形式——不是自主的，是借来的。vlm 是这一阶段的主体阵地。 03-阶段iii-语言共形/00-总纲-语义从外挂到骨架.md 共形维度 主体性, 动力, 度量, 载体 关键贡献 把阶段 ii §16 「语义是借来的 / 结构化关系缺席」的出口残差，展开成阶段 iii 的本体命题：视觉进入公共语义契约，并在语言中获得命名、指代、调用和对话能力；视觉主体性第一次以「与语言共享」的形式出现；vlm 成为 iii 的主体阵地。给出 §21–§27 的接力线（bert 时代融合式 vlm → 对比对齐规模化（clip 系）→ 语言锚定稠密任务 → 统一多模态骨干（blip-2 / florence-2 / coca）→ llm 作为语义后端（flamingo / llava / qwen-vl）→ 语言条件可提示视觉（grounded-sam / lisa / ferret）→ 出口）。本章不是论文，是整个阶段 iii 的阅读骨架。 残差 / 它催生了什么 阶段 ii 的两条出口残差被接入；阶段 iii 的出口残差一分为二，并留下一笔「借语言的代价」账单：① 视觉可被语言锚定 / 描述 / 调用，但不能反向生产观测 → 阶段 iv 的入口；② 语义对齐依赖 caption / 配对语料，若要摆脱语言主权，必须走视觉状态自持与纯视觉表征 → 阶段 v 的入口；③ mmvp / clip-blindness / look light think heavy / 62% 故障源自感知——这些问题由阶段 iii 正式命名，但不由它解决。 类型 理论/分析 阶段 iii · 语言共形的深化",
+      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按新版五问与闭合制度矩阵读取。\n| 问项 | 本章回答 |\n|---|---|\n| 纯存在态 | `Visual Difference -> Public Linguistic Contract`：视觉差异必须进入公共语言契约。 |\n| 稳定差异 | 可被名称、caption、embedding、phrase、instruction、rationale 与评价语言调用的视觉差异。 |\n| 闭合制度 | `C_III=(Z_image-text, Π_caption/VQA/grounding/instruction, Γ_modality/language/prompt, M_contrastive/IT/judge, D_alignment/IT/projector)`。 |\n| 成功标准 | 可命名、可指代、可调用、可在公共语义接口中回答。 |\n| 遮蔽对象 | 未命名视觉、细粒度空间、对象状态、视觉语义主权。 |",
+      "searchBlob": "阶段 iii · 开篇总纲：语言共形——视觉进入公共语义契约 <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按新版五问与闭合制度矩阵读取。\n| 问项 | 本章回答 |\n|---|---|\n| 纯存在态 | `visual difference -> public linguistic contract`：视觉差异必须进入公共语言契约。 |\n| 稳定差异 | 可被名称、caption、embedding、phrase、instruction、rationale 与评价语言调用的视觉差异。 |\n| 闭合制度 | `c_iii=(z_image-text, π_caption/vqa/grounding/instruction, γ_modality/language/prompt, m_contrastive/it/judge, d_alignment/it/projector)`。 |\n| 成功标准 | 可命名、可指代、可调用、可在公共语义接口中回答。 |\n| 遮蔽对象 | 未命名视觉、细粒度空间、对象状态、视觉语义主权。 | 03-阶段iii-语言共形/00-总纲-语义从外挂到骨架.md 共形维度 主体性, 动力, 度量, 载体 关键贡献 把阶段 ii §16 「语义是借来的 / 结构化关系缺席」的出口残差，展开成阶段 iii 的本体命题：视觉进入公共语义契约，并在语言中获得命名、指代、调用和对话能力；视觉主体性第一次以「与语言共享」的形式出现；vlm 成为 iii 的主体阵地。给出 §21–§27 的接力线（bert 时代融合式 vlm → 对比对齐规模化（clip 系）→ 语言锚定稠密任务 → 统一多模态骨干（blip-2 / florence-2 / coca）→ llm 作为语义后端（flamingo / llava / qwen-vl）→ 语言条件可提示视觉（grounded-sam / lisa / ferret）→ 出口）。本章不是论文，是整个阶段 iii 的阅读骨架。 残差 / 它催生了什么 阶段 ii 的两条出口残差被接入；阶段 iii 的出口残差一分为二，并留下一笔「借语言的代价」账单：① 视觉可被语言锚定 / 描述 / 调用，但不能反向生产观测 → 阶段 iv 的入口；② 语义对齐依赖 caption / 配对语料，若要摆脱语言主权，必须走视觉状态自持与纯视觉表征 → 阶段 v 的入口；③ mmvp / clip-blindness / look light think heavy / 62% 故障源自感知——这些问题由阶段 iii 正式命名，但不由它解决。 类型 理论/分析 阶段 iii · 语言共形的深化",
       "sortKey": "03-阶段iii-语言共形/00-总纲-语义从外挂到骨架.md"
     },
     {
@@ -2010,8 +2010,8 @@ window.KNOWLEDGE_BASE = {
         "残差 / 它催生了什么": "阶段 III 把语言从外挂拉进骨干；但它留下两条出口残差——残差 A（视觉可被语言锚定但不能被反向合成）送给 IV，残差 B（语义对齐仍依赖配对语料）送给 V。",
         "阶段": "III · 语言共形"
       },
-      "excerpt": "🧭\n**本章位置**：阶段 II 把度量穿到了最后一个像素、最后一个实例，但第 81 类能被识别，是因为 CLIP 的对比预训练见过这个词——**语义是借来的**。阶段 III 的使命，是让语言从外挂变成**视觉骨干内部共同承载表征的一部分**。这一步不是「加了个文本分支」，是载体本身的扩张：从「像素流」变成「像素 + token 在同一条流里」。\n<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：从视觉独立走向语言内化过程中稳定下来的跨模态差异。\n- **闭合半径**：补足阶段 III 总纲的展开版，明确语言由外挂转入骨干后，公共语义如何成为视觉的新闭合半径。\n- **出口残差**：共享语义仍不等于自主语义；两条出口残差继续指向生成与纯视觉表征。\n</aside>\n---",
-      "searchBlob": "§20 🧭\n**本章位置**：阶段 ii 把度量穿到了最后一个像素、最后一个实例，但第 81 类能被识别，是因为 clip 的对比预训练见过这个词——**语义是借来的**。阶段 iii 的使命，是让语言从外挂变成**视觉骨干内部共同承载表征的一部分**。这一步不是「加了个文本分支」，是载体本身的扩张：从「像素流」变成「像素 + token 在同一条流里」。\n<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：从视觉独立走向语言内化过程中稳定下来的跨模态差异。\n- **闭合半径**：补足阶段 iii 总纲的展开版，明确语言由外挂转入骨干后，公共语义如何成为视觉的新闭合半径。\n- **出口残差**：共享语义仍不等于自主语义；两条出口残差继续指向生成与纯视觉表征。\n</aside>\n--- 03-阶段iii-语言共形/01-总纲扩展-从视觉独立到语言内化.md 标题 总纲——从视觉独立到语言内化 类型 理论/分析 要点 载体：语言内化；主体性刻度 2（共享）；理解侧 llava/qwen-vl；出口残差 a→iv、b→v；账单 mmvp/clip-blindness 共形维度 载体, 主体性, 度量 关键贡献 把阶段 ii 终章「语义仍是借来的」这条残差，展开成阶段 iii 的本体论命题、六维度位移、内部接力线与双出口残差。本章是阶段 iii 的阅读骨架，不是论文。 残差 / 它催生了什么 阶段 iii 把语言从外挂拉进骨干；但它留下两条出口残差——残差 a（视觉可被语言锚定但不能被反向合成）送给 iv，残差 b（语义对齐仍依赖配对语料）送给 v。 阶段 iii · 语言共形",
+      "excerpt": "🧭\n**本章位置**：阶段 II 把度量穿到了最后一个像素、最后一个实例，但第 81 类能被识别，是因为 CLIP 的对比预训练见过这个词——**语义是借来的**。阶段 III 的使命，是让语言从外挂变成**视觉骨干内部共同承载表征的一部分**。这一步不是「加了个文本分支」，是载体本身的扩张：从「像素流」变成「像素 + token 在同一条流里」。\n<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按新版五问与闭合制度读取。\n| 问项 | 本章回答 |\n|---|---|\n| 纯存在态 | `Visual Difference -> Public Linguistic Contract`。 |\n| 稳定差异 | 从视觉独立走向语言契约过程中稳定下来的跨模态差异。 |\n| 闭合制度 | `C_III=(Z_image-text, Π_caption/VQA/grounding/instruction, Γ_modality/language/prompt, M_contrastive/IT/judge, D_alignment/IT/projector)`。 |",
+      "searchBlob": "§20 🧭\n**本章位置**：阶段 ii 把度量穿到了最后一个像素、最后一个实例，但第 81 类能被识别，是因为 clip 的对比预训练见过这个词——**语义是借来的**。阶段 iii 的使命，是让语言从外挂变成**视觉骨干内部共同承载表征的一部分**。这一步不是「加了个文本分支」，是载体本身的扩张：从「像素流」变成「像素 + token 在同一条流里」。\n<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按新版五问与闭合制度读取。\n| 问项 | 本章回答 |\n|---|---|\n| 纯存在态 | `visual difference -> public linguistic contract`。 |\n| 稳定差异 | 从视觉独立走向语言契约过程中稳定下来的跨模态差异。 |\n| 闭合制度 | `c_iii=(z_image-text, π_caption/vqa/grounding/instruction, γ_modality/language/prompt, m_contrastive/it/judge, d_alignment/it/projector)`。 | 03-阶段iii-语言共形/01-总纲扩展-从视觉独立到语言内化.md 标题 总纲——从视觉独立到语言内化 类型 理论/分析 要点 载体：语言内化；主体性刻度 2（共享）；理解侧 llava/qwen-vl；出口残差 a→iv、b→v；账单 mmvp/clip-blindness 共形维度 载体, 主体性, 度量 关键贡献 把阶段 ii 终章「语义仍是借来的」这条残差，展开成阶段 iii 的本体论命题、六维度位移、内部接力线与双出口残差。本章是阶段 iii 的阅读骨架，不是论文。 残差 / 它催生了什么 阶段 iii 把语言从外挂拉进骨干；但它留下两条出口残差——残差 a（视觉可被语言锚定但不能被反向合成）送给 iv，残差 b（语义对齐仍依赖配对语料）送给 v。 阶段 iii · 语言共形",
       "sortKey": "03-阶段iii-语言共形/01-总纲扩展-从视觉独立到语言内化.md"
     },
     {
@@ -2064,8 +2064,8 @@ window.KNOWLEDGE_BASE = {
         "类型": "理论/分析",
         "阶段": "III · 语言共形的深化"
       },
-      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：region feature 与句子监督之间能被外挂融合保留的局部—语言差异。\n- **闭合半径**：证明早期融合式 VLM 只能在冻结 detector 上做浅层语义拼装，闭合仍停留在外挂接口。\n- **出口残差**：视觉塔不上桌、bbox 数据扩不动、region 监督过窄，迫使系统转向端到端对齐与 web-scale 数据。\n</aside>\n<aside>\n🧩\n</aside>",
-      "searchBlob": "§21 · 外挂的工程极限:融合式 vlm 前史的天花板 <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：region feature 与句子监督之间能被外挂融合保留的局部—语言差异。\n- **闭合半径**：证明早期融合式 vlm 只能在冻结 detector 上做浅层语义拼装，闭合仍停留在外挂接口。\n- **出口残差**：视觉塔不上桌、bbox 数据扩不动、region 监督过窄，迫使系统转向端到端对齐与 web-scale 数据。\n</aside>\n<aside>\n🧩\n</aside> 03-阶段iii-语言共形/§21-外挂的工程极限/00-定位卡.md 共形维度 动力, 载体 关键贡献 把外挂范式(vilbert / lxmert / uniter / vinvl / oscar)的工程极限系统化:预提取 / 冻结 / 弱参与的 detector + bert 式融合让语言—视觉融合层主要消费二手 region feature,系统上限高度受 detector 前端约束。作为阶段 iii 前史,证明三条锁死的瓶颈——detector 封顶、region feature 二手化、bbox+caption 数据扩不动——直接推向 §22 的 clip 范式置换。 残差 / 它催生了什么 三条出口残差推向 §22:① 视觉塔必须端到端或更深地参与联合训练;② 监督信号必须脱离 bbox(region-word → 整图-整句);③ 数据必须走 web-scale 弱对齐(替代精标)。vinvl 是 region-feature 外挂路线的天花板暴露，而不是对这条路线的简单判死。 类型 理论/分析 阶段 iii · 语言共形的深化",
+      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按新版五问与闭合制度读取。\n| 问项 | 本章回答 |\n|---|---|\n| 零度设定 | 视觉区域必须能被语言系统消费。 |\n| 无 / 反面 | region feature 是二手视觉：它已经被 detector 类别表、box 制度和 Visual Genome 标注体系解释过一次。 |\n| 成为 | ViLBERT、LXMERT、VisualBERT、UNITER、OSCAR、VinVL 把 detector 产物交给 BERT 式融合层。 |\n| 闭合制度 | `C_21=(Z_region, Π_VQA/caption/ITM, Γ_box/phrase/region, M_MLM/ITM/WRA, D_detector+BERT-fusion)`。 |\n| 成功标准 | 语言能消费 detector 产物，回答 VQA、caption、ITM 与 region-word alignment 任务。 |",
+      "searchBlob": "§21 · 外挂的工程极限:融合式 vlm 前史的天花板 <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按新版五问与闭合制度读取。\n| 问项 | 本章回答 |\n|---|---|\n| 零度设定 | 视觉区域必须能被语言系统消费。 |\n| 无 / 反面 | region feature 是二手视觉：它已经被 detector 类别表、box 制度和 visual genome 标注体系解释过一次。 |\n| 成为 | vilbert、lxmert、visualbert、uniter、oscar、vinvl 把 detector 产物交给 bert 式融合层。 |\n| 闭合制度 | `c_21=(z_region, π_vqa/caption/itm, γ_box/phrase/region, m_mlm/itm/wra, d_detector+bert-fusion)`。 |\n| 成功标准 | 语言能消费 detector 产物，回答 vqa、caption、itm 与 region-word alignment 任务。 | 03-阶段iii-语言共形/§21-外挂的工程极限/00-定位卡.md 共形维度 动力, 载体 关键贡献 把外挂范式(vilbert / lxmert / uniter / vinvl / oscar)的工程极限系统化:预提取 / 冻结 / 弱参与的 detector + bert 式融合让语言—视觉融合层主要消费二手 region feature,系统上限高度受 detector 前端约束。作为阶段 iii 前史,证明三条锁死的瓶颈——detector 封顶、region feature 二手化、bbox+caption 数据扩不动——直接推向 §22 的 clip 范式置换。 残差 / 它催生了什么 三条出口残差推向 §22:① 视觉塔必须端到端或更深地参与联合训练;② 监督信号必须脱离 bbox(region-word → 整图-整句);③ 数据必须走 web-scale 弱对齐(替代精标)。vinvl 是 region-feature 外挂路线的天花板暴露，而不是对这条路线的简单判死。 类型 理论/分析 阶段 iii · 语言共形的深化",
       "sortKey": "03-阶段iii-语言共形/§21-外挂的工程极限/00-定位卡.md"
     },
     {
@@ -2102,8 +2102,8 @@ window.KNOWLEDGE_BASE = {
         "类型": "理论/分析",
         "阶段": "III · 语言共形的深化"
       },
-      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：图像—文本对之间可大规模对齐的全局语义差异。\n- **闭合半径**：把语言从下游标签提升为预训练目标，使视觉第一次进入公共语义坐标系。\n- **出口残差**：全图单向量牺牲了空间结构，caption 偏见与“语言友好而非视觉友好”的空间开始积累账单。\n</aside>\n<aside>\n📐\n</aside>",
-      "searchBlob": "§22 · 对齐即预训练:clip 与它的家族 <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：图像—文本对之间可大规模对齐的全局语义差异。\n- **闭合半径**：把语言从下游标签提升为预训练目标，使视觉第一次进入公共语义坐标系。\n- **出口残差**：全图单向量牺牲了空间结构，caption 偏见与“语言友好而非视觉友好”的空间开始积累账单。\n</aside>\n<aside>\n📐\n</aside> 03-阶段iii-语言共形/§22-对齐即预训练clip/00-定位卡.md 共形维度 度量, 材料, 载体 关键贡献 吃透 vlm 的第一根柱子。clip 的本体不是图文对比,是监督经济学置换——用 web-scale 弱对齐替代精标强监督。系统拆解三个工程赌注(规模换结构 / prompt 即下游 / 双塔解耦)、数据配方秘密(query balancing,metaclip 的真正贡献)、对比损失数值病(siglip 的修补)、家族真实差异(align / lit / eva-clip / metaclip / siglip 2)。clip 支撑了开放词汇识别、grounding、diffusion text conditioning 和部分 vlm 视觉塔等关键下游,但 dense representation、几何和世界状态路线并不都由 clip 支撑。 残差 / 它催生了什么 三条出口残差:① 全图单向量丢空间结构 → §23 稠密任务打补丁;② caption 分布偏见 → §27 账单(clip-blindness 的种子);③ 「语言友好」空间 ≠「视觉友好」空间 → 阶段 v 的纯视觉 ssl 反向打。 类型 理论/分析 阶段 iii · 语言共形的深化",
+      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按新版五问与闭合制度读取。\n| 问项 | 本章回答 |\n|---|---|\n| 零度设定 | 图像与文本必须进入同一公共相似度空间。 |\n| 无 / 反面 | 全图对齐压扁空间细节，caption 没写出的视觉差异难以进入监督。 |\n| 成为 | CLIP、ALIGN、LiT、SigLIP、MetaCLIP 用 web-scale 弱图文对齐取代 bbox 精标。 |\n| 闭合制度 | `C_22=(Z_image-text, Π_retrieval/zero-shot/prompt, Γ_caption/query/web-noise, M_contrastive/sigmoid, D_web-scale-alignment)`。 |\n| 成功标准 | 图像和文本可在共享 embedding 中检索、分类、开放词汇调用。 |",
+      "searchBlob": "§22 · 对齐即预训练:clip 与它的家族 <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按新版五问与闭合制度读取。\n| 问项 | 本章回答 |\n|---|---|\n| 零度设定 | 图像与文本必须进入同一公共相似度空间。 |\n| 无 / 反面 | 全图对齐压扁空间细节，caption 没写出的视觉差异难以进入监督。 |\n| 成为 | clip、align、lit、siglip、metaclip 用 web-scale 弱图文对齐取代 bbox 精标。 |\n| 闭合制度 | `c_22=(z_image-text, π_retrieval/zero-shot/prompt, γ_caption/query/web-noise, m_contrastive/sigmoid, d_web-scale-alignment)`。 |\n| 成功标准 | 图像和文本可在共享 embedding 中检索、分类、开放词汇调用。 | 03-阶段iii-语言共形/§22-对齐即预训练clip/00-定位卡.md 共形维度 度量, 材料, 载体 关键贡献 吃透 vlm 的第一根柱子。clip 的本体不是图文对比,是监督经济学置换——用 web-scale 弱对齐替代精标强监督。系统拆解三个工程赌注(规模换结构 / prompt 即下游 / 双塔解耦)、数据配方秘密(query balancing,metaclip 的真正贡献)、对比损失数值病(siglip 的修补)、家族真实差异(align / lit / eva-clip / metaclip / siglip 2)。clip 支撑了开放词汇识别、grounding、diffusion text conditioning 和部分 vlm 视觉塔等关键下游,但 dense representation、几何和世界状态路线并不都由 clip 支撑。 残差 / 它催生了什么 三条出口残差:① 全图单向量丢空间结构 → §23 稠密任务打补丁;② caption 分布偏见 → §27 账单(clip-blindness 的种子);③ 「语言友好」空间 ≠「视觉友好」空间 → 阶段 v 的纯视觉 ssl 反向打。 类型 理论/分析 阶段 iii · 语言共形的深化",
       "sortKey": "03-阶段iii-语言共形/§22-对齐即预训练clip/00-定位卡.md"
     },
     {
@@ -2118,8 +2118,8 @@ window.KNOWLEDGE_BASE = {
       "retrievalTier": 2,
       "archived": false,
       "meta": {},
-      "excerpt": "本页补足 §22 的机制承重。CLIP 的核心不是“多了一个文本塔”，而是把互联网上的人类描述当作视觉监督材料，并让图像与文本共享一个可比较的公共相似度空间。\n---\n外挂范式依赖 bbox、region tag 与 caption 的精标组合，数据质量高但扩张慢。CLIP 把监督单位改成：\n```text\nimage-text pair\n```\n它牺牲 region 级精度，换取 web-scale 数据半径。这是监督经济学置换：不是更精的监督，而是更大的公共语义材料。\n| 层级 | 含义 |\n|---|---|\n| 技术层 | batch 内形成 N x N 图文相似度矩阵，对称地做 image->text 与 text->image 匹配 |",
-      "searchBlob": "§22 · 机制展开：clip 为什么是范式置换而不是改良 本页补足 §22 的机制承重。clip 的核心不是“多了一个文本塔”，而是把互联网上的人类描述当作视觉监督材料，并让图像与文本共享一个可比较的公共相似度空间。\n---\n外挂范式依赖 bbox、region tag 与 caption 的精标组合，数据质量高但扩张慢。clip 把监督单位改成：\n```text\nimage-text pair\n```\n它牺牲 region 级精度，换取 web-scale 数据半径。这是监督经济学置换：不是更精的监督，而是更大的公共语义材料。\n| 层级 | 含义 |\n|---|---|\n| 技术层 | batch 内形成 n x n 图文相似度矩阵，对称地做 image->text 与 text->image 匹配 | 03-阶段iii-语言共形/§22-对齐即预训练clip/01-机制展开.md ",
+      "excerpt": "本页补足 §22 的机制承重。CLIP 的核心不是“多了一个文本塔”，而是把互联网上的人类描述当作视觉监督材料，并让图像与文本共享一个可比较的公共相似度空间。\n---\n外挂范式依赖 bbox、region tag 与 caption 的精标组合，数据质量高但扩张慢。CLIP 把监督单位改成：\n```text\nimage-text pair\n```\n它牺牲 region 级精度，换取 web-scale 数据半径。这是监督经济学置换：不是更精的监督，而是更大的公共语义材料。\n这里的“公共语义材料”不是普通数据集，而是一整套 caption、alt-text、query balancing、instruction 与 judge rubric 的制度层。材料制度详见 [公共语义材料制度](03-公共语义材料制度-从caption到judge-rubric.md)。\n| 层级 | 含义 |\n|---|---|",
+      "searchBlob": "§22 · 机制展开：clip 为什么是范式置换而不是改良 本页补足 §22 的机制承重。clip 的核心不是“多了一个文本塔”，而是把互联网上的人类描述当作视觉监督材料，并让图像与文本共享一个可比较的公共相似度空间。\n---\n外挂范式依赖 bbox、region tag 与 caption 的精标组合，数据质量高但扩张慢。clip 把监督单位改成：\n```text\nimage-text pair\n```\n它牺牲 region 级精度，换取 web-scale 数据半径。这是监督经济学置换：不是更精的监督，而是更大的公共语义材料。\n这里的“公共语义材料”不是普通数据集，而是一整套 caption、alt-text、query balancing、instruction 与 judge rubric 的制度层。材料制度详见 [公共语义材料制度](03-公共语义材料制度-从caption到judge-rubric.md)。\n| 层级 | 含义 |\n|---|---| 03-阶段iii-语言共形/§22-对齐即预训练clip/01-机制展开.md ",
       "sortKey": "03-阶段iii-语言共形/§22-对齐即预训练clip/01-机制展开.md"
     },
     {
@@ -2147,6 +2147,27 @@ window.KNOWLEDGE_BASE = {
       "sortKey": "03-阶段iii-语言共形/§22-对齐即预训练clip/02-扩展稿-clip与对比式对齐-视觉语言第一次被拉到同一空间.md"
     },
     {
+      "id": "03-阶段III-语言共形/§22-对齐即预训练CLIP/03-公共语义材料制度-从caption到judge-rubric.md",
+      "title": "公共语义材料制度：从 caption 到 judge rubric",
+      "path": "03-阶段III-语言共形/§22-对齐即预训练CLIP/03-公共语义材料制度-从caption到judge-rubric.md",
+      "openPath": "../../../03-阶段III-语言共形/§22-对齐即预训练CLIP/03-公共语义材料制度-从caption到judge-rubric.md",
+      "topLevel": "03-阶段III-语言共形",
+      "stage": "III",
+      "chapter": "§22",
+      "role": "expansion",
+      "retrievalTier": 3,
+      "archived": false,
+      "meta": {
+        "共形维度": "材料, 度量",
+        "关键贡献": "把阶段 III 的语言材料从“文本监督”提升为“公共语义制度”。caption、alt-text、query balancing、instruction、preference、judge rubric 都不是中性输入，而是决定视觉系统能命名什么、忽略什么、如何被评价的材料法律。本页是 §22 的材料制度补页，也为 §27 的账单清算提供根因层。",
+        "类型": "理论/分析",
+        "阶段": "III · 语言共形的深化"
+      },
+      "excerpt": "| 问项 | 本页回答 |\n|---|---|\n| 纯存在态 | `Image-Text Corpus -> Public Semantic Coordinate`：图文材料被制度化为公共语义坐标。 |\n| 稳定差异 | caption、alt-text、query、instruction、rubric 中反复出现并能与图像对齐的差异。 |\n| 闭合制度 | `C_22B=(Z_image-text, Π_retrieval/prompt/judge, Γ_caption/query/noise, M_contrastive/judge/preference, D_data-curation/alignment)`。 |\n| 成功标准 | web-scale 对齐空间可复用，可支持 zero-shot、检索、开放词汇和 VLM 前端。 |\n| 遮蔽对象 | caption 没写出的方向、计数、细粒度空间、状态、遮挡、局部关系。 |",
+      "searchBlob": "公共语义材料制度：从 caption 到 judge rubric | 问项 | 本页回答 |\n|---|---|\n| 纯存在态 | `image-text corpus -> public semantic coordinate`：图文材料被制度化为公共语义坐标。 |\n| 稳定差异 | caption、alt-text、query、instruction、rubric 中反复出现并能与图像对齐的差异。 |\n| 闭合制度 | `c_22b=(z_image-text, π_retrieval/prompt/judge, γ_caption/query/noise, m_contrastive/judge/preference, d_data-curation/alignment)`。 |\n| 成功标准 | web-scale 对齐空间可复用，可支持 zero-shot、检索、开放词汇和 vlm 前端。 |\n| 遮蔽对象 | caption 没写出的方向、计数、细粒度空间、状态、遮挡、局部关系。 | 03-阶段iii-语言共形/§22-对齐即预训练clip/03-公共语义材料制度-从caption到judge-rubric.md 共形维度 材料, 度量 关键贡献 把阶段 iii 的语言材料从“文本监督”提升为“公共语义制度”。caption、alt-text、query balancing、instruction、preference、judge rubric 都不是中性输入，而是决定视觉系统能命名什么、忽略什么、如何被评价的材料法律。本页是 §22 的材料制度补页，也为 §27 的账单清算提供根因层。 类型 理论/分析 阶段 iii · 语言共形的深化",
+      "sortKey": "03-阶段iii-语言共形/§22-对齐即预训练clip/03-公共语义材料制度-从caption到judge-rubric.md"
+    },
+    {
       "id": "03-阶段III-语言共形/§23-语言锚定稠密任务/00-定位卡.md",
       "title": "§23 · 语言锚定稠密任务:从开集到语言驱动像素",
       "path": "03-阶段III-语言共形/§23-语言锚定稠密任务/00-定位卡.md",
@@ -2164,8 +2185,8 @@ window.KNOWLEDGE_BASE = {
         "类型": "理论/分析",
         "阶段": "III · 语言共形的深化"
       },
-      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：可被语言锚定到框、掩码和深度的空间语义差异。\n- **闭合半径**：把 CLIP 式公共语义从全图扩到稠密场，让开放词汇真正渗入像素与区域。\n- **出口残差**：语言能定位对象但仍不能生成对象，且空间推理继续受制于 CLIP 盲区和外借语义。\n</aside>\n<aside>\n🎯\n</aside>",
-      "searchBlob": "§23 · 语言锚定稠密任务:从开集到语言驱动像素 <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：可被语言锚定到框、掩码和深度的空间语义差异。\n- **闭合半径**：把 clip 式公共语义从全图扩到稠密场，让开放词汇真正渗入像素与区域。\n- **出口残差**：语言能定位对象但仍不能生成对象，且空间推理继续受制于 clip 盲区和外借语义。\n</aside>\n<aside>\n🎯\n</aside> 03-阶段iii-语言共形/§23-语言锚定稠密任务/00-定位卡.md 共形维度 度量, 载体 关键贡献 承接阶段 ii §16 的出口节点(sam / grounding dino / ape / cat-seg / depth anything),从引子展开为本体正文。稠密任务(检测 / 分割 / 深度)从「预设类别+视觉监督」转为「语言即类别+语言即 prompt」。系统梳理三种语言注入方式(text-as-classifier / text-as-query / text-as-region-prompt)、开集检测线、开集分割线、语言条件几何。穿透「如何让 clip 特征在空间维度上不崩」的真实工程难点。 残差 / 它催生了什么 三条出口残差:① 语言可定位不可生成 → §24 统一骨干试图统一理解+生成(未完全成功);② 语言锚定稠密仍受 clip-blindness 限制 → §27;③ dense prediction 的 ssl 路线反而更干净 → 阶段 v dinov2。 类型 理论/分析 阶段 iii · 语言共形的深化",
+      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按新版五问与闭合制度读取。\n| 问项 | 本章回答 |\n|---|---|\n| 零度设定 | 语言必须从全图 embedding 返回投影表面，落到框、mask 和 region。 |\n| 无 / 反面 | 语言类别不能自然产生空间；CLIP 全图对齐没有学到像素级定位。 |\n| 成为 | GLIP、Grounding DINO、OWL-ViT、CAT-Seg、FC-CLIP 把语言注入 dense 输出链。 |\n| 闭合制度 | `C_23=(Z_dense-text, Π_box/mask/region, Γ_phrase/open-vocab/spatial-prompt, M_AP/mIoU/grounding, D_text-as-query/adapter)`。 |\n| 成功标准 | 开放词汇能进入检测、分割、grounding 等稠密输出。 |",
+      "searchBlob": "§23 · 语言锚定稠密任务:从开集到语言驱动像素 <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按新版五问与闭合制度读取。\n| 问项 | 本章回答 |\n|---|---|\n| 零度设定 | 语言必须从全图 embedding 返回投影表面，落到框、mask 和 region。 |\n| 无 / 反面 | 语言类别不能自然产生空间；clip 全图对齐没有学到像素级定位。 |\n| 成为 | glip、grounding dino、owl-vit、cat-seg、fc-clip 把语言注入 dense 输出链。 |\n| 闭合制度 | `c_23=(z_dense-text, π_box/mask/region, γ_phrase/open-vocab/spatial-prompt, m_ap/miou/grounding, d_text-as-query/adapter)`。 |\n| 成功标准 | 开放词汇能进入检测、分割、grounding 等稠密输出。 | 03-阶段iii-语言共形/§23-语言锚定稠密任务/00-定位卡.md 共形维度 度量, 载体 关键贡献 承接阶段 ii §16 的出口节点(sam / grounding dino / ape / cat-seg / depth anything),从引子展开为本体正文。稠密任务(检测 / 分割 / 深度)从「预设类别+视觉监督」转为「语言即类别+语言即 prompt」。系统梳理三种语言注入方式(text-as-classifier / text-as-query / text-as-region-prompt)、开集检测线、开集分割线、语言条件几何。穿透「如何让 clip 特征在空间维度上不崩」的真实工程难点。 残差 / 它催生了什么 三条出口残差:① 语言可定位不可生成 → §24 统一骨干试图统一理解+生成(未完全成功);② 语言锚定稠密仍受 clip-blindness 限制 → §27;③ dense prediction 的 ssl 路线反而更干净 → 阶段 v dinov2。 类型 理论/分析 阶段 iii · 语言共形的深化",
       "sortKey": "03-阶段iii-语言共形/§23-语言锚定稠密任务/00-定位卡.md"
     },
     {
@@ -2202,8 +2223,8 @@ window.KNOWLEDGE_BASE = {
         "类型": "理论/分析",
         "阶段": "III · 语言共形的深化"
       },
-      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：可同时支撑对比、caption、VQA 与 grounding 的统一多模态差异。\n- **闭合半径**：把语言从外挂目标推进为共同骨干，使多任务共享的视觉—语言接口开始稳定化。\n- **出口残差**：统一骨干仍被自带 decoder 封顶，视觉生成能力也未闭合，系统最终要把语义后端交给 LLM 或生成模型。\n</aside>\n<aside>\n🏛️\n</aside>",
-      "searchBlob": "§24 · 统一多模态骨干:对比 / caption / vqa / grounding 归一化 <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：可同时支撑对比、caption、vqa 与 grounding 的统一多模态差异。\n- **闭合半径**：把语言从外挂目标推进为共同骨干，使多任务共享的视觉—语言接口开始稳定化。\n- **出口残差**：统一骨干仍被自带 decoder 封顶，视觉生成能力也未闭合，系统最终要把语义后端交给 llm 或生成模型。\n</aside>\n<aside>\n🏛️\n</aside> 03-阶段iii-语言共形/§24-统一多模态骨干/00-定位卡.md 共形维度 动力, 载体 关键贡献 吃透 vlm 的第二根柱子。统一骨干不再压成“seq2seq 胜出”,而分成多目标 vlp 骨干、seq2seq 任务统一、冻结 llm 桥接三类。关键转折:blip-2 的 q-former 以极清晰形式给出视觉到冻结 llm 的桥接模块,是通往 vlm 顶点的桥。florence-2 的 prompt-as-task 是统一接口的极端代表,不是最终形态。穿透工程代价(统一骨干常常打不过专用模型,真实价值是为 llm 提供标准视觉接口)。 残差 / 它催生了什么 两条出口残差:① 语义能力被自身 text decoder 封顶 → 必须换成 llm → §25;② 生成能力缺席 → 阶段 iv。 类型 理论/分析 阶段 iii · 语言共形的深化",
+      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按新版五问与闭合制度读取。\n| 问项 | 本章回答 |\n|---|---|\n| 零度设定 | 图文任务必须共用接口，而不是每个任务各自建头。 |\n| 无 / 反面 | 任务统一不等于世界统一；接口统一不等于语义主权统一。 |\n| 成为 | BLIP、CoCa、OFA、Florence-2、PaLI、Unified-IO 把多任务图文理解压进统一骨干。 |\n| 闭合制度 | `C_24=(Z_multimodal, Π_caption/VQA/grounding/task-prompt, Γ_task-prompt/output-format, M_ITC/ITM/LM/seq2seq, D_multi-task-VLP)`。 |\n| 成功标准 | 多任务图文接口能共享训练目标、输入格式和输出协议。 |",
+      "searchBlob": "§24 · 统一多模态骨干:对比 / caption / vqa / grounding 归一化 <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按新版五问与闭合制度读取。\n| 问项 | 本章回答 |\n|---|---|\n| 零度设定 | 图文任务必须共用接口，而不是每个任务各自建头。 |\n| 无 / 反面 | 任务统一不等于世界统一；接口统一不等于语义主权统一。 |\n| 成为 | blip、coca、ofa、florence-2、pali、unified-io 把多任务图文理解压进统一骨干。 |\n| 闭合制度 | `c_24=(z_multimodal, π_caption/vqa/grounding/task-prompt, γ_task-prompt/output-format, m_itc/itm/lm/seq2seq, d_multi-task-vlp)`。 |\n| 成功标准 | 多任务图文接口能共享训练目标、输入格式和输出协议。 | 03-阶段iii-语言共形/§24-统一多模态骨干/00-定位卡.md 共形维度 动力, 载体 关键贡献 吃透 vlm 的第二根柱子。统一骨干不再压成“seq2seq 胜出”,而分成多目标 vlp 骨干、seq2seq 任务统一、冻结 llm 桥接三类。关键转折:blip-2 的 q-former 以极清晰形式给出视觉到冻结 llm 的桥接模块,是通往 vlm 顶点的桥。florence-2 的 prompt-as-task 是统一接口的极端代表,不是最终形态。穿透工程代价(统一骨干常常打不过专用模型,真实价值是为 llm 提供标准视觉接口)。 残差 / 它催生了什么 两条出口残差:① 语义能力被自身 text decoder 封顶 → 必须换成 llm → §25;② 生成能力缺席 → 阶段 iv。 类型 理论/分析 阶段 iii · 语言共形的深化",
       "sortKey": "03-阶段iii-语言共形/§24-统一多模态骨干/00-定位卡.md"
     },
     {
@@ -2264,8 +2285,8 @@ window.KNOWLEDGE_BASE = {
         "类型": "理论/分析",
         "阶段": "III · 语言共形的深化"
       },
-      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：能够被 LLM 反复调用的高层视觉语义差异，以及 adapter 保留的视觉入口差异。\n- **闭合半径**：把公共语义闭合扩到对话、推理、指令和多任务复用层面，形成阶段 III 的顶点。\n- **出口残差**：语义后端越强，视觉主体性越弱；系统能说、能答，却仍不具备反向产出像素或自持世界的能力。\n</aside>\n<aside>\n🧠\n</aside>",
-      "searchBlob": "§25 · vlm 的诞生:llm 作为语义后端 <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：能够被 llm 反复调用的高层视觉语义差异，以及 adapter 保留的视觉入口差异。\n- **闭合半径**：把公共语义闭合扩到对话、推理、指令和多任务复用层面，形成阶段 iii 的顶点。\n- **出口残差**：语义后端越强，视觉主体性越弱；系统能说、能答，却仍不具备反向产出像素或自持世界的能力。\n</aside>\n<aside>\n🧠\n</aside> 03-阶段iii-语言共形/§25-vlm的诞生/00-定位卡.md 共形维度 主体性, 动力, 载体 关键贡献 吃透 vlm 的第三根柱子,整个阶段 iii 的顶点。视觉塔常被压缩为 adapter,高层语义、推理与表达能力显著受 llm 后端支配。三代 vlm 谱系(桥式 / 简化 / 生产级)+ 反思类(cambrian-1 / prismatic)。三种视觉-llm 接口对比,揭示在强 llm、强数据和静态图像指令任务中简单 projector 往往足够强,但视频、多图、高分辨率与结构化视觉状态会重新让 connector 变重。关键穿透:通用对话型 vlm 的上限高度依赖语言后端,但 vision-centric benchmark 会重新暴露视觉塔和连接器瓶颈。视觉 token 的工程战争(pooling / dynamic resolution / anyres / 剪枝)。 残差 / 它催生了什么 三条出口残差:① 只能理解不能生成 → 阶段 iv(diffusion+llm 融合);② look light think heavy + clip-blindness + mmstar + 62% 感知故障 → §27 集中兑现;③ 视觉依附 llm 的命运必须被反转 → 阶段 v。 类型 理论/分析 阶段 iii · 语言共形的深化",
+      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按新版五问与闭合制度读取。\n| 问项 | 本章回答 |\n|---|---|\n| 零度设定 | 视觉必须进入语言推理空间，才能被开放指令和对话复用。 |\n| 无 / 反面 | 语言推理可能接管视觉证据；回答像理解，未必来自看见。 |\n| 成为 | Frozen、Flamingo、BLIP-2、LLaVA、Qwen-VL、InternVL 把视觉 token 接入 LLM 后端。 |\n| 闭合制度 | `C_25=(Z_visual-token-in-LLM, Π_dialogue/instruction/CoT, Γ_prompt/resolution/multi-image, M_VQA/judge/preference, D_projector/Q-Former/SFT)`。 |\n| 成功标准 | 对话、推理、指令遵循和多任务复用能力跃升。 |",
+      "searchBlob": "§25 · vlm 的诞生:llm 作为语义后端 <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按新版五问与闭合制度读取。\n| 问项 | 本章回答 |\n|---|---|\n| 零度设定 | 视觉必须进入语言推理空间，才能被开放指令和对话复用。 |\n| 无 / 反面 | 语言推理可能接管视觉证据；回答像理解，未必来自看见。 |\n| 成为 | frozen、flamingo、blip-2、llava、qwen-vl、internvl 把视觉 token 接入 llm 后端。 |\n| 闭合制度 | `c_25=(z_visual-token-in-llm, π_dialogue/instruction/cot, γ_prompt/resolution/multi-image, m_vqa/judge/preference, d_projector/q-former/sft)`。 |\n| 成功标准 | 对话、推理、指令遵循和多任务复用能力跃升。 | 03-阶段iii-语言共形/§25-vlm的诞生/00-定位卡.md 共形维度 主体性, 动力, 载体 关键贡献 吃透 vlm 的第三根柱子,整个阶段 iii 的顶点。视觉塔常被压缩为 adapter,高层语义、推理与表达能力显著受 llm 后端支配。三代 vlm 谱系(桥式 / 简化 / 生产级)+ 反思类(cambrian-1 / prismatic)。三种视觉-llm 接口对比,揭示在强 llm、强数据和静态图像指令任务中简单 projector 往往足够强,但视频、多图、高分辨率与结构化视觉状态会重新让 connector 变重。关键穿透:通用对话型 vlm 的上限高度依赖语言后端,但 vision-centric benchmark 会重新暴露视觉塔和连接器瓶颈。视觉 token 的工程战争(pooling / dynamic resolution / anyres / 剪枝)。 残差 / 它催生了什么 三条出口残差:① 只能理解不能生成 → 阶段 iv(diffusion+llm 融合);② look light think heavy + clip-blindness + mmstar + 62% 感知故障 → §27 集中兑现;③ 视觉依附 llm 的命运必须被反转 → 阶段 v。 类型 理论/分析 阶段 iii · 语言共形的深化",
       "sortKey": "03-阶段iii-语言共形/§25-vlm的诞生/00-定位卡.md"
     },
     {
@@ -2381,8 +2402,29 @@ window.KNOWLEDGE_BASE = {
       "sortKey": "03-阶段iii-语言共形/§25-vlm的诞生/05-扩展稿-规模律与推理时刻-2025如何把工艺系统化.md"
     },
     {
+      "id": "03-阶段III-语言共形/§25-VLM的诞生/06-视觉证据带宽-语言后端能吞下多少可见性.md",
+      "title": "视觉证据带宽：语言后端能吞下多少可见性",
+      "path": "03-阶段III-语言共形/§25-VLM的诞生/06-视觉证据带宽-语言后端能吞下多少可见性.md",
+      "openPath": "../../../03-阶段III-语言共形/§25-VLM的诞生/06-视觉证据带宽-语言后端能吞下多少可见性.md",
+      "topLevel": "03-阶段III-语言共形",
+      "stage": "III",
+      "chapter": "§25",
+      "role": "expansion",
+      "retrievalTier": 3,
+      "archived": false,
+      "meta": {
+        "共形维度": "载体, 度量, 主体性",
+        "关键贡献": "把 VLM 的核心瓶颈从“LLM 强不强”重新压回“视觉证据能否在语言后端中存活”。本页给出视觉证据带宽公式，区分证据压缩、证据稀释、证据污染、证据替代和证据回看，是 §25 通向 §27 的机制桥。",
+        "类型": "理论/分析",
+        "阶段": "III · 语言共形的深化"
+      },
+      "excerpt": "| 问项 | 本页回答 |\n|---|---|\n| 纯存在态 | `Visible Evidence -> Visual Tokens -> LLM Reasoning`：可见性被压缩为 token 后进入语言推理。 |\n| 稳定差异 | 能穿过视觉塔、连接器、token budget 和 LLM attention 仍被任务调用的视觉差异。 |\n| 闭合制度 | `C_25A=(Z_visual-token, Π_dialogue/CoT/verification, Γ_resolution/multi-image/time, M_VQA/judge/no-image-control, D_projector/SFT/attention)`。 |\n| 成功标准 | 视觉证据在回答、推理、比较和纠错中持续有效，而不是只在首轮输入时出现。 |\n| 遮蔽对象 | 高分辨率细节、多图差异、局部计数、空间关系、遮挡和遥感变化证据。 |\n| 内在残差 | 语言后端越强，越可能用先验替代视觉证据。 |",
+      "searchBlob": "视觉证据带宽：语言后端能吞下多少可见性 | 问项 | 本页回答 |\n|---|---|\n| 纯存在态 | `visible evidence -> visual tokens -> llm reasoning`：可见性被压缩为 token 后进入语言推理。 |\n| 稳定差异 | 能穿过视觉塔、连接器、token budget 和 llm attention 仍被任务调用的视觉差异。 |\n| 闭合制度 | `c_25a=(z_visual-token, π_dialogue/cot/verification, γ_resolution/multi-image/time, m_vqa/judge/no-image-control, d_projector/sft/attention)`。 |\n| 成功标准 | 视觉证据在回答、推理、比较和纠错中持续有效，而不是只在首轮输入时出现。 |\n| 遮蔽对象 | 高分辨率细节、多图差异、局部计数、空间关系、遮挡和遥感变化证据。 |\n| 内在残差 | 语言后端越强，越可能用先验替代视觉证据。 | 03-阶段iii-语言共形/§25-vlm的诞生/06-视觉证据带宽-语言后端能吞下多少可见性.md 共形维度 载体, 度量, 主体性 关键贡献 把 vlm 的核心瓶颈从“llm 强不强”重新压回“视觉证据能否在语言后端中存活”。本页给出视觉证据带宽公式，区分证据压缩、证据稀释、证据污染、证据替代和证据回看，是 §25 通向 §27 的机制桥。 类型 理论/分析 阶段 iii · 语言共形的深化",
+      "sortKey": "03-阶段iii-语言共形/§25-vlm的诞生/06-视觉证据带宽-语言后端能吞下多少可见性.md"
+    },
+    {
       "id": "03-阶段III-语言共形/§26-语言条件可提示视觉/00-定位卡.md",
-      "title": "§26 · 语言条件可提示视觉:从理解到像素级输出",
+      "title": "§26 · 语言条件可提示视觉:单向空间输出闭合",
       "path": "03-阶段III-语言共形/§26-语言条件可提示视觉/00-定位卡.md",
       "openPath": "../../../03-阶段III-语言共形/§26-语言条件可提示视觉/00-定位卡.md",
       "topLevel": "03-阶段III-语言共形",
@@ -2393,13 +2435,13 @@ window.KNOWLEDGE_BASE = {
       "archived": false,
       "meta": {
         "共形维度": "主体性, 动力",
-        "关键贡献": "语言指令 → 像素级输出的闭环建立。三种范式(外部组装 / 坐标作为 token / embedding-as-mask)本体差异,LISA 的 SEG 特殊 token + mask decoder 是端到端语言→mask 闭合的代表性胜利者(可微、可推理、可组合),但 Grounded-SAM 式 pipeline 在工程灵活性和快速部署上仍有优势。三类任务(referring / reasoning segmentation / grounded conversation)对语言能力的要求递增。穿透叙事泡沫:真实使用中的 referring 失败率极高(歧义、多对象、关系词、组合指令)。",
+        "关键贡献": "语言指令触发空间化输出的单向闭合建立。三种范式(外部组装 / 坐标作为 token / embedding-as-mask)本体差异,LISA 的 SEG 特殊 token + mask decoder 是端到端语言→mask 闭合的代表性胜利者(可微、可推理、可组合),但 Grounded-SAM 式 pipeline 在工程灵活性和快速部署上仍有优势。三类任务(referring / reasoning segmentation / grounded conversation)对语言能力的要求递增。穿透叙事泡沫:真实使用中的 referring 失败率极高(歧义、多对象、关系词、组合指令)。",
         "残差 / 它催生了什么": "两条出口残差:① 语言可定位/选择,但不能合成新像素 → 阶段 IV;② 空间推理仍靠语言先验,不是视觉推理,具身任务暴露这一点 → 阶段 V。",
         "类型": "理论/分析",
         "阶段": "III · 语言共形的深化"
       },
-      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：可被语言指令稳定调用的区域、对象与像素级输出差异。\n- **闭合半径**：把语言共形从“能描述”推进到“能输出空间结果”，建立语言到像素级输出的单向闭环。\n- **出口残差**：操作不等于生成，空间推理仍主要借助语言先验；一旦进入真实世界状态与新观测生成，这条闭合就不够。\n</aside>\n<aside>\n🎛️\n</aside>",
-      "searchBlob": "§26 · 语言条件可提示视觉:从理解到像素级输出 <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：可被语言指令稳定调用的区域、对象与像素级输出差异。\n- **闭合半径**：把语言共形从“能描述”推进到“能输出空间结果”，建立语言到像素级输出的单向闭环。\n- **出口残差**：操作不等于生成，空间推理仍主要借助语言先验；一旦进入真实世界状态与新观测生成，这条闭合就不够。\n</aside>\n<aside>\n🎛️\n</aside> 03-阶段iii-语言共形/§26-语言条件可提示视觉/00-定位卡.md 共形维度 主体性, 动力 关键贡献 语言指令 → 像素级输出的闭环建立。三种范式(外部组装 / 坐标作为 token / embedding-as-mask)本体差异,lisa 的 seg 特殊 token + mask decoder 是端到端语言→mask 闭合的代表性胜利者(可微、可推理、可组合),但 grounded-sam 式 pipeline 在工程灵活性和快速部署上仍有优势。三类任务(referring / reasoning segmentation / grounded conversation)对语言能力的要求递增。穿透叙事泡沫:真实使用中的 referring 失败率极高(歧义、多对象、关系词、组合指令)。 残差 / 它催生了什么 两条出口残差:① 语言可定位/选择,但不能合成新像素 → 阶段 iv;② 空间推理仍靠语言先验,不是视觉推理,具身任务暴露这一点 → 阶段 v。 类型 理论/分析 阶段 iii · 语言共形的深化",
+      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按新版五问与闭合制度读取。\n| 问项 | 本章回答 |\n|---|---|\n| 零度设定 | 语言必须触发空间化输出，而不只生成文字答案。 |\n| 无 / 反面 | 输出 mask / bbox 不等于生成新观测，也不等于持有世界状态。 |\n| 成为 | Grounded-SAM、SEEM、Shikra、Ferret、LISA、GLaMM、PixelLM 建立语言到像素的输出链。 |\n| 闭合制度 | `C_26=(Z_language-conditioned-mask, Π_bbox/mask/grounded-output, Γ_region-prompt/instruction, M_mask-IoU/grounding-score, D_pipeline/SEG-token/decoder)`。 |\n| 成功标准 | 语言可以调用区域、框、mask 和 grounded conversation 的空间输出。 |",
+      "searchBlob": "§26 · 语言条件可提示视觉:单向空间输出闭合 <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按新版五问与闭合制度读取。\n| 问项 | 本章回答 |\n|---|---|\n| 零度设定 | 语言必须触发空间化输出，而不只生成文字答案。 |\n| 无 / 反面 | 输出 mask / bbox 不等于生成新观测，也不等于持有世界状态。 |\n| 成为 | grounded-sam、seem、shikra、ferret、lisa、glamm、pixellm 建立语言到像素的输出链。 |\n| 闭合制度 | `c_26=(z_language-conditioned-mask, π_bbox/mask/grounded-output, γ_region-prompt/instruction, m_mask-iou/grounding-score, d_pipeline/seg-token/decoder)`。 |\n| 成功标准 | 语言可以调用区域、框、mask 和 grounded conversation 的空间输出。 | 03-阶段iii-语言共形/§26-语言条件可提示视觉/00-定位卡.md 共形维度 主体性, 动力 关键贡献 语言指令触发空间化输出的单向闭合建立。三种范式(外部组装 / 坐标作为 token / embedding-as-mask)本体差异,lisa 的 seg 特殊 token + mask decoder 是端到端语言→mask 闭合的代表性胜利者(可微、可推理、可组合),但 grounded-sam 式 pipeline 在工程灵活性和快速部署上仍有优势。三类任务(referring / reasoning segmentation / grounded conversation)对语言能力的要求递增。穿透叙事泡沫:真实使用中的 referring 失败率极高(歧义、多对象、关系词、组合指令)。 残差 / 它催生了什么 两条出口残差:① 语言可定位/选择,但不能合成新像素 → 阶段 iv;② 空间推理仍靠语言先验,不是视觉推理,具身任务暴露这一点 → 阶段 v。 类型 理论/分析 阶段 iii · 语言共形的深化",
       "sortKey": "03-阶段iii-语言共形/§26-语言条件可提示视觉/00-定位卡.md"
     },
     {
@@ -2436,8 +2478,8 @@ window.KNOWLEDGE_BASE = {
         "类型": "理论/分析",
         "阶段": "III · 语言共形的深化"
       },
-      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：阶段 III 真正有效的共享语义差异，以及被 caption 偏见压扁的视觉盲区差异。\n- **闭合半径**：对整个语言共形做总清算，说明它把视觉提升到公共语义层，但止步于借来的主体性。\n- **出口残差**：两条根残差被明确分叉：反向合成能力指向阶段 IV，自持语义与世界状态指向阶段 V。\n</aside>\n<aside>\n🧾\n</aside>",
-      "searchBlob": "§27 · 借语言的代价:账单、分叉、阶段 iii 的终局 <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：阶段 iii 真正有效的共享语义差异，以及被 caption 偏见压扁的视觉盲区差异。\n- **闭合半径**：对整个语言共形做总清算，说明它把视觉提升到公共语义层，但止步于借来的主体性。\n- **出口残差**：两条根残差被明确分叉：反向合成能力指向阶段 iv，自持语义与世界状态指向阶段 v。\n</aside>\n<aside>\n🧾\n</aside> 03-阶段iii-语言共形/§27-借语言的代价/00-定位卡.md 共形维度 主体性, 度量 关键贡献 阶段 iii 终章。四张账单全景(mmvp/clip-blindness 9 类盲区 / mmstar 伪视觉 / 62% 感知故障 / look light think heavy)不再压成 caption 分布偏见单根因,而写成多根因结构:caption distribution bias、global alignment bottleneck、connector/token bottleneck、llm prior takeover、benchmark language shortcuts、reasoning-time visual decay。换视觉塔、换 llm、换数据、换 connector 能显著缓解账单,但只要语义主权仍由语言后端接管,它们就是范式内缓解。两条正交出口:残差 a → 阶段 iv 外显生产;残差 b → 阶段 v 内部持有。 残差 / 它催生了什么 分叉出口清算:① 阶段 iv 入口 = 视觉必须能反向合成(diffusion+llm 融合);② 阶段 v 入口 = 视觉必须摆脱 caption 依赖(纯视觉 ssl,dino/jepa)。阶段 iii 从属语言的合同到期日 = 视觉能生成+能持有世界的那天。 类型 理论/分析 阶段 iii · 语言共形的深化",
+      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按新版五问与闭合制度读取。\n| 问项 | 本章回答 |\n|---|---|\n| 零度设定 | 语言契约必须审计自身：它让视觉进入公共语义，也可能遮蔽视觉。 |\n| 无 / 反面 | 语言太强会替视觉说话，benchmark 也可能奖励不看图的回答。 |\n| 成为 | MMVP、MMStar、感知故障分类、Look Light Think Heavy 等反例把借语言的代价命名出来。 |\n| 闭合制度 | `C_27=(Z_failure/audit-trace, Π_stress/no-image/verification, Γ_counterfactual/adversarial-pair, M_MMVP/MMStar/attention-audit, D_error-taxonomy/falsifier)`。 |\n| 成功标准 | 阶段 III 能识别自己的伪闭合，区分“能说”与“看见”。 |",
+      "searchBlob": "§27 · 借语言的代价:账单、分叉、阶段 iii 的终局 <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按新版五问与闭合制度读取。\n| 问项 | 本章回答 |\n|---|---|\n| 零度设定 | 语言契约必须审计自身：它让视觉进入公共语义，也可能遮蔽视觉。 |\n| 无 / 反面 | 语言太强会替视觉说话，benchmark 也可能奖励不看图的回答。 |\n| 成为 | mmvp、mmstar、感知故障分类、look light think heavy 等反例把借语言的代价命名出来。 |\n| 闭合制度 | `c_27=(z_failure/audit-trace, π_stress/no-image/verification, γ_counterfactual/adversarial-pair, m_mmvp/mmstar/attention-audit, d_error-taxonomy/falsifier)`。 |\n| 成功标准 | 阶段 iii 能识别自己的伪闭合，区分“能说”与“看见”。 | 03-阶段iii-语言共形/§27-借语言的代价/00-定位卡.md 共形维度 主体性, 度量 关键贡献 阶段 iii 终章。四张账单全景(mmvp/clip-blindness 9 类盲区 / mmstar 伪视觉 / 62% 感知故障 / look light think heavy)不再压成 caption 分布偏见单根因,而写成多根因结构:caption distribution bias、global alignment bottleneck、connector/token bottleneck、llm prior takeover、benchmark language shortcuts、reasoning-time visual decay。换视觉塔、换 llm、换数据、换 connector 能显著缓解账单,但只要语义主权仍由语言后端接管,它们就是范式内缓解。两条正交出口:残差 a → 阶段 iv 外显生产;残差 b → 阶段 v 内部持有。 残差 / 它催生了什么 分叉出口清算:① 阶段 iv 入口 = 视觉必须能反向合成(diffusion+llm 融合);② 阶段 v 入口 = 视觉必须摆脱 caption 依赖(纯视觉 ssl,dino/jepa)。阶段 iii 从属语言的合同到期日 = 视觉能生成+能持有世界的那天。 类型 理论/分析 阶段 iii · 语言共形的深化",
       "sortKey": "03-阶段iii-语言共形/§27-借语言的代价/00-定位卡.md"
     },
     {
@@ -2540,8 +2582,8 @@ window.KNOWLEDGE_BASE = {
       "retrievalTier": 2,
       "archived": false,
       "meta": {},
-      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：从外挂、对齐、骨干到语义后端的整条视觉—语言差异链。\n- **闭合半径**：回收 §21–§27 的全部公共语义扩张，给阶段 III 一个暂时可用的总闭合。\n- **出口残差**：这套闭合是临时协议而不是终局：语言语义仍压在视觉之上，生成与世界持有仍悬空。\n</aside>\n---\n§21→§27 的残差链回顾：\n```",
-      "searchBlob": "阶段三的结语：语言共形的临时协议与它的到期日 <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按“稳定差异 → 闭合半径 → 出口残差”三问读取。\n- **稳定差异**：从外挂、对齐、骨干到语义后端的整条视觉—语言差异链。\n- **闭合半径**：回收 §21–§27 的全部公共语义扩张，给阶段 iii 一个暂时可用的总闭合。\n- **出口残差**：这套闭合是临时协议而不是终局：语言语义仍压在视觉之上，生成与世界持有仍悬空。\n</aside>\n---\n§21→§27 的残差链回顾：\n``` 03-阶段iii-语言共形/结语-语言共形的临时协议.md ",
+      "excerpt": "<aside>\n🧭\n**章首协议（接回第一原理层）**：本章按新版五问与闭合制度收束阶段 III。\n| 问项 | 本章回答 |\n|---|---|\n| 纯存在态 | `Visual Difference -> Public Linguistic Contract`。 |\n| 稳定差异 | 从外挂、对齐、稠密锚定、统一骨干到 LLM 后端的整条视觉—语言差异链。 |\n| 闭合制度 | `C_III` 的最终形式是公共语义契约：语言负责命名、指代、调用和评价，视觉负责证据入口与空间支撑。 |\n| 成功标准 | 可命名、可指代、可调用、可对话、可输出空间化结果。 |\n| 遮蔽对象 | 未命名视觉、视觉证据带宽、对象状态、生成能力和状态持有。 |",
+      "searchBlob": "阶段三的结语：语言共形的临时协议与它的到期日 <aside>\n🧭\n**章首协议（接回第一原理层）**：本章按新版五问与闭合制度收束阶段 iii。\n| 问项 | 本章回答 |\n|---|---|\n| 纯存在态 | `visual difference -> public linguistic contract`。 |\n| 稳定差异 | 从外挂、对齐、稠密锚定、统一骨干到 llm 后端的整条视觉—语言差异链。 |\n| 闭合制度 | `c_iii` 的最终形式是公共语义契约：语言负责命名、指代、调用和评价，视觉负责证据入口与空间支撑。 |\n| 成功标准 | 可命名、可指代、可调用、可对话、可输出空间化结果。 |\n| 遮蔽对象 | 未命名视觉、视觉证据带宽、对象状态、生成能力和状态持有。 | 03-阶段iii-语言共形/结语-语言共形的临时协议.md ",
       "sortKey": "03-阶段iii-语言共形/结语-语言共形的临时协议.md"
     },
     {
@@ -5438,6 +5480,22 @@ window.KNOWLEDGE_BASE = {
       "excerpt": "阶段 III 现在已经很有分量了。它不再只是“CLIP/VLM/多模态模型史”，而是已经被你压成了一个非常清楚的纯存在态：\n> **Visual Difference → Public Linguistic Contract**\n> 视觉差异必须进入公共语言契约。\n这个设定是对的，而且非常适合作为你当前研究主方向。阶段 III 的独特性就在于：它不是单纯让视觉“更强”，而是让视觉第一次接受一个外部公共制度的裁决。阶段 I 是标签制度，阶段 II 是空间制度，阶段 III 则是**公共语义制度**。你现在已经抓住了这一点：语言提供公共概念、指代表达、任务指令和评价话语，视觉提供图像证据、空间定位和部分感知支撑；阶段 III 的残差也来自这张契约不是视觉自身的主权。这个判断非常重要。([CallMeCaicai][1])\n但因为阶段 III 是你最主要的研究方向，它还需要比其他阶段更硬、更丰富、更一致。我的总体判断是：\n> **阶段 III 的灵魂已经立住，但它还没有完全成为“公共语义契约的逻辑学”。**",
       "searchBlob": "1. 阶段 iii 的最高层定位应再提升一步 阶段 iii 现在已经很有分量了。它不再只是“clip/vlm/多模态模型史”，而是已经被你压成了一个非常清楚的纯存在态：\n> **visual difference → public linguistic contract**\n> 视觉差异必须进入公共语言契约。\n这个设定是对的，而且非常适合作为你当前研究主方向。阶段 iii 的独特性就在于：它不是单纯让视觉“更强”，而是让视觉第一次接受一个外部公共制度的裁决。阶段 i 是标签制度，阶段 ii 是空间制度，阶段 iii 则是**公共语义制度**。你现在已经抓住了这一点：语言提供公共概念、指代表达、任务指令和评价话语，视觉提供图像证据、空间定位和部分感知支撑；阶段 iii 的残差也来自这张契约不是视觉自身的主权。这个判断非常重要。([callmecaicai][1])\n但因为阶段 iii 是你最主要的研究方向，它还需要比其他阶段更硬、更丰富、更一致。我的总体判断是：\n> **阶段 iii 的灵魂已经立住，但它还没有完全成为“公共语义契约的逻辑学”。** 横切/阶段3优化.md ",
       "sortKey": "横切/阶段3优化.md"
+    },
+    {
+      "id": "横切/阶段4.md",
+      "title": "1. 阶段 IV 当前最大问题：公式没有“契约”",
+      "path": "横切/阶段4.md",
+      "openPath": "../../../横切/阶段4.md",
+      "topLevel": "横切",
+      "stage": "",
+      "chapter": "",
+      "role": "cross-cut",
+      "retrievalTier": 1,
+      "archived": false,
+      "meta": {},
+      "excerpt": "阶段 IV 目前不是“内容不够”，而是**层级组织不够友好**。你的理论主线其实已经立住了：阶段 IV 的纯存在态是 `(z, c, τ, D) -> x_hat`，即内部状态、条件、轨迹和动力外显为可见样本；你也已经把阶段 IV 限定为“外显生产主体性”，而不是完整主体性，这个边界非常重要。问题在于，公式、模型谱系、哲学判断、前沿模型名现在经常同时出现，导致读者还没抓住“这一页到底解决什么”，就已经被 ELBO、minimax、score、SDE、CFG、Flow Matching、DiT、REPA 淹没了。([CallMeCaicai][1])\n我会把这次审查的核心结论压成一句话：\n> **阶段 IV 需要从“理论已经正确”升级为“读者能跟着生成模型一步步长出来”。**\n也就是说，你现在最需要的不是继续加更多生成模型，而是建立一套**低数学门槛的生成模型阅读制度**。\n---\n你现在已经意识到自己对公式、参数、系数不敏感，这很关键。阶段 IV 里公式确实比前三阶段更密集，因为生成模型本来就是概率、潜变量、动力学、采样过程交织的一层。但公式本身不是问题，问题是：**公式出现时，还没有稳定回答读者最需要的五件事。**",
+      "searchBlob": "1. 阶段 iv 当前最大问题：公式没有“契约” 阶段 iv 目前不是“内容不够”，而是**层级组织不够友好**。你的理论主线其实已经立住了：阶段 iv 的纯存在态是 `(z, c, τ, d) -> x_hat`，即内部状态、条件、轨迹和动力外显为可见样本；你也已经把阶段 iv 限定为“外显生产主体性”，而不是完整主体性，这个边界非常重要。问题在于，公式、模型谱系、哲学判断、前沿模型名现在经常同时出现，导致读者还没抓住“这一页到底解决什么”，就已经被 elbo、minimax、score、sde、cfg、flow matching、dit、repa 淹没了。([callmecaicai][1])\n我会把这次审查的核心结论压成一句话：\n> **阶段 iv 需要从“理论已经正确”升级为“读者能跟着生成模型一步步长出来”。**\n也就是说，你现在最需要的不是继续加更多生成模型，而是建立一套**低数学门槛的生成模型阅读制度**。\n---\n你现在已经意识到自己对公式、参数、系数不敏感，这很关键。阶段 iv 里公式确实比前三阶段更密集，因为生成模型本来就是概率、潜变量、动力学、采样过程交织的一层。但公式本身不是问题，问题是：**公式出现时，还没有稳定回答读者最需要的五件事。** 横切/阶段4.md ",
+      "sortKey": "横切/阶段4.md"
     },
     {
       "id": "横切/阶段偏序与桥接节点.md",
