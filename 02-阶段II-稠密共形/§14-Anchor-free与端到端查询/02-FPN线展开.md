@@ -57,7 +57,7 @@ P2 = upsample(P3) + 1×1(C2)
 - 中级空间（C3：中分辨率、弱语义）
 - 低级细节（C2：高分辨率、最弱语义）
 
-你想要：**每个分辨率都同时具备对应尺度所需的语义**。
+目标是：**每个分辨率都同时具备对应尺度所需的语义**。
 
 这等价于一个**跨层信息路由**任务。FPN 给出的最优廉价解：
 
@@ -248,7 +248,7 @@ Mask R-CNN 背后的判断是：
 - **Thing**：可数名词对象（person, car, dog）。有实例概念，同类多个对象要区分。实例分割的范畴。
 - **Stuff**：不可数的背景区域（sky, road, grass）。没有实例概念——"天空 #1" 和 "天空 #2" 无意义。语义分割的范畴。
 
-传统上这两者是**两个独立任务**，两套评估指标，两套 benchmark。**实际用户关心的是同一张完整的场景理解图**——你想知道"画面上所有 pixel 都属于什么，而且 thing 类要区分实例"。
+传统上这两者是**两个独立任务**，两套评估指标，两套 benchmark。**实际用户关心的是同一张完整的场景理解图**：画面上所有 pixel 都属于什么，而且 thing 类要区分实例。
 
 **Panoptic segmentation 的定义**：
 
@@ -258,7 +258,7 @@ Mask R-CNN 背后的判断是：
 配套的 **Panoptic Quality (PQ)** 度量：
 
 $$
-PQ = \underbrace{\frac{\sum_{(p,g) \in TP} \text{IoU}(p,g)}{|TP|}}*{\text{segmentation quality}} \times \underbrace{\frac{|TP|}{|TP| + \frac{1}{2}|FP| + \frac{1}{2}|FN|}}*{\text{recognition quality}}
+PQ = \underbrace{\frac{\sum_{(p,g) \in TP} \text{IoU}(p,g)}{|TP|}}_{\text{segmentation quality}} \times \underbrace{\frac{|TP|}{|TP| + \frac{1}{2}|FP| + \frac{1}{2}|FN|}}_{\text{recognition quality}}
 $$
 
 第一项看 matched 分割质量，第二项看检测 F1——**一个度量同时评估语义和实例**。

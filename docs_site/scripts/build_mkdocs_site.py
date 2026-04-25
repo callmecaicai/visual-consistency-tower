@@ -69,6 +69,11 @@ EXCLUDE_SITE_PARTS = {
     "前三阶段债务复审.md",
     "下一轮精华固化执行计划.md",
     "极致状态.md",
+    "99-阶段II深化执行记录.md",
+    "99-阶段III深化执行记录.md",
+    "99-阶段IV深化执行记录.md",
+    "99-阶段V深化执行记录.md",
+    "前三阶段文献查验总表.csv",
 }
 COLLAPSED_NAV_DIRS: set[str] = set()
 

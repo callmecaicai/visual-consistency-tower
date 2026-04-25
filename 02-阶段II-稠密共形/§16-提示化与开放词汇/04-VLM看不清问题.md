@@ -215,7 +215,7 @@ ICCV 2025 的 **"Scaling Language-Free Visual Representation Learning"**[[21]](h
 
 # §8 · 这个视角下的一个尖锐判断
 
-你在 message 10 问的是"视觉为什么 scaling 不涨"。这一条接着问"VLM 为什么看不清"。这两个问题其实**是同一个问题的两面**：
+前一问题是"视觉为什么 scaling 不涨"，这里的问题是"VLM 为什么看不清"。这两个问题其实**是同一个问题的两面**：
 
 - **视觉 scaling 不涨**：因为视觉没有一个能产生世界模型的训练目标，单纯堆数据在低维流形上饱和
 - **VLM 看不清**：因为 VLM 借的是语言的世界模型，语言的粒度没覆盖到的视觉事实就在 VLM 里不存在
@@ -278,7 +278,7 @@ ICCV 2025 的 **"Scaling Language-Free Visual Representation Learning"**[[21]](h
 - 它**属于阶段 III 的开篇或早期**——它是"语义自生"和"关系建模"这两条残差在 VLM 时代的**第一次被量化**
 - 它给了阶段 III 一个极其有力的**紧迫性论证**：不光是"下一个阶段好像该来了"，而是"上一阶段的残差在新范式下造成了可测量的、6 成以上的、工业产品里现实发生的故障"
 
-**关键参考论文清单**（给你的谱系储备）：
+**关键参考论文清单**：
 
 - Tong et al. "Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs", CVPR 2024[[2]](https://arxiv.org/abs/2401.06209) —— **MMVP benchmark + CLIP-blind pairs，基础文献**
 - Chen et al. "Are We on the Right Way for Evaluating Large Vision-Language Models" (MMStar), CVPR 2024[[4]](https://mmstar-benchmark.github.io/) —— **VLM 评测的审计**
@@ -296,7 +296,7 @@ ICCV 2025 的 **"Scaling Language-Free Visual Representation Learning"**[[21]](h
 
 这不是工程问题，是范式问题。修补层 (§6.1-6.3) 能把 MMVP 从 25% 推到 45%、50%、60%，但推到 **人类 95%** 需要 §6.4 的 paradigm shift——**视觉独立的 scaling + 视觉原生的 reasoning**。
 
-这也给你的阶段 III 定了一个**真正具体的靶心**：**阶段 III 的成功条件不是"VLM 做得更漂亮"，而是"MMVP 上追平人类"**。这个是可测的、可追踪的、不会因为产品叙事混淆的硬指标。
+这也给阶段 III 定了一个**真正具体的靶心**：**阶段 III 的成功条件不是"VLM 做得更漂亮"，而是"MMVP 上追平人类"**。这个是可测的、可追踪的、不会因为产品叙事混淆的硬指标。
 
 ---
 

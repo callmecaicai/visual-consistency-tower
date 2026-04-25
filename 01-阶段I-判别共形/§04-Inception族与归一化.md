@@ -400,7 +400,7 @@ Xception 说：**那就让它们完全解耦**——
 - Pointwise conv (1×1): 跨通道做 1×1（只管通道相关性）
 - 堆叠二者 = 完整的卷积
 
-这就是 **depthwise separable convolution**。参数量从 $k^2 C_{\text{in}} C_{\text{out}}$ 降到 $k^2 C_{text{in}} + C_{text{in}} C_{text{out}}$——**几乎一个数量级的压缩**。
+这就是 **depthwise separable convolution**。参数量从 $k^2 C_{\text{in}} C_{\text{out}}$ 降到 $k^2 C_{\text{in}} + C_{\text{in}} C_{\text{out}}$——**几乎一个数量级的压缩**。
 
 ### §7.2 MobileNet 家族（2017-2019）
 

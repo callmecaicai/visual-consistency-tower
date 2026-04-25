@@ -316,7 +316,7 @@ SAM 3 的"把 concept 长进视觉内部"是一种抵抗——但它 concept enc
 
 这段分析更适合作为**阶段 III 开篇的本体论引子**，而不是阶段 II 尾部的一条补注。它说明的不是某个模型还能不能再涨点，而是“为什么 Pre-LLM 时代必然走到尽头”这一更深的结构性原因，因此在编排上应承担跨阶段的解释任务。
 
-这是极深的一个问题。你直觉到的现象在学术圈有非常精确的名字：**visual grounding failure / CLIP-blindness / hallucinated reasoning / Look Light Think Heavy / spurious reasoning**。过去 2-3 年累积的一批实证工作把它从"玄学观察"推进到了"可测量、可定位、可归因"的机制问题。
+这是极深的一个问题。这个现象在学术圈有非常精确的名字：**visual grounding failure / CLIP-blindness / hallucinated reasoning / Look Light Think Heavy / spurious reasoning**。过去 2-3 年累积的一批实证工作把它从"玄学观察"推进到了"可测量、可定位、可归因"的机制问题。
 
 后文按三层展开：**现象实证 → 机制归因 → 出路谱系**。
 

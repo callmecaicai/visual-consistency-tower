@@ -68,7 +68,7 @@ $s = \sigma\big(W_2 \cdot \text{ReLU}(W_1 z)\big), \quad W_1 \in \mathbb{R}^{C/r
 
 **Reweight（重加权）**：把 $s$ 广播回空间维，逐通道缩放原特征：
 
-$F'*{c,h,w} = s_c \cdot F*{c,h,w}$
+$F'_{c,h,w} = s_c \cdot F_{c,h,w}$
 
 这就是 SE 的全部。看起来是三行，但**每一行都在解决 CNN 的一条具体缺陷**。
 
@@ -138,7 +138,7 @@ $f(x_i, x_j) = \exp\big(\theta(x_i)^\top \phi(x_j)\big)$
 
 $Y = \text{softmax}(QK^\top)\, V$
 
-**这就是 Transformer 的 scaled dot-product attention**，只差一个 $1/sqrt{d_k}$ 缩放。Wang et al. 2018 的**视觉注意力模块**和 Vaswani et al. 2017 的**语言注意力模块**是**同一个数学对象**——只是前者当时没有意识到它的普适性。
+**这就是 Transformer 的 scaled dot-product attention**，只差一个 $1/\sqrt{d_k}$ 缩放。Wang et al. 2018 的**视觉注意力模块**和 Vaswani et al. 2017 的**语言注意力模块**是**同一个数学对象**——只是前者当时没有意识到它的普适性。
 
 ### §3.3 为什么这就是 ViT 的胚胎
 
